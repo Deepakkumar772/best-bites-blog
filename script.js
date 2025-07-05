@@ -627,11 +627,12 @@ const mcqDatabase = {
             }
         ],
         'Biological Molecules': [
+            // CARBOHYDRATES (Questions 1-25)
             {
-                question: "The building blocks of proteins are:",
-                options: ["Nucleotides", "Amino acids", "Fatty acids", "Monosaccharides"],
-                correct: 1,
-                explanation: "Proteins are polymers made up of amino acid monomers linked by peptide bonds."
+                question: "The building blocks of carbohydrates are:",
+                options: ["Amino acids", "Fatty acids", "Monosaccharides", "Nucleotides"],
+                correct: 2,
+                explanation: "Monosaccharides are the simplest carbohydrates and serve as building blocks for complex carbohydrates."
             },
             {
                 question: "The most abundant carbohydrate in nature is:",
@@ -639,6 +640,420 @@ const mcqDatabase = {
                 correct: 2,
                 explanation: "Cellulose is the main component of plant cell walls and the most abundant organic compound on Earth."
             },
+            {
+                question: "Glucose has the molecular formula:",
+                options: ["C₅H₁₀O₅", "C₆H₁₂O₆", "C₆H₁₀O₅", "C₁₂H₂₂O₁₁"],
+                correct: 1,
+                explanation: "Glucose is a hexose sugar with the molecular formula C₆H₁₂O₆."
+            },
+            {
+                question: "Sucrose is composed of:",
+                options: ["Glucose + Glucose", "Glucose + Fructose", "Glucose + Galactose", "Fructose + Galactose"],
+                correct: 1,
+                explanation: "Sucrose (table sugar) is a disaccharide made of glucose and fructose linked by a glycosidic bond."
+            },
+            {
+                question: "Lactose is found in:",
+                options: ["Plant cell walls", "Animal muscle", "Milk", "Fruits"],
+                correct: 2,
+                explanation: "Lactose is the primary sugar found in milk and dairy products."
+            },
+            {
+                question: "The storage form of glucose in animals is:",
+                options: ["Starch", "Cellulose", "Glycogen", "Chitin"],
+                correct: 2,
+                explanation: "Glycogen is the branched polysaccharide that stores glucose in animal liver and muscles."
+            },
+            {
+                question: "Starch is composed of:",
+                options: ["Only amylose", "Only amylopectin", "Amylose and amylopectin", "Glucose and fructose"],
+                correct: 2,
+                explanation: "Starch consists of two components: amylose (linear) and amylopectin (branched)."
+            },
+            {
+                question: "Chitin is found in:",
+                options: ["Plant cell walls", "Insect exoskeletons", "Animal bones", "Bacterial cell walls"],
+                correct: 1,
+                explanation: "Chitin is a structural polysaccharide found in insect exoskeletons and fungal cell walls."
+            },
+            {
+                question: "The bond between monosaccharides is called:",
+                options: ["Peptide bond", "Glycosidic bond", "Ester bond", "Hydrogen bond"],
+                correct: 1,
+                explanation: "Glycosidic bonds link monosaccharides together to form disaccharides and polysaccharides."
+            },
+            {
+                question: "Reducing sugars have:",
+                options: ["No free aldehyde or ketone group", "A free aldehyde or ketone group", "Only ring structures", "No hydroxyl groups"],
+                correct: 1,
+                explanation: "Reducing sugars have a free aldehyde or ketone group that can reduce other compounds."
+            },
+            {
+                question: "Which is a ketose sugar?",
+                options: ["Glucose", "Galactose", "Fructose", "Ribose"],
+                correct: 2,
+                explanation: "Fructose is a ketose because it contains a ketone group, while others are aldoses."
+            },
+            {
+                question: "The optical activity of sugars is due to:",
+                options: ["Multiple hydroxyl groups", "Chiral carbon atoms", "Ring structure", "Glycosidic bonds"],
+                correct: 1,
+                explanation: "Chiral (asymmetric) carbon atoms cause optical activity, rotating plane-polarized light."
+            },
+            {
+                question: "Maltose is formed by:",
+                options: ["Glucose + Fructose", "Two glucose units", "Glucose + Galactose", "Two fructose units"],
+                correct: 1,
+                explanation: "Maltose is a disaccharide formed by two glucose units linked by α-1,4-glycosidic bond."
+            },
+            {
+                question: "The simplest carbohydrate is:",
+                options: ["Glucose", "Ribose", "Glyceraldehyde", "Fructose"],
+                correct: 2,
+                explanation: "Glyceraldehyde (C₃H₆O₃) is the simplest carbohydrate with one chiral carbon."
+            },
+            {
+                question: "Pentose sugars have:",
+                options: ["3 carbon atoms", "4 carbon atoms", "5 carbon atoms", "6 carbon atoms"],
+                correct: 2,
+                explanation: "Pentose sugars contain 5 carbon atoms, examples include ribose and deoxyribose."
+            },
+            {
+                question: "Cellulose cannot be digested by humans because:",
+                options: ["It's too large", "Humans lack cellulase enzyme", "It's insoluble", "It's toxic"],
+                correct: 1,
+                explanation: "Humans lack the cellulase enzyme needed to break β-1,4-glycosidic bonds in cellulose."
+            },
+            {
+                question: "The α-1,6-glycosidic bonds in glycogen occur at:",
+                options: ["Every glucose unit", "Every 8-12 glucose units", "Only at the ends", "Random intervals"],
+                correct: 1,
+                explanation: "Glycogen has α-1,6-glycosidic branch points approximately every 8-12 glucose units."
+            },
+            {
+                question: "Ribose differs from glucose in having:",
+                options: ["More carbon atoms", "Fewer carbon atoms", "Different functional groups", "No hydroxyl groups"],
+                correct: 1,
+                explanation: "Ribose is a pentose (5 carbons) while glucose is a hexose (6 carbons)."
+            },
+            {
+                question: "The anomeric carbon in glucose is carbon number:",
+                options: ["1", "2", "3", "6"],
+                correct: 0,
+                explanation: "The anomeric carbon is C-1 in aldoses, which becomes chiral when the ring forms."
+            },
+            {
+                question: "Hemicellulose differs from cellulose in:",
+                options: ["Having branched structure", "Being shorter", "Having different linkages", "All of the above"],
+                correct: 3,
+                explanation: "Hemicellulose is shorter, branched, and has various glycosidic linkages unlike pure cellulose."
+            },
+            {
+                question: "The Fehling's test detects:",
+                options: ["All carbohydrates", "Reducing sugars", "Non-reducing sugars", "Polysaccharides only"],
+                correct: 1,
+                explanation: "Fehling's test specifically detects reducing sugars by their ability to reduce copper ions."
+            },
+            {
+                question: "Inulin is a:",
+                options: ["Storage polysaccharide in plants", "Structural polysaccharide", "Protein", "Lipid"],
+                correct: 0,
+                explanation: "Inulin is a storage polysaccharide made of fructose units, found in some plants."
+            },
+            {
+                question: "The sweetest naturally occurring sugar is:",
+                options: ["Glucose", "Sucrose", "Fructose", "Lactose"],
+                correct: 2,
+                explanation: "Fructose is the sweetest naturally occurring sugar, about 1.7 times sweeter than sucrose."
+            },
+            {
+                question: "Pectin is important for:",
+                options: ["Cell wall structure in plants", "Energy storage", "Protein synthesis", "DNA replication"],
+                correct: 0,
+                explanation: "Pectin is a structural polysaccharide that helps maintain plant cell wall integrity."
+            },
+            {
+                question: "The configuration of the hydroxyl group on the anomeric carbon determines:",
+                options: ["α or β form", "D or L form", "Molecular weight", "Solubility"],
+                correct: 0,
+                explanation: "The position of the OH group on the anomeric carbon determines α (down) or β (up) configuration."
+            },
+
+            // PROTEINS AND AMINO ACIDS (Questions 26-50)
+            {
+                question: "The building blocks of proteins are:",
+                options: ["Nucleotides", "Amino acids", "Fatty acids", "Monosaccharides"],
+                correct: 1,
+                explanation: "Proteins are polymers made up of amino acid monomers linked by peptide bonds."
+            },
+            {
+                question: "How many standard amino acids are used to build proteins?",
+                options: ["16", "20", "22", "64"],
+                correct: 1,
+                explanation: "There are 20 standard amino acids that are genetically encoded for protein synthesis."
+            },
+            {
+                question: "The bond between amino acids is called:",
+                options: ["Glycosidic bond", "Peptide bond", "Ester bond", "Ionic bond"],
+                correct: 1,
+                explanation: "Peptide bonds form between the amino group of one amino acid and the carboxyl group of another."
+            },
+            {
+                question: "The primary structure of a protein refers to:",
+                options: ["3D folding pattern", "Amino acid sequence", "Hydrogen bonding pattern", "Quaternary associations"],
+                correct: 1,
+                explanation: "Primary structure is the linear sequence of amino acids in a protein chain."
+            },
+            {
+                question: "Which amino acid can form disulfide bridges?",
+                options: ["Glycine", "Alanine", "Cysteine", "Proline"],
+                correct: 2,
+                explanation: "Cysteine contains sulfur and can form disulfide bonds with other cysteine residues."
+            },
+            {
+                question: "The secondary structure of proteins includes:",
+                options: ["α-helices", "β-sheets", "Random coils", "All of the above"],
+                correct: 3,
+                explanation: "Secondary structure encompasses α-helices, β-sheets, and random coil regions."
+            },
+            {
+                question: "Which amino acid is known as the 'helix breaker'?",
+                options: ["Glycine", "Proline", "Alanine", "Leucine"],
+                correct: 1,
+                explanation: "Proline's rigid ring structure disrupts α-helical conformations, earning it the 'helix breaker' name."
+            },
+            {
+                question: "Essential amino acids are those that:",
+                options: ["Are most important", "Cannot be synthesized by the body", "Are found in all proteins", "Have special functions"],
+                correct: 1,
+                explanation: "Essential amino acids cannot be synthesized by the human body and must be obtained from diet."
+            },
+            {
+                question: "The isoelectric point (pI) of a protein is when:",
+                options: ["It is most stable", "Net charge is zero", "It denatures", "It's most active"],
+                correct: 1,
+                explanation: "At the isoelectric point, the protein has no net electrical charge."
+            },
+            {
+                question: "Hemoglobin is an example of:",
+                options: ["Primary structure", "Secondary structure", "Tertiary structure", "Quaternary structure"],
+                correct: 3,
+                explanation: "Hemoglobin has quaternary structure with four polypeptide subunits working together."
+            },
+            {
+                question: "Protein denaturation involves:",
+                options: ["Breaking peptide bonds", "Loss of native structure", "Amino acid degradation", "All of the above"],
+                correct: 1,
+                explanation: "Denaturation disrupts protein's native 3D structure without breaking peptide bonds."
+            },
+            {
+                question: "Which amino acid has the smallest side chain?",
+                options: ["Alanine", "Glycine", "Valine", "Serine"],
+                correct: 1,
+                explanation: "Glycine has only a hydrogen atom as its side chain, making it the smallest amino acid."
+            },
+            {
+                question: "Collagen is rich in:",
+                options: ["Tryptophan", "Glycine and proline", "Cysteine", "Methionine"],
+                correct: 1,
+                explanation: "Collagen contains abundant glycine and proline, giving it its unique triple helix structure."
+            },
+            {
+                question: "The peptide bond has:",
+                options: ["Single bond character", "Double bond character", "Partial double bond character", "Triple bond character"],
+                correct: 2,
+                explanation: "Peptide bonds have partial double bond character due to resonance, restricting rotation."
+            },
+            {
+                question: "Which amino acid contains an indole ring?",
+                options: ["Phenylalanine", "Tyrosine", "Tryptophan", "Histidine"],
+                correct: 2,
+                explanation: "Tryptophan contains an indole ring system in its side chain."
+            },
+            {
+                question: "Keratin is an example of:",
+                options: ["Globular protein", "Fibrous protein", "Membrane protein", "Enzyme"],
+                correct: 1,
+                explanation: "Keratin is a fibrous structural protein found in hair, nails, and skin."
+            },
+            {
+                question: "The amino acid that can exist in both D and L forms in proteins is:",
+                options: ["Glycine", "All amino acids", "None", "Proline"],
+                correct: 2,
+                explanation: "All standard amino acids in proteins are in the L-configuration; glycine is achiral."
+            },
+            {
+                question: "Protein folding is assisted by:",
+                options: ["Chaperones", "Enzymes", "Cofactors", "Inhibitors"],
+                correct: 0,
+                explanation: "Molecular chaperones help proteins fold correctly and prevent misfolding."
+            },
+            {
+                question: "The Ramachandran plot shows:",
+                options: ["Amino acid sequences", "Allowed backbone conformations", "Protein sizes", "Binding sites"],
+                correct: 1,
+                explanation: "Ramachandran plots display allowed backbone dihedral angles (φ and ψ) in proteins."
+            },
+            {
+                question: "Which amino acid can be phosphorylated for regulation?",
+                options: ["Glycine", "Serine", "Alanine", "Valine"],
+                correct: 1,
+                explanation: "Serine (and threonine, tyrosine) can be phosphorylated for protein regulation."
+            },
+            {
+                question: "Protein synthesis occurs at:",
+                options: ["Nucleus", "Mitochondria", "Ribosomes", "Golgi apparatus"],
+                correct: 2,
+                explanation: "Ribosomes are the cellular machinery where protein synthesis (translation) occurs."
+            },
+            {
+                question: "The genetic code for amino acids uses:",
+                options: ["1 nucleotide", "2 nucleotides", "3 nucleotides", "4 nucleotides"],
+                correct: 2,
+                explanation: "Each amino acid is encoded by a triplet of nucleotides called a codon."
+            },
+            {
+                question: "Which amino acid serves as a precursor for serotonin?",
+                options: ["Tyrosine", "Tryptophan", "Phenylalanine", "Histidine"],
+                correct: 1,
+                explanation: "Tryptophan is the precursor for the neurotransmitter serotonin."
+            },
+            {
+                question: "Insulin is an example of:",
+                options: ["Structural protein", "Transport protein", "Hormone protein", "Storage protein"],
+                correct: 2,
+                explanation: "Insulin is a protein hormone that regulates blood glucose levels."
+            },
+            {
+                question: "The α-helix is stabilized by:",
+                options: ["Disulfide bonds", "Hydrogen bonds", "Ionic bonds", "Hydrophobic interactions"],
+                correct: 1,
+                explanation: "α-helices are stabilized by hydrogen bonds between backbone atoms."
+            },
+
+            // LIPIDS (Questions 51-70)
+            {
+                question: "Saturated fats differ from unsaturated fats in that they:",
+                options: ["Have double bonds", "Are liquid at room temperature", "Have no double bonds", "Contain more carbon atoms"],
+                correct: 2,
+                explanation: "Saturated fats have no double bonds between carbon atoms and are typically solid at room temperature."
+            },
+            {
+                question: "Phospholipids are major components of:",
+                options: ["Cell membranes", "Energy storage", "Enzymes", "Genetic material"],
+                correct: 0,
+                explanation: "Phospholipids are the primary structural components of cell membranes."
+            },
+            {
+                question: "A triglyceride consists of:",
+                options: ["3 fatty acids + glycerol", "3 amino acids + glycerol", "3 sugars + glycerol", "3 phosphates + glycerol"],
+                correct: 0,
+                explanation: "Triglycerides are composed of three fatty acids attached to a glycerol backbone."
+            },
+            {
+                question: "Cholesterol is a type of:",
+                options: ["Phospholipid", "Fatty acid", "Steroid", "Protein"],
+                correct: 2,
+                explanation: "Cholesterol is a steroid lipid with a characteristic four-ring structure."
+            },
+            {
+                question: "Essential fatty acids are:",
+                options: ["Always saturated", "Cannot be synthesized by the body", "Not needed for health", "Only found in animals"],
+                correct: 1,
+                explanation: "Essential fatty acids cannot be synthesized by the human body and must be obtained from diet."
+            },
+            {
+                question: "The most abundant fatty acid in olive oil is:",
+                options: ["Palmitic acid", "Stearic acid", "Oleic acid", "Linoleic acid"],
+                correct: 2,
+                explanation: "Oleic acid, a monounsaturated fatty acid, is the predominant fatty acid in olive oil."
+            },
+            {
+                question: "Waxes function primarily as:",
+                options: ["Energy storage", "Waterproofing", "Signaling", "Structural support"],
+                correct: 1,
+                explanation: "Waxes provide waterproofing and protection in plants and animals."
+            },
+            {
+                question: "The double bonds in most natural unsaturated fatty acids are:",
+                options: ["Trans configuration", "Cis configuration", "Both cis and trans", "Neither cis nor trans"],
+                correct: 1,
+                explanation: "Natural unsaturated fatty acids typically have cis double bonds, creating kinks in the chain."
+            },
+            {
+                question: "Sphingolipids contain:",
+                options: ["Glycerol backbone", "Sphingosine backbone", "Cholesterol backbone", "Protein backbone"],
+                correct: 1,
+                explanation: "Sphingolipids have a sphingosine backbone instead of glycerol."
+            },
+            {
+                question: "Lipoproteins transport:",
+                options: ["Amino acids", "Sugars", "Lipids", "Nucleotides"],
+                correct: 2,
+                explanation: "Lipoproteins are complexes that transport lipids in the bloodstream."
+            },
+            {
+                question: "The melting point of fatty acids increases with:",
+                options: ["More double bonds", "Shorter chain length", "Longer chain length", "More branching"],
+                correct: 2,
+                explanation: "Longer fatty acid chains have higher melting points due to increased van der Waals forces."
+            },
+            {
+                question: "Prostaglandins are derived from:",
+                options: ["Cholesterol", "Arachidonic acid", "Glucose", "Amino acids"],
+                correct: 1,
+                explanation: "Prostaglandins are hormone-like molecules derived from arachidonic acid."
+            },
+            {
+                question: "The glycerol molecule has:",
+                options: ["1 hydroxyl group", "2 hydroxyl groups", "3 hydroxyl groups", "4 hydroxyl groups"],
+                correct: 2,
+                explanation: "Glycerol has three hydroxyl groups, allowing attachment of three fatty acids."
+            },
+            {
+                question: "Soap is made by:",
+                options: ["Oxidizing fats", "Reducing fats", "Saponifying fats", "Hydrolyzing proteins"],
+                correct: 2,
+                explanation: "Soap is produced by saponification - treating fats with strong base (NaOH or KOH)."
+            },
+            {
+                question: "Which vitamin is fat-soluble?",
+                options: ["Vitamin C", "Vitamin B12", "Vitamin D", "Vitamin B6"],
+                correct: 2,
+                explanation: "Vitamin D is fat-soluble, along with vitamins A, E, and K."
+            },
+            {
+                question: "Lecithin is a type of:",
+                options: ["Triglyceride", "Phospholipid", "Steroid", "Fatty acid"],
+                correct: 1,
+                explanation: "Lecithin (phosphatidylcholine) is a phospholipid found in cell membranes."
+            },
+            {
+                question: "The fluidity of cell membranes decreases with:",
+                options: ["More cholesterol", "More unsaturated fatty acids", "Higher temperature", "Shorter fatty acid chains"],
+                correct: 0,
+                explanation: "Cholesterol decreases membrane fluidity by filling spaces between phospholipids."
+            },
+            {
+                question: "Lipids are generally:",
+                options: ["Hydrophilic", "Hydrophobic", "Amphipathic", "Water-soluble"],
+                correct: 1,
+                explanation: "Most lipids are hydrophobic (water-repelling) due to their largely hydrocarbon structure."
+            },
+            {
+                question: "The omega designation in fatty acids refers to:",
+                options: ["First carbon", "Last carbon", "Double bond position from methyl end", "Carboxyl carbon"],
+                correct: 2,
+                explanation: "Omega notation indicates the position of the first double bond from the methyl (omega) end."
+            },
+            {
+                question: "Trans fats are primarily:",
+                options: ["Natural products", "Artificial products", "Essential nutrients", "Vitamins"],
+                correct: 1,
+                explanation: "Most trans fats are artificially produced through hydrogenation of vegetable oils."
+            },
+
+            // NUCLEIC ACIDS (Questions 71-85)
             {
                 question: "DNA differs from RNA in that DNA:",
                 options: ["Contains ribose sugar", "Is single-stranded", "Contains thymine instead of uracil", "Contains uracil instead of thymine"],
@@ -652,28 +1067,174 @@ const mcqDatabase = {
                 explanation: "Hydrogen bonds form between complementary base pairs (A-T and G-C) holding DNA strands together."
             },
             {
+                question: "The sugar in DNA is:",
+                options: ["Ribose", "Deoxyribose", "Glucose", "Fructose"],
+                correct: 1,
+                explanation: "DNA contains deoxyribose sugar, which lacks a hydroxyl group on the 2' carbon."
+            },
+            {
+                question: "How many hydrogen bonds form between G and C?",
+                options: ["1", "2", "3", "4"],
+                correct: 2,
+                explanation: "Guanine and cytosine form three hydrogen bonds, making G-C pairs stronger than A-T pairs."
+            },
+            {
+                question: "The backbone of nucleic acids consists of:",
+                options: ["Sugar and bases", "Phosphate and bases", "Sugar and phosphate", "Bases only"],
+                correct: 2,
+                explanation: "The backbone is formed by alternating sugar and phosphate groups linked by phosphodiester bonds."
+            },
+            {
+                question: "Which base is found in RNA but not DNA?",
+                options: ["Adenine", "Guanine", "Cytosine", "Uracil"],
+                correct: 3,
+                explanation: "Uracil is found in RNA and pairs with adenine, replacing thymine found in DNA."
+            },
+            {
+                question: "The two strands of DNA are:",
+                options: ["Parallel", "Antiparallel", "Perpendicular", "Random"],
+                correct: 1,
+                explanation: "DNA strands run in opposite directions (antiparallel), one 5' to 3' and the other 3' to 5'."
+            },
+            {
+                question: "tRNA molecules function to:",
+                options: ["Store genetic information", "Transfer amino acids", "Catalyze reactions", "Regulate genes"],
+                correct: 1,
+                explanation: "Transfer RNA (tRNA) carries specific amino acids to ribosomes during protein synthesis."
+            },
+            {
+                question: "The central dogma of molecular biology states:",
+                options: ["DNA → RNA → Protein", "RNA → DNA → Protein", "Protein → RNA → DNA", "DNA → Protein → RNA"],
+                correct: 0,
+                explanation: "The central dogma describes information flow: DNA → RNA → Protein."
+            },
+            {
+                question: "Purines include:",
+                options: ["Adenine and Guanine", "Cytosine and Thymine", "Adenine and Cytosine", "Guanine and Thymine"],
+                correct: 0,
+                explanation: "Purines are larger bases with two rings: adenine (A) and guanine (G)."
+            },
+            {
+                question: "Pyrimidines include:",
+                options: ["Adenine and Guanine", "Cytosine and Thymine", "Adenine and Cytosine", "Guanine and Uracil"],
+                correct: 1,
+                explanation: "Pyrimidines are smaller bases with one ring: cytosine (C), thymine (T), and uracil (U)."
+            },
+            {
+                question: "The 5' end of nucleic acids has:",
+                options: ["Free hydroxyl group", "Free phosphate group", "Free base", "Nothing attached"],
+                correct: 1,
+                explanation: "The 5' end has a free phosphate group attached to the 5' carbon of the sugar."
+            },
+            {
+                question: "Chargaff's rules state that:",
+                options: ["A = T and G = C", "A = G and T = C", "A = C and T = G", "All bases are equal"],
+                correct: 0,
+                explanation: "Chargaff's rules state that the amount of adenine equals thymine, and guanine equals cytosine."
+            },
+            {
+                question: "The double helix structure of DNA was discovered by:",
+                options: ["Darwin", "Mendel", "Watson and Crick", "Pasteur"],
+                correct: 2,
+                explanation: "James Watson and Francis Crick discovered the double helix structure of DNA in 1953."
+            },
+            {
+                question: "Ribozymes are:",
+                options: ["DNA molecules", "RNA molecules with enzymatic activity", "Protein enzymes", "Lipid molecules"],
+                correct: 1,
+                explanation: "Ribozymes are RNA molecules that can catalyze biochemical reactions like enzymes."
+            },
+
+            // ENZYMES AND ATP (Questions 86-100)
+            {
                 question: "Enzymes are primarily composed of:",
                 options: ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"],
                 correct: 2,
                 explanation: "Most enzymes are proteins that catalyze biochemical reactions by lowering activation energy."
             },
             {
-                question: "The primary structure of a protein refers to:",
-                options: ["3D folding pattern", "Amino acid sequence", "Hydrogen bonding pattern", "Quaternary associations"],
-                correct: 1,
-                explanation: "Primary structure is the linear sequence of amino acids in a protein chain."
-            },
-            {
-                question: "Saturated fats differ from unsaturated fats in that they:",
-                options: ["Have double bonds", "Are liquid at room temperature", "Have no double bonds", "Contain more carbon atoms"],
-                correct: 2,
-                explanation: "Saturated fats have no double bonds between carbon atoms and are typically solid at room temperature."
-            },
-            {
                 question: "ATP stands for:",
                 options: ["Adenine Triphosphate", "Adenosine Triphosphate", "Amino Triphosphate", "Adenosine Tripeptide"],
                 correct: 1,
                 explanation: "ATP (Adenosine Triphosphate) is the universal energy currency of cells."
+            },
+            {
+                question: "The active site of an enzyme:",
+                options: ["Binds to the substrate", "Is where the reaction occurs", "Determines specificity", "All of the above"],
+                correct: 3,
+                explanation: "The active site binds substrate, catalyzes the reaction, and determines enzyme specificity."
+            },
+            {
+                question: "Competitive inhibition occurs when:",
+                options: ["Inhibitor binds to active site", "Inhibitor binds to allosteric site", "Substrate concentration is low", "Temperature is too high"],
+                correct: 0,
+                explanation: "Competitive inhibitors compete with substrate for binding to the enzyme's active site."
+            },
+            {
+                question: "The lock and key model describes:",
+                options: ["DNA replication", "Enzyme-substrate interaction", "Membrane transport", "Protein synthesis"],
+                correct: 1,
+                explanation: "The lock and key model explains how enzymes (lock) specifically bind substrates (key)."
+            },
+            {
+                question: "Enzyme activity is affected by:",
+                options: ["Temperature", "pH", "Substrate concentration", "All of the above"],
+                correct: 3,
+                explanation: "Enzyme activity depends on temperature, pH, substrate concentration, and other factors."
+            },
+            {
+                question: "Allosteric enzymes have:",
+                options: ["One binding site", "Multiple binding sites", "No binding sites", "Only active sites"],
+                correct: 1,
+                explanation: "Allosteric enzymes have multiple binding sites including active and regulatory sites."
+            },
+            {
+                question: "Cofactors are:",
+                options: ["Always proteins", "Non-protein helper molecules", "Always enzymes", "Always inhibitors"],
+                correct: 1,
+                explanation: "Cofactors are non-protein molecules (metals or organic) that help enzymes function."
+            },
+            {
+                question: "Coenzymes are:",
+                options: ["Metal ions", "Organic cofactors", "Protein cofactors", "Inhibitory molecules"],
+                correct: 1,
+                explanation: "Coenzymes are organic cofactors, often derived from vitamins, that assist enzymes."
+            },
+            {
+                question: "The induced fit model suggests:",
+                options: ["Enzyme shape never changes", "Enzyme changes shape upon substrate binding", "Only substrate changes shape", "Neither changes shape"],
+                correct: 1,
+                explanation: "The induced fit model proposes that enzyme shape changes to optimize substrate binding."
+            },
+            {
+                question: "Enzyme kinetics studies:",
+                options: ["Enzyme structure", "Reaction rates", "Enzyme synthesis", "Enzyme degradation"],
+                correct: 1,
+                explanation: "Enzyme kinetics examines the rates of enzyme-catalyzed reactions and factors affecting them."
+            },
+            {
+                question: "The Km value represents:",
+                options: ["Maximum velocity", "Substrate concentration at half Vmax", "Enzyme concentration", "Inhibitor concentration"],
+                correct: 1,
+                explanation: "Km (Michaelis constant) is the substrate concentration at which reaction rate is half-maximal."
+            },
+            {
+                question: "Feedback inhibition occurs when:",
+                options: ["Product inhibits its own synthesis", "Substrate inhibits the enzyme", "Temperature is too low", "pH is wrong"],
+                correct: 0,
+                explanation: "Feedback inhibition is when the end product of a pathway inhibits an enzyme in that pathway."
+            },
+            {
+                question: "ATP hydrolysis releases approximately:",
+                options: ["7.3 kcal/mol", "30.5 kcal/mol", "100 kcal/mol", "1 kcal/mol"],
+                correct: 0,
+                explanation: "ATP hydrolysis releases about 7.3 kcal/mol (30.5 kJ/mol) under standard conditions."
+            },
+            {
+                question: "The phosphate bonds in ATP are called:",
+                options: ["Low-energy bonds", "High-energy bonds", "Covalent bonds only", "Ionic bonds only"],
+                correct: 1,
+                explanation: "The phosphoanhydride bonds in ATP are high-energy bonds that release energy when broken."
             }
         ],
         'Human Circulation': [
