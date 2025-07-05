@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mnemonics - MDCAT Prep</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>MDCAT Prep</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#subjects" class="nav-link">Subjects</a>
+                <a href="flashcards.html" class="nav-link">Flashcards</a>
+                <a href="mnemonics.html" class="nav-link active">Mnemonics</a>
+                <a href="index.html#premium" class="nav-link premium-link">Premium</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="btn btn-outline" id="loginBtn">Login</button>
+                <button class="btn btn-primary" id="signupBtn">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-small">
+        <div class="hero-content">
+            <h1>Memory Mnemonics</h1>
+            <p>Master complex concepts with easy-to-remember mnemonics designed for MDCAT success</p>
+        </div>
+    </section>
+
+    <!-- Mnemonics Categories -->
+    <section class="mnemonics-section">
+        <div class="container">
+            <h2 class="section-title">Choose Subject for Mnemonics</h2>
+            
+            <div class="mnemonic-categories">
+                <div class="category-card" onclick="loadMnemonics('biology')">
+                    <div class="category-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3>Biology</h3>
+                    <p>Cell processes, genetics, classification, and more</p>
+                    <div class="mnemonic-count">20+ Mnemonics</div>
+                </div>
+
+                <div class="category-card" onclick="loadMnemonics('chemistry')">
+                    <div class="category-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Chemistry</h3>
+                    <p>Periodic table, reactions, formulas, and concepts</p>
+                    <div class="mnemonic-count">15+ Mnemonics</div>
+                </div>
+
+                <div class="category-card premium-card" onclick="showPremiumRequired()">
+                    <div class="category-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Premium Collection</h3>
+                    <p>Advanced mnemonics with visual aids and audio</p>
+                    <div class="mnemonic-count">50+ Mnemonics</div>
+                    <div class="premium-badge">Premium Only</div>
+                </div>
+            </div>
+
+            <!-- Search and Filter -->
+            <div class="mnemonic-controls">
+                <div class="search-container">
+                    <input type="text" id="mnemonicSearch" placeholder="Search mnemonics..." class="search-input">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <div class="filter-container">
+                    <select id="difficultyFilter" class="filter-select">
+                        <option value="all">All Difficulty</option>
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Mnemonics Display -->
+            <div class="mnemonics-display" id="mnemonicsDisplay">
+                <!-- Mnemonics will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section class="how-to-use-section">
+        <div class="container">
+            <h2 class="section-title">How to Use Mnemonics Effectively</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Understand the Concept</h3>
+                    <p>First, make sure you understand what you're trying to remember</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Learn the Mnemonic</h3>
+                    <p>Memorize the mnemonic phrase or acronym thoroughly</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Practice Regularly</h3>
+                    <p>Use the mnemonic repeatedly until it becomes automatic</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Apply in Context</h3>
+                    <p>Use the mnemonic when solving actual problems or answering questions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Memory Tips Section -->
+    <section class="memory-tips-section">
+        <div class="container">
+            <h2 class="section-title">Memory Enhancement Tips</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Visual Association</h3>
+                    <p>Create mental images to associate with the mnemonic</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Rhythm and Rhyme</h3>
+                    <p>Use music or rhythmic patterns to enhance memorization</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-repeat"></i>
+                    </div>
+                    <h3>Spaced Repetition</h3>
+                    <p>Review mnemonics at increasing intervals</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Share and Teach</h3>
+                    <p>Explain mnemonics to others to reinforce your memory</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MDCAT Prep</h3>
+                    <p>Your trusted partner for MDCAT preparation in Pakistan</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#subjects">Subjects</a></li>
+                        <li><a href="flashcards.html">Flashcards</a></li>
+                        <li><a href="mnemonics.html">Mnemonics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#help">Help Center</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MDCAT Prep. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="mnemonics.js"></script>
+</body>
+</html>

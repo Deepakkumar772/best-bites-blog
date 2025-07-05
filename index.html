@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDCAT Prep - Your Gateway to Medical Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>MDCAT Prep</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#subjects" class="nav-link">Subjects</a>
+                <a href="#flashcards" class="nav-link">Flashcards</a>
+                <a href="#mnemonics" class="nav-link">Mnemonics</a>
+                <a href="#premium" class="nav-link premium-link">Premium</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="btn btn-outline" id="loginBtn">Login</button>
+                <button class="btn btn-primary" id="signupBtn">Sign Up</button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Master Your MDCAT with Confidence</h1>
+            <p class="hero-subtitle">Comprehensive preparation platform with 10,000+ MCQs, flashcards, and mnemonics for Biology, Chemistry, Physics, English, and Logical Reasoning</p>
+            
+            <!-- MDCAT Countdown Timer -->
+            <div class="countdown-container">
+                <h3>MDCAT Exam Countdown</h3>
+                <div class="countdown-timer" id="countdownTimer">
+                    <div class="time-unit">
+                        <span class="time-value" id="days">00</span>
+                        <span class="time-label">Days</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="time-value" id="hours">00</span>
+                        <span class="time-label">Hours</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="time-value" id="minutes">00</span>
+                        <span class="time-label">Minutes</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="time-value" id="seconds">00</span>
+                        <span class="time-label">Seconds</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-actions">
+                <button class="btn btn-primary btn-large" id="startPracticeBtn">Start Practice</button>
+                <button class="btn btn-premium btn-large" id="upgradeBtn">Upgrade to Premium - PKR 200/month</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- AdSense Banner for Free Users -->
+    <div class="ad-banner" id="adBanner">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+             data-ad-slot="YOUR_AD_SLOT_ID"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+    </div>
+
+    <!-- Subject Tiles -->
+    <section class="subjects-section" id="subjects">
+        <div class="container">
+            <h2 class="section-title">Choose Your Subject</h2>
+            <div class="subjects-grid">
+                <div class="subject-card" data-subject="biology">
+                    <div class="subject-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3>Biology</h3>
+                    <p>2,500+ MCQs covering all topics from Cell Biology to Ecology</p>
+                    <div class="subject-stats">
+                        <span class="stat">25 Topics</span>
+                        <span class="stat">2,500+ MCQs</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" data-subject="chemistry">
+                    <div class="subject-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Chemistry</h3>
+                    <p>2,000+ MCQs from Organic, Inorganic, and Physical Chemistry</p>
+                    <div class="subject-stats">
+                        <span class="stat">20 Topics</span>
+                        <span class="stat">2,000+ MCQs</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" data-subject="physics">
+                    <div class="subject-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>Physics</h3>
+                    <p>2,000+ MCQs covering Mechanics, Thermodynamics, and Modern Physics</p>
+                    <div class="subject-stats">
+                        <span class="stat">18 Topics</span>
+                        <span class="stat">2,000+ MCQs</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" data-subject="english">
+                    <div class="subject-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>English</h3>
+                    <p>1,500+ MCQs for Grammar, Vocabulary, and Comprehension</p>
+                    <div class="subject-stats">
+                        <span class="stat">15 Topics</span>
+                        <span class="stat">1,500+ MCQs</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" data-subject="logical">
+                    <div class="subject-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Logical Reasoning</h3>
+                    <p>2,000+ MCQs for Critical Thinking and Problem Solving</p>
+                    <div class="subject-stats">
+                        <span class="stat">12 Topics</span>
+                        <span class="stat">2,000+ MCQs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose MDCAT Prep?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Instant Feedback</h3>
+                    <p>Get immediate explanations for every MCQ answer to learn from mistakes</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cards-blank"></i>
+                    </div>
+                    <h3>Smart Flashcards</h3>
+                    <p>Interactive flashcards for quick revision of key concepts</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Memory Mnemonics</h3>
+                    <p>Easy-to-remember mnemonics for complex Biology and Chemistry concepts</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Progress Tracking</h3>
+                    <p>Track your performance and identify areas for improvement</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Study anywhere, anytime with our responsive design</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Dark Mode</h3>
+                    <p>Comfortable night-time studying with dark mode toggle</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Section -->
+    <section class="premium-section" id="premium">
+        <div class="container">
+            <div class="premium-content">
+                <h2 class="section-title">Unlock Premium Features</h2>
+                <p class="premium-subtitle">Get access to exclusive content and advanced features for just PKR 200/month</p>
+                
+                <div class="premium-features">
+                    <div class="premium-feature">
+                        <i class="fas fa-star"></i>
+                        <span>5,000+ Exclusive Premium MCQs</span>
+                    </div>
+                    <div class="premium-feature">
+                        <i class="fas fa-star"></i>
+                        <span>Advanced Flashcards with Images</span>
+                    </div>
+                    <div class="premium-feature">
+                        <i class="fas fa-star"></i>
+                        <span>Detailed Performance Analytics</span>
+                    </div>
+                    <div class="premium-feature">
+                        <i class="fas fa-star"></i>
+                        <span>Ad-Free Experience</span>
+                    </div>
+                    <div class="premium-feature">
+                        <i class="fas fa-star"></i>
+                        <span>Priority Support</span>
+                    </div>
+                </div>
+
+                <div class="payment-options">
+                    <h3>Choose Your Payment Method</h3>
+                    <div class="payment-buttons">
+                        <button class="btn btn-payment" id="jazzcashBtn">
+                            <i class="fas fa-mobile-alt"></i>
+                            Pay with JazzCash
+                        </button>
+                        <button class="btn btn-payment" id="easypaisaBtn">
+                            <i class="fas fa-wallet"></i>
+                            Pay with EasyPaisa
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MDCAT Prep</h3>
+                    <p>Your trusted partner for MDCAT preparation in Pakistan</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#subjects">Subjects</a></li>
+                        <li><a href="#premium">Premium</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#help">Help Center</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MDCAT Prep. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close" id="closeLogin">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="signupModal">
+        <div class="modal-content">
+            <span class="close" id="closeSignup">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

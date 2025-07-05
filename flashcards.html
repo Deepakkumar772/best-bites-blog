@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards - MDCAT Prep</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>MDCAT Prep</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#subjects" class="nav-link">Subjects</a>
+                <a href="flashcards.html" class="nav-link active">Flashcards</a>
+                <a href="mnemonics.html" class="nav-link">Mnemonics</a>
+                <a href="index.html#premium" class="nav-link premium-link">Premium</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="btn btn-outline" id="loginBtn">Login</button>
+                <button class="btn btn-primary" id="signupBtn">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-small">
+        <div class="hero-content">
+            <h1>Interactive Flashcards</h1>
+            <p>Master key concepts with our interactive flashcard system designed for effective memorization</p>
+        </div>
+    </section>
+
+    <!-- Flashcards Section -->
+    <section class="flashcards-section">
+        <div class="container">
+            <h2 class="section-title">Choose Subject for Flashcards</h2>
+            
+            <div class="flashcard-subjects">
+                <div class="flashcard-subject-card" onclick="loadFlashcards('biology')">
+                    <div class="subject-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3>Biology</h3>
+                    <p>Cell Biology, Genetics, Ecology, Human Physiology</p>
+                    <div class="flashcard-count">15+ Flashcards</div>
+                </div>
+
+                <div class="flashcard-subject-card" onclick="loadFlashcards('chemistry')">
+                    <div class="subject-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Chemistry</h3>
+                    <p>Organic, Inorganic, Physical Chemistry</p>
+                    <div class="flashcard-count">12+ Flashcards</div>
+                </div>
+
+                <div class="flashcard-subject-card" onclick="loadFlashcards('physics')">
+                    <div class="subject-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>Physics</h3>
+                    <p>Mechanics, Waves, Thermodynamics</p>
+                    <div class="flashcard-count">10+ Flashcards</div>
+                </div>
+
+                <div class="flashcard-subject-card premium-card" onclick="showPremiumRequired()">
+                    <div class="subject-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Premium Collection</h3>
+                    <p>Advanced flashcards with detailed explanations</p>
+                    <div class="flashcard-count">50+ Flashcards</div>
+                    <div class="premium-badge">Premium Only</div>
+                </div>
+            </div>
+
+            <!-- Flashcard Display Area -->
+            <div class="flashcard-display" id="flashcardDisplay" style="display: none;">
+                <div class="flashcard-header">
+                    <h3 id="flashcardSubject">Biology Flashcards</h3>
+                    <div class="flashcard-controls">
+                        <button class="btn btn-outline" onclick="toggleAutoPlay()">
+                            <i class="fas fa-play" id="autoPlayIcon"></i>
+                            Auto Play
+                        </button>
+                        <button class="btn btn-outline" onclick="shuffleCards()">
+                            <i class="fas fa-shuffle"></i>
+                            Shuffle
+                        </button>
+                        <button class="btn btn-outline" onclick="resetCards()">
+                            <i class="fas fa-redo"></i>
+                            Reset
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flashcard-container">
+                    <div class="flashcard-counter" id="flashcardCounter">1 / 10</div>
+                    
+                    <div class="flashcard-main" id="flashcardMain" onclick="flipCard()">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front">
+                                <h3 id="flashcardFront">Click to start</h3>
+                                <p class="flip-hint">Click to reveal answer</p>
+                            </div>
+                            <div class="flashcard-back">
+                                <h3 id="flashcardBack">Answer will appear here</h3>
+                                <p class="flip-hint">Click to see question</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flashcard-actions">
+                        <button class="btn btn-outline" onclick="previousCard()" id="prevBtn">
+                            <i class="fas fa-chevron-left"></i>
+                            Previous
+                        </button>
+                        <button class="btn btn-primary" onclick="markKnown()" id="knownBtn">
+                            <i class="fas fa-check"></i>
+                            I Know This
+                        </button>
+                        <button class="btn btn-secondary" onclick="markUnknown()" id="unknownBtn">
+                            <i class="fas fa-times"></i>
+                            Need Review
+                        </button>
+                        <button class="btn btn-outline" onclick="nextCard()" id="nextBtn">
+                            Next
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flashcard-progress">
+                    <div class="progress-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" id="knownCount">0</span>
+                            <span class="stat-label">Known</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="unknownCount">0</span>
+                            <span class="stat-label">Need Review</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="remainingCount">0</span>
+                            <span class="stat-label">Remaining</span>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Study Tips Section -->
+    <section class="study-tips-section">
+        <div class="container">
+            <h2 class="section-title">Flashcard Study Tips</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Spaced Repetition</h3>
+                    <p>Review flashcards at increasing intervals to enhance long-term retention</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Active Recall</h3>
+                    <p>Try to recall the answer before flipping the card to strengthen memory</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-shuffle"></i>
+                    </div>
+                    <h3>Mix It Up</h3>
+                    <p>Shuffle cards regularly to avoid memorizing the sequence</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-target"></i>
+                    </div>
+                    <h3>Focus on Weak Areas</h3>
+                    <p>Spend more time on cards you mark as "Need Review"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MDCAT Prep</h3>
+                    <p>Your trusted partner for MDCAT preparation in Pakistan</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#subjects">Subjects</a></li>
+                        <li><a href="flashcards.html">Flashcards</a></li>
+                        <li><a href="mnemonics.html">Mnemonics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#help">Help Center</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MDCAT Prep. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="flashcards.js"></script>
+</body>
+</html>
