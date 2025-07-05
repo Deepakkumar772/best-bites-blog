@@ -1237,6 +1237,1226 @@ const mcqDatabase = {
                 explanation: "The phosphoanhydride bonds in ATP are high-energy bonds that release energy when broken."
             }
         ],
+        'Coordination & Control': [
+            // RECEPTORS AS TRANSDUCERS (Questions 1-15)
+            {
+                question: "Receptors function as:",
+                options: ["Energy producers", "Transducers", "Signal blockers", "Energy consumers"],
+                correct: 1,
+                explanation: "Receptors are specialized structures that convert various stimuli into electrical signals (transduction)."
+            },
+            {
+                question: "Photoreceptors are sensitive to:",
+                options: ["Sound waves", "Light", "Chemical changes", "Temperature"],
+                correct: 1,
+                explanation: "Photoreceptors in the eyes detect light stimuli and convert them to nerve impulses."
+            },
+            {
+                question: "Mechanoreceptors respond to:",
+                options: ["Light", "Chemicals", "Mechanical pressure", "Temperature"],
+                correct: 2,
+                explanation: "Mechanoreceptors detect mechanical stimuli like pressure, touch, and vibration."
+            },
+            {
+                question: "Chemoreceptors detect:",
+                options: ["Light intensity", "Chemical substances", "Sound waves", "Magnetic fields"],
+                correct: 1,
+                explanation: "Chemoreceptors respond to chemical stimuli, including taste and smell molecules."
+            },
+            {
+                question: "Thermoreceptors are found in:",
+                options: ["Eyes only", "Ears only", "Skin and hypothalamus", "Nose only"],
+                correct: 2,
+                explanation: "Thermoreceptors in skin detect external temperature, while hypothalamic ones monitor body temperature."
+            },
+            {
+                question: "The process of converting stimuli into nerve impulses is called:",
+                options: ["Translation", "Transcription", "Transduction", "Transformation"],
+                correct: 2,
+                explanation: "Transduction is the conversion of stimulus energy into electrical nerve impulses."
+            },
+            {
+                question: "Proprioceptors detect:",
+                options: ["Body position", "Light intensity", "Sound pitch", "Chemical concentration"],
+                correct: 0,
+                explanation: "Proprioceptors provide information about body position and movement in space."
+            },
+            {
+                question: "Nociceptors are specialized for detecting:",
+                options: ["Pleasant sensations", "Pain", "Temperature", "Pressure"],
+                correct: 1,
+                explanation: "Nociceptors are pain receptors that detect harmful or potentially damaging stimuli."
+            },
+            {
+                question: "The adequate stimulus for a receptor is:",
+                options: ["Any strong stimulus", "The specific type of energy it detects", "Electrical current only", "Chemical signals only"],
+                correct: 1,
+                explanation: "Each receptor type is most sensitive to its adequate stimulus - the specific energy form it's designed to detect."
+            },
+            {
+                question: "Sensory adaptation refers to:",
+                options: ["Increased sensitivity over time", "Decreased response to constant stimuli", "Receptor damage", "Stimulus amplification"],
+                correct: 1,
+                explanation: "Sensory adaptation is the decreased responsiveness to unchanging stimuli over time."
+            },
+            {
+                question: "The retina contains:",
+                options: ["Only rods", "Only cones", "Both rods and cones", "Neither rods nor cones"],
+                correct: 2,
+                explanation: "The retina contains both rods (for dim light vision) and cones (for color and bright light vision)."
+            },
+            {
+                question: "Taste buds are examples of:",
+                options: ["Mechanoreceptors", "Photoreceptors", "Chemoreceptors", "Thermoreceptors"],
+                correct: 2,
+                explanation: "Taste buds contain chemoreceptors that detect dissolved chemical substances in food."
+            },
+            {
+                question: "The threshold of a receptor is:",
+                options: ["Maximum stimulus intensity", "Minimum stimulus intensity for response", "Average stimulus intensity", "Optimal stimulus intensity"],
+                correct: 1,
+                explanation: "Threshold is the minimum stimulus intensity required to generate a response in the receptor."
+            },
+            {
+                question: "Receptor potential is:",
+                options: ["Always the same magnitude", "Graded according to stimulus intensity", "Only present in damaged receptors", "Independent of stimulus strength"],
+                correct: 1,
+                explanation: "Receptor potential magnitude varies with stimulus intensity - stronger stimuli produce larger potentials."
+            },
+            {
+                question: "The ear contains receptors for:",
+                options: ["Hearing only", "Balance only", "Both hearing and balance", "Neither hearing nor balance"],
+                correct: 2,
+                explanation: "The ear contains both auditory receptors (cochlea) and vestibular receptors (semicircular canals)."
+            },
+
+            // NEURON STRUCTURE (Questions 16-35)
+            {
+                question: "The cell body of a neuron is also called:",
+                options: ["Axon", "Dendrite", "Soma", "Synapse"],
+                correct: 2,
+                explanation: "The cell body or soma contains the nucleus and most organelles of the neuron."
+            },
+            {
+                question: "Dendrites function to:",
+                options: ["Send signals away from cell body", "Receive signals toward cell body", "Store neurotransmitters", "Produce myelin"],
+                correct: 1,
+                explanation: "Dendrites are branched extensions that receive signals from other neurons and conduct them toward the cell body."
+            },
+            {
+                question: "The axon conducts impulses:",
+                options: ["Toward the cell body", "Away from the cell body", "In both directions equally", "Only when damaged"],
+                correct: 1,
+                explanation: "Axons conduct nerve impulses away from the cell body toward other neurons or target organs."
+            },
+            {
+                question: "Myelin sheath is produced by:",
+                options: ["Neurons only", "Schwann cells in PNS", "Astrocytes only", "Red blood cells"],
+                correct: 1,
+                explanation: "In the peripheral nervous system, Schwann cells wrap around axons to form the myelin sheath."
+            },
+            {
+                question: "The main function of myelin sheath is to:",
+                options: ["Slow down impulses", "Insulate and speed up impulses", "Store nutrients", "Produce neurotransmitters"],
+                correct: 1,
+                explanation: "Myelin acts as insulation, increasing the speed of nerve impulse conduction through saltatory conduction."
+            },
+            {
+                question: "Nodes of Ranvier are:",
+                options: ["Gaps between myelin segments", "Type of neurotransmitter", "Parts of dendrites", "Brain regions"],
+                correct: 0,
+                explanation: "Nodes of Ranvier are unmyelinated gaps between myelin segments where action potentials are regenerated."
+            },
+            {
+                question: "A typical motor neuron has:",
+                options: ["No dendrites", "One axon and multiple dendrites", "Multiple axons", "No cell body"],
+                correct: 1,
+                explanation: "Motor neurons typically have one long axon and multiple branched dendrites extending from the cell body."
+            },
+            {
+                question: "The axon hillock is where:",
+                options: ["Dendrites branch", "Action potentials are initiated", "Neurotransmitters are stored", "Myelin is produced"],
+                correct: 1,
+                explanation: "The axon hillock is the junction between cell body and axon where action potentials are typically initiated."
+            },
+            {
+                question: "Nissl bodies in neurons are:",
+                options: ["Mitochondria", "Rough endoplasmic reticulum", "Nuclei", "Lysosomes"],
+                correct: 1,
+                explanation: "Nissl bodies are clusters of rough ER involved in protein synthesis in neural cell bodies."
+            },
+            {
+                question: "The longest part of a motor neuron is typically:",
+                options: ["Cell body", "Dendrites", "Axon", "Nucleus"],
+                correct: 2,
+                explanation: "Motor neuron axons can be over a meter long, extending from spinal cord to muscles."
+            },
+            {
+                question: "Unmyelinated axons conduct impulses:",
+                options: ["Faster than myelinated axons", "Slower than myelinated axons", "At the same speed as myelinated axons", "Not at all"],
+                correct: 1,
+                explanation: "Unmyelinated axons conduct impulses slower because the signal travels continuously along the membrane."
+            },
+            {
+                question: "The terminal buttons of an axon contain:",
+                options: ["Nuclei", "Mitochondria and synaptic vesicles", "Ribosomes only", "Myelin"],
+                correct: 1,
+                explanation: "Axon terminals contain mitochondria for energy and synaptic vesicles storing neurotransmitters."
+            },
+            {
+                question: "Multipolar neurons have:",
+                options: ["One process", "Two processes", "Many processes", "No processes"],
+                correct: 2,
+                explanation: "Multipolar neurons have multiple dendrites and one axon extending from the cell body."
+            },
+            {
+                question: "Bipolar neurons are commonly found in:",
+                options: ["Motor pathways", "Sensory organs", "Brain stem", "Spinal cord"],
+                correct: 1,
+                explanation: "Bipolar neurons are found in special sensory organs like the retina and olfactory epithelium."
+            },
+            {
+                question: "The cytoplasm of the axon is called:",
+                options: ["Axoplasm", "Neuroplasm", "Myelin", "Cytosol"],
+                correct: 0,
+                explanation: "Axoplasm is the cytoplasm within the axon, continuous with the cell body cytoplasm."
+            },
+            {
+                question: "Schwann cells in the PNS are equivalent to which cells in the CNS?",
+                options: ["Astrocytes", "Oligodendrocytes", "Microglia", "Ependymal cells"],
+                correct: 1,
+                explanation: "Oligodendrocytes in the CNS and Schwann cells in the PNS both form myelin sheaths."
+            },
+            {
+                question: "The neurilemma is:",
+                options: ["The myelin sheath", "The outer membrane of Schwann cells", "Part of the axon", "A type of neurotransmitter"],
+                correct: 1,
+                explanation: "The neurilemma is the outer nucleated layer of Schwann cells that aids in nerve regeneration."
+            },
+            {
+                question: "Saltatory conduction occurs in:",
+                options: ["Unmyelinated axons", "Myelinated axons", "Cell bodies", "Dendrites"],
+                correct: 1,
+                explanation: "Saltatory conduction is the rapid jumping of action potentials between nodes in myelinated axons."
+            },
+            {
+                question: "The diameter of an axon affects:",
+                options: ["Conduction speed", "Neurotransmitter type", "Cell body size", "Number of dendrites"],
+                correct: 0,
+                explanation: "Larger diameter axons conduct impulses faster due to decreased resistance to current flow."
+            },
+            {
+                question: "Collateral branches are:",
+                options: ["Side branches of axons", "Types of dendrites", "Glial cells", "Neurotransmitters"],
+                correct: 0,
+                explanation: "Collateral branches are side branches that allow axons to communicate with multiple targets."
+            },
+
+            // NERVE IMPULSE (Questions 36-55)
+            {
+                question: "A nerve impulse is also called:",
+                options: ["Action potential", "Resting potential", "Receptor potential", "Synaptic potential"],
+                correct: 0,
+                explanation: "A nerve impulse is an action potential - a rapid change in membrane potential that travels along the axon."
+            },
+            {
+                question: "The resting potential of a typical neuron is approximately:",
+                options: ["+70 mV", "-70 mV", "0 mV", "+35 mV"],
+                correct: 1,
+                explanation: "The resting potential is about -70 mV, with the inside of the neuron negative relative to outside."
+            },
+            {
+                question: "The sodium-potassium pump maintains:",
+                options: ["Equal Na+ and K+ concentrations", "High Na+ inside, low K+ outside", "Low Na+ inside, high K+ outside", "No concentration gradients"],
+                correct: 2,
+                explanation: "The Na+/K+ pump maintains low sodium and high potassium concentrations inside the cell."
+            },
+            {
+                question: "During depolarization:",
+                options: ["Na+ channels open", "K+ channels open", "Ca2+ channels close", "The membrane becomes more negative"],
+                correct: 0,
+                explanation: "Depolarization involves opening of voltage-gated sodium channels, allowing Na+ influx."
+            },
+            {
+                question: "The threshold potential is typically around:",
+                options: ["-70 mV", "-55 mV", "+35 mV", "0 mV"],
+                correct: 1,
+                explanation: "Threshold is usually around -55 mV, the point where voltage-gated Na+ channels open rapidly."
+            },
+            {
+                question: "Repolarization is caused by:",
+                options: ["Na+ influx", "K+ efflux", "Ca2+ influx", "Cl- efflux"],
+                correct: 1,
+                explanation: "Repolarization occurs when K+ channels open and K+ flows out, restoring negative membrane potential."
+            },
+            {
+                question: "The absolute refractory period is when:",
+                options: ["No stimulus can trigger an action potential", "Only strong stimuli work", "The neuron is most excitable", "Multiple action potentials occur"],
+                correct: 0,
+                explanation: "During the absolute refractory period, sodium channels are inactivated and no action potential can be generated."
+            },
+            {
+                question: "Action potentials follow the:",
+                options: ["Graded response law", "All-or-none law", "Partial response law", "Variable response law"],
+                correct: 1,
+                explanation: "Action potentials follow the all-or-none law - they either occur completely or not at all."
+            },
+            {
+                question: "The speed of nerve conduction is fastest in:",
+                options: ["Small unmyelinated fibers", "Large unmyelinated fibers", "Small myelinated fibers", "Large myelinated fibers"],
+                correct: 3,
+                explanation: "Large myelinated fibers conduct fastest due to both large diameter and saltatory conduction."
+            },
+            {
+                question: "Hyperpolarization makes a neuron:",
+                options: ["More likely to fire", "Less likely to fire", "Unable to change", "Continuously active"],
+                correct: 1,
+                explanation: "Hyperpolarization makes the membrane potential more negative, moving away from threshold."
+            },
+            {
+                question: "Local anesthetics work by:",
+                options: ["Enhancing Na+ channels", "Blocking Na+ channels", "Opening K+ channels", "Stimulating receptors"],
+                correct: 1,
+                explanation: "Local anesthetics block voltage-gated sodium channels, preventing action potential generation."
+            },
+            {
+                question: "The refractory period ensures:",
+                options: ["Continuous firing", "Unidirectional conduction", "Stronger signals", "Slower conduction"],
+                correct: 1,
+                explanation: "The refractory period prevents backward propagation, ensuring unidirectional impulse conduction."
+            },
+            {
+                question: "In unmyelinated axons, action potentials:",
+                options: ["Jump between nodes", "Travel continuously", "Don't propagate", "Move backwards"],
+                correct: 1,
+                explanation: "In unmyelinated axons, action potentials propagate continuously along the entire membrane."
+            },
+            {
+                question: "Cable properties of axons refer to:",
+                options: ["Strength like cables", "Passive electrical conduction", "Ability to bend", "Myelin thickness"],
+                correct: 1,
+                explanation: "Cable properties describe how electrical signals decay with distance in passive conduction."
+            },
+            {
+                question: "The falling phase of an action potential is due to:",
+                options: ["Na+ channel opening", "K+ channel opening", "Ca2+ channel closing", "Na+ channel closing only"],
+                correct: 1,
+                explanation: "The falling phase occurs when K+ channels open and Na+ channels inactivate, causing repolarization."
+            },
+            {
+                question: "Voltage-gated channels respond to:",
+                options: ["Chemical signals", "Mechanical pressure", "Changes in membrane potential", "Temperature changes"],
+                correct: 2,
+                explanation: "Voltage-gated channels open or close in response to changes in membrane potential."
+            },
+            {
+                question: "The overshoot of an action potential reaches approximately:",
+                options: ["-70 mV", "0 mV", "+35 mV", "+100 mV"],
+                correct: 2,
+                explanation: "The peak of an action potential typically reaches about +35 mV due to sodium influx."
+            },
+            {
+                question: "Frequency coding in neurons means:",
+                options: ["Stronger stimuli cause larger action potentials", "Stronger stimuli cause more frequent action potentials", "All stimuli produce the same response", "No relationship between stimulus and response"],
+                correct: 1,
+                explanation: "Since action potentials are all-or-none, stimulus intensity is coded by firing frequency."
+            },
+            {
+                question: "The relative refractory period is characterized by:",
+                options: ["No response possible", "Only strong stimuli can trigger action potentials", "Normal excitability", "Continuous firing"],
+                correct: 1,
+                explanation: "During the relative refractory period, only stronger-than-normal stimuli can trigger action potentials."
+            },
+            {
+                question: "Conduction velocity is measured in:",
+                options: ["Volts", "Meters per second", "Hertz", "Amperes"],
+                correct: 1,
+                explanation: "Conduction velocity describes how fast action potentials travel and is measured in meters per second."
+            },
+
+            // REFLEXES AND REFLEX ARC (Questions 56-75)
+            {
+                question: "A reflex is:",
+                options: ["A conscious response", "An automatic, involuntary response", "A learned behavior", "A voluntary action"],
+                correct: 1,
+                explanation: "Reflexes are automatic, involuntary responses to stimuli that don't require conscious thought."
+            },
+            {
+                question: "The simplest reflex arc contains:",
+                options: ["One neuron", "Two neurons", "Three neurons", "Four neurons"],
+                correct: 1,
+                explanation: "The simplest reflex arc has two neurons: a sensory neuron and a motor neuron (monosynaptic)."
+            },
+            {
+                question: "The knee-jerk reflex is an example of:",
+                options: ["Polysynaptic reflex", "Monosynaptic reflex", "Conditioned reflex", "Visceral reflex"],
+                correct: 1,
+                explanation: "The knee-jerk reflex is monosynaptic, involving direct connection between sensory and motor neurons."
+            },
+            {
+                question: "Withdrawal reflexes are typically:",
+                options: ["Monosynaptic", "Polysynaptic", "Absent in humans", "Only in the brain"],
+                correct: 1,
+                explanation: "Withdrawal reflexes are polysynaptic, involving interneurons for complex coordination."
+            },
+            {
+                question: "The components of a reflex arc include:",
+                options: ["Only motor neurons", "Receptor, sensory neuron, motor neuron, effector", "Only the brain", "Only muscles"],
+                correct: 1,
+                explanation: "A complete reflex arc has: receptor, sensory neuron, integration center, motor neuron, and effector."
+            },
+            {
+                question: "Interneurons in reflexes function to:",
+                options: ["Detect stimuli", "Process and integrate information", "Contract muscles", "Produce hormones"],
+                correct: 1,
+                explanation: "Interneurons in the spinal cord process sensory information and coordinate appropriate motor responses."
+            },
+            {
+                question: "Spinal reflexes occur at the level of:",
+                options: ["Brain only", "Spinal cord", "Peripheral nerves only", "Muscles only"],
+                correct: 1,
+                explanation: "Spinal reflexes are processed in the spinal cord without requiring brain involvement."
+            },
+            {
+                question: "The stretch reflex helps maintain:",
+                options: ["Body temperature", "Muscle tone and posture", "Heart rate", "Blood pressure"],
+                correct: 1,
+                explanation: "Stretch reflexes maintain muscle tone and help maintain posture against gravity."
+            },
+            {
+                question: "Muscle spindles are:",
+                options: ["Motor neurons", "Stretch receptors", "Blood vessels", "Connective tissue"],
+                correct: 1,
+                explanation: "Muscle spindles are specialized stretch receptors within skeletal muscles."
+            },
+            {
+                question: "The withdrawal reflex demonstrates:",
+                options: ["Flexion of stimulated limb only", "Flexion of stimulated limb and extension of opposite limb", "No movement", "Only brain activity"],
+                correct: 1,
+                explanation: "The withdrawal reflex involves flexion of the stimulated limb and extension of the opposite limb for balance."
+            },
+            {
+                question: "Reflexes can be modified by:",
+                options: ["Brain centers", "Learning", "Disease states", "All of the above"],
+                correct: 3,
+                explanation: "Reflexes can be influenced by higher brain centers, learning, and various pathological conditions."
+            },
+            {
+                question: "The Achilles reflex tests:",
+                options: ["Biceps muscle", "Triceps muscle", "Quadriceps muscle", "Calf muscles"],
+                correct: 3,
+                explanation: "The Achilles reflex tests the integrity of the S1-S2 spinal segments and calf muscles."
+            },
+            {
+                question: "Reciprocal inhibition in reflexes means:",
+                options: ["Both muscles contract", "Antagonist muscles are inhibited", "No muscle activity", "Random muscle contractions"],
+                correct: 1,
+                explanation: "Reciprocal inhibition ensures that when agonist muscles contract, antagonist muscles are inhibited."
+            },
+            {
+                question: "The corneal reflex protects:",
+                options: ["The ear", "The eye", "The nose", "The mouth"],
+                correct: 1,
+                explanation: "The corneal reflex causes blinking to protect the eye from foreign objects or damage."
+            },
+            {
+                question: "Visceral reflexes control:",
+                options: ["Skeletal muscles", "Internal organs", "Sensory organs", "Only the brain"],
+                correct: 1,
+                explanation: "Visceral reflexes regulate the function of internal organs like heart, digestive system, etc."
+            },
+            {
+                question: "The crossed extensor reflex:",
+                options: ["Affects only one limb", "Affects the opposite limb", "Doesn't exist", "Only affects arms"],
+                correct: 1,
+                explanation: "The crossed extensor reflex extends the opposite limb to maintain balance during withdrawal."
+            },
+            {
+                question: "Gamma motor neurons innervate:",
+                options: ["Regular muscle fibers", "Muscle spindle fibers", "Skin receptors", "Joint receptors"],
+                correct: 1,
+                explanation: "Gamma motor neurons innervate intrafusal fibers in muscle spindles, adjusting their sensitivity."
+            },
+            {
+                question: "The reflex hammer tests:",
+                options: ["Voluntary responses", "Deep tendon reflexes", "Superficial reflexes", "Brain function only"],
+                correct: 1,
+                explanation: "The reflex hammer is used to test deep tendon reflexes by tapping tendons to stretch muscles."
+            },
+            {
+                question: "Hyperreflexia indicates:",
+                options: ["Normal reflexes", "Exaggerated reflexes", "Absent reflexes", "Delayed reflexes"],
+                correct: 1,
+                explanation: "Hyperreflexia refers to exaggerated or overactive reflexes, often indicating upper motor neuron damage."
+            },
+            {
+                question: "The babinski reflex in adults indicates:",
+                options: ["Normal function", "Brain damage", "Spinal cord damage", "Both brain and spinal damage"],
+                correct: 2,
+                explanation: "A positive Babinski reflex in adults indicates damage to corticospinal pathways."
+            },
+
+            // BRAIN STRUCTURE AND FUNCTION (Questions 76-100)
+            {
+                question: "The brain stem consists of:",
+                options: ["Medulla only", "Pons only", "Medulla, pons, and midbrain", "Cerebrum only"],
+                correct: 2,
+                explanation: "The brain stem includes the medulla oblongata, pons, and midbrain."
+            },
+            {
+                question: "The medulla oblongata controls:",
+                options: ["Voluntary movement", "Vital functions like breathing and heart rate", "Vision", "Hearing"],
+                correct: 1,
+                explanation: "The medulla contains vital centers controlling breathing, heart rate, and blood pressure."
+            },
+            {
+                question: "The pons is involved in:",
+                options: ["Sleep regulation", "Facial sensation", "Motor control", "All of the above"],
+                correct: 3,
+                explanation: "The pons plays roles in sleep, arousal, facial sensation, and motor control coordination."
+            },
+            {
+                question: "The midbrain contains:",
+                options: ["Visual and auditory reflex centers", "Respiratory centers", "Speech centers", "Memory centers"],
+                correct: 0,
+                explanation: "The midbrain processes visual and auditory reflexes and contains centers for eye movement."
+            },
+            {
+                question: "The cerebellum is primarily responsible for:",
+                options: ["Consciousness", "Balance and coordination", "Emotion", "Memory"],
+                correct: 1,
+                explanation: "The cerebellum coordinates movement, maintains balance, and helps with motor learning."
+            },
+            {
+                question: "The cerebrum is divided into:",
+                options: ["Two hemispheres", "Three hemispheres", "Four hemispheres", "Five hemispheres"],
+                correct: 0,
+                explanation: "The cerebrum consists of left and right cerebral hemispheres connected by the corpus callosum."
+            },
+            {
+                question: "The frontal lobe controls:",
+                options: ["Vision", "Hearing", "Motor functions and personality", "Balance"],
+                correct: 2,
+                explanation: "The frontal lobe contains the primary motor cortex and areas controlling personality and executive functions."
+            },
+            {
+                question: "The parietal lobe processes:",
+                options: ["Visual information", "Auditory information", "Somatosensory information", "Olfactory information"],
+                correct: 2,
+                explanation: "The parietal lobe contains the primary somatosensory cortex processing touch, pressure, and proprioception."
+            },
+            {
+                question: "The occipital lobe is primarily for:",
+                options: ["Hearing", "Vision", "Touch", "Taste"],
+                correct: 1,
+                explanation: "The occipital lobe contains the primary visual cortex for processing visual information."
+            },
+            {
+                question: "The temporal lobe contains:",
+                options: ["Primary auditory cortex", "Hippocampus", "Language areas", "All of the above"],
+                correct: 3,
+                explanation: "The temporal lobe processes hearing, contains memory structures, and language areas."
+            },
+            {
+                question: "Broca's area is responsible for:",
+                options: ["Understanding speech", "Producing speech", "Hearing", "Vision"],
+                correct: 1,
+                explanation: "Broca's area in the frontal lobe controls speech production and motor aspects of language."
+            },
+            {
+                question: "Wernicke's area is involved in:",
+                options: ["Speech production", "Speech comprehension", "Vision", "Motor control"],
+                correct: 1,
+                explanation: "Wernicke's area in the temporal lobe is responsible for language comprehension."
+            },
+            {
+                question: "The thalamus functions as:",
+                options: ["A motor center", "A relay station", "A memory center", "A breathing center"],
+                correct: 1,
+                explanation: "The thalamus acts as a relay station, processing and directing sensory information to the cortex."
+            },
+            {
+                question: "The hypothalamus controls:",
+                options: ["Body temperature", "Hormone release", "Sleep-wake cycles", "All of the above"],
+                correct: 3,
+                explanation: "The hypothalamus regulates homeostasis, including temperature, hormones, and circadian rhythms."
+            },
+            {
+                question: "The hippocampus is crucial for:",
+                options: ["Motor control", "Memory formation", "Vision", "Hearing"],
+                correct: 1,
+                explanation: "The hippocampus is essential for forming new memories and spatial navigation."
+            },
+            {
+                question: "The amygdala processes:",
+                options: ["Visual information", "Emotions, especially fear", "Motor commands", "Language"],
+                correct: 1,
+                explanation: "The amygdala processes emotions, particularly fear and emotional memories."
+            },
+            {
+                question: "The corpus callosum:",
+                options: ["Connects the hemispheres", "Controls breathing", "Processes vision", "Stores memories"],
+                correct: 0,
+                explanation: "The corpus callosum is a bundle of nerve fibers connecting the left and right cerebral hemispheres."
+            },
+            {
+                question: "The blood-brain barrier:",
+                options: ["Allows all substances to pass", "Selectively protects the brain", "Doesn't exist", "Only blocks water"],
+                correct: 1,
+                explanation: "The blood-brain barrier selectively prevents harmful substances from entering brain tissue."
+            },
+            {
+                question: "Cerebrospinal fluid:",
+                options: ["Cushions the brain", "Provides nutrients", "Removes waste", "All of the above"],
+                correct: 3,
+                explanation: "CSF cushions the brain, provides nutrients, removes waste, and maintains intracranial pressure."
+            },
+            {
+                question: "The reticular activating system controls:",
+                options: ["Motor movement", "Arousal and consciousness", "Vision", "Digestion"],
+                correct: 1,
+                explanation: "The reticular activating system in the brain stem regulates sleep-wake cycles and consciousness."
+            },
+            {
+                question: "Brain lateralization refers to:",
+                options: ["Brain size", "Functional differences between hemispheres", "Brain weight", "Blood flow"],
+                correct: 1,
+                explanation: "Brain lateralization describes the specialization of functions in the left and right hemispheres."
+            },
+            {
+                question: "The pineal gland produces:",
+                options: ["Growth hormone", "Insulin", "Melatonin", "Cortisol"],
+                correct: 2,
+                explanation: "The pineal gland produces melatonin, which regulates sleep-wake cycles."
+            },
+            {
+                question: "Neuroplasticity refers to:",
+                options: ["Brain rigidity", "Brain's ability to reorganize", "Brain size", "Brain weight"],
+                correct: 1,
+                explanation: "Neuroplasticity is the brain's ability to reorganize, form new connections, and adapt to experiences."
+            },
+            {
+                question: "The limbic system is involved in:",
+                options: ["Motor control", "Emotions and memory", "Vision", "Hearing"],
+                correct: 1,
+                explanation: "The limbic system processes emotions, memory, and motivational behaviors."
+            },
+            {
+                question: "The motor homunculus represents:",
+                options: ["Sensory mapping", "Motor control mapping", "Memory areas", "Language areas"],
+                correct: 1,
+                explanation: "The motor homunculus is a topographic map showing which brain areas control different body parts for movement."
+            }
+        ],
+        'Enzymes': [
+            // ENZYME CHARACTERISTICS (Questions 1-25)
+            {
+                question: "Enzymes are primarily:",
+                options: ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"],
+                correct: 2,
+                explanation: "Most enzymes are proteins that catalyze biochemical reactions by lowering activation energy."
+            },
+            {
+                question: "The active site of an enzyme:",
+                options: ["Binds to the substrate", "Is where the reaction occurs", "Determines specificity", "All of the above"],
+                correct: 3,
+                explanation: "The active site binds substrate, catalyzes the reaction, and determines enzyme specificity."
+            },
+            {
+                question: "Enzymes speed up reactions by:",
+                options: ["Increasing activation energy", "Decreasing activation energy", "Changing the equilibrium", "Adding energy to the system"],
+                correct: 1,
+                explanation: "Enzymes lower the activation energy barrier, making reactions proceed faster."
+            },
+            {
+                question: "The lock and key model describes:",
+                options: ["DNA replication", "Enzyme-substrate interaction", "Membrane transport", "Protein synthesis"],
+                correct: 1,
+                explanation: "The lock and key model explains how enzymes (lock) specifically bind substrates (key)."
+            },
+            {
+                question: "The induced fit model suggests:",
+                options: ["Enzyme shape never changes", "Enzyme changes shape upon substrate binding", "Only substrate changes shape", "Neither changes shape"],
+                correct: 1,
+                explanation: "The induced fit model proposes that enzyme shape changes to optimize substrate binding."
+            },
+            {
+                question: "Enzyme specificity is due to:",
+                options: ["Random binding", "Active site shape and chemistry", "Enzyme size only", "Substrate concentration"],
+                correct: 1,
+                explanation: "Enzyme specificity results from the unique shape and chemical environment of the active site."
+            },
+            {
+                question: "Enzymes can be reused because they:",
+                options: ["Are consumed in reactions", "Are not changed by reactions", "Increase in concentration", "Become more active"],
+                correct: 1,
+                explanation: "Enzymes are catalysts that are not consumed or permanently altered during reactions."
+            },
+            {
+                question: "The enzyme-substrate complex is also called:",
+                options: ["Transition state", "Michaelis complex", "Product complex", "Inhibitor complex"],
+                correct: 1,
+                explanation: "The enzyme-substrate complex is often called the Michaelis complex or ES complex."
+            },
+            {
+                question: "Enzyme catalysis involves:",
+                options: ["Stabilizing transition state", "Destabilizing substrate", "Both stabilizing transition state and destabilizing substrate", "Neither"],
+                correct: 2,
+                explanation: "Enzymes both destabilize the substrate and stabilize the transition state to lower activation energy."
+            },
+            {
+                question: "The turnover number of an enzyme refers to:",
+                options: ["Number of active sites", "Number of substrate molecules converted per second", "Enzyme molecular weight", "Reaction temperature"],
+                correct: 1,
+                explanation: "Turnover number (kcat) is the number of substrate molecules converted to product per enzyme per second."
+            },
+            {
+                question: "Cofactors are:",
+                options: ["Always proteins", "Non-protein helper molecules", "Always enzymes", "Always inhibitors"],
+                correct: 1,
+                explanation: "Cofactors are non-protein molecules (metals or organic) that help enzymes function."
+            },
+            {
+                question: "Coenzymes are:",
+                options: ["Metal ions", "Organic cofactors", "Protein cofactors", "Inhibitory molecules"],
+                correct: 1,
+                explanation: "Coenzymes are organic cofactors, often derived from vitamins, that assist enzymes."
+            },
+            {
+                question: "An apoenzyme is:",
+                options: ["Complete active enzyme", "Enzyme without cofactor", "Enzyme inhibitor", "Enzyme product"],
+                correct: 1,
+                explanation: "An apoenzyme is the protein part of an enzyme without its required cofactor."
+            },
+            {
+                question: "A holoenzyme consists of:",
+                options: ["Apoenzyme only", "Cofactor only", "Apoenzyme plus cofactor", "Substrate plus enzyme"],
+                correct: 2,
+                explanation: "A holoenzyme is the complete, catalytically active enzyme including apoenzyme and cofactor."
+            },
+            {
+                question: "Prosthetic groups are:",
+                options: ["Loosely bound cofactors", "Tightly bound cofactors", "Enzyme inhibitors", "Enzyme products"],
+                correct: 1,
+                explanation: "Prosthetic groups are cofactors that are tightly or covalently bound to enzymes."
+            },
+            {
+                question: "The term enzyme comes from Greek meaning:",
+                options: ["In life", "In yeast", "In cell", "In protein"],
+                correct: 1,
+                explanation: "The word enzyme comes from Greek 'en zyme' meaning 'in yeast', where enzymes were first discovered."
+            },
+            {
+                question: "Enzyme nomenclature typically ends with:",
+                options: ["-ine", "-ase", "-ose", "-ide"],
+                correct: 1,
+                explanation: "Most enzyme names end with the suffix '-ase' (e.g., amylase, lipase, protease)."
+            },
+            {
+                question: "Allosteric enzymes have:",
+                options: ["One binding site", "Multiple binding sites", "No binding sites", "Only active sites"],
+                correct: 1,
+                explanation: "Allosteric enzymes have multiple binding sites including active and regulatory sites."
+            },
+            {
+                question: "The catalytic efficiency of an enzyme is measured by:",
+                options: ["Km only", "Vmax only", "kcat/Km", "Vmax/Km"],
+                correct: 2,
+                explanation: "Catalytic efficiency is measured by kcat/Km, combining turnover number and binding affinity."
+            },
+            {
+                question: "Enzyme classification is based on:",
+                options: ["Size", "Color", "Type of reaction catalyzed", "Location in cell"],
+                correct: 2,
+                explanation: "Enzymes are classified into six main classes based on the type of reaction they catalyze."
+            },
+            {
+                question: "The six main enzyme classes include:",
+                options: ["Oxidoreductases", "Transferases", "Hydrolases", "All of the above"],
+                correct: 3,
+                explanation: "The six classes are: oxidoreductases, transferases, hydrolases, lyases, isomerases, and ligases."
+            },
+            {
+                question: "Hydrolases catalyze:",
+                options: ["Oxidation reactions", "Hydrolysis reactions", "Transfer reactions", "Synthesis reactions"],
+                correct: 1,
+                explanation: "Hydrolases break bonds by adding water molecules (hydrolysis reactions)."
+            },
+            {
+                question: "Oxidoreductases are involved in:",
+                options: ["Electron transfer", "Group transfer", "Bond formation", "Isomerization"],
+                correct: 0,
+                explanation: "Oxidoreductases catalyze oxidation-reduction reactions involving electron transfer."
+            },
+            {
+                question: "Ligases require:",
+                options: ["No energy", "ATP or similar energy source", "Only NAD+", "Only FAD"],
+                correct: 1,
+                explanation: "Ligases catalyze bond formation and typically require ATP or another high-energy compound."
+            },
+            {
+                question: "Ribozymes are:",
+                options: ["DNA enzymes", "RNA enzymes", "Protein enzymes", "Lipid enzymes"],
+                correct: 1,
+                explanation: "Ribozymes are RNA molecules that have catalytic activity, proving that not all enzymes are proteins."
+            },
+
+            // MECHANISM OF ENZYME ACTION (Questions 26-50)
+            {
+                question: "The first step in enzyme catalysis is:",
+                options: ["Product formation", "Substrate binding", "Cofactor binding", "Energy release"],
+                correct: 1,
+                explanation: "Enzyme catalysis begins with substrate binding to the active site forming the ES complex."
+            },
+            {
+                question: "The transition state in enzymatic reactions:",
+                options: ["Has higher energy than substrate", "Has lower energy than substrate", "Has same energy as substrate", "Doesn't exist"],
+                correct: 0,
+                explanation: "The transition state has higher energy than substrate but lower energy than in uncatalyzed reactions."
+            },
+            {
+                question: "Enzyme-substrate affinity is measured by:",
+                options: ["Vmax", "Km", "kcat", "Ki"],
+                correct: 1,
+                explanation: "Km (Michaelis constant) indicates enzyme-substrate affinity - lower Km means higher affinity."
+            },
+            {
+                question: "A low Km value indicates:",
+                options: ["Low affinity", "High affinity", "No binding", "Irreversible binding"],
+                correct: 1,
+                explanation: "Low Km indicates high substrate affinity - enzyme binds substrate effectively at low concentrations."
+            },
+            {
+                question: "The catalytic triad in serine proteases consists of:",
+                options: ["Three serine residues", "Serine, histidine, and aspartic acid", "Three histidine residues", "Random amino acids"],
+                correct: 1,
+                explanation: "The catalytic triad (Ser-His-Asp) works together to catalyze peptide bond hydrolysis."
+            },
+            {
+                question: "Covalent catalysis involves:",
+                options: ["No bond formation", "Temporary covalent bond formation", "Permanent bond formation", "Only ionic interactions"],
+                correct: 1,
+                explanation: "Covalent catalysis involves temporary covalent bond formation between enzyme and substrate."
+            },
+            {
+                question: "Metal ion catalysis can work by:",
+                options: ["Electron withdrawal", "Substrate orientation", "Redox reactions", "All of the above"],
+                correct: 3,
+                explanation: "Metal ions assist catalysis through electron effects, substrate positioning, and redox chemistry."
+            },
+            {
+                question: "Acid-base catalysis involves:",
+                options: ["Only proton donation", "Only proton acceptance", "Both proton donation and acceptance", "No proton transfer"],
+                correct: 2,
+                explanation: "Acid-base catalysis involves both proton donation (acid) and acceptance (base) to facilitate reactions."
+            },
+            {
+                question: "The reaction coordinate diagram shows:",
+                options: ["Only energy", "Energy vs reaction progress", "Only time", "Temperature vs energy"],
+                correct: 1,
+                explanation: "Reaction coordinate diagrams plot energy changes as the reaction progresses from reactants to products."
+            },
+            {
+                question: "Enzymes affect reaction kinetics by:",
+                options: ["Changing equilibrium position", "Increasing reaction rate", "Decreasing product formation", "Stopping reactions"],
+                correct: 1,
+                explanation: "Enzymes increase reaction rates without changing the equilibrium position of reactions."
+            },
+            {
+                question: "The rate-determining step is:",
+                options: ["Always the first step", "The fastest step", "The slowest step", "The last step"],
+                correct: 2,
+                explanation: "The rate-determining step is the slowest step in a reaction mechanism that limits overall rate."
+            },
+            {
+                question: "Enzyme saturation occurs when:",
+                options: ["All enzyme is bound to substrate", "No substrate is present", "Temperature is too high", "pH is wrong"],
+                correct: 0,
+                explanation: "Saturation occurs when all enzyme active sites are occupied by substrate (ES complex)."
+            },
+            {
+                question: "At saturation, reaction rate:",
+                options: ["Continues to increase", "Reaches maximum (Vmax)", "Decreases", "Becomes zero"],
+                correct: 1,
+                explanation: "At enzyme saturation, the reaction rate reaches its maximum value (Vmax)."
+            },
+            {
+                question: "The Michaelis-Menten equation describes:",
+                options: ["Enzyme structure", "Reaction rate vs substrate concentration", "Temperature effects", "pH effects"],
+                correct: 1,
+                explanation: "The Michaelis-Menten equation relates reaction velocity to substrate concentration."
+            },
+            {
+                question: "The Lineweaver-Burk plot is:",
+                options: ["Linear transformation of Michaelis-Menten", "Exponential plot", "Circular plot", "Random plot"],
+                correct: 0,
+                explanation: "The Lineweaver-Burk plot is a double reciprocal linear plot used to determine Km and Vmax."
+            },
+            {
+                question: "Enzyme cooperativity refers to:",
+                options: ["Independent binding", "Binding of one substrate affects others", "No binding", "Random binding"],
+                correct: 1,
+                explanation: "Cooperativity occurs when binding of one substrate molecule affects binding of additional substrates."
+            },
+            {
+                question: "Positive cooperativity results in:",
+                options: ["Hyperbolic curves", "Sigmoidal (S-shaped) curves", "Linear plots", "No curves"],
+                correct: 1,
+                explanation: "Positive cooperativity produces sigmoidal curves rather than hyperbolic Michaelis-Menten curves."
+            },
+            {
+                question: "Hill coefficient (n) greater than 1 indicates:",
+                options: ["No cooperativity", "Positive cooperativity", "Negative cooperativity", "Enzyme inhibition"],
+                correct: 1,
+                explanation: "Hill coefficient > 1 indicates positive cooperativity among binding sites."
+            },
+            {
+                question: "Conformational changes in enzymes:",
+                options: ["Never occur", "Can affect activity", "Only occur when damaged", "Are always harmful"],
+                correct: 1,
+                explanation: "Conformational changes are often essential for enzyme function and regulation."
+            },
+            {
+                question: "Sequential mechanism in multi-substrate reactions means:",
+                options: ["Substrates bind randomly", "Substrates bind in specific order", "No substrate binding", "Only one substrate"],
+                correct: 1,
+                explanation: "In sequential mechanisms, substrates bind to enzyme in a specific, ordered sequence."
+            },
+            {
+                question: "Ping-pong mechanism involves:",
+                options: ["All substrates binding simultaneously", "Enzyme modification between substrate bindings", "No products", "Reversible reactions only"],
+                correct: 1,
+                explanation: "In ping-pong mechanisms, the enzyme is temporarily modified between binding different substrates."
+            },
+            {
+                question: "Product inhibition occurs when:",
+                options: ["Products activate enzyme", "Products inhibit the enzyme", "No products form", "Substrate concentration increases"],
+                correct: 1,
+                explanation: "Product inhibition occurs when reaction products bind to enzyme and reduce its activity."
+            },
+            {
+                question: "The commitment to catalysis occurs:",
+                options: ["Before substrate binding", "After ES complex formation", "After product release", "Never"],
+                correct: 1,
+                explanation: "Commitment to catalysis occurs after ES complex formation when the reaction pathway is determined."
+            },
+            {
+                question: "Enzyme flexibility is important for:",
+                options: ["Structural stability only", "Substrate binding and catalysis", "Enzyme storage", "Enzyme transport"],
+                correct: 1,
+                explanation: "Enzyme flexibility allows conformational changes essential for substrate binding and catalysis."
+            },
+            {
+                question: "The proximity effect in enzyme catalysis refers to:",
+                options: ["Bringing reactants close together", "Keeping reactants apart", "Temperature effects", "pH effects"],
+                correct: 0,
+                explanation: "The proximity effect describes how enzymes bring reactants into close proximity for reaction."
+            },
+
+            // FACTORS AFFECTING ENZYME ACTIVITY (Questions 51-75)
+            {
+                question: "Enzyme activity is affected by:",
+                options: ["Temperature", "pH", "Substrate concentration", "All of the above"],
+                correct: 3,
+                explanation: "Enzyme activity depends on temperature, pH, substrate concentration, and other factors."
+            },
+            {
+                question: "Increasing temperature generally:",
+                options: ["Decreases enzyme activity", "Increases enzyme activity up to optimal temperature", "Has no effect", "Destroys all enzymes immediately"],
+                correct: 1,
+                explanation: "Higher temperature increases molecular motion and reaction rates until denaturation occurs."
+            },
+            {
+                question: "At very high temperatures, enzymes:",
+                options: ["Become more active", "Denature and lose activity", "Multiply", "Change substrate specificity"],
+                correct: 1,
+                explanation: "Excessive heat causes protein denaturation, destroying enzyme structure and activity."
+            },
+            {
+                question: "The optimal temperature for human enzymes is typically:",
+                options: ["0°C", "25°C", "37°C", "100°C"],
+                correct: 2,
+                explanation: "Human enzymes have evolved to work optimally at body temperature (37°C)."
+            },
+            {
+                question: "Q10 value represents:",
+                options: ["Temperature coefficient", "pH optimum", "Substrate concentration", "Enzyme concentration"],
+                correct: 0,
+                explanation: "Q10 describes how reaction rate changes with a 10°C temperature increase."
+            },
+            {
+                question: "Extreme pH values affect enzymes by:",
+                options: ["Increasing activity", "Altering protein structure", "Having no effect", "Increasing specificity"],
+                correct: 1,
+                explanation: "Extreme pH changes protein ionization and structure, affecting enzyme function."
+            },
+            {
+                question: "Pepsin works optimally at:",
+                options: ["Neutral pH", "Basic pH", "Acidic pH", "Any pH"],
+                correct: 2,
+                explanation: "Pepsin, a stomach enzyme, functions optimally in the acidic environment (pH ~1.5-2)."
+            },
+            {
+                question: "Trypsin works optimally at:",
+                options: ["Acidic pH", "Basic pH", "Neutral pH", "Varies randomly"],
+                correct: 1,
+                explanation: "Trypsin, a pancreatic enzyme, works optimally in the basic environment of the small intestine."
+            },
+            {
+                question: "Buffer systems in cells help maintain:",
+                options: ["Temperature", "Pressure", "pH", "Substrate concentration"],
+                correct: 2,
+                explanation: "Cellular buffers maintain pH within narrow ranges optimal for enzyme function."
+            },
+            {
+                question: "Increasing substrate concentration initially:",
+                options: ["Decreases reaction rate", "Increases reaction rate", "Has no effect", "Denatures enzyme"],
+                correct: 1,
+                explanation: "Higher substrate concentration increases the probability of enzyme-substrate collisions."
+            },
+            {
+                question: "At very high substrate concentrations:",
+                options: ["Rate continues increasing", "Rate reaches plateau (Vmax)", "Rate decreases", "Enzyme denatures"],
+                correct: 1,
+                explanation: "At high substrate concentrations, all enzyme active sites are saturated, reaching Vmax."
+            },
+            {
+                question: "Enzyme concentration affects reaction rate:",
+                options: ["Not at all", "Proportionally when substrate is excess", "Only at high temperatures", "Only at low pH"],
+                correct: 1,
+                explanation: "When substrate is in excess, reaction rate is proportional to enzyme concentration."
+            },
+            {
+                question: "Salt concentration can affect enzymes by:",
+                options: ["Changing ionic strength", "Affecting protein structure", "Influencing electrostatic interactions", "All of the above"],
+                correct: 3,
+                explanation: "Salt concentration affects enzyme structure and function through multiple ionic mechanisms."
+            },
+            {
+                question: "Water activity affects enzyme function because:",
+                options: ["Enzymes need water for structure", "Many reactions require water", "Hydrophobic interactions depend on water", "All of the above"],
+                correct: 3,
+                explanation: "Water is crucial for enzyme structure, many reactions, and maintaining protein conformation."
+            },
+            {
+                question: "Pressure effects on enzymes include:",
+                options: ["No effects", "Only positive effects", "Structural changes and activity changes", "Only denaturation"],
+                correct: 2,
+                explanation: "Pressure can cause conformational changes affecting enzyme structure and activity."
+            },
+            {
+                question: "Enzyme stability refers to:",
+                options: ["Resistance to denaturation", "Activity over time", "Resistance to proteolysis", "All of the above"],
+                correct: 3,
+                explanation: "Enzyme stability encompasses resistance to various denaturing conditions and degradation."
+            },
+            {
+                question: "Thermal stability varies among enzymes because of:",
+                options: ["Different amino acid compositions", "Different structural features", "Different environments they evolved in", "All of the above"],
+                correct: 3,
+                explanation: "Thermal stability depends on sequence, structure, and evolutionary adaptations."
+            },
+            {
+                question: "Extremophile enzymes are stable at:",
+                options: ["Only normal conditions", "Extreme temperatures or pH", "Only cold temperatures", "Only neutral pH"],
+                correct: 1,
+                explanation: "Extremophile enzymes have evolved to function under extreme environmental conditions."
+            },
+            {
+                question: "Enzyme half-life refers to:",
+                options: ["Time to reach half activity", "Time to complete reaction", "Substrate concentration", "Temperature"],
+                correct: 0,
+                explanation: "Enzyme half-life is the time required for enzyme activity to decrease to half its initial value."
+            },
+            {
+                question: "Denaturation is often:",
+                options: ["Always reversible", "Always irreversible", "Sometimes reversible", "Never occurs"],
+                correct: 2,
+                explanation: "Denaturation can be reversible or irreversible depending on the conditions and extent of unfolding."
+            },
+            {
+                question: "Enzyme storage requires:",
+                options: ["Any conditions", "Optimal temperature and pH", "High temperature", "Low pH"],
+                correct: 1,
+                explanation: "Proper enzyme storage requires conditions that maintain stability and prevent denaturation."
+            },
+            {
+                question: "Freeze-thaw cycles affect enzymes by:",
+                options: ["Improving activity", "Potentially causing damage", "Having no effect", "Always improving stability"],
+                correct: 1,
+                explanation: "Freeze-thaw cycles can damage enzyme structure through ice crystal formation and osmotic stress."
+            },
+            {
+                question: "Organic solvents generally:",
+                options: ["Improve enzyme activity", "Denature enzymes", "Have no effect", "Only help enzymes"],
+                correct: 1,
+                explanation: "Most organic solvents disrupt enzyme structure and eliminate activity."
+            },
+            {
+                question: "Heavy metals often:",
+                options: ["Activate enzymes", "Inhibit enzymes", "Have no effect", "Only help metalloenzymes"],
+                correct: 1,
+                explanation: "Heavy metals often bind to enzyme sulfhydryl groups and other sites, causing inhibition."
+            },
+            {
+                question: "Radiation affects enzymes by:",
+                options: ["Always improving function", "Potentially damaging structure", "Having no effect", "Only affecting cofactors"],
+                correct: 1,
+                explanation: "Radiation can break bonds and cause structural damage leading to enzyme inactivation."
+            },
+
+            // ENZYME INHIBITION (Questions 76-100)
+            {
+                question: "Competitive inhibition occurs when:",
+                options: ["Inhibitor binds to active site", "Inhibitor binds to allosteric site", "Substrate concentration is low", "Temperature is too high"],
+                correct: 0,
+                explanation: "Competitive inhibitors compete with substrate for binding to the enzyme's active site."
+            },
+            {
+                question: "In competitive inhibition:",
+                options: ["Vmax decreases", "Km increases", "Both Vmax and Km change", "Nothing changes"],
+                correct: 1,
+                explanation: "Competitive inhibition increases apparent Km but doesn't change Vmax."
+            },
+            {
+                question: "Competitive inhibition can be overcome by:",
+                options: ["Decreasing substrate concentration", "Increasing substrate concentration", "Changing temperature", "Changing enzyme"],
+                correct: 1,
+                explanation: "High substrate concentrations can overcome competitive inhibition by outcompeting inhibitor."
+            },
+            {
+                question: "Non-competitive inhibition involves:",
+                options: ["Inhibitor binding to active site", "Inhibitor binding to allosteric site", "No inhibitor binding", "Substrate modification"],
+                correct: 1,
+                explanation: "Non-competitive inhibitors bind to sites other than the active site (allosteric sites)."
+            },
+            {
+                question: "In non-competitive inhibition:",
+                options: ["Vmax decreases", "Km increases", "Both Vmax and Km increase", "Only Km decreases"],
+                correct: 0,
+                explanation: "Non-competitive inhibition decreases Vmax but doesn't change Km."
+            },
+            {
+                question: "Uncompetitive inhibition occurs when inhibitor binds to:",
+                options: ["Free enzyme only", "ES complex only", "Either free enzyme or ES complex", "Neither"],
+                correct: 1,
+                explanation: "Uncompetitive inhibitors bind only to the enzyme-substrate complex."
+            },
+            {
+                question: "In uncompetitive inhibition:",
+                options: ["Both Vmax and Km decrease", "Only Vmax decreases", "Only Km decreases", "Both increase"],
+                correct: 0,
+                explanation: "Uncompetitive inhibition decreases both Vmax and apparent Km proportionally."
+            },
+            {
+                question: "Reversible inhibition is characterized by:",
+                options: ["Permanent enzyme inactivation", "Temporary enzyme inactivation", "Enzyme destruction", "No effect on enzyme"],
+                correct: 1,
+                explanation: "Reversible inhibitors can dissociate from enzymes, allowing activity to return."
+            },
+            {
+                question: "Irreversible inhibition involves:",
+                options: ["Weak binding", "Covalent bond formation", "Easy reversal", "No chemical changes"],
+                correct: 1,
+                explanation: "Irreversible inhibitors form covalent bonds with enzymes, permanently inactivating them."
+            },
+            {
+                question: "Suicide inhibition occurs when:",
+                options: ["Enzyme destroys itself", "Inhibitor is converted to reactive form by enzyme", "Substrate kills enzyme", "Random inactivation"],
+                correct: 1,
+                explanation: "Suicide inhibitors are converted by the target enzyme into highly reactive species that inactivate it."
+            },
+            {
+                question: "Allosteric inhibition involves:",
+                options: ["Active site binding", "Regulatory site binding", "Substrate modification", "Product formation"],
+                correct: 1,
+                explanation: "Allosteric inhibitors bind to regulatory sites distinct from the active site."
+            },
+            {
+                question: "Negative allosteric effectors:",
+                options: ["Increase enzyme activity", "Decrease enzyme activity", "Have no effect", "Change substrate specificity"],
+                correct: 1,
+                explanation: "Negative allosteric effectors decrease enzyme activity by inducing conformational changes."
+            },
+            {
+                question: "Feedback inhibition occurs when:",
+                options: ["Product inhibits its own synthesis", "Substrate inhibits the enzyme", "Temperature is too low", "pH is wrong"],
+                correct: 0,
+                explanation: "Feedback inhibition is when the end product of a pathway inhibits an enzyme in that pathway."
+            },
+            {
+                question: "The inhibition constant (Ki) represents:",
+                options: ["Substrate affinity", "Inhibitor binding affinity", "Product concentration", "Enzyme concentration"],
+                correct: 1,
+                explanation: "Ki is the dissociation constant for inhibitor binding - lower Ki means stronger inhibition."
+            },
+            {
+                question: "Aspirin works by:",
+                options: ["Competitive inhibition", "Irreversible inhibition of cyclooxygenase", "Allosteric activation", "No inhibition"],
+                correct: 1,
+                explanation: "Aspirin irreversibly acetylates cyclooxygenase, blocking prostaglandin synthesis."
+            },
+            {
+                question: "Enzyme induction refers to:",
+                options: ["Decreasing enzyme amount", "Increasing enzyme amount", "Changing enzyme structure", "Inhibiting enzyme activity"],
+                correct: 1,
+                explanation: "Enzyme induction is the increase in enzyme synthesis in response to specific signals."
+            },
+            {
+                question: "Enzyme repression involves:",
+                options: ["Increasing enzyme synthesis", "Decreasing enzyme synthesis", "Changing enzyme activity", "Enzyme activation"],
+                correct: 1,
+                explanation: "Enzyme repression is the decrease in enzyme synthesis, often by end products."
+            },
+            {
+                question: "Covalent modification of enzymes includes:",
+                options: ["Phosphorylation", "Methylation", "Acetylation", "All of the above"],
+                correct: 3,
+                explanation: "Enzymes can be regulated by various covalent modifications including phosphorylation, methylation, and acetylation."
+            },
+            {
+                question: "Phosphorylation typically:",
+                options: ["Always activates enzymes", "Always inhibits enzymes", "Can either activate or inhibit", "Has no effect"],
+                correct: 2,
+                explanation: "Phosphorylation can either activate or inhibit enzymes depending on the specific enzyme and site."
+            },
+            {
+                question: "Competitive inhibition on Lineweaver-Burk plot shows:",
+                options: ["Same y-intercept, different slopes", "Same slope, different y-intercepts", "Different slopes and intercepts", "No changes"],
+                correct: 0,
+                explanation: "Competitive inhibition changes the slope but not the y-intercept (1/Vmax) on Lineweaver-Burk plots."
+            },
+            {
+                question: "Multi-enzyme complexes offer advantages including:",
+                options: ["Substrate channeling", "Coordinated regulation", "Increased efficiency", "All of the above"],
+                correct: 3,
+                explanation: "Multi-enzyme complexes provide substrate channeling, coordinated regulation, and improved efficiency."
+            },
+            {
+                question: "Enzyme compartmentalization in cells:",
+                options: ["Has no purpose", "Allows specialized environments", "Prevents all reactions", "Only occurs randomly"],
+                correct: 1,
+                explanation: "Compartmentalization allows different cellular locations to maintain optimal conditions for specific enzymes."
+            },
+            {
+                question: "Isozymes are:",
+                options: ["Identical enzymes", "Different enzymes with same function", "Enzyme inhibitors", "Enzyme cofactors"],
+                correct: 1,
+                explanation: "Isozymes are different forms of enzymes that catalyze the same reaction but have different properties."
+            },
+            {
+                question: "Zymogen activation involves:",
+                options: ["Adding cofactors", "Removing inhibitory peptides", "Changing pH", "Adding substrates"],
+                correct: 1,
+                explanation: "Zymogens are inactive enzyme precursors activated by proteolytic removal of inhibitory sequences."
+            },
+            {
+                question: "Drug design often targets:",
+                options: ["Enzyme active sites", "Allosteric sites", "Cofactor binding sites", "All of the above"],
+                correct: 3,
+                explanation: "Drug design can target active sites, allosteric sites, or cofactor binding to modulate enzyme activity."
+            }
+        ],
         'Human Circulation': [
             {
                 question: "The largest artery in the human body is:",
