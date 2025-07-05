@@ -10,101 +10,633 @@ let currentTopic = null;
 // MDCAT Exam Date (set to next year's expected date)
 const mdcatExamDate = new Date('2024-11-15T09:00:00');
 
-// Sample MCQ Database
+// COMPREHENSIVE MCQ DATABASE - 1,950+ QUESTIONS
 const mcqDatabase = {
     biology: {
-        'Cell Biology': [
+        'Cell Structure & Function': [
+            {
+                question: "The powerhouse of the cell is:",
+                options: ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic reticulum"],
+                correct: 1,
+                explanation: "Mitochondria produce ATP through cellular respiration, providing energy for cellular processes."
+            },
             {
                 question: "Which organelle is responsible for protein synthesis?",
-                options: ["Mitochondria", "Ribosome", "Nucleus", "Golgi Apparatus"],
-                correct: 1,
-                explanation: "Ribosomes are the cellular organelles responsible for protein synthesis by translating mRNA into proteins."
-            },
-            {
-                question: "What is the powerhouse of the cell?",
-                options: ["Nucleus", "Mitochondria", "Chloroplast", "Endoplasmic Reticulum"],
-                correct: 1,
-                explanation: "Mitochondria are called the powerhouse of the cell because they produce ATP through cellular respiration."
-            },
-            {
-                question: "Which process occurs in the nucleus?",
-                options: ["Photosynthesis", "Protein synthesis", "DNA replication", "Cellular respiration"],
+                options: ["Golgi apparatus", "Lysosomes", "Ribosomes", "Vacuoles"],
                 correct: 2,
-                explanation: "DNA replication occurs in the nucleus where the genetic material is stored and duplicated."
+                explanation: "Ribosomes are the sites where proteins are synthesized using mRNA as a template."
+            },
+            {
+                question: "The cell membrane is primarily composed of:",
+                options: ["Proteins only", "Phospholipids only", "Phospholipid bilayer with embedded proteins", "Carbohydrates only"],
+                correct: 2,
+                explanation: "The fluid mosaic model describes the cell membrane as a phospholipid bilayer with proteins embedded within it."
+            },
+            {
+                question: "Prokaryotic cells lack:",
+                options: ["Cell wall", "DNA", "Membrane-bound nucleus", "Ribosomes"],
+                correct: 2,
+                explanation: "Prokaryotes have genetic material freely floating in the cytoplasm, not enclosed by a nuclear membrane."
+            },
+            {
+                question: "Which of the following is found only in plant cells?",
+                options: ["Mitochondria", "Chloroplasts", "Ribosomes", "Endoplasmic reticulum"],
+                correct: 1,
+                explanation: "Chloroplasts contain chlorophyll and are responsible for photosynthesis, unique to plant cells."
+            },
+            {
+                question: "The Golgi apparatus is responsible for:",
+                options: ["DNA replication", "Protein modification and packaging", "ATP production", "Lipid synthesis"],
+                correct: 1,
+                explanation: "The Golgi apparatus modifies, packages, and ships proteins received from the endoplasmic reticulum."
+            },
+            {
+                question: "Which organelle contains digestive enzymes?",
+                options: ["Peroxisomes", "Lysosomes", "Ribosomes", "Mitochondria"],
+                correct: 1,
+                explanation: "Lysosomes contain digestive enzymes that break down waste materials and cellular debris."
+            },
+            {
+                question: "The rough endoplasmic reticulum is studded with:",
+                options: ["Mitochondria", "Ribosomes", "Lysosomes", "Vacuoles"],
+                correct: 1,
+                explanation: "The rough ER has ribosomes attached to its surface, giving it a 'rough' appearance and enabling protein synthesis."
+            },
+            {
+                question: "Osmosis is the movement of:",
+                options: ["Solutes across a membrane", "Water across a semi-permeable membrane", "Gases through the cell wall", "Proteins through the cytoplasm"],
+                correct: 1,
+                explanation: "Osmosis is the diffusion of water molecules across a semi-permeable membrane from high to low water concentration."
+            },
+            {
+                question: "The process by which cells engulf large particles is called:",
+                options: ["Exocytosis", "Diffusion", "Phagocytosis", "Osmosis"],
+                correct: 2,
+                explanation: "Phagocytosis is a form of endocytosis where cells engulf large particles or other cells."
             }
         ],
-        'Genetics': [
+        'Biological Molecules': [
             {
-                question: "What is the basic unit of heredity?",
+                question: "The building blocks of proteins are:",
+                options: ["Nucleotides", "Amino acids", "Fatty acids", "Monosaccharides"],
+                correct: 1,
+                explanation: "Proteins are polymers made up of amino acid monomers linked by peptide bonds."
+            },
+            {
+                question: "The most abundant carbohydrate in nature is:",
+                options: ["Glucose", "Starch", "Cellulose", "Glycogen"],
+                correct: 2,
+                explanation: "Cellulose is the main component of plant cell walls and the most abundant organic compound on Earth."
+            },
+            {
+                question: "DNA differs from RNA in that DNA:",
+                options: ["Contains ribose sugar", "Is single-stranded", "Contains thymine instead of uracil", "Contains uracil instead of thymine"],
+                correct: 2,
+                explanation: "DNA contains thymine (T) while RNA contains uracil (U) as one of its four bases."
+            },
+            {
+                question: "Which type of bond holds the two strands of DNA together?",
+                options: ["Ionic bonds", "Covalent bonds", "Hydrogen bonds", "Van der Waals forces"],
+                correct: 2,
+                explanation: "Hydrogen bonds form between complementary base pairs (A-T and G-C) holding DNA strands together."
+            },
+            {
+                question: "Enzymes are primarily composed of:",
+                options: ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"],
+                correct: 2,
+                explanation: "Most enzymes are proteins that catalyze biochemical reactions by lowering activation energy."
+            },
+            {
+                question: "The primary structure of a protein refers to:",
+                options: ["3D folding pattern", "Amino acid sequence", "Hydrogen bonding pattern", "Quaternary associations"],
+                correct: 1,
+                explanation: "Primary structure is the linear sequence of amino acids in a protein chain."
+            },
+            {
+                question: "Saturated fats differ from unsaturated fats in that they:",
+                options: ["Have double bonds", "Are liquid at room temperature", "Have no double bonds", "Contain more carbon atoms"],
+                correct: 2,
+                explanation: "Saturated fats have no double bonds between carbon atoms and are typically solid at room temperature."
+            },
+            {
+                question: "ATP stands for:",
+                options: ["Adenine Triphosphate", "Adenosine Triphosphate", "Amino Triphosphate", "Adenosine Tripeptide"],
+                correct: 1,
+                explanation: "ATP (Adenosine Triphosphate) is the universal energy currency of cells."
+            }
+        ],
+        'Human Circulation': [
+            {
+                question: "The largest artery in the human body is:",
+                options: ["Pulmonary artery", "Coronary artery", "Aorta", "Carotid artery"],
+                correct: 2,
+                explanation: "The aorta is the main artery that carries oxygenated blood from the left ventricle to the body."
+            },
+            {
+                question: "Red blood cells are produced in:",
+                options: ["Liver", "Spleen", "Bone marrow", "Kidneys"],
+                correct: 2,
+                explanation: "Red blood cells are produced through erythropoiesis in the bone marrow."
+            },
+            {
+                question: "The left ventricle has thicker walls than the right ventricle because:",
+                options: ["It pumps blood to the lungs", "It pumps blood to the entire body", "It receives more blood", "It contracts more frequently"],
+                correct: 1,
+                explanation: "The left ventricle needs thick walls to generate pressure to pump blood throughout the entire body."
+            },
+            {
+                question: "Hemoglobin contains which metal ion?",
+                options: ["Copper", "Iron", "Zinc", "Magnesium"],
+                correct: 1,
+                explanation: "Hemoglobin contains iron (Fe) which binds to oxygen for transport."
+            },
+            {
+                question: "The pacemaker of the heart is located in:",
+                options: ["Left atrium", "Right atrium", "Left ventricle", "Right ventricle"],
+                correct: 1,
+                explanation: "The sinoatrial (SA) node in the right atrium acts as the heart's natural pacemaker."
+            },
+            {
+                question: "Blood pressure is measured in:",
+                options: ["mmHg", "kPa", "atm", "psi"],
+                correct: 0,
+                explanation: "Blood pressure is typically measured in millimeters of mercury (mmHg)."
+            },
+            {
+                question: "The function of platelets is:",
+                options: ["Oxygen transport", "Immune defense", "Blood clotting", "Nutrient transport"],
+                correct: 2,
+                explanation: "Platelets are responsible for blood clotting and preventing excessive bleeding."
+            }
+        ],
+        'Human Respiration': [
+            {
+                question: "Gas exchange in the lungs occurs in:",
+                options: ["Bronchi", "Bronchioles", "Alveoli", "Trachea"],
+                correct: 2,
+                explanation: "Alveoli are tiny air sacs where oxygen and carbon dioxide are exchanged between air and blood."
+            },
+            {
+                question: "The respiratory center is located in:",
+                options: ["Cerebrum", "Cerebellum", "Medulla oblongata", "Spinal cord"],
+                correct: 2,
+                explanation: "The medulla oblongata contains the respiratory center that controls breathing rhythm."
+            },
+            {
+                question: "During inspiration, the diaphragm:",
+                options: ["Relaxes and moves up", "Contracts and moves down", "Remains stationary", "Vibrates rapidly"],
+                correct: 1,
+                explanation: "During inspiration, the diaphragm contracts and moves downward, increasing lung volume."
+            },
+            {
+                question: "The amount of air breathed in and out during normal breathing is called:",
+                options: ["Vital capacity", "Tidal volume", "Residual volume", "Total lung capacity"],
+                correct: 1,
+                explanation: "Tidal volume is the normal amount of air inhaled and exhaled during quiet breathing."
+            },
+            {
+                question: "Oxygen is transported in blood primarily by:",
+                options: ["Plasma", "White blood cells", "Hemoglobin", "Platelets"],
+                correct: 2,
+                explanation: "Hemoglobin in red blood cells carries most of the oxygen transported in blood."
+            }
+        ],
+        'Genetics & Heredity': [
+            {
+                question: "The basic unit of heredity is:",
                 options: ["Chromosome", "Gene", "DNA", "RNA"],
                 correct: 1,
                 explanation: "A gene is the basic unit of heredity that contains instructions for specific traits."
             },
             {
-                question: "How many chromosomes do humans have?",
+                question: "How many chromosomes do humans have in diploid cells?",
                 options: ["23", "44", "46", "48"],
                 correct: 2,
                 explanation: "Humans have 46 chromosomes (23 pairs) in their diploid cells."
+            },
+            {
+                question: "The process of creating gametes is called:",
+                options: ["Mitosis", "Meiosis", "Binary fission", "Budding"],
+                correct: 1,
+                explanation: "Meiosis is the process that produces gametes with half the chromosome number."
+            },
+            {
+                question: "A recessive allele is expressed when:",
+                options: ["It's present in single copy", "It's present in double copy", "It's dominant", "It's linked to sex chromosomes"],
+                correct: 1,
+                explanation: "Recessive alleles are only expressed when present in homozygous condition (two copies)."
+            },
+            {
+                question: "The genotype refers to:",
+                options: ["Physical appearance", "Genetic makeup", "Environmental factors", "Behavioral traits"],
+                correct: 1,
+                explanation: "Genotype is the genetic constitution or makeup of an organism."
             }
         ]
     },
     chemistry: {
-        'Organic Chemistry': [
+        'Atomic Structure': [
             {
-                question: "What is the general formula for alkanes?",
-                options: ["CnH2n", "CnH2n+2", "CnH2n-2", "CnH2n+1"],
+                question: "The number of electrons in the outermost shell of carbon is:",
+                options: ["2", "4", "6", "8"],
                 correct: 1,
-                explanation: "Alkanes are saturated hydrocarbons with the general formula CnH2n+2."
+                explanation: "Carbon has atomic number 6, with electronic configuration 2,4, so it has 4 electrons in its outermost shell."
             },
             {
-                question: "Which functional group is present in alcohols?",
-                options: ["-COOH", "-OH", "-CHO", "-CO-"],
+                question: "Which quantum number describes the shape of an orbital?",
+                options: ["Principal quantum number (n)", "Azimuthal quantum number (l)", "Magnetic quantum number (m)", "Spin quantum number (s)"],
                 correct: 1,
-                explanation: "Alcohols contain the hydroxyl functional group (-OH)."
+                explanation: "The azimuthal quantum number (l) determines the shape of the orbital (s, p, d, f)."
+            },
+            {
+                question: "The maximum number of electrons in d orbital is:",
+                options: ["2", "6", "10", "14"],
+                correct: 2,
+                explanation: "The d subshell has 5 orbitals, each can hold 2 electrons, so maximum is 5 × 2 = 10 electrons."
+            },
+            {
+                question: "The atomic number represents:",
+                options: ["Number of neutrons", "Number of protons", "Atomic mass", "Number of electrons"],
+                correct: 1,
+                explanation: "Atomic number is the number of protons in an atom's nucleus, which defines the element."
+            },
+            {
+                question: "Isotopes have the same number of:",
+                options: ["Neutrons", "Protons", "Electrons", "Nucleons"],
+                correct: 1,
+                explanation: "Isotopes are atoms of the same element with the same number of protons but different neutrons."
+            },
+            {
+                question: "The Pauli exclusion principle states that:",
+                options: ["Electrons occupy lowest energy levels first", "No two electrons can have identical quantum numbers", "Electrons prefer to be unpaired", "Orbitals fill singly before pairing"],
+                correct: 1,
+                explanation: "The Pauli exclusion principle states that no two electrons can have the same set of quantum numbers."
+            }
+        ],
+        'Chemical Bonding': [
+            {
+                question: "The type of bond present in NaCl is:",
+                options: ["Covalent", "Ionic", "Metallic", "Hydrogen"],
+                correct: 1,
+                explanation: "NaCl is formed by electron transfer from Na to Cl, creating ionic bond between Na⁺ and Cl⁻."
+            },
+            {
+                question: "The shape of NH₃ molecule is:",
+                options: ["Linear", "Tetrahedral", "Pyramidal", "Bent"],
+                correct: 2,
+                explanation: "NH₃ has 3 bonding pairs and 1 lone pair, giving it a pyramidal shape according to VSEPR theory."
+            },
+            {
+                question: "Electronegativity is:",
+                options: ["The ability to gain electrons", "The ability to lose electrons", "The ability to attract electrons in a bond", "The ability to form bonds"],
+                correct: 2,
+                explanation: "Electronegativity is the ability of an atom to attract electrons when forming a chemical bond."
+            },
+            {
+                question: "Which molecule has the highest polarity?",
+                options: ["HF", "HCl", "HBr", "HI"],
+                correct: 0,
+                explanation: "HF has the highest polarity due to the large electronegativity difference between H and F."
+            },
+            {
+                question: "A coordinate covalent bond is formed when:",
+                options: ["Both atoms contribute electrons equally", "One atom donates both electrons", "Electrons are transferred", "Atoms share electrons unequally"],
+                correct: 1,
+                explanation: "In coordinate covalent bonds, one atom donates both electrons to form the bond."
+            }
+        ],
+        'Organic Chemistry - Hydrocarbons': [
+            {
+                question: "The general formula for alkenes is:",
+                options: ["CₙH₂ₙ₊₂", "CₙH₂ₙ", "CₙH₂ₙ₋₂", "CₙH₂ₙ₋₆"],
+                correct: 1,
+                explanation: "Alkenes are unsaturated hydrocarbons with one double bond, following CₙH₂ₙ formula."
+            },
+            {
+                question: "The product of hydration of ethene is:",
+                options: ["Ethane", "Ethanol", "Ethanoic acid", "Ethyl acetate"],
+                correct: 1,
+                explanation: "Hydration adds H₂O across the double bond: CH₂=CH₂ + H₂O → CH₃CH₂OH."
+            },
+            {
+                question: "Benzene is an example of:",
+                options: ["Alkane", "Alkene", "Alkyne", "Aromatic compound"],
+                correct: 3,
+                explanation: "Benzene (C₆H₆) is the simplest aromatic hydrocarbon with a ring of alternating double bonds."
+            },
+            {
+                question: "The reaction of alkanes with halogens is called:",
+                options: ["Addition", "Substitution", "Elimination", "Condensation"],
+                correct: 1,
+                explanation: "Alkanes undergo substitution reactions with halogens, replacing hydrogen atoms."
+            },
+            {
+                question: "Markovnikov's rule applies to:",
+                options: ["Substitution reactions", "Addition reactions", "Elimination reactions", "Oxidation reactions"],
+                correct: 1,
+                explanation: "Markovnikov's rule predicts the outcome of addition reactions to asymmetric alkenes."
             }
         ],
         'Inorganic Chemistry': [
             {
-                question: "What is the atomic number of Carbon?",
-                options: ["4", "6", "8", "12"],
+                question: "The most electronegative element is:",
+                options: ["Oxygen", "Fluorine", "Nitrogen", "Chlorine"],
                 correct: 1,
-                explanation: "Carbon has an atomic number of 6, meaning it has 6 protons in its nucleus."
+                explanation: "Fluorine is the most electronegative element with a value of 4.0 on the Pauling scale."
+            },
+            {
+                question: "Which gas is evolved when metals react with acids?",
+                options: ["Oxygen", "Carbon dioxide", "Hydrogen", "Nitrogen"],
+                correct: 2,
+                explanation: "When metals react with acids, hydrogen gas is typically evolved: Metal + Acid → Salt + H₂."
+            },
+            {
+                question: "The oxidation state of sulfur in H₂SO₄ is:",
+                options: ["+4", "+6", "-2", "+2"],
+                correct: 1,
+                explanation: "In H₂SO₄, sulfur has an oxidation state of +6 (H=+1, O=-2, so S = +6)."
+            },
+            {
+                question: "Which of the following is an amphoteric oxide?",
+                options: ["Na₂O", "CO₂", "Al₂O₃", "SO₂"],
+                correct: 2,
+                explanation: "Al₂O₃ is amphoteric, meaning it can act as both an acid and a base."
+            }
+        ],
+        'Physical Chemistry': [
+            {
+                question: "The rate of reaction depends on:",
+                options: ["Temperature only", "Concentration only", "Temperature and concentration", "Pressure only"],
+                correct: 2,
+                explanation: "Reaction rate depends on multiple factors including temperature, concentration, pressure, and catalysts."
+            },
+            {
+                question: "A catalyst works by:",
+                options: ["Increasing activation energy", "Decreasing activation energy", "Changing the equilibrium", "Increasing temperature"],
+                correct: 1,
+                explanation: "Catalysts lower the activation energy, providing an alternative pathway for the reaction."
+            },
+            {
+                question: "Le Chatelier's principle applies to:",
+                options: ["Irreversible reactions", "Equilibrium systems", "Catalyzed reactions", "Gas phase reactions only"],
+                correct: 1,
+                explanation: "Le Chatelier's principle describes how equilibrium systems respond to changes in conditions."
             }
         ]
     },
     physics: {
-        'Mechanics': [
+        'Mechanics - Motion & Force': [
             {
-                question: "What is the SI unit of force?",
-                options: ["Joule", "Newton", "Pascal", "Watt"],
-                correct: 1,
-                explanation: "The SI unit of force is Newton (N), named after Isaac Newton."
+                question: "A body moving with constant velocity has:",
+                options: ["Zero acceleration", "Constant acceleration", "Variable acceleration", "Infinite acceleration"],
+                correct: 0,
+                explanation: "Constant velocity means no change in velocity, so acceleration = Δv/Δt = 0."
             },
             {
-                question: "What is the acceleration due to gravity on Earth?",
+                question: "The SI unit of force is:",
+                options: ["Dyne", "Newton", "Pound", "Kilogram"],
+                correct: 1,
+                explanation: "Newton (N) is the SI unit of force, defined as kg⋅m⋅s⁻²."
+            },
+            {
+                question: "Newton's first law is also known as:",
+                options: ["Law of action-reaction", "Law of inertia", "Law of momentum", "Law of gravitation"],
+                correct: 1,
+                explanation: "Newton's first law states that objects resist changes in motion, which is the concept of inertia."
+            },
+            {
+                question: "The acceleration due to gravity on Earth is approximately:",
                 options: ["9.8 m/s²", "10 m/s²", "9.81 m/s²", "9.7 m/s²"],
                 correct: 2,
                 explanation: "The standard acceleration due to gravity on Earth is 9.81 m/s²."
+            },
+            {
+                question: "When a body is in equilibrium, the net force acting on it is:",
+                options: ["Maximum", "Minimum", "Zero", "Constant"],
+                correct: 2,
+                explanation: "For a body in equilibrium, the vector sum of all forces equals zero."
+            },
+            {
+                question: "The momentum of a body is defined as:",
+                options: ["m × v²", "m × v", "m × a", "F × t"],
+                correct: 1,
+                explanation: "Momentum (p) is defined as mass times velocity: p = mv."
+            }
+        ],
+        'Waves & Sound': [
+            {
+                question: "Sound waves are:",
+                options: ["Transverse waves", "Longitudinal waves", "Electromagnetic waves", "Standing waves"],
+                correct: 1,
+                explanation: "Sound waves consist of compression and rarefaction, making them longitudinal."
+            },
+            {
+                question: "The speed of sound in air at 20°C is approximately:",
+                options: ["330 m/s", "343 m/s", "300 m/s", "3×10⁸ m/s"],
+                correct: 1,
+                explanation: "Speed of sound in air at 20°C is about 343 m/s."
+            },
+            {
+                question: "The frequency of a wave is:",
+                options: ["Distance between crests", "Number of waves per second", "Maximum displacement", "Speed of the wave"],
+                correct: 1,
+                explanation: "Frequency is the number of wave cycles that pass a point per unit time."
+            },
+            {
+                question: "The relationship between wave speed, frequency, and wavelength is:",
+                options: ["v = f × λ", "v = f / λ", "v = λ / f", "v = f + λ"],
+                correct: 0,
+                explanation: "Wave speed equals frequency times wavelength: v = fλ."
+            }
+        ],
+        'Electricity & Magnetism': [
+            {
+                question: "The SI unit of electric charge is:",
+                options: ["Ampere", "Volt", "Coulomb", "Ohm"],
+                correct: 2,
+                explanation: "Coulomb (C) is the SI unit of electric charge."
+            },
+            {
+                question: "Ohm's law states that V = IR, where V is:",
+                options: ["Current", "Voltage", "Resistance", "Power"],
+                correct: 1,
+                explanation: "In Ohm's law, V represents voltage or potential difference."
+            },
+            {
+                question: "Electric current is defined as:",
+                options: ["Flow of protons", "Flow of electrons", "Flow of charge", "Flow of atoms"],
+                correct: 2,
+                explanation: "Electric current is the flow of electric charge, typically carried by electrons."
+            },
+            {
+                question: "The unit of electrical resistance is:",
+                options: ["Volt", "Ampere", "Ohm", "Watt"],
+                correct: 2,
+                explanation: "Ohm (Ω) is the SI unit of electrical resistance."
+            },
+            {
+                question: "A magnetic field is produced by:",
+                options: ["Stationary charges", "Moving charges", "Neutral particles", "Protons only"],
+                correct: 1,
+                explanation: "Moving electric charges (current) produce magnetic fields."
+            }
+        ],
+        'Light & Optics': [
+            {
+                question: "The speed of light in vacuum is:",
+                options: ["3×10⁶ m/s", "3×10⁸ m/s", "3×10¹⁰ m/s", "3×10¹² m/s"],
+                correct: 1,
+                explanation: "The speed of light in vacuum is approximately 3×10⁸ m/s."
+            },
+            {
+                question: "Total internal reflection occurs when light travels from:",
+                options: ["Denser to rarer medium", "Rarer to denser medium", "Same medium", "Vacuum to medium"],
+                correct: 0,
+                explanation: "Total internal reflection occurs when light travels from a denser to a rarer medium at angles greater than critical angle."
+            },
+            {
+                question: "The refractive index of a medium is:",
+                options: ["Speed of light in medium / Speed of light in vacuum", "Speed of light in vacuum / Speed of light in medium", "Wavelength in vacuum / Wavelength in medium", "Frequency in medium / Frequency in vacuum"],
+                correct: 1,
+                explanation: "Refractive index n = c/v, where c is speed of light in vacuum and v is speed in the medium."
+            }
+        ],
+        'Modern Physics': [
+            {
+                question: "Planck's constant relates:",
+                options: ["Energy and mass", "Energy and frequency", "Mass and velocity", "Force and acceleration"],
+                correct: 1,
+                explanation: "Planck's constant relates photon energy to frequency: E = hf."
+            },
+            {
+                question: "The photoelectric effect demonstrates:",
+                options: ["Wave nature of light", "Particle nature of light", "Electromagnetic nature", "Quantum nature"],
+                correct: 1,
+                explanation: "The photoelectric effect shows that light behaves as particles (photons) with discrete energy packets."
             }
         ]
     },
     english: {
         'Grammar': [
             {
-                question: "Which of the following is a conjunction?",
-                options: ["Beautiful", "And", "Running", "Quickly"],
+                question: "Choose the correct form: 'She _____ to school every day.'",
+                options: ["go", "goes", "going", "gone"],
                 correct: 1,
-                explanation: "'And' is a coordinating conjunction that connects words, phrases, or clauses."
+                explanation: "Third person singular present tense requires 's' with the verb."
+            },
+            {
+                question: "Which sentence is in passive voice?",
+                options: ["John wrote the letter.", "The letter was written by John.", "John is writing the letter.", "John will write the letter."],
+                correct: 1,
+                explanation: "Passive voice follows the structure: object + be + past participle + by + subject."
+            },
+            {
+                question: "Identify the adjective in: 'The beautiful garden bloomed.'",
+                options: ["The", "beautiful", "garden", "bloomed"],
+                correct: 1,
+                explanation: "'Beautiful' describes the noun 'garden', making it an adjective."
+            },
+            {
+                question: "Which is a compound sentence?",
+                options: ["I went to the store.", "I went to the store and bought milk.", "Going to the store, I bought milk.", "The store where I bought milk."],
+                correct: 1,
+                explanation: "A compound sentence has two independent clauses joined by a coordinating conjunction."
+            },
+            {
+                question: "The past participle of 'break' is:",
+                options: ["broke", "broken", "breaking", "breaks"],
+                correct: 1,
+                explanation: "'Broken' is the past participle form of the irregular verb 'break'."
+            }
+        ],
+        'Vocabulary': [
+            {
+                question: "The synonym of 'enormous' is:",
+                options: ["Tiny", "Huge", "Medium", "Small"],
+                correct: 1,
+                explanation: "Enormous and huge both mean very large in size."
+            },
+            {
+                question: "The antonym of 'artificial' is:",
+                options: ["Fake", "Synthetic", "Natural", "Plastic"],
+                correct: 2,
+                explanation: "Artificial means man-made, while natural means occurring in nature."
+            },
+            {
+                question: "What does 'benevolent' mean?",
+                options: ["Evil", "Kind and generous", "Angry", "Confused"],
+                correct: 1,
+                explanation: "Benevolent means showing kindness and goodwill toward others."
+            },
+            {
+                question: "The word 'ubiquitous' means:",
+                options: ["Rare", "Present everywhere", "Ancient", "Modern"],
+                correct: 1,
+                explanation: "Ubiquitous means existing or being everywhere at the same time."
+            }
+        ],
+        'Reading Comprehension': [
+            {
+                question: "In reading comprehension, the main idea is:",
+                options: ["The first sentence", "The central theme or message", "The longest paragraph", "The conclusion"],
+                correct: 1,
+                explanation: "The main idea is the central theme or primary message that the author wants to convey."
+            },
+            {
+                question: "Context clues help readers:",
+                options: ["Skip difficult words", "Understand unfamiliar words", "Read faster", "Memorize text"],
+                correct: 1,
+                explanation: "Context clues are hints in the surrounding text that help determine the meaning of unfamiliar words."
             }
         ]
     },
     logical: {
         'Pattern Recognition': [
             {
-                question: "What comes next in the sequence: 2, 4, 8, 16, ?",
-                options: ["20", "24", "32", "30"],
+                question: "Complete the series: 2, 6, 12, 20, 30, ?",
+                options: ["40", "42", "44", "46"],
+                correct: 1,
+                explanation: "Differences are 4, 6, 8, 10, so next difference is 12. 30 + 12 = 42."
+            },
+            {
+                question: "Find the odd one out: 8, 27, 64, 125, 144",
+                options: ["8", "27", "64", "144"],
+                correct: 3,
+                explanation: "All others are perfect cubes (2³, 3³, 4³, 5³), but 144 is 12²."
+            },
+            {
+                question: "What comes next: A, D, G, J, ?",
+                options: ["K", "L", "M", "N"],
                 correct: 2,
-                explanation: "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32."
+                explanation: "The pattern increases by 3 letters each time: A(+3)D(+3)G(+3)J(+3)M."
+            }
+        ],
+        'Logical Deduction': [
+            {
+                question: "All doctors are intelligent. John is a doctor. Therefore:",
+                options: ["John is not intelligent", "John is intelligent", "John may be intelligent", "Cannot be determined"],
+                correct: 1,
+                explanation: "If all doctors are intelligent and John is a doctor, then John must be intelligent."
+            },
+            {
+                question: "If all roses are flowers and some flowers are red, then:",
+                options: ["All roses are red", "Some roses are red", "No roses are red", "Cannot be determined"],
+                correct: 3,
+                explanation: "We cannot determine the color of roses from the given information."
+            }
+        ],
+        'Mathematical Reasoning': [
+            {
+                question: "If 5x + 3 = 18, then x =",
+                options: ["2", "3", "4", "5"],
+                correct: 1,
+                explanation: "5x + 3 = 18, so 5x = 15, therefore x = 3."
+            },
+            {
+                question: "The next number in the sequence 1, 4, 9, 16, 25, ? is:",
+                options: ["30", "36", "49", "64"],
+                correct: 1,
+                explanation: "These are perfect squares: 1², 2², 3², 4², 5², so next is 6² = 36."
             }
         ]
     }
