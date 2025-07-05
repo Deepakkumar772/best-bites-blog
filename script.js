@@ -2458,6 +2458,13 @@ const mcqDatabase = {
             }
         ],
         'Human Circulation': [
+            // HEART STRUCTURE (Questions 1-25)
+            {
+                question: "The human heart has:",
+                options: ["2 chambers", "3 chambers", "4 chambers", "5 chambers"],
+                correct: 2,
+                explanation: "The human heart has 4 chambers: 2 atria (upper chambers) and 2 ventricles (lower chambers)."
+            },
             {
                 question: "The largest artery in the human body is:",
                 options: ["Pulmonary artery", "Coronary artery", "Aorta", "Carotid artery"],
@@ -2465,11 +2472,1818 @@ const mcqDatabase = {
                 explanation: "The aorta is the main artery that carries oxygenated blood from the left ventricle to the body."
             },
             {
-                question: "Red blood cells are produced in:",
-                options: ["Liver", "Spleen", "Bone marrow", "Kidneys"],
-                correct: 2,
-                explanation: "Red blood cells are produced through erythropoiesis in the bone marrow."
+                question: "The right atrium receives blood from:",
+                options: ["Lungs", "Body tissues", "Left ventricle", "Aorta"],
+                correct: 1,
+                explanation: "The right atrium receives deoxygenated blood from body tissues via the superior and inferior vena cava."
             },
+            {
+                question: "The left ventricle pumps blood to:",
+                options: ["Lungs", "Right atrium", "Entire body", "Left atrium"],
+                correct: 2,
+                explanation: "The left ventricle pumps oxygenated blood to the entire body through the aorta."
+            },
+            {
+                question: "The valve between the right atrium and right ventricle is:",
+                options: ["Bicuspid valve", "Tricuspid valve", "Aortic valve", "Pulmonary valve"],
+                correct: 1,
+                explanation: "The tricuspid valve has three cusps and controls blood flow from right atrium to right ventricle."
+            },
+            {
+                question: "The bicuspid valve is also called:",
+                options: ["Tricuspid valve", "Mitral valve", "Aortic valve", "Pulmonary valve"],
+                correct: 1,
+                explanation: "The bicuspid (mitral) valve has two cusps and controls flow from left atrium to left ventricle."
+            },
+            {
+                question: "The wall of the heart is called:",
+                options: ["Epicardium", "Myocardium", "Endocardium", "Pericardium"],
+                correct: 1,
+                explanation: "The myocardium is the thick middle layer of heart muscle responsible for contraction."
+            },
+            {
+                question: "The pericardium is:",
+                options: ["Heart muscle", "Heart lining", "Protective sac around heart", "Heart valve"],
+                correct: 2,
+                explanation: "The pericardium is a double-layered protective sac surrounding the heart."
+            },
+            {
+                question: "The left ventricle has thicker walls than the right ventricle because:",
+                options: ["It's larger", "It pumps blood to lungs only", "It pumps blood against higher pressure", "It beats faster"],
+                correct: 2,
+                explanation: "The left ventricle must generate higher pressure to pump blood throughout the entire body."
+            },
+            {
+                question: "The interventricular septum:",
+                options: ["Separates atria", "Separates ventricles", "Connects atria to ventricles", "Surrounds the heart"],
+                correct: 1,
+                explanation: "The interventricular septum is the muscular wall separating left and right ventricles."
+            },
+            {
+                question: "Chordae tendineae are:",
+                options: ["Heart muscles", "String-like structures supporting valves", "Blood vessels", "Nerve fibers"],
+                correct: 1,
+                explanation: "Chordae tendineae are fibrous cords that anchor heart valves to papillary muscles."
+            },
+            {
+                question: "Papillary muscles:",
+                options: ["Close heart valves", "Open heart valves", "Prevent valve prolapse", "Regulate heart rate"],
+                correct: 2,
+                explanation: "Papillary muscles contract to prevent AV valves from inverting during ventricular contraction."
+            },
+            {
+                question: "The heart receives its own blood supply from:",
+                options: ["Aorta directly", "Coronary arteries", "Pulmonary arteries", "Vena cava"],
+                correct: 1,
+                explanation: "Coronary arteries branch from the aorta to supply blood to the heart muscle."
+            },
+            {
+                question: "The right coronary artery typically supplies:",
+                options: ["Left ventricle", "Right ventricle and inferior left ventricle", "Only right atrium", "Entire heart"],
+                correct: 1,
+                explanation: "The right coronary artery supplies the right ventricle and inferior wall of left ventricle."
+            },
+            {
+                question: "The left anterior descending artery supplies:",
+                options: ["Right ventricle", "Anterior left ventricle", "Right atrium", "Posterior heart"],
+                correct: 1,
+                explanation: "The LAD supplies the anterior wall of the left ventricle and interventricular septum."
+            },
+            {
+                question: "Heart valves ensure:",
+                options: ["Blood flows in both directions", "Unidirectional blood flow", "Blood mixing", "Heart beating"],
+                correct: 1,
+                explanation: "Heart valves open and close to ensure blood flows in only one direction through the heart."
+            },
+            {
+                question: "Semilunar valves are located:",
+                options: ["Between atria and ventricles", "At exits of ventricles", "In atria only", "In veins"],
+                correct: 1,
+                explanation: "Semilunar valves (aortic and pulmonary) are at the exits of left and right ventricles."
+            },
+            {
+                question: "The heart's apex points:",
+                options: ["Upward", "Downward and to the left", "To the right", "Backward"],
+                correct: 1,
+                explanation: "The heart's apex points downward and to the left, formed mainly by the left ventricle."
+            },
+            {
+                question: "The atria function primarily to:",
+                options: ["Pump blood to body", "Receive blood", "Generate electrical impulses", "Produce hormones"],
+                correct: 1,
+                explanation: "Atria are receiving chambers that collect blood and pump it to ventricles."
+            },
+            {
+                question: "Ventricles are:",
+                options: ["Receiving chambers", "Pumping chambers", "Electrical centers", "Storage chambers"],
+                correct: 1,
+                explanation: "Ventricles are the main pumping chambers that send blood to lungs and body."
+            },
+            {
+                question: "The heart is located in the:",
+                options: ["Abdominal cavity", "Mediastinum", "Pleural cavity", "Pelvic cavity"],
+                correct: 1,
+                explanation: "The heart is located in the mediastinum, the central compartment of the thoracic cavity."
+            },
+            {
+                question: "Cardiac muscle is:",
+                options: ["Voluntary", "Involuntary", "Both voluntary and involuntary", "Neither"],
+                correct: 1,
+                explanation: "Cardiac muscle is involuntary, contracting automatically without conscious control."
+            },
+            {
+                question: "Intercalated discs in cardiac muscle:",
+                options: ["Separate cells completely", "Allow electrical communication", "Store calcium", "Produce ATP"],
+                correct: 1,
+                explanation: "Intercalated discs contain gap junctions allowing electrical signals to spread between cardiac cells."
+            },
+            {
+                question: "The heart's natural pacemaker is:",
+                options: ["AV node", "SA node", "Bundle of His", "Purkinje fibers"],
+                correct: 1,
+                explanation: "The sinoatrial (SA) node generates electrical impulses that initiate each heartbeat."
+            },
+            {
+                question: "Blood enters the left atrium from:",
+                options: ["Vena cava", "Pulmonary veins", "Aorta", "Coronary sinus"],
+                correct: 1,
+                explanation: "Oxygenated blood from the lungs enters the left atrium through pulmonary veins."
+            },
+
+            // CARDIAC CYCLE AND HEARTBEAT (Questions 26-50)
+            {
+                question: "The cardiac cycle includes:",
+                options: ["Only systole", "Only diastole", "Both systole and diastole", "Neither systole nor diastole"],
+                correct: 2,
+                explanation: "The cardiac cycle consists of systole (contraction) and diastole (relaxation) phases."
+            },
+            {
+                question: "Systole refers to:",
+                options: ["Heart relaxation", "Heart contraction", "Heart stopping", "Heart rate"],
+                correct: 1,
+                explanation: "Systole is the phase when heart muscle contracts to pump blood out of chambers."
+            },
+            {
+                question: "Diastole refers to:",
+                options: ["Heart contraction", "Heart relaxation", "Heart rate", "Heart size"],
+                correct: 1,
+                explanation: "Diastole is the relaxation phase when heart chambers fill with blood."
+            },
+            {
+                question: "During ventricular systole:",
+                options: ["Ventricles fill with blood", "Ventricles contract and empty", "Atria contract", "Heart stops"],
+                correct: 1,
+                explanation: "During ventricular systole, ventricles contract to pump blood to lungs and body."
+            },
+            {
+                question: "During ventricular diastole:",
+                options: ["Ventricles contract", "Ventricles relax and fill", "Atria empty", "Blood stops flowing"],
+                correct: 1,
+                explanation: "During ventricular diastole, ventricles relax and fill with blood from atria."
+            },
+            {
+                question: "The first heart sound (lub) is caused by:",
+                options: ["AV valve closure", "Semilunar valve closure", "Atrial contraction", "Blood flow"],
+                correct: 0,
+                explanation: "The 'lub' sound results from closure of AV valves (tricuspid and mitral) at start of systole."
+            },
+            {
+                question: "The second heart sound (dub) is caused by:",
+                options: ["AV valve closure", "Semilunar valve closure", "Ventricular filling", "Atrial emptying"],
+                correct: 1,
+                explanation: "The 'dub' sound results from closure of semilunar valves (aortic and pulmonary) at end of systole."
+            },
+            {
+                question: "Stroke volume is:",
+                options: ["Heart rate per minute", "Blood volume pumped per beat", "Total blood volume", "Blood pressure"],
+                correct: 1,
+                explanation: "Stroke volume is the amount of blood pumped by left ventricle with each heartbeat."
+            },
+            {
+                question: "Cardiac output equals:",
+                options: ["Heart rate only", "Stroke volume only", "Heart rate × stroke volume", "Blood pressure × heart rate"],
+                correct: 2,
+                explanation: "Cardiac output = heart rate × stroke volume, representing total blood pumped per minute."
+            },
+            {
+                question: "Normal resting heart rate is approximately:",
+                options: ["40-50 bpm", "60-100 bpm", "120-140 bpm", "150-200 bpm"],
+                correct: 1,
+                explanation: "Normal resting heart rate for adults is 60-100 beats per minute."
+            },
+            {
+                question: "The SA node normally fires at:",
+                options: ["40-60 bpm", "60-100 bpm", "100-120 bpm", "120-150 bpm"],
+                correct: 1,
+                explanation: "The SA node naturally generates impulses at 60-100 times per minute."
+            },
+            {
+                question: "If the SA node fails, the:",
+                options: ["Heart stops", "AV node takes over", "Ventricles stop", "Blood pressure drops to zero"],
+                correct: 1,
+                explanation: "If SA node fails, the AV node can serve as backup pacemaker at 40-60 bpm."
+            },
+            {
+                question: "The AV node delay allows:",
+                options: ["Ventricles to contract first", "Atria to empty before ventricular contraction", "Heart to stop", "Blood to reverse"],
+                correct: 1,
+                explanation: "AV node delay ensures atria finish emptying before ventricles begin contracting."
+            },
+            {
+                question: "The bundle of His conducts impulses:",
+                options: ["To atria", "Down interventricular septum", "To SA node", "Outside the heart"],
+                correct: 1,
+                explanation: "Bundle of His carries electrical impulses from AV node down the interventricular septum."
+            },
+            {
+                question: "Purkinje fibers:",
+                options: ["Generate impulses", "Conduct impulses throughout ventricles", "Block impulses", "Store impulses"],
+                correct: 1,
+                explanation: "Purkinje fibers distribute electrical impulses throughout ventricular muscle."
+            },
+            {
+                question: "An ECG measures:",
+                options: ["Blood flow", "Heart sounds", "Electrical activity", "Blood pressure"],
+                correct: 2,
+                explanation: "Electrocardiogram (ECG) records the electrical activity of the heart."
+            },
+            {
+                question: "The P wave on ECG represents:",
+                options: ["Ventricular contraction", "Atrial depolarization", "Ventricular relaxation", "Heart rate"],
+                correct: 1,
+                explanation: "The P wave shows atrial depolarization (electrical activation leading to contraction)."
+            },
+            {
+                question: "The QRS complex represents:",
+                options: ["Atrial contraction", "Ventricular depolarization", "Atrial relaxation", "Heart stopping"],
+                correct: 1,
+                explanation: "QRS complex shows ventricular depolarization (electrical activation of ventricles)."
+            },
+            {
+                question: "The T wave represents:",
+                options: ["Atrial depolarization", "Ventricular depolarization", "Ventricular repolarization", "Heart rate"],
+                correct: 2,
+                explanation: "T wave shows ventricular repolarization (electrical recovery of ventricles)."
+            },
+            {
+                question: "Bradycardia is:",
+                options: ["Fast heart rate", "Slow heart rate", "Irregular heart rate", "Normal heart rate"],
+                correct: 1,
+                explanation: "Bradycardia is a heart rate slower than 60 beats per minute."
+            },
+            {
+                question: "Tachycardia is:",
+                options: ["Slow heart rate", "Fast heart rate", "Irregular heart rate", "Normal heart rate"],
+                correct: 1,
+                explanation: "Tachycardia is a heart rate faster than 100 beats per minute."
+            },
+            {
+                question: "End-diastolic volume is:",
+                options: ["Blood in ventricle at end of filling", "Blood pumped per beat", "Total blood volume", "Blood in atria"],
+                correct: 0,
+                explanation: "End-diastolic volume is the amount of blood in ventricles at the end of filling (diastole)."
+            },
+            {
+                question: "End-systolic volume is:",
+                options: ["Blood remaining in ventricle after contraction", "Blood pumped per beat", "Maximum ventricular volume", "Atrial volume"],
+                correct: 0,
+                explanation: "End-systolic volume is blood remaining in ventricles after contraction (systole)."
+            },
+            {
+                question: "Ejection fraction is:",
+                options: ["Stroke volume / end-diastolic volume", "Heart rate × stroke volume", "End-systolic volume only", "Blood pressure measurement"],
+                correct: 0,
+                explanation: "Ejection fraction = (stroke volume / end-diastolic volume) × 100%, measuring pump efficiency."
+            },
+            {
+                question: "Normal ejection fraction is approximately:",
+                options: ["25-35%", "40-50%", "55-70%", "80-90%"],
+                correct: 2,
+                explanation: "Normal ejection fraction is 55-70%, indicating healthy heart pump function."
+            },
+
+            // BLOOD VESSELS (Questions 51-75)
+            {
+                question: "Arteries carry blood:",
+                options: ["Away from heart", "Toward heart", "Only to lungs", "Only to brain"],
+                correct: 0,
+                explanation: "Arteries carry blood away from the heart to various body parts."
+            },
+            {
+                question: "Veins carry blood:",
+                options: ["Away from heart", "Toward heart", "Only from lungs", "Only from brain"],
+                correct: 1,
+                explanation: "Veins carry blood back toward the heart from body tissues."
+            },
+            {
+                question: "Capillaries function to:",
+                options: ["Pump blood", "Exchange materials", "Store blood", "Filter blood"],
+                correct: 1,
+                explanation: "Capillaries are tiny vessels where exchange of gases, nutrients, and wastes occurs."
+            },
+            {
+                question: "Arteries have:",
+                options: ["Thin walls", "Thick muscular walls", "No walls", "Only elastic walls"],
+                correct: 1,
+                explanation: "Arteries have thick, muscular walls to withstand high pressure from heart pumping."
+            },
+            {
+                question: "Veins have:",
+                options: ["Thicker walls than arteries", "Thinner walls than arteries", "No smooth muscle", "Only connective tissue"],
+                correct: 1,
+                explanation: "Veins have thinner walls than arteries since they carry low-pressure blood."
+            },
+            {
+                question: "Veins contain:",
+                options: ["No valves", "One-way valves", "Two-way valves", "Only smooth muscle"],
+                correct: 1,
+                explanation: "Veins contain one-way valves to prevent backflow of blood."
+            },
+            {
+                question: "The pulmonary artery carries:",
+                options: ["Oxygenated blood", "Deoxygenated blood", "Mixed blood", "No blood"],
+                correct: 1,
+                explanation: "The pulmonary artery carries deoxygenated blood from right ventricle to lungs."
+            },
+            {
+                question: "Pulmonary veins carry:",
+                options: ["Deoxygenated blood", "Oxygenated blood", "Mixed blood", "Lymph"],
+                correct: 1,
+                explanation: "Pulmonary veins carry oxygenated blood from lungs to left atrium."
+            },
+            {
+                question: "The aorta has:",
+                options: ["2 main parts", "3 main parts", "4 main parts", "5 main parts"],
+                correct: 2,
+                explanation: "The aorta has 4 parts: ascending aorta, aortic arch, descending thoracic aorta, and abdominal aorta."
+            },
+            {
+                question: "The superior vena cava drains:",
+                options: ["Lower body", "Upper body", "Heart only", "Lungs only"],
+                correct: 1,
+                explanation: "Superior vena cava collects deoxygenated blood from head, neck, arms, and upper chest."
+            },
+            {
+                question: "The inferior vena cava drains:",
+                options: ["Upper body", "Lower body", "Heart only", "Lungs only"],
+                correct: 1,
+                explanation: "Inferior vena cava collects deoxygenated blood from abdomen, pelvis, and legs."
+            },
+            {
+                question: "Arterioles are:",
+                options: ["Large arteries", "Small arteries", "Large veins", "Small veins"],
+                correct: 1,
+                explanation: "Arterioles are small arteries that regulate blood flow to capillary beds."
+            },
+            {
+                question: "Venules are:",
+                options: ["Large arteries", "Small arteries", "Large veins", "Small veins"],
+                correct: 3,
+                explanation: "Venules are small veins that collect blood from capillaries."
+            },
+            {
+                question: "Blood pressure is highest in:",
+                options: ["Veins", "Capillaries", "Arteries", "Venules"],
+                correct: 2,
+                explanation: "Blood pressure is highest in arteries, especially near the heart."
+            },
+            {
+                question: "Blood pressure is lowest in:",
+                options: ["Arteries", "Arterioles", "Capillaries", "Veins"],
+                correct: 3,
+                explanation: "Blood pressure is lowest in veins, especially those returning to heart."
+            },
+            {
+                question: "Systolic pressure represents:",
+                options: ["Ventricular relaxation", "Ventricular contraction", "Atrial filling", "Heart rate"],
+                correct: 1,
+                explanation: "Systolic pressure is the maximum pressure during ventricular contraction."
+            },
+            {
+                question: "Diastolic pressure represents:",
+                options: ["Ventricular contraction", "Ventricular relaxation", "Atrial contraction", "Heart stopping"],
+                correct: 1,
+                explanation: "Diastolic pressure is the minimum pressure during ventricular relaxation."
+            },
+            {
+                question: "Normal blood pressure is approximately:",
+                options: ["90/60 mmHg", "120/80 mmHg", "140/90 mmHg", "160/100 mmHg"],
+                correct: 1,
+                explanation: "Normal blood pressure is around 120/80 mmHg (systolic/diastolic)."
+            },
+            {
+                question: "Hypertension is defined as:",
+                options: ["Low blood pressure", "High blood pressure", "Normal blood pressure", "Variable blood pressure"],
+                correct: 1,
+                explanation: "Hypertension is persistently elevated blood pressure above normal values."
+            },
+            {
+                question: "The carotid arteries supply:",
+                options: ["Arms", "Legs", "Head and neck", "Abdomen"],
+                correct: 2,
+                explanation: "Carotid arteries supply blood to the head and neck regions."
+            },
+            {
+                question: "The femoral artery supplies:",
+                options: ["Arms", "Legs", "Head", "Abdomen"],
+                correct: 1,
+                explanation: "Femoral arteries supply blood to the legs and lower extremities."
+            },
+            {
+                question: "Coronary circulation supplies:",
+                options: ["Lungs", "Brain", "Heart muscle", "Kidneys"],
+                correct: 2,
+                explanation: "Coronary circulation provides blood supply to the heart muscle itself."
+            },
+            {
+                question: "Portal circulation occurs in:",
+                options: ["Heart", "Lungs", "Liver", "Brain"],
+                correct: 2,
+                explanation: "Hepatic portal circulation carries blood from digestive organs to liver."
+            },
+            {
+                question: "Vasoconstriction:",
+                options: ["Increases vessel diameter", "Decreases vessel diameter", "Has no effect", "Stops blood flow"],
+                correct: 1,
+                explanation: "Vasoconstriction is the narrowing of blood vessels, increasing resistance."
+            },
+            {
+                question: "Vasodilation:",
+                options: ["Decreases vessel diameter", "Increases vessel diameter", "Has no effect", "Stops blood flow"],
+                correct: 1,
+                explanation: "Vasodilation is the widening of blood vessels, decreasing resistance."
+            },
+
+            // LYMPHATIC SYSTEM (Questions 76-100)
+            {
+                question: "The lymphatic system functions to:",
+                options: ["Pump blood", "Return fluid to circulation", "Produce red blood cells", "Store nutrients"],
+                correct: 1,
+                explanation: "The lymphatic system returns excess tissue fluid to the circulatory system."
+            },
+            {
+                question: "Lymph is:",
+                options: ["Red blood cells", "Excess tissue fluid", "Platelets", "Plasma proteins"],
+                correct: 1,
+                explanation: "Lymph is excess tissue fluid that has entered lymphatic vessels."
+            },
+            {
+                question: "Lymph nodes function to:",
+                options: ["Pump lymph", "Filter lymph", "Store lymph", "Produce lymph"],
+                correct: 1,
+                explanation: "Lymph nodes filter lymph and contain immune cells that fight infections."
+            },
+            {
+                question: "The largest lymphatic organ is:",
+                options: ["Thymus", "Spleen", "Liver", "Kidney"],
+                correct: 1,
+                explanation: "The spleen is the largest lymphatic organ, filtering blood and storing immune cells."
+            },
+            {
+                question: "The thymus is most active during:",
+                options: ["Old age", "Childhood", "Middle age", "It's always inactive"],
+                correct: 1,
+                explanation: "The thymus is most active during childhood, producing T lymphocytes."
+            },
+            {
+                question: "Lymphatic vessels have:",
+                options: ["No valves", "One-way valves", "Two-way valves", "Pumps"],
+                correct: 1,
+                explanation: "Lymphatic vessels contain one-way valves to prevent backflow of lymph."
+            },
+            {
+                question: "The thoracic duct drains lymph from:",
+                options: ["Right arm only", "Left side of body", "Most of the body", "Head only"],
+                correct: 2,
+                explanation: "The thoracic duct drains lymph from most of the body except the upper right quadrant."
+            },
+            {
+                question: "The right lymphatic duct drains:",
+                options: ["Entire body", "Lower body", "Upper right portion of body", "Left side only"],
+                correct: 2,
+                explanation: "The right lymphatic duct drains the right arm, right side of head and neck, and right chest."
+            },
+            {
+                question: "Lymph eventually returns to blood via:",
+                options: ["Arteries", "Subclavian veins", "Heart directly", "Liver"],
+                correct: 1,
+                explanation: "Lymph returns to blood circulation through subclavian veins near the heart."
+            },
+            {
+                question: "Edema can result from:",
+                options: ["Normal lymphatic function", "Blocked lymphatic drainage", "Increased blood flow", "Decreased heart rate"],
+                correct: 1,
+                explanation: "Edema (swelling) can occur when lymphatic drainage is impaired."
+            },
+            {
+                question: "Tonsils are:",
+                options: ["Blood vessels", "Lymphatic tissues", "Muscles", "Bones"],
+                correct: 1,
+                explanation: "Tonsils are lymphatic tissues that help defend against infections entering through mouth and nose."
+            },
+            {
+                question: "Peyer's patches are found in:",
+                options: ["Lungs", "Small intestine", "Brain", "Heart"],
+                correct: 1,
+                explanation: "Peyer's patches are lymphatic tissues in the small intestine that monitor intestinal bacteria."
+            },
+            {
+                question: "The spleen filters:",
+                options: ["Lymph", "Blood", "Urine", "Air"],
+                correct: 1,
+                explanation: "The spleen filters blood, removing old red blood cells and foreign particles."
+            },
+            {
+                question: "White pulp in the spleen contains:",
+                options: ["Red blood cells", "Immune cells", "Platelets", "Plasma"],
+                correct: 1,
+                explanation: "White pulp contains lymphocytes and other immune cells for fighting infections."
+            },
+            {
+                question: "Red pulp in the spleen:",
+                options: ["Produces red cells", "Filters blood", "Stores white cells", "Makes antibodies"],
+                correct: 1,
+                explanation: "Red pulp filters blood and removes old or damaged red blood cells."
+            },
+            {
+                question: "Lymphocytes are produced in:",
+                options: ["Heart", "Lymphatic organs", "Liver", "Kidneys"],
+                correct: 1,
+                explanation: "Lymphocytes are produced and mature in various lymphatic organs."
+            },
+            {
+                question: "Chyle is:",
+                options: ["Blood plasma", "Lymph containing fats", "Pure water", "Red blood cells"],
+                correct: 1,
+                explanation: "Chyle is lymph from intestines that contains absorbed fats, giving it a milky appearance."
+            },
+            {
+                question: "Lacteals are:",
+                options: ["Blood vessels", "Lymphatic vessels in intestines", "Nerve fibers", "Muscle fibers"],
+                correct: 1,
+                explanation: "Lacteals are specialized lymphatic vessels in intestinal villi that absorb fats."
+            },
+            {
+                question: "The cisterna chyli is:",
+                options: ["Part of heart", "Dilated start of thoracic duct", "Lymph node", "Spleen section"],
+                correct: 1,
+                explanation: "Cisterna chyli is the dilated beginning of the thoracic duct in the abdomen."
+            },
+            {
+                question: "Lymphatic capillaries are:",
+                options: ["Closed at one end", "Connected to arteries", "Part of blood circulation", "Found only in heart"],
+                correct: 0,
+                explanation: "Lymphatic capillaries are blind-ended vessels that collect excess tissue fluid."
+            },
+            {
+                question: "The lymphatic system helps maintain:",
+                options: ["Body temperature", "Fluid balance", "Heart rate", "Bone density"],
+                correct: 1,
+                explanation: "The lymphatic system helps maintain fluid balance by returning excess tissue fluid to circulation."
+            },
+            {
+                question: "Lymphedema is:",
+                options: ["Excess lymph production", "Blocked lymphatic drainage", "Normal lymph flow", "Absent lymph nodes"],
+                correct: 1,
+                explanation: "Lymphedema is swelling caused by impaired lymphatic drainage."
+            },
+            {
+                question: "The appendix is considered:",
+                options: ["Digestive organ only", "Lymphatic tissue", "Excretory organ", "Respiratory structure"],
+                correct: 1,
+                explanation: "The appendix contains lymphatic tissue and may play a role in immune function."
+            },
+            {
+                question: "Lymph flow is aided by:",
+                options: ["Heart pumping only", "Muscle contractions and breathing", "Gravity only", "Blood pressure"],
+                correct: 1,
+                explanation: "Lymph flow is promoted by skeletal muscle contractions, breathing movements, and one-way valves."
+            },
+            {
+                question: "Swollen lymph nodes often indicate:",
+                options: ["Normal function", "Infection or disease", "Decreased immunity", "Heart problems"],
+                correct: 1,
+                explanation: "Swollen lymph nodes usually indicate they're fighting infection or filtering abnormal substances."
+            }
+        ],
+        'Immunity': [
+            // INNATE IMMUNITY (Questions 1-25)
+            {
+                question: "The first line of defense against pathogens includes:",
+                options: ["Antibodies", "Skin and mucous membranes", "T cells", "B cells"],
+                correct: 1,
+                explanation: "Skin and mucous membranes form the first line of defense, providing physical and chemical barriers."
+            },
+            {
+                question: "Innate immunity is:",
+                options: ["Specific to particular pathogens", "Non-specific defense", "Learned response", "Memory-based"],
+                correct: 1,
+                explanation: "Innate immunity provides non-specific, immediate defense against a wide range of pathogens."
+            },
+            {
+                question: "Adaptive immunity is:",
+                options: ["Non-specific", "Specific to particular pathogens", "Immediate", "Always present"],
+                correct: 1,
+                explanation: "Adaptive immunity provides specific, targeted responses against particular pathogens."
+            },
+            {
+                question: "Phagocytosis is carried out by:",
+                options: ["B cells", "Macrophages and neutrophils", "T cells", "Plasma cells"],
+                correct: 1,
+                explanation: "Phagocytosis is performed by phagocytes like macrophages and neutrophils that engulf pathogens."
+            },
+            {
+                question: "The process of engulfing and destroying pathogens is called:",
+                options: ["Phagocytosis", "Pinocytosis", "Exocytosis", "Endocytosis"],
+                correct: 0,
+                explanation: "Phagocytosis is the process where immune cells engulf and destroy pathogens."
+            },
+            {
+                question: "Neutrophils are:",
+                options: ["First responders to infection", "Memory cells", "Antibody producers", "Antigen presenters"],
+                correct: 0,
+                explanation: "Neutrophils are the most abundant white blood cells and first responders to bacterial infections."
+            },
+            {
+                question: "Macrophages function to:",
+                options: ["Produce antibodies", "Engulf pathogens and debris", "Activate complement", "Produce antigens"],
+                correct: 1,
+                explanation: "Macrophages engulf pathogens, cellular debris, and foreign substances."
+            },
+            {
+                question: "Natural killer (NK) cells target:",
+                options: ["Bacteria", "Virus-infected cells", "Fungi", "Normal cells"],
+                correct: 1,
+                explanation: "NK cells target and destroy virus-infected cells and tumor cells."
+            },
+            {
+                question: "The complement system:",
+                options: ["Produces antibodies", "Enhances immune responses", "Suppresses immunity", "Stores memory"],
+                correct: 1,
+                explanation: "The complement system enhances immune responses through cell lysis, inflammation, and opsonization."
+            },
+            {
+                question: "Inflammation is characterized by:",
+                options: ["Reduced blood flow", "Decreased permeability", "Redness, heat, swelling, pain", "Decreased immune activity"],
+                correct: 2,
+                explanation: "Inflammation shows classic signs: redness, heat, swelling, pain, and loss of function."
+            },
+            {
+                question: "Histamine is released by:",
+                options: ["T cells", "B cells", "Mast cells", "Plasma cells"],
+                correct: 2,
+                explanation: "Histamine is released by mast cells and basophils during allergic reactions and inflammation."
+            },
+            {
+                question: "Fever is beneficial because it:",
+                options: ["Kills all bacteria", "Enhances immune function", "Reduces inflammation", "Prevents infection"],
+                correct: 1,
+                explanation: "Fever enhances immune function by increasing white blood cell activity and inhibiting pathogen growth."
+            },
+            {
+                question: "Interferons are produced in response to:",
+                options: ["Bacterial infections", "Viral infections", "Fungal infections", "Allergic reactions"],
+                correct: 1,
+                explanation: "Interferons are proteins produced by virus-infected cells to warn neighboring cells."
+            },
+            {
+                question: "Lysozyme is found in:",
+                options: ["Blood only", "Tears and saliva", "Bones", "Muscles"],
+                correct: 1,
+                explanation: "Lysozyme is an antimicrobial enzyme found in tears, saliva, and other secretions."
+            },
+            {
+                question: "The acidic environment of the stomach:",
+                options: ["Promotes bacterial growth", "Kills many pathogens", "Has no effect on pathogens", "Only affects viruses"],
+                correct: 1,
+                explanation: "The acidic stomach environment (pH ~2) kills many ingested pathogens."
+            },
+            {
+                question: "Mucus traps:",
+                options: ["Nutrients", "Pathogens and particles", "Antibodies", "White blood cells"],
+                correct: 1,
+                explanation: "Mucus traps pathogens and particles, preventing them from reaching deeper tissues."
+            },
+            {
+                question: "Cilia in respiratory tract:",
+                options: ["Produce mucus", "Move mucus and trapped particles upward", "Kill bacteria", "Produce antibodies"],
+                correct: 1,
+                explanation: "Cilia move mucus containing trapped pathogens and debris upward for removal."
+            },
+            {
+                question: "Eosinophils are particularly important against:",
+                options: ["Bacteria", "Viruses", "Parasites", "Fungi"],
+                correct: 2,
+                explanation: "Eosinophils are particularly effective against parasitic infections and allergic reactions."
+            },
+            {
+                question: "Basophils release:",
+                options: ["Antibodies", "Histamine and heparin", "Antigens", "Complement proteins"],
+                correct: 1,
+                explanation: "Basophils release histamine and heparin during allergic reactions and inflammation."
+            },
+            {
+                question: "Dendritic cells function as:",
+                options: ["Phagocytes only", "Antigen-presenting cells", "Antibody producers", "Memory cells"],
+                correct: 1,
+                explanation: "Dendritic cells are professional antigen-presenting cells that initiate adaptive immune responses."
+            },
+            {
+                question: "The spleen filters:",
+                options: ["Lymph", "Blood", "Urine", "Air"],
+                correct: 1,
+                explanation: "The spleen filters blood, removing old red blood cells and pathogens."
+            },
+            {
+                question: "Antimicrobial peptides:",
+                options: ["Are produced by pathogens", "Kill or inhibit microbes", "Suppress immunity", "Are always harmful"],
+                correct: 1,
+                explanation: "Antimicrobial peptides are natural antibiotics produced by the body to kill microbes."
+            },
+            {
+                question: "Toll-like receptors (TLRs):",
+                options: ["Recognize self antigens", "Recognize pathogen patterns", "Produce antibodies", "Store memory"],
+                correct: 1,
+                explanation: "TLRs recognize pathogen-associated molecular patterns (PAMPs) to initiate immune responses."
+            },
+            {
+                question: "The thymus is important for:",
+                options: ["B cell development", "T cell development", "Antibody production", "Complement activation"],
+                correct: 1,
+                explanation: "The thymus is where T cells mature and learn to distinguish self from non-self."
+            },
+            {
+                question: "Bone marrow produces:",
+                options: ["Only red blood cells", "All blood cells", "Only white blood cells", "Only platelets"],
+                correct: 1,
+                explanation: "Bone marrow produces all types of blood cells including immune cells."
+            },
+
+            // ADAPTIVE IMMUNITY (Questions 26-50)
+            {
+                question: "B cells are responsible for:",
+                options: ["Cell-mediated immunity", "Humoral immunity", "Innate immunity", "Phagocytosis"],
+                correct: 1,
+                explanation: "B cells are responsible for humoral immunity through antibody production."
+            },
+            {
+                question: "T cells are responsible for:",
+                options: ["Humoral immunity", "Cell-mediated immunity", "Complement activation", "Phagocytosis"],
+                correct: 1,
+                explanation: "T cells are responsible for cell-mediated immunity and immune regulation."
+            },
+            {
+                question: "Antibodies are produced by:",
+                options: ["T cells", "Plasma cells", "Macrophages", "Neutrophils"],
+                correct: 1,
+                explanation: "Antibodies are produced by plasma cells, which are activated B cells."
+            },
+            {
+                question: "An antigen is:",
+                options: ["An antibody", "A substance that triggers immune response", "A type of cell", "An enzyme"],
+                correct: 1,
+                explanation: "An antigen is any substance that can trigger an immune response."
+            },
+            {
+                question: "The variable region of an antibody:",
+                options: ["Is identical in all antibodies", "Determines antigen specificity", "Has no function", "Only binds complement"],
+                correct: 1,
+                explanation: "The variable region determines the specific antigen that each antibody can bind."
+            },
+            {
+                question: "The constant region of an antibody:",
+                options: ["Binds antigens", "Determines antibody class", "Varies between antibodies", "Has no function"],
+                correct: 1,
+                explanation: "The constant region determines the antibody class (IgG, IgM, etc.) and effector functions."
+            },
+            {
+                question: "IgG antibodies:",
+                options: ["Cannot cross placenta", "Are the most abundant in blood", "Only exist in secretions", "Are always harmful"],
+                correct: 1,
+                explanation: "IgG antibodies are most abundant in blood and can cross the placenta."
+            },
+            {
+                question: "IgM antibodies:",
+                options: ["Are produced first in immune response", "Cannot activate complement", "Are smallest antibodies", "Only exist in tissues"],
+                correct: 0,
+                explanation: "IgM antibodies are the first produced during an immune response."
+            },
+            {
+                question: "IgA antibodies are found in:",
+                options: ["Blood only", "Secretions like saliva and tears", "Bones", "Muscle tissue"],
+                correct: 1,
+                explanation: "IgA antibodies are found in secretions, providing mucosal immunity."
+            },
+            {
+                question: "IgE antibodies are involved in:",
+                options: ["Normal immune responses only", "Allergic reactions", "Blood clotting", "Bone formation"],
+                correct: 1,
+                explanation: "IgE antibodies are involved in allergic reactions and parasitic infections."
+            },
+            {
+                question: "Helper T cells (CD4+):",
+                options: ["Kill infected cells directly", "Help coordinate immune responses", "Produce antibodies", "Phagocytose pathogens"],
+                correct: 1,
+                explanation: "Helper T cells coordinate immune responses by activating other immune cells."
+            },
+            {
+                question: "Cytotoxic T cells (CD8+):",
+                options: ["Produce antibodies", "Kill infected cells", "Help other cells", "Phagocytose pathogens"],
+                correct: 1,
+                explanation: "Cytotoxic T cells directly kill virus-infected cells and tumor cells."
+            },
+            {
+                question: "Memory cells provide:",
+                options: ["Immediate protection", "Long-term immunity", "Innate immunity", "Complement activation"],
+                correct: 1,
+                explanation: "Memory cells provide long-term immunity by remembering previous encounters with antigens."
+            },
+            {
+                question: "Primary immune response:",
+                options: ["Is faster than secondary", "Occurs on first exposure", "Produces more antibodies", "Involves only memory cells"],
+                correct: 1,
+                explanation: "Primary immune response occurs on first exposure to an antigen and is slower."
+            },
+            {
+                question: "Secondary immune response:",
+                options: ["Is slower than primary", "Is faster and stronger", "Produces fewer antibodies", "Only involves naive cells"],
+                correct: 1,
+                explanation: "Secondary immune response is faster and stronger due to memory cells."
+            },
+            {
+                question: "Clonal selection refers to:",
+                options: ["Random cell division", "Specific lymphocyte activation", "Cell death", "Inflammation"],
+                correct: 1,
+                explanation: "Clonal selection is the activation and proliferation of specific lymphocytes."
+            },
+            {
+                question: "MHC Class I molecules:",
+                options: ["Present to CD4+ T cells", "Present to CD8+ T cells", "Are only on B cells", "Produce antibodies"],
+                correct: 1,
+                explanation: "MHC Class I molecules present intracellular antigens to CD8+ T cells."
+            },
+            {
+                question: "MHC Class II molecules:",
+                options: ["Present to CD8+ T cells", "Present to CD4+ T cells", "Are on all cells", "Kill pathogens"],
+                correct: 1,
+                explanation: "MHC Class II molecules present extracellular antigens to CD4+ T cells."
+            },
+            {
+                question: "Antigen presentation is important for:",
+                options: ["Innate immunity only", "T cell activation", "Complement activation", "Phagocytosis"],
+                correct: 1,
+                explanation: "Antigen presentation is crucial for T cell activation and adaptive immunity."
+            },
+            {
+                question: "Cytokines are:",
+                options: ["Types of antibodies", "Cell communication molecules", "Complement proteins", "Antigens"],
+                correct: 1,
+                explanation: "Cytokines are signaling molecules that coordinate immune cell communication."
+            },
+            {
+                question: "Interleukins are:",
+                options: ["Types of antibodies", "Communication molecules between leukocytes", "Complement proteins", "Enzymes"],
+                correct: 1,
+                explanation: "Interleukins are cytokines that facilitate communication between white blood cells."
+            },
+            {
+                question: "Regulatory T cells (Tregs):",
+                options: ["Enhance immune responses", "Suppress immune responses", "Kill pathogens", "Produce antibodies"],
+                correct: 1,
+                explanation: "Regulatory T cells suppress immune responses to prevent autoimmunity."
+            },
+            {
+                question: "Autoimmunity occurs when:",
+                options: ["Immune system attacks self", "Immune system is suppressed", "No immune response occurs", "Only bacteria are targeted"],
+                correct: 0,
+                explanation: "Autoimmunity occurs when the immune system mistakenly attacks the body's own tissues."
+            },
+            {
+                question: "Immunological tolerance is:",
+                options: ["Attacking self tissues", "Not responding to self antigens", "Overactive immunity", "Complete immune suppression"],
+                correct: 1,
+                explanation: "Immunological tolerance is the immune system's ability to not respond to self antigens."
+            },
+            {
+                question: "Affinity maturation refers to:",
+                options: ["Cell death", "Improving antibody binding", "Reducing immune response", "Complement activation"],
+                correct: 1,
+                explanation: "Affinity maturation improves antibody binding strength through somatic hypermutation."
+            },
+
+            // VACCINES AND IMMUNIZATION (Questions 51-75)
+            {
+                question: "Vaccines provide:",
+                options: ["Innate immunity", "Artificial active immunity", "Artificial passive immunity", "No immunity"],
+                correct: 1,
+                explanation: "Vaccines provide artificial active immunity by stimulating the immune system to produce memory cells."
+            },
+            {
+                question: "Passive immunity is acquired through:",
+                options: ["Vaccination", "Natural infection", "Antibody transfer", "Exercise"],
+                correct: 2,
+                explanation: "Passive immunity is acquired through transfer of antibodies from another source."
+            },
+            {
+                question: "Active immunity involves:",
+                options: ["Antibody transfer", "Body producing its own antibodies", "Complement activation", "Phagocytosis"],
+                correct: 1,
+                explanation: "Active immunity involves the body's own immune system producing antibodies and memory cells."
+            },
+            {
+                question: "Live attenuated vaccines contain:",
+                options: ["Dead pathogens", "Weakened live pathogens", "Toxins only", "Antibodies"],
+                correct: 1,
+                explanation: "Live attenuated vaccines contain weakened but live pathogens that can't cause disease."
+            },
+            {
+                question: "Inactivated vaccines contain:",
+                options: ["Live pathogens", "Dead pathogens", "Only antibodies", "No pathogen material"],
+                correct: 1,
+                explanation: "Inactivated vaccines contain killed pathogens that can still stimulate immunity."
+            },
+            {
+                question: "Toxoid vaccines contain:",
+                options: ["Live bacteria", "Inactivated toxins", "Antibodies", "Live viruses"],
+                correct: 1,
+                explanation: "Toxoid vaccines contain inactivated bacterial toxins that stimulate immunity."
+            },
+            {
+                question: "mRNA vaccines work by:",
+                options: ["Containing live virus", "Instructing cells to make antigen", "Providing antibodies", "Blocking immune response"],
+                correct: 1,
+                explanation: "mRNA vaccines instruct cells to produce antigens that stimulate immune responses."
+            },
+            {
+                question: "Herd immunity occurs when:",
+                options: ["Everyone is vaccinated", "Enough people are immune", "No one is immune", "Only children are vaccinated"],
+                correct: 1,
+                explanation: "Herd immunity occurs when enough people in a population are immune to prevent disease spread."
+            },
+            {
+                question: "Adjuvants in vaccines:",
+                options: ["Weaken the immune response", "Enhance the immune response", "Kill pathogens", "Provide antibodies"],
+                correct: 1,
+                explanation: "Adjuvants enhance the immune response to vaccines, improving effectiveness."
+            },
+            {
+                question: "Booster shots are given to:",
+                options: ["Weaken immunity", "Maintain immunity", "Cause disease", "Prevent all vaccinations"],
+                correct: 1,
+                explanation: "Booster shots maintain immunity by restimulating memory cells."
+            },
+            {
+                question: "Natural active immunity develops from:",
+                options: ["Vaccination", "Natural infection", "Antibody injection", "Birth"],
+                correct: 1,
+                explanation: "Natural active immunity develops from surviving natural infection with a pathogen."
+            },
+            {
+                question: "Natural passive immunity occurs through:",
+                options: ["Vaccination", "Infection", "Maternal antibodies", "Exercise"],
+                correct: 2,
+                explanation: "Natural passive immunity occurs through maternal antibodies passed to offspring."
+            },
+            {
+                question: "Artificial passive immunity is provided by:",
+                options: ["Vaccines", "Natural infection", "Antibody injections", "Exercise"],
+                correct: 2,
+                explanation: "Artificial passive immunity is provided by injecting antibodies from another source."
+            },
+            {
+                question: "The measles vaccine is an example of:",
+                options: ["Live attenuated vaccine", "Inactivated vaccine", "Toxoid vaccine", "Passive immunity"],
+                correct: 0,
+                explanation: "The measles vaccine is a live attenuated vaccine containing weakened virus."
+            },
+            {
+                question: "The polio vaccine can be:",
+                options: ["Only live", "Only inactivated", "Either live or inactivated", "Only passive"],
+                correct: 2,
+                explanation: "Polio vaccines exist as both live oral (OPV) and inactivated injectable (IPV) forms."
+            },
+            {
+                question: "Tetanus toxoid protects against:",
+                options: ["Tetanus bacteria", "Tetanus toxin", "All bacteria", "Viruses"],
+                correct: 1,
+                explanation: "Tetanus toxoid provides immunity against tetanus toxin produced by Clostridium tetani."
+            },
+            {
+                question: "Immunization schedules are designed to:",
+                options: ["Overwhelm the immune system", "Provide optimal protection", "Cause disease", "Weaken immunity"],
+                correct: 1,
+                explanation: "Immunization schedules are designed to provide optimal protection at appropriate ages."
+            },
+            {
+                question: "Contraindications to vaccination include:",
+                options: ["All illnesses", "Severe immunodeficiency", "Minor cold", "Being healthy"],
+                correct: 1,
+                explanation: "Severe immunodeficiency is a contraindication to live vaccines."
+            },
+            {
+                question: "Vaccine adverse events:",
+                options: ["Always occur", "Are always severe", "Are usually mild", "Never occur"],
+                correct: 2,
+                explanation: "Vaccine adverse events are usually mild, such as soreness at injection site."
+            },
+            {
+                question: "Vaccine efficacy refers to:",
+                options: ["Safety only", "Effectiveness in preventing disease", "Cost", "Availability"],
+                correct: 1,
+                explanation: "Vaccine efficacy measures how effective a vaccine is at preventing disease."
+            },
+            {
+                question: "The HPV vaccine prevents:",
+                options: ["All cancers", "Cervical cancer", "All viral infections", "Bacterial infections"],
+                correct: 1,
+                explanation: "HPV vaccine prevents cervical and other cancers caused by human papillomavirus."
+            },
+            {
+                question: "Influenza vaccines need annual updates because:",
+                options: ["They wear off quickly", "Influenza virus mutates", "They're ineffective", "They cause disease"],
+                correct: 1,
+                explanation: "Influenza vaccines need updates because the virus mutates, changing surface antigens."
+            },
+            {
+                question: "COVID-19 vaccines were developed using:",
+                options: ["Only traditional methods", "Various platforms", "No new technology", "Only live virus"],
+                correct: 1,
+                explanation: "COVID-19 vaccines used various platforms including mRNA, viral vector, and protein subunit."
+            },
+            {
+                question: "Travel vaccines are recommended based on:",
+                options: ["Personal preference only", "Destination disease risks", "Cost only", "Availability only"],
+                correct: 1,
+                explanation: "Travel vaccines are recommended based on disease risks in destination countries."
+            },
+            {
+                question: "Vaccine hesitancy can be addressed through:",
+                options: ["Ignoring concerns", "Education and communication", "Mandates only", "Stopping vaccination"],
+                correct: 1,
+                explanation: "Vaccine hesitancy is best addressed through education, communication, and addressing concerns."
+            },
+
+            // IMMUNE DISORDERS (Questions 76-100)
+            {
+                question: "Immunodeficiency is characterized by:",
+                options: ["Overactive immunity", "Weakened immune system", "Normal immunity", "Autoimmunity"],
+                correct: 1,
+                explanation: "Immunodeficiency is characterized by a weakened or compromised immune system."
+            },
+            {
+                question: "Primary immunodeficiency is:",
+                options: ["Acquired", "Genetic", "Temporary", "Always mild"],
+                correct: 1,
+                explanation: "Primary immunodeficiency is genetic and present from birth."
+            },
+            {
+                question: "Secondary immunodeficiency is:",
+                options: ["Genetic", "Acquired", "Always permanent", "Never serious"],
+                correct: 1,
+                explanation: "Secondary immunodeficiency is acquired due to disease, drugs, or environmental factors."
+            },
+            {
+                question: "HIV primarily targets:",
+                options: ["B cells", "CD4+ T cells", "Neutrophils", "Red blood cells"],
+                correct: 1,
+                explanation: "HIV primarily targets CD4+ T helper cells, weakening the immune system."
+            },
+            {
+                question: "AIDS develops when:",
+                options: ["HIV is first acquired", "CD4+ count drops severely", "Antibodies appear", "Treatment starts"],
+                correct: 1,
+                explanation: "AIDS develops when CD4+ T cell count drops below 200 cells/μL or opportunistic infections occur."
+            },
+            {
+                question: "Opportunistic infections occur in:",
+                options: ["Healthy individuals", "Immunocompromised individuals", "Only children", "Only elderly"],
+                correct: 1,
+                explanation: "Opportunistic infections occur in immunocompromised individuals who can't fight them off."
+            },
+            {
+                question: "SCID (Severe Combined Immunodeficiency) affects:",
+                options: ["Only B cells", "Only T cells", "Both B and T cells", "Only innate immunity"],
+                correct: 2,
+                explanation: "SCID affects both B and T cell function, causing severe immunodeficiency."
+            },
+            {
+                question: "Allergic reactions are caused by:",
+                options: ["Underactive immunity", "Overactive immunity to harmless substances", "Infections", "Autoimmunity"],
+                correct: 1,
+                explanation: "Allergic reactions result from overactive immune responses to harmless environmental substances."
+            },
+            {
+                question: "Type I hypersensitivity involves:",
+                options: ["T cells only", "IgE antibodies", "IgG antibodies", "Complement only"],
+                correct: 1,
+                explanation: "Type I hypersensitivity involves IgE antibodies and immediate allergic reactions."
+            },
+            {
+                question: "Anaphylaxis is:",
+                options: ["Mild allergic reaction", "Severe systemic allergic reaction", "Autoimmune disease", "Immunodeficiency"],
+                correct: 1,
+                explanation: "Anaphylaxis is a severe, life-threatening systemic allergic reaction."
+            },
+            {
+                question: "Rheumatoid arthritis is an example of:",
+                options: ["Allergy", "Autoimmune disease", "Immunodeficiency", "Normal immunity"],
+                correct: 1,
+                explanation: "Rheumatoid arthritis is an autoimmune disease where immunity attacks joint tissues."
+            },
+            {
+                question: "Type 1 diabetes is caused by:",
+                options: ["Bacterial infection", "Autoimmune destruction of pancreatic cells", "Allergic reaction", "Immunodeficiency"],
+                correct: 1,
+                explanation: "Type 1 diabetes results from autoimmune destruction of insulin-producing pancreatic β cells."
+            },
+            {
+                question: "Multiple sclerosis involves:",
+                options: ["Muscle weakness only", "Autoimmune attack on nervous system", "Immunodeficiency", "Allergic reactions"],
+                correct: 1,
+                explanation: "Multiple sclerosis involves autoimmune attack on the myelin sheaths of nerve fibers."
+            },
+            {
+                question: "Organ transplant rejection occurs due to:",
+                options: ["Infection", "Immune recognition of foreign tissue", "Allergic reaction", "Immunodeficiency"],
+                correct: 1,
+                explanation: "Transplant rejection occurs when the immune system recognizes transplanted tissue as foreign."
+            },
+            {
+                question: "Immunosuppressive drugs are used to:",
+                options: ["Enhance immunity", "Suppress immune responses", "Cure infections", "Prevent allergies"],
+                correct: 1,
+                explanation: "Immunosuppressive drugs suppress immune responses to prevent transplant rejection or treat autoimmunity."
+            },
+            {
+                question: "Graft-versus-host disease occurs when:",
+                options: ["Host rejects graft", "Graft immune cells attack host", "No immune response", "Normal healing"],
+                correct: 1,
+                explanation: "GVHD occurs when immune cells in transplanted tissue attack the recipient's tissues."
+            },
+            {
+                question: "Tissue typing involves matching:",
+                options: ["Blood types only", "HLA antigens", "Age only", "Size only"],
+                correct: 1,
+                explanation: "Tissue typing matches HLA (human leukocyte antigen) genes to reduce rejection risk."
+            },
+            {
+                question: "Chronic granulomatous disease affects:",
+                options: ["Antibody production", "Phagocyte function", "T cell development", "B cell development"],
+                correct: 1,
+                explanation: "Chronic granulomatous disease impairs phagocyte ability to kill certain bacteria and fungi."
+            },
+            {
+                question: "Asthma involves:",
+                options: ["Only bacterial infections", "Allergic airway inflammation", "Immunodeficiency", "Autoimmunity only"],
+                correct: 1,
+                explanation: "Asthma involves allergic inflammation of airways with increased IgE and eosinophils."
+            },
+            {
+                question: "Food allergies are mediated by:",
+                options: ["IgG antibodies", "IgE antibodies", "T cells only", "Complement only"],
+                correct: 1,
+                explanation: "Food allergies are typically mediated by IgE antibodies against food proteins."
+            },
+            {
+                question: "Contact dermatitis is an example of:",
+                options: ["Type I hypersensitivity", "Type IV hypersensitivity", "Immunodeficiency", "Autoimmunity"],
+                correct: 1,
+                explanation: "Contact dermatitis is Type IV (delayed) hypersensitivity mediated by T cells."
+            },
+            {
+                question: "Immune system aging involves:",
+                options: ["Enhanced function", "Immunosenescence", "No changes", "Only memory improvement"],
+                correct: 1,
+                explanation: "Immune system aging involves immunosenescence with declined function and increased autoimmunity."
+            },
+            {
+                question: "Cancer immunotherapy works by:",
+                options: ["Suppressing all immunity", "Enhancing anti-tumor immunity", "Promoting tumor growth", "Ignoring tumors"],
+                correct: 1,
+                explanation: "Cancer immunotherapy enhances the immune system's ability to recognize and destroy tumor cells."
+            },
+            {
+                question: "Checkpoint inhibitors work by:",
+                options: ["Blocking immune activation", "Removing immune brakes", "Suppressing T cells", "Activating tumors"],
+                correct: 1,
+                explanation: "Checkpoint inhibitors remove immune system 'brakes' to enhance anti-tumor responses."
+            },
+            {
+                question: "The future of immunology includes:",
+                options: ["Only traditional approaches", "Personalized immunotherapy", "Abandoning vaccines", "Ignoring research"],
+                correct: 1,
+                explanation: "Future immunology includes personalized immunotherapy, improved vaccines, and precision medicine."
+            }
+        ],
+        'Human Respiration': [
+            // RESPIRATORY SYSTEM ANATOMY (Questions 1-25)
+            {
+                question: "The primary function of the respiratory system is:",
+                options: ["Digestion", "Gas exchange", "Blood circulation", "Waste removal"],
+                correct: 1,
+                explanation: "The primary function of the respiratory system is gas exchange - taking in oxygen and removing carbon dioxide."
+            },
+            {
+                question: "Air enters the body through:",
+                options: ["Mouth only", "Nose only", "Nose and mouth", "Lungs directly"],
+                correct: 2,
+                explanation: "Air enters the body through both the nose and mouth, though the nose is preferred for filtering and warming."
+            },
+            {
+                question: "The nasal cavity functions to:",
+                options: ["Filter, warm, and humidify air", "Only filter air", "Only warm air", "Store air"],
+                correct: 0,
+                explanation: "The nasal cavity filters particles, warms cold air, and humidifies dry air before it reaches the lungs."
+            },
+            {
+                question: "The pharynx is:",
+                options: ["Part of digestive system only", "Part of respiratory system only", "Shared by digestive and respiratory systems", "Part of circulatory system"],
+                correct: 2,
+                explanation: "The pharynx (throat) is shared by both the digestive and respiratory systems."
+            },
+            {
+                question: "The larynx contains:",
+                options: ["Alveoli", "Vocal cords", "Gas exchange surfaces", "Blood vessels only"],
+                correct: 1,
+                explanation: "The larynx (voice box) contains the vocal cords and is involved in sound production."
+            },
+            {
+                question: "The trachea is:",
+                options: ["The voice box", "The windpipe", "The throat", "Part of the lungs"],
+                correct: 1,
+                explanation: "The trachea is the windpipe, a tube that carries air from the larynx to the bronchi."
+            },
+            {
+                question: "The trachea is kept open by:",
+                options: ["Muscles", "Cartilage rings", "Bone", "Ligaments"],
+                correct: 1,
+                explanation: "C-shaped cartilage rings keep the trachea open and prevent collapse during breathing."
+            },
+            {
+                question: "The trachea divides into:",
+                options: ["Alveoli", "Bronchioles", "Two main bronchi", "Capillaries"],
+                correct: 2,
+                explanation: "The trachea divides into the right and left main bronchi at the carina."
+            },
+            {
+                question: "Bronchi are:",
+                options: ["Gas exchange sites", "Airways that branch into smaller tubes", "Blood vessels", "Muscles"],
+                correct: 1,
+                explanation: "Bronchi are airways that branch repeatedly into smaller tubes called bronchioles."
+            },
+            {
+                question: "Bronchioles are:",
+                options: ["Large airways", "Small airways", "Gas exchange sites", "Blood vessels"],
+                correct: 1,
+                explanation: "Bronchioles are the smallest airways that lead to the alveolar sacs."
+            },
+            {
+                question: "Gas exchange occurs in:",
+                options: ["Trachea", "Bronchi", "Alveoli", "Bronchioles"],
+                correct: 2,
+                explanation: "Gas exchange between air and blood occurs in the alveoli, tiny air sacs in the lungs."
+            },
+            {
+                question: "Alveoli are:",
+                options: ["Large air spaces", "Tiny air sacs", "Blood vessels", "Airways"],
+                correct: 1,
+                explanation: "Alveoli are microscopic air sacs where oxygen and carbon dioxide are exchanged."
+            },
+            {
+                question: "The right lung has:",
+                options: ["2 lobes", "3 lobes", "4 lobes", "5 lobes"],
+                correct: 1,
+                explanation: "The right lung has three lobes: upper, middle, and lower lobes."
+            },
+            {
+                question: "The left lung has:",
+                options: ["2 lobes", "3 lobes", "4 lobes", "5 lobes"],
+                correct: 0,
+                explanation: "The left lung has two lobes: upper and lower lobes (smaller to accommodate the heart)."
+            },
+            {
+                question: "The pleura is:",
+                options: ["Lung tissue", "Membrane surrounding lungs", "Airways", "Blood vessels"],
+                correct: 1,
+                explanation: "The pleura is a double membrane that surrounds each lung and lines the chest cavity."
+            },
+            {
+                question: "Pleural fluid functions to:",
+                options: ["Exchange gases", "Lubricate and cushion lungs", "Carry oxygen", "Filter air"],
+                correct: 1,
+                explanation: "Pleural fluid lubricates the pleural membranes and allows smooth lung movement during breathing."
+            },
+            {
+                question: "The diaphragm is:",
+                options: ["A lung", "The main breathing muscle", "An airway", "A blood vessel"],
+                correct: 1,
+                explanation: "The diaphragm is the main muscle of breathing, separating the chest and abdominal cavities."
+            },
+            {
+                question: "The intercostal muscles are located:",
+                options: ["In the diaphragm", "Between the ribs", "In the lungs", "In the trachea"],
+                correct: 1,
+                explanation: "Intercostal muscles are located between the ribs and assist in breathing movements."
+            },
+            {
+                question: "The epiglottis functions to:",
+                options: ["Produce sound", "Prevent food from entering trachea", "Exchange gases", "Pump air"],
+                correct: 1,
+                explanation: "The epiglottis covers the tracheal opening during swallowing to prevent food aspiration."
+            },
+            {
+                question: "Cilia in the respiratory tract:",
+                options: ["Exchange gases", "Move mucus upward", "Produce sound", "Store air"],
+                correct: 1,
+                explanation: "Cilia are hair-like structures that move mucus and trapped particles upward for removal."
+            },
+            {
+                question: "Mucus in the respiratory tract:",
+                options: ["Exchanges gases", "Traps particles and pathogens", "Produces sound", "Stores oxygen"],
+                correct: 1,
+                explanation: "Mucus traps dust, pathogens, and other particles to protect the lungs."
+            },
+            {
+                question: "The respiratory membrane consists of:",
+                options: ["Alveolar wall only", "Capillary wall only", "Alveolar wall and capillary wall", "Mucus only"],
+                correct: 2,
+                explanation: "The respiratory membrane includes the alveolar wall and capillary wall where gas exchange occurs."
+            },
+            {
+                question: "Surfactant is produced by:",
+                options: ["Capillaries", "Type II pneumocytes", "Bronchi", "Trachea"],
+                correct: 1,
+                explanation: "Surfactant is produced by Type II pneumocytes (alveolar cells) to reduce surface tension."
+            },
+            {
+                question: "Surfactant functions to:",
+                options: ["Exchange gases", "Reduce surface tension", "Produce mucus", "Filter air"],
+                correct: 1,
+                explanation: "Surfactant reduces surface tension in alveoli, preventing collapse during expiration."
+            },
+            {
+                question: "The total surface area of alveoli is approximately:",
+                options: ["1 square meter", "10 square meters", "70 square meters", "200 square meters"],
+                correct: 2,
+                explanation: "The total surface area of alveoli is about 70 square meters, maximizing gas exchange efficiency."
+            },
+
+            // BREATHING MECHANICS (Questions 26-50)
+            {
+                question: "Inspiration is:",
+                options: ["Breathing out", "Breathing in", "Holding breath", "Gas exchange"],
+                correct: 1,
+                explanation: "Inspiration (inhalation) is the process of breathing air into the lungs."
+            },
+            {
+                question: "Expiration is:",
+                options: ["Breathing in", "Breathing out", "Holding breath", "Gas exchange"],
+                correct: 1,
+                explanation: "Expiration (exhalation) is the process of breathing air out of the lungs."
+            },
+            {
+                question: "During inspiration, the diaphragm:",
+                options: ["Relaxes and moves up", "Contracts and moves down", "Remains stationary", "Vibrates"],
+                correct: 1,
+                explanation: "During inspiration, the diaphragm contracts and moves downward, increasing chest cavity volume."
+            },
+            {
+                question: "During expiration, the diaphragm:",
+                options: ["Contracts and moves down", "Relaxes and moves up", "Remains stationary", "Vibrates"],
+                correct: 1,
+                explanation: "During expiration, the diaphragm relaxes and moves upward, decreasing chest cavity volume."
+            },
+            {
+                question: "External intercostal muscles:",
+                options: ["Cause expiration", "Cause inspiration", "Have no role in breathing", "Only work during exercise"],
+                correct: 1,
+                explanation: "External intercostal muscles lift the ribs during inspiration, expanding the chest cavity."
+            },
+            {
+                question: "Internal intercostal muscles:",
+                options: ["Cause inspiration", "Cause forced expiration", "Have no role in breathing", "Only work during exercise"],
+                correct: 1,
+                explanation: "Internal intercostal muscles pull ribs down during forced expiration."
+            },
+            {
+                question: "Normal quiet breathing is called:",
+                options: ["Hyperpnea", "Eupnea", "Apnea", "Dyspnea"],
+                correct: 1,
+                explanation: "Eupnea is normal, quiet breathing at rest."
+            },
+            {
+                question: "Tidal volume is:",
+                options: ["Air inhaled during deep breathing", "Air exhaled during forced breathing", "Normal breathing volume", "Total lung capacity"],
+                correct: 2,
+                explanation: "Tidal volume is the amount of air inhaled and exhaled during normal, quiet breathing (~500 mL)."
+            },
+            {
+                question: "Inspiratory reserve volume is:",
+                options: ["Normal breathing volume", "Extra air inhaled after normal inspiration", "Air remaining after normal expiration", "Total lung capacity"],
+                correct: 1,
+                explanation: "Inspiratory reserve volume is the extra air that can be inhaled after a normal inspiration (~3100 mL)."
+            },
+            {
+                question: "Expiratory reserve volume is:",
+                options: ["Normal breathing volume", "Extra air inhaled after normal inspiration", "Extra air exhaled after normal expiration", "Total lung capacity"],
+                correct: 2,
+                explanation: "Expiratory reserve volume is the extra air that can be exhaled after a normal expiration (~1200 mL)."
+            },
+            {
+                question: "Residual volume is:",
+                options: ["Normal breathing volume", "Extra air inhaled", "Air remaining in lungs after forced expiration", "Total lung capacity"],
+                correct: 2,
+                explanation: "Residual volume is the air that remains in the lungs even after forced expiration (~1200 mL)."
+            },
+            {
+                question: "Vital capacity is:",
+                options: ["Tidal volume only", "Maximum air inhaled and exhaled", "Residual volume", "Total lung capacity"],
+                correct: 1,
+                explanation: "Vital capacity is the maximum amount of air that can be inhaled and exhaled (~4800 mL)."
+            },
+            {
+                question: "Total lung capacity is:",
+                options: ["Vital capacity only", "Vital capacity plus residual volume", "Tidal volume only", "Residual volume only"],
+                correct: 1,
+                explanation: "Total lung capacity is vital capacity plus residual volume (~6000 mL)."
+            },
+            {
+                question: "Breathing rate at rest is approximately:",
+                options: ["5-10 breaths per minute", "12-20 breaths per minute", "30-40 breaths per minute", "50-60 breaths per minute"],
+                correct: 1,
+                explanation: "Normal resting breathing rate for adults is 12-20 breaths per minute."
+            },
+            {
+                question: "The breathing center is located in:",
+                options: ["Cerebrum", "Cerebellum", "Medulla oblongata", "Spinal cord"],
+                correct: 2,
+                explanation: "The primary breathing center is located in the medulla oblongata of the brainstem."
+            },
+            {
+                question: "Breathing is primarily controlled by:",
+                options: ["Oxygen levels", "Carbon dioxide levels", "Nitrogen levels", "Blood pressure"],
+                correct: 1,
+                explanation: "Breathing is primarily controlled by CO₂ levels detected by chemoreceptors."
+            },
+            {
+                question: "Increased CO₂ in blood:",
+                options: ["Decreases breathing rate", "Increases breathing rate", "Has no effect", "Stops breathing"],
+                correct: 1,
+                explanation: "Increased blood CO₂ (hypercapnia) stimulates chemoreceptors to increase breathing rate."
+            },
+            {
+                question: "Chemoreceptors detect:",
+                options: ["Temperature changes", "Blood gas levels", "Blood pressure", "Heart rate"],
+                correct: 1,
+                explanation: "Chemoreceptors detect changes in blood CO₂, O₂, and pH levels."
+            },
+            {
+                question: "Central chemoreceptors are located in:",
+                options: ["Lungs", "Heart", "Medulla oblongata", "Carotid arteries"],
+                correct: 2,
+                explanation: "Central chemoreceptors in the medulla oblongata primarily detect CO₂/pH changes."
+            },
+            {
+                question: "Peripheral chemoreceptors are located in:",
+                options: ["Lungs only", "Carotid and aortic bodies", "Heart only", "Brain only"],
+                correct: 1,
+                explanation: "Peripheral chemoreceptors in carotid and aortic bodies detect O₂, CO₂, and pH changes."
+            },
+            {
+                question: "The Hering-Breuer reflex:",
+                options: ["Increases breathing rate", "Prevents overinflation of lungs", "Decreases oxygen levels", "Stops breathing"],
+                correct: 1,
+                explanation: "The Hering-Breuer reflex prevents overinflation by inhibiting inspiration when lungs stretch."
+            },
+            {
+                question: "Voluntary breathing control involves:",
+                options: ["Medulla only", "Cerebral cortex", "Spinal cord only", "Cerebellum only"],
+                correct: 1,
+                explanation: "Voluntary breathing control involves the cerebral cortex overriding automatic control."
+            },
+            {
+                question: "Hyperventilation causes:",
+                options: ["Increased CO₂", "Decreased CO₂", "No change in CO₂", "Increased O₂ only"],
+                correct: 1,
+                explanation: "Hyperventilation removes excess CO₂, leading to respiratory alkalosis."
+            },
+            {
+                question: "Hypoventilation causes:",
+                options: ["Decreased CO₂", "Increased CO₂", "No change in CO₂", "Decreased O₂ only"],
+                correct: 1,
+                explanation: "Hypoventilation allows CO₂ to accumulate, leading to respiratory acidosis."
+            },
+            {
+                question: "Dead space refers to:",
+                options: ["Areas with no gas exchange", "Alveoli only", "Blood vessels", "Muscles"],
+                correct: 0,
+                explanation: "Dead space includes airways where no gas exchange occurs (trachea, bronchi, bronchioles)."
+            },
+
+            // GAS EXCHANGE AND TRANSPORT (Questions 51-75)
+            {
+                question: "Oxygen diffuses from alveoli to blood because:",
+                options: ["Active transport", "Higher concentration in alveoli", "Lower concentration in alveoli", "Protein carriers"],
+                correct: 1,
+                explanation: "Oxygen diffuses from alveoli (higher concentration) to blood (lower concentration) by passive diffusion."
+            },
+            {
+                question: "Carbon dioxide diffuses from blood to alveoli because:",
+                options: ["Active transport", "Higher concentration in blood", "Lower concentration in blood", "Protein carriers"],
+                correct: 1,
+                explanation: "CO₂ diffuses from blood (higher concentration) to alveoli (lower concentration) for removal."
+            },
+            {
+                question: "Most oxygen in blood is transported:",
+                options: ["Dissolved in plasma", "Bound to hemoglobin", "As bicarbonate", "In white blood cells"],
+                correct: 1,
+                explanation: "About 98.5% of oxygen is transported bound to hemoglobin in red blood cells."
+            },
+            {
+                question: "Hemoglobin can carry a maximum of:",
+                options: ["2 oxygen molecules", "4 oxygen molecules", "6 oxygen molecules", "8 oxygen molecules"],
+                correct: 1,
+                explanation: "Each hemoglobin molecule has 4 heme groups, each capable of binding one oxygen molecule."
+            },
+            {
+                question: "Oxyhemoglobin is:",
+                options: ["Hemoglobin without oxygen", "Hemoglobin with oxygen", "Hemoglobin with CO₂", "Damaged hemoglobin"],
+                correct: 1,
+                explanation: "Oxyhemoglobin is hemoglobin that has bound oxygen molecules."
+            },
+            {
+                question: "Deoxyhemoglobin is:",
+                options: ["Hemoglobin with oxygen", "Hemoglobin without oxygen", "Hemoglobin with CO₂", "Damaged hemoglobin"],
+                correct: 1,
+                explanation: "Deoxyhemoglobin is hemoglobin that has released its oxygen."
+            },
+            {
+                question: "The oxygen-hemoglobin dissociation curve shows:",
+                options: ["How oxygen binds to hemoglobin", "Blood pressure changes", "Heart rate changes", "Temperature changes"],
+                correct: 0,
+                explanation: "The curve shows the relationship between oxygen partial pressure and hemoglobin saturation."
+            },
+            {
+                question: "Carbon dioxide is transported in blood as:",
+                options: ["Dissolved CO₂ only", "Bicarbonate only", "Carbaminohemoglobin only", "All of the above"],
+                correct: 3,
+                explanation: "CO₂ is transported as dissolved CO₂ (7%), bicarbonate (70%), and carbaminohemoglobin (23%)."
+            },
+            {
+                question: "Most CO₂ is transported as:",
+                options: ["Dissolved CO₂", "Bicarbonate ions", "Carbaminohemoglobin", "Free CO₂"],
+                correct: 1,
+                explanation: "About 70% of CO₂ is transported as bicarbonate ions (HCO₃⁻) in plasma."
+            },
+            {
+                question: "Carbonic anhydrase:",
+                options: ["Transports oxygen", "Converts CO₂ to bicarbonate", "Binds to hemoglobin", "Produces ATP"],
+                correct: 1,
+                explanation: "Carbonic anhydrase catalyzes the conversion of CO₂ and water to carbonic acid, then bicarbonate."
+            },
+            {
+                question: "The chloride shift involves:",
+                options: ["Oxygen transport", "CO₂ transport", "Nitrogen transport", "Water transport"],
+                correct: 1,
+                explanation: "The chloride shift maintains electrical neutrality during CO₂ transport as bicarbonate."
+            },
+            {
+                question: "Bohr effect describes:",
+                options: ["CO₂ affecting oxygen binding", "Temperature affecting breathing", "pH affecting breathing", "Pressure affecting lungs"],
+                correct: 0,
+                explanation: "The Bohr effect describes how CO₂ and low pH decrease hemoglobin's oxygen affinity."
+            },
+            {
+                question: "In tissues, hemoglobin:",
+                options: ["Binds more oxygen", "Releases oxygen", "Binds CO₂ only", "Has no function"],
+                correct: 1,
+                explanation: "In tissues, hemoglobin releases oxygen due to low O₂ and high CO₂ concentrations."
+            },
+            {
+                question: "In lungs, hemoglobin:",
+                options: ["Releases oxygen", "Binds oxygen", "Binds CO₂ only", "Has no function"],
+                correct: 1,
+                explanation: "In lungs, hemoglobin binds oxygen due to high O₂ and low CO₂ concentrations."
+            },
+            {
+                question: "2,3-DPG (diphosphoglycerate):",
+                options: ["Increases oxygen affinity", "Decreases oxygen affinity", "Has no effect", "Only affects CO₂"],
+                correct: 1,
+                explanation: "2,3-DPG decreases hemoglobin's oxygen affinity, promoting oxygen release to tissues."
+            },
+            {
+                question: "Carbon monoxide poisoning is dangerous because:",
+                options: ["CO binds weakly to hemoglobin", "CO binds strongly to hemoglobin", "CO doesn't bind to hemoglobin", "CO increases oxygen binding"],
+                correct: 1,
+                explanation: "CO binds to hemoglobin 200x stronger than oxygen, preventing oxygen transport."
+            },
+            {
+                question: "Fetal hemoglobin has:",
+                options: ["Lower oxygen affinity", "Higher oxygen affinity", "Same oxygen affinity", "No oxygen binding"],
+                correct: 1,
+                explanation: "Fetal hemoglobin has higher oxygen affinity to extract oxygen from maternal blood."
+            },
+            {
+                question: "At high altitude:",
+                options: ["Oxygen concentration increases", "Oxygen concentration decreases", "No change in oxygen", "CO₂ increases"],
+                correct: 1,
+                explanation: "At high altitude, atmospheric pressure decreases, reducing oxygen concentration."
+            },
+            {
+                question: "Altitude acclimatization involves:",
+                options: ["Decreased red blood cell production", "Increased red blood cell production", "No changes", "Decreased breathing"],
+                correct: 1,
+                explanation: "Altitude acclimatization includes increased red blood cell production to carry more oxygen."
+            },
+            {
+                question: "Pulse oximetry measures:",
+                options: ["Blood pressure", "Heart rate only", "Oxygen saturation", "CO₂ levels"],
+                correct: 2,
+                explanation: "Pulse oximetry non-invasively measures the oxygen saturation of hemoglobin."
+            },
+            {
+                question: "Normal oxygen saturation is:",
+                options: ["70-80%", "85-90%", "95-100%", "100-105%"],
+                correct: 2,
+                explanation: "Normal oxygen saturation (SpO₂) is 95-100% in healthy individuals."
+            },
+            {
+                question: "Hypoxemia is:",
+                options: ["High blood oxygen", "Low blood oxygen", "High blood CO₂", "Low blood CO₂"],
+                correct: 1,
+                explanation: "Hypoxemia is abnormally low oxygen levels in arterial blood."
+            },
+            {
+                question: "Hypercapnia is:",
+                options: ["High blood oxygen", "Low blood oxygen", "High blood CO₂", "Low blood CO₂"],
+                correct: 2,
+                explanation: "Hypercapnia is abnormally high CO₂ levels in arterial blood."
+            },
+            {
+                question: "Cyanosis is:",
+                options: ["Bluish skin color from low oxygen", "Red skin color from high oxygen", "Normal skin color", "Yellow skin color"],
+                correct: 0,
+                explanation: "Cyanosis is bluish discoloration of skin and mucous membranes due to low oxygen levels."
+            },
+            {
+                question: "The respiratory quotient (RQ) is:",
+                options: ["O₂ produced / CO₂ consumed", "CO₂ produced / O₂ consumed", "Breathing rate", "Lung capacity"],
+                correct: 1,
+                explanation: "RQ is the ratio of CO₂ produced to O₂ consumed, indicating metabolic activity."
+            },
+
+            // RESPIRATORY DISORDERS (Questions 76-100)
+            {
+                question: "Asthma is characterized by:",
+                options: ["Lung infection", "Airway inflammation and constriction", "Lung collapse", "Fluid in lungs"],
+                correct: 1,
+                explanation: "Asthma involves chronic airway inflammation, bronchoconstriction, and increased mucus production."
+            },
+            {
+                question: "COPD stands for:",
+                options: ["Chronic Obstructive Pulmonary Disease", "Complete Oxygen Pulmonary Deficiency", "Chronic Oxygen Pulmonary Disorder", "Complex Obstructive Pulmonary Disease"],
+                correct: 0,
+                explanation: "COPD is Chronic Obstructive Pulmonary Disease, including emphysema and chronic bronchitis."
+            },
+            {
+                question: "Emphysema involves:",
+                options: ["Airway constriction", "Alveolar wall destruction", "Lung infection", "Pleural inflammation"],
+                correct: 1,
+                explanation: "Emphysema involves destruction of alveolar walls, reducing gas exchange surface area."
+            },
+            {
+                question: "Chronic bronchitis involves:",
+                options: ["Alveolar destruction", "Persistent airway inflammation", "Lung collapse", "Pleural effusion"],
+                correct: 1,
+                explanation: "Chronic bronchitis involves persistent inflammation and excessive mucus production in airways."
+            },
+            {
+                question: "Pneumonia is:",
+                options: ["Lung infection", "Airway constriction", "Alveolar destruction", "Pleural inflammation"],
+                correct: 0,
+                explanation: "Pneumonia is infection and inflammation of lung tissue, often involving alveoli."
+            },
+            {
+                question: "Tuberculosis is caused by:",
+                options: ["Virus", "Bacteria", "Fungus", "Parasite"],
+                correct: 1,
+                explanation: "Tuberculosis is caused by Mycobacterium tuberculosis bacteria."
+            },
+            {
+                question: "Pneumothorax is:",
+                options: ["Lung infection", "Air in pleural cavity", "Fluid in lungs", "Airway obstruction"],
+                correct: 1,
+                explanation: "Pneumothorax is the presence of air in the pleural cavity, causing lung collapse."
+            },
+            {
+                question: "Pleural effusion is:",
+                options: ["Air in pleural cavity", "Fluid in pleural cavity", "Lung infection", "Airway inflammation"],
+                correct: 1,
+                explanation: "Pleural effusion is abnormal accumulation of fluid in the pleural cavity."
+            },
+            {
+                question: "Pulmonary edema is:",
+                options: ["Air in lungs", "Fluid in alveoli", "Infection in lungs", "Collapsed lung"],
+                correct: 1,
+                explanation: "Pulmonary edema is fluid accumulation in alveoli, often due to heart failure."
+            },
+            {
+                question: "Sleep apnea involves:",
+                options: ["Continuous breathing", "Temporary breathing cessation", "Rapid breathing", "Deep breathing"],
+                correct: 1,
+                explanation: "Sleep apnea involves repeated episodes of breathing cessation during sleep."
+            },
+            {
+                question: "Obstructive sleep apnea is caused by:",
+                options: ["Brain problems", "Airway blockage", "Lung disease", "Heart problems"],
+                correct: 1,
+                explanation: "Obstructive sleep apnea is caused by physical blockage of upper airways during sleep."
+            },
+            {
+                question: "Central sleep apnea is caused by:",
+                options: ["Airway blockage", "Brain not signaling breathing muscles", "Lung inflammation", "Heart failure"],
+                correct: 1,
+                explanation: "Central sleep apnea occurs when the brain fails to signal breathing muscles."
+            },
+            {
+                question: "Lung cancer is often associated with:",
+                options: ["Exercise", "Smoking", "Drinking water", "Eating vegetables"],
+                correct: 1,
+                explanation: "Smoking is the leading cause of lung cancer, responsible for about 85% of cases."
+            },
+            {
+                question: "Pulmonary fibrosis involves:",
+                options: ["Lung infection", "Scar tissue formation", "Airway constriction", "Fluid accumulation"],
+                correct: 1,
+                explanation: "Pulmonary fibrosis involves progressive scarring of lung tissue, impairing gas exchange."
+            },
+            {
+                question: "Respiratory distress syndrome (RDS) in infants is due to:",
+                options: ["Infection", "Lack of surfactant", "Airway blockage", "Heart problems"],
+                correct: 1,
+                explanation: "Infant RDS is caused by insufficient surfactant production, leading to alveolar collapse."
+            },
+            {
+                question: "Cystic fibrosis affects:",
+                options: ["Only lungs", "Lungs and digestive system", "Only heart", "Only kidneys"],
+                correct: 1,
+                explanation: "Cystic fibrosis affects both respiratory and digestive systems through thick, sticky mucus production."
+            },
+            {
+                question: "Spirometry measures:",
+                options: ["Blood oxygen", "Blood pressure", "Lung function", "Heart rate"],
+                correct: 2,
+                explanation: "Spirometry measures lung volumes and capacities to assess respiratory function."
+            },
+            {
+                question: "FEV1 stands for:",
+                options: ["Forced Expiratory Volume in 1 second", "Final Expiratory Volume in 1 second", "Functional Expiratory Volume in 1 second", "Fast Expiratory Volume in 1 second"],
+                correct: 0,
+                explanation: "FEV1 is Forced Expiratory Volume in 1 second, measuring airway obstruction."
+            },
+            {
+                question: "Peak flow meters measure:",
+                options: ["Blood oxygen", "Maximum airflow rate", "Lung capacity", "CO₂ levels"],
+                correct: 1,
+                explanation: "Peak flow meters measure the maximum rate of air flow during forced expiration."
+            },
+            {
+                question: "Bronchodilators work by:",
+                options: ["Constricting airways", "Relaxing airway muscles", "Increasing mucus", "Decreasing oxygen"],
+                correct: 1,
+                explanation: "Bronchodilators relax smooth muscles in airways, opening bronchi and bronchioles."
+            },
+            {
+                question: "Corticosteroids in respiratory treatment:",
+                options: ["Increase inflammation", "Reduce inflammation", "Block oxygen", "Constrict airways"],
+                correct: 1,
+                explanation: "Inhaled corticosteroids reduce airway inflammation in asthma and COPD."
+            },
+            {
+                question: "Oxygen therapy is used for:",
+                options: ["High blood oxygen", "Low blood oxygen", "Normal blood oxygen", "High CO₂ only"],
+                correct: 1,
+                explanation: "Oxygen therapy is used to treat hypoxemia (low blood oxygen levels)."
+            },
+            {
+                question: "Mechanical ventilation:",
+                options: ["Always harms patients", "Assists or replaces breathing", "Only removes CO₂", "Only adds oxygen"],
+                correct: 1,
+                explanation: "Mechanical ventilation assists or replaces spontaneous breathing in respiratory failure."
+            },
+            {
+                question: "CPAP (Continuous Positive Airway Pressure):",
+                options: ["Blocks airways", "Keeps airways open", "Reduces oxygen", "Stops breathing"],
+                correct: 1,
+                explanation: "CPAP keeps airways open with continuous positive pressure, treating sleep apnea."
+            },
+            {
+                question: "Respiratory acidosis is caused by:",
+                options: ["Low CO₂", "High CO₂", "Low oxygen", "High oxygen"],
+                correct: 1,
+                explanation: "Respiratory acidosis is caused by CO₂ retention (high CO₂), lowering blood pH."
+            }
+        ],
             {
                 question: "The left ventricle has thicker walls than the right ventricle because:",
                 options: ["It pumps blood to the lungs", "It pumps blood to the entire body", "It receives more blood", "It contracts more frequently"],
@@ -2533,7 +4347,1835 @@ const mcqDatabase = {
                 explanation: "Hemoglobin in red blood cells carries most of the oxygen transported in blood."
             }
         ],
+        'Evolution': [
+            // DARWIN'S THEORY AND EVIDENCE (Questions 1-25)
+            {
+                question: "Charles Darwin's theory of evolution is based on:",
+                options: ["Inheritance of acquired characteristics", "Natural selection", "Spontaneous generation", "Mutation theory"],
+                correct: 1,
+                explanation: "Darwin's theory of evolution is primarily based on natural selection as the mechanism of evolutionary change."
+            },
+            {
+                question: "The process by which organisms with favorable traits survive and reproduce is called:",
+                options: ["Artificial selection", "Natural selection", "Sexual selection", "Genetic drift"],
+                correct: 1,
+                explanation: "Natural selection is the process where organisms with advantageous traits have better survival and reproductive success."
+            },
+            {
+                question: "Darwin's finches are an example of:",
+                options: ["Convergent evolution", "Divergent evolution", "Parallel evolution", "Coevolution"],
+                correct: 1,
+                explanation: "Darwin's finches show divergent evolution from a common ancestor into different species with varied beak shapes."
+            },
+            {
+                question: "The evidence for evolution includes:",
+                options: ["Fossils only", "Comparative anatomy only", "Molecular biology only", "All of the above"],
+                correct: 3,
+                explanation: "Evolution is supported by multiple lines of evidence including fossils, comparative anatomy, and molecular biology."
+            },
+            {
+                question: "Homologous structures are:",
+                options: ["Similar in function but different in origin", "Similar in origin but different in function", "Identical in all aspects", "Found only in extinct species"],
+                correct: 1,
+                explanation: "Homologous structures have the same evolutionary origin but may have different functions."
+            },
+            {
+                question: "The forelimbs of mammals are examples of:",
+                options: ["Analogous structures", "Homologous structures", "Vestigial structures", "Convergent structures"],
+                correct: 1,
+                explanation: "Mammalian forelimbs have the same basic bone structure despite different functions, showing common ancestry."
+            },
+            {
+                question: "Vestigial organs are:",
+                options: ["Fully functional organs", "Reduced or non-functional organs", "Newly evolved organs", "Organs found only in embryos"],
+                correct: 1,
+                explanation: "Vestigial organs are reduced or non-functional structures that were functional in ancestors."
+            },
+            {
+                question: "The human appendix is considered:",
+                options: ["A vital organ", "A vestigial organ", "A newly evolved organ", "An organ unique to humans"],
+                correct: 1,
+                explanation: "The human appendix is considered vestigial as it has reduced function compared to its role in herbivorous ancestors."
+            },
+            {
+                question: "Comparative embryology shows that:",
+                options: ["All embryos are identical", "Related species have similar embryonic development", "Embryos have no evolutionary significance", "Only mammals have embryos"],
+                correct: 1,
+                explanation: "Comparative embryology reveals that related species share similar developmental patterns, supporting common ancestry."
+            },
+            {
+                question: "The earliest fossils are found in:",
+                options: ["Recent rock layers", "Oldest rock layers", "Only sedimentary rocks", "Only volcanic rocks"],
+                correct: 1,
+                explanation: "The oldest fossils are found in the oldest rock layers, following the principle of superposition."
+            },
+            {
+                question: "Biogeographic evidence for evolution includes:",
+                options: ["Similar species in different continents", "Island species resembling mainland species", "Random distribution of species", "Identical species everywhere"],
+                correct: 1,
+                explanation: "Biogeography shows that island species often resemble nearby mainland species, supporting evolutionary relationships."
+            },
+            {
+                question: "The Galapagos Islands are famous for:",
+                options: ["Having no life", "Darwin's observations", "Being perfectly flat", "Having only one species"],
+                correct: 1,
+                explanation: "The Galapagos Islands are famous for Darwin's observations of finches and other species that supported his theory."
+            },
+            {
+                question: "Adaptive radiation is:",
+                options: ["Evolution of one species into many", "Evolution of many species into one", "Random genetic changes", "Extinction of species"],
+                correct: 0,
+                explanation: "Adaptive radiation is the evolution of one ancestral species into many different species adapted to different environments."
+            },
+            {
+                question: "The fossil record shows:",
+                options: ["All species appeared simultaneously", "Gradual appearance of species over time", "No pattern", "Only recent species"],
+                correct: 1,
+                explanation: "The fossil record demonstrates the gradual appearance and change of species over geological time."
+            },
+            {
+                question: "Transitional fossils are:",
+                options: ["Fossils showing intermediate characteristics", "Only plant fossils", "Fossils that are incomplete", "Fossils found in transition zones"],
+                correct: 0,
+                explanation: "Transitional fossils show intermediate characteristics between ancestral and descendant species."
+            },
+            {
+                question: "The age of fossils can be determined by:",
+                options: ["Their size", "Their color", "Radiometric dating", "Their location only"],
+                correct: 2,
+                explanation: "Radiometric dating uses the decay of radioactive isotopes to determine the age of fossils and rocks."
+            },
+            {
+                question: "Convergent evolution results in:",
+                options: ["Homologous structures", "Analogous structures", "Vestigial structures", "Identical genes"],
+                correct: 1,
+                explanation: "Convergent evolution produces analogous structures - similar functions but different evolutionary origins."
+            },
+            {
+                question: "The wings of birds and bats are examples of:",
+                options: ["Homologous structures", "Analogous structures", "Vestigial structures", "Identical structures"],
+                correct: 1,
+                explanation: "Bird and bat wings are analogous - they serve the same function but evolved independently."
+            },
+            {
+                question: "Molecular evidence for evolution includes:",
+                options: ["DNA sequences", "Protein sequences", "Both DNA and protein sequences", "Neither DNA nor proteins"],
+                correct: 2,
+                explanation: "Both DNA and protein sequences provide strong molecular evidence for evolutionary relationships."
+            },
+            {
+                question: "Species that are more closely related have:",
+                options: ["More different DNA", "More similar DNA", "No DNA similarity", "Identical DNA"],
+                correct: 1,
+                explanation: "Closely related species have more similar DNA sequences due to their recent common ancestry."
+            },
+            {
+                question: "The universal genetic code suggests:",
+                options: ["Random evolution", "Common ancestry of all life", "Independent origins", "No relationship"],
+                correct: 1,
+                explanation: "The universal genetic code indicates that all life forms share a common evolutionary origin."
+            },
+            {
+                question: "Cytochrome c is used in evolutionary studies because:",
+                options: ["It's found in all organisms", "It evolves at a constant rate", "It's essential for life", "All of the above"],
+                correct: 3,
+                explanation: "Cytochrome c is universal, evolves at a measurable rate, and is essential, making it ideal for evolutionary studies."
+            },
+            {
+                question: "The more similar the DNA sequences between two species, the:",
+                options: ["More distantly related they are", "More recently they diverged", "Less related they are", "More different they are"],
+                correct: 1,
+                explanation: "Similar DNA sequences indicate recent evolutionary divergence from a common ancestor."
+            },
+            {
+                question: "Phylogenetic trees show:",
+                options: ["Evolutionary relationships", "Geographic distribution", "Population sizes", "Extinction dates"],
+                correct: 0,
+                explanation: "Phylogenetic trees diagram the evolutionary relationships and common ancestry among species."
+            },
+            {
+                question: "The theory of evolution explains:",
+                options: ["The origin of life", "The diversity of life", "The future of life", "The purpose of life"],
+                correct: 1,
+                explanation: "Evolution explains the diversity of life through descent with modification from common ancestors."
+            },
+
+            // MECHANISMS OF EVOLUTION (Questions 26-50)
+            {
+                question: "The raw material for evolution is:",
+                options: ["Natural selection", "Genetic variation", "Environmental change", "Population size"],
+                correct: 1,
+                explanation: "Genetic variation provides the raw material upon which natural selection and other evolutionary forces act."
+            },
+            {
+                question: "Mutations are important in evolution because they:",
+                options: ["Always improve fitness", "Create new genetic variation", "Are always harmful", "Occur very rarely"],
+                correct: 1,
+                explanation: "Mutations introduce new genetic variation into populations, providing material for evolutionary change."
+            },
+            {
+                question: "Gene flow between populations:",
+                options: ["Increases genetic differences", "Reduces genetic differences", "Has no effect", "Always stops evolution"],
+                correct: 1,
+                explanation: "Gene flow (migration) between populations tends to homogenize allele frequencies and reduce genetic differences."
+            },
+            {
+                question: "Genetic drift is:",
+                options: ["Random changes in allele frequencies", "Directed changes in allele frequencies", "Always beneficial", "The same as natural selection"],
+                correct: 0,
+                explanation: "Genetic drift refers to random changes in allele frequencies, especially important in small populations."
+            },
+            {
+                question: "The bottleneck effect is an example of:",
+                options: ["Natural selection", "Genetic drift", "Gene flow", "Mutation"],
+                correct: 1,
+                explanation: "The bottleneck effect occurs when population size is drastically reduced, causing genetic drift."
+            },
+            {
+                question: "The founder effect occurs when:",
+                options: ["A population grows very large", "A small group starts a new population", "All individuals are identical", "Migration stops"],
+                correct: 1,
+                explanation: "The founder effect occurs when a small group of individuals establishes a new population."
+            },
+            {
+                question: "Hardy-Weinberg equilibrium describes:",
+                options: ["Evolving populations", "Non-evolving populations", "Extinct populations", "Hybrid populations"],
+                correct: 1,
+                explanation: "Hardy-Weinberg equilibrium describes the genetic makeup of non-evolving populations."
+            },
+            {
+                question: "For Hardy-Weinberg equilibrium, populations must have:",
+                options: ["No mutations", "No selection", "No gene flow", "All of the above"],
+                correct: 3,
+                explanation: "Hardy-Weinberg equilibrium requires no mutations, selection, gene flow, or other evolutionary forces."
+            },
+            {
+                question: "Sexual selection is:",
+                options: ["Selection for survival traits", "Selection for reproductive success", "Random mating", "Asexual reproduction"],
+                correct: 1,
+                explanation: "Sexual selection favors traits that increase reproductive success rather than survival."
+            },
+            {
+                question: "Peacock tail feathers are an example of:",
+                options: ["Natural selection", "Sexual selection", "Genetic drift", "Mutation"],
+                correct: 1,
+                explanation: "Peacock tail feathers evolved through sexual selection as they attract mates despite hindering survival."
+            },
+            {
+                question: "Directional selection:",
+                options: ["Favors intermediate phenotypes", "Favors one extreme phenotype", "Favors both extremes", "Has no effect"],
+                correct: 1,
+                explanation: "Directional selection favors individuals at one extreme of the phenotypic distribution."
+            },
+            {
+                question: "Stabilizing selection:",
+                options: ["Favors extreme phenotypes", "Favors intermediate phenotypes", "Eliminates all variation", "Causes rapid change"],
+                correct: 1,
+                explanation: "Stabilizing selection favors intermediate phenotypes and reduces variation around the mean."
+            },
+            {
+                question: "Disruptive selection:",
+                options: ["Favors intermediate phenotypes", "Favors extreme phenotypes", "Eliminates all phenotypes", "Stops evolution"],
+                correct: 1,
+                explanation: "Disruptive selection favors individuals at both extremes of the phenotypic distribution."
+            },
+            {
+                question: "Balancing selection maintains:",
+                options: ["No genetic variation", "Genetic variation", "Only harmful alleles", "Only beneficial alleles"],
+                correct: 1,
+                explanation: "Balancing selection maintains genetic variation in populations through various mechanisms."
+            },
+            {
+                question: "Heterozygote advantage is an example of:",
+                options: ["Directional selection", "Balancing selection", "Disruptive selection", "No selection"],
+                correct: 1,
+                explanation: "Heterozygote advantage is a form of balancing selection that maintains multiple alleles."
+            },
+            {
+                question: "Sickle cell anemia persists in some populations because:",
+                options: ["It's always beneficial", "Heterozygotes have malaria resistance", "It's not genetic", "It's a new mutation"],
+                correct: 1,
+                explanation: "Sickle cell allele persists because heterozygotes have resistance to malaria."
+            },
+            {
+                question: "Coevolution occurs when:",
+                options: ["Species evolve independently", "Species evolve in response to each other", "Species go extinct", "Species remain unchanged"],
+                correct: 1,
+                explanation: "Coevolution occurs when two or more species evolve in response to each other."
+            },
+            {
+                question: "The relationship between flowers and their pollinators is an example of:",
+                options: ["Competition", "Coevolution", "Parasitism", "Commensalism"],
+                correct: 1,
+                explanation: "Flowers and pollinators have coevolved, with each influencing the evolution of the other."
+            },
+            {
+                question: "Red Queen hypothesis suggests that:",
+                options: ["Evolution stops", "Species must constantly evolve", "Only predators evolve", "Evolution is random"],
+                correct: 1,
+                explanation: "Red Queen hypothesis states that species must constantly evolve to survive in changing environments."
+            },
+            {
+                question: "Speciation is:",
+                options: ["The death of species", "The formation of new species", "The hybridization of species", "The migration of species"],
+                correct: 1,
+                explanation: "Speciation is the evolutionary process by which new species arise from existing ones."
+            },
+            {
+                question: "Allopatric speciation occurs when:",
+                options: ["Populations are geographically separated", "Populations are in the same area", "Populations interbreed freely", "Populations go extinct"],
+                correct: 0,
+                explanation: "Allopatric speciation occurs when populations are geographically separated and evolve independently."
+            },
+            {
+                question: "Sympatric speciation occurs when:",
+                options: ["Populations are separated", "Populations are in the same geographic area", "Populations migrate", "Populations hybridize"],
+                correct: 1,
+                explanation: "Sympatric speciation occurs within the same geographic area, often through polyploidy in plants."
+            },
+            {
+                question: "Reproductive isolation is:",
+                options: ["Prevention of gene flow between populations", "Increase in gene flow", "Random mating", "Asexual reproduction"],
+                correct: 0,
+                explanation: "Reproductive isolation prevents gene flow between populations, leading to speciation."
+            },
+            {
+                question: "Prezygotic isolation mechanisms include:",
+                options: ["Hybrid sterility", "Temporal isolation", "Hybrid breakdown", "Reduced hybrid viability"],
+                correct: 1,
+                explanation: "Prezygotic isolation prevents fertilization, including temporal isolation when species breed at different times."
+            },
+            {
+                question: "Postzygotic isolation mechanisms include:",
+                options: ["Behavioral isolation", "Hybrid sterility", "Gametic isolation", "Mechanical isolation"],
+                correct: 1,
+                explanation: "Postzygotic isolation occurs after fertilization, including hybrid sterility where offspring cannot reproduce."
+            },
+
+            // EVOLUTION AND SPECIATION (Questions 51-75)
+            {
+                question: "A species is defined as:",
+                options: ["Organisms that look similar", "Organisms that can interbreed and produce fertile offspring", "Organisms in the same location", "Organisms with the same DNA"],
+                correct: 1,
+                explanation: "The biological species concept defines species as groups that can interbreed and produce fertile offspring."
+            },
+            {
+                question: "The process of gradual change in a species over time is called:",
+                options: ["Microevolution", "Macroevolution", "Phyletic evolution", "Punctuated equilibrium"],
+                correct: 2,
+                explanation: "Phyletic evolution refers to gradual change within a lineage over time."
+            },
+            {
+                question: "Punctuated equilibrium suggests that:",
+                options: ["Evolution is always gradual", "Evolution occurs in rapid bursts", "Evolution never occurs", "Evolution is random"],
+                correct: 1,
+                explanation: "Punctuated equilibrium proposes that evolution occurs in rapid bursts followed by long periods of stasis."
+            },
+            {
+                question: "Adaptive radiation typically occurs when:",
+                options: ["Competition is intense", "New environments are available", "Populations are small", "Mutations are rare"],
+                correct: 1,
+                explanation: "Adaptive radiation often occurs when new environments with available niches become accessible."
+            },
+            {
+                question: "The Cambrian explosion was:",
+                options: ["A literal explosion", "Rapid diversification of life forms", "Mass extinction", "Formation of Earth"],
+                correct: 1,
+                explanation: "The Cambrian explosion was a rapid diversification of life forms about 540 million years ago."
+            },
+            {
+                question: "Mass extinctions are followed by:",
+                options: ["No new species", "Rapid diversification", "Stasis", "Regression"],
+                correct: 1,
+                explanation: "Mass extinctions are typically followed by rapid diversification to fill vacant ecological niches."
+            },
+            {
+                question: "The concept of living fossils refers to:",
+                options: ["Recently discovered fossils", "Species that have changed little over time", "Artificial fossils", "Extinct species"],
+                correct: 1,
+                explanation: "Living fossils are species that have remained relatively unchanged over long periods of time."
+            },
+            {
+                question: "Coelacanths are examples of:",
+                options: ["Recently evolved species", "Living fossils", "Extinct species", "Hybrid species"],
+                correct: 1,
+                explanation: "Coelacanths are living fossils, having remained relatively unchanged for millions of years."
+            },
+            {
+                question: "Convergent evolution occurs when:",
+                options: ["Related species evolve similarly", "Unrelated species evolve similar traits", "Species merge", "Species go extinct"],
+                correct: 1,
+                explanation: "Convergent evolution occurs when unrelated species independently evolve similar traits."
+            },
+            {
+                question: "The similar body shape of sharks and dolphins is due to:",
+                options: ["Common ancestry", "Convergent evolution", "Artificial selection", "Genetic drift"],
+                correct: 1,
+                explanation: "Sharks and dolphins have similar body shapes due to convergent evolution for aquatic life."
+            },
+            {
+                question: "Parallel evolution occurs when:",
+                options: ["Unrelated species evolve similarly", "Related species evolve similar traits independently", "Species evolve in opposite directions", "Evolution stops"],
+                correct: 1,
+                explanation: "Parallel evolution occurs when related species independently evolve similar traits."
+            },
+            {
+                question: "Molecular clocks are based on:",
+                options: ["Constant rates of mutation", "Fossil evidence", "Geographic distribution", "Morphological similarity"],
+                correct: 0,
+                explanation: "Molecular clocks estimate evolutionary time using relatively constant rates of molecular evolution."
+            },
+            {
+                question: "The neutral theory of evolution suggests that:",
+                options: ["All mutations are beneficial", "Most mutations are neutral", "Mutations don't occur", "All mutations are harmful"],
+                correct: 1,
+                explanation: "The neutral theory proposes that most molecular evolution is due to neutral mutations."
+            },
+            {
+                question: "Evolutionary developmental biology (evo-devo) studies:",
+                options: ["Only adult organisms", "Development and evolution", "Only extinct species", "Only molecular changes"],
+                correct: 1,
+                explanation: "Evo-devo examines how developmental processes evolve and contribute to morphological diversity."
+            },
+            {
+                question: "Hox genes are important because they:",
+                options: ["Control development", "Are highly conserved", "Influence body plan evolution", "All of the above"],
+                correct: 3,
+                explanation: "Hox genes control development, are highly conserved, and have been crucial in body plan evolution."
+            },
+            {
+                question: "The evolution of multicellularity was important because it:",
+                options: ["Decreased complexity", "Allowed specialization", "Eliminated competition", "Stopped evolution"],
+                correct: 1,
+                explanation: "Multicellularity allowed for cellular specialization and increased complexity."
+            },
+            {
+                question: "Sexual reproduction evolved because it:",
+                options: ["Is simpler than asexual reproduction", "Increases genetic variation", "Requires less energy", "Is more efficient"],
+                correct: 1,
+                explanation: "Sexual reproduction evolved because it increases genetic variation, providing evolutionary advantages."
+            },
+            {
+                question: "The evolution of wings in insects, birds, and bats is an example of:",
+                options: ["Homologous structures", "Convergent evolution", "Parallel evolution", "Coevolution"],
+                correct: 1,
+                explanation: "Wings evolved independently in these groups, making them an example of convergent evolution."
+            },
+            {
+                question: "Phylogenetic systematics is based on:",
+                options: ["Overall similarity", "Shared derived characteristics", "Geographic distribution", "Ecological function"],
+                correct: 1,
+                explanation: "Phylogenetic systematics groups organisms based on shared derived characteristics (synapomorphies)."
+            },
+            {
+                question: "A monophyletic group includes:",
+                options: ["All descendants of a common ancestor", "Some descendants of a common ancestor", "Unrelated organisms", "Only extinct species"],
+                correct: 0,
+                explanation: "A monophyletic group includes all descendants of a common ancestor."
+            },
+            {
+                question: "The tree of life represents:",
+                options: ["Only plant relationships", "All evolutionary relationships", "Only animal relationships", "Only extinct relationships"],
+                correct: 1,
+                explanation: "The tree of life represents the evolutionary relationships among all organisms."
+            },
+            {
+                question: "Horizontal gene transfer is most common in:",
+                options: ["Plants", "Animals", "Bacteria", "Fungi"],
+                correct: 2,
+                explanation: "Horizontal gene transfer is most common in bacteria, where genes can be transferred between species."
+            },
+            {
+                question: "The endosymbiotic theory explains:",
+                options: ["Cell division", "Origin of eukaryotic cells", "DNA replication", "Protein synthesis"],
+                correct: 1,
+                explanation: "The endosymbiotic theory explains how eukaryotic cells evolved from prokaryotic ancestors."
+            },
+            {
+                question: "Mitochondria and chloroplasts are thought to have evolved from:",
+                options: ["Viruses", "Bacteria", "Archaea", "Eukaryotes"],
+                correct: 1,
+                explanation: "Mitochondria and chloroplasts are thought to have evolved from endosymbiotic bacteria."
+            },
+            {
+                question: "The evolution of photosynthesis was important because it:",
+                options: ["Reduced atmospheric oxygen", "Increased atmospheric oxygen", "Eliminated all life", "Had no effect"],
+                correct: 1,
+                explanation: "The evolution of photosynthesis dramatically increased atmospheric oxygen levels."
+            },
+
+            // HUMAN EVOLUTION (Questions 76-100)
+            {
+                question: "Humans and chimpanzees share approximately what percentage of DNA?",
+                options: ["50%", "75%", "95%", "99%"],
+                correct: 3,
+                explanation: "Humans and chimpanzees share approximately 98-99% of their DNA sequences."
+            },
+            {
+                question: "The most recent common ancestor of humans and chimpanzees lived approximately:",
+                options: ["1 million years ago", "3 million years ago", "6 million years ago", "10 million years ago"],
+                correct: 2,
+                explanation: "The most recent common ancestor of humans and chimpanzees lived approximately 6-7 million years ago."
+            },
+            {
+                question: "Australopithecus afarensis is famous for:",
+                options: ["Being the first human", "The fossil 'Lucy'", "Having a large brain", "Using advanced tools"],
+                correct: 1,
+                explanation: "Australopithecus afarensis is famous for the fossil 'Lucy', which showed bipedalism."
+            },
+            {
+                question: "Bipedalism in human evolution:",
+                options: ["Evolved after large brains", "Evolved before large brains", "Evolved simultaneously with large brains", "Never evolved"],
+                correct: 1,
+                explanation: "Bipedalism evolved before large brains in human evolution."
+            },
+            {
+                question: "The oldest known human ancestor is:",
+                options: ["Homo sapiens", "Homo erectus", "Australopithecus", "Sahelanthropus"],
+                correct: 3,
+                explanation: "Sahelanthropus tchadensis is currently considered the oldest known human ancestor."
+            },
+            {
+                question: "Homo erectus was the first human ancestor to:",
+                options: ["Walk upright", "Use tools", "Migrate out of Africa", "Develop language"],
+                correct: 2,
+                explanation: "Homo erectus was the first human ancestor to migrate out of Africa."
+            },
+            {
+                question: "The 'Out of Africa' theory suggests that:",
+                options: ["Humans evolved in multiple locations", "Modern humans originated in Africa", "Humans never left Africa", "Africa had no early humans"],
+                correct: 1,
+                explanation: "The Out of Africa theory proposes that modern humans originated in Africa and migrated worldwide."
+            },
+            {
+                question: "Neanderthals were:",
+                options: ["Ancestors of modern humans", "Cousins of modern humans", "Descendants of modern humans", "Unrelated to humans"],
+                correct: 1,
+                explanation: "Neanderthals were close relatives (cousins) of modern humans, not direct ancestors."
+            },
+            {
+                question: "The human brain size increased most dramatically in:",
+                options: ["Australopithecus", "Homo habilis", "Homo erectus", "Homo sapiens"],
+                correct: 3,
+                explanation: "The most dramatic increase in human brain size occurred with Homo sapiens."
+            },
+            {
+                question: "Tool use in human evolution:",
+                options: ["Began with Homo sapiens", "Began with Australopithecus", "Began with Homo habilis", "Never occurred"],
+                correct: 2,
+                explanation: "Stone tool use began with Homo habilis, earning them the name 'handy man'."
+            },
+            {
+                question: "The development of language was important because it:",
+                options: ["Allowed cultural transmission", "Increased cooperation", "Enabled complex societies", "All of the above"],
+                correct: 3,
+                explanation: "Language enabled cultural transmission, cooperation, and the development of complex societies."
+            },
+            {
+                question: "Human evolution is characterized by:",
+                options: ["Mosaic evolution", "Uniform evolution", "Rapid evolution", "No evolution"],
+                correct: 0,
+                explanation: "Human evolution shows mosaic evolution, where different traits evolved at different rates."
+            },
+            {
+                question: "The human fossil record shows:",
+                options: ["No intermediate forms", "Many intermediate forms", "Only modern humans", "Only extinct species"],
+                correct: 1,
+                explanation: "The human fossil record shows many intermediate forms between early ancestors and modern humans."
+            },
+            {
+                question: "Comparative anatomy shows that humans are most closely related to:",
+                options: ["Gorillas", "Chimpanzees", "Orangutans", "Baboons"],
+                correct: 1,
+                explanation: "Comparative anatomy and molecular evidence show humans are most closely related to chimpanzees."
+            },
+            {
+                question: "The evolution of cooking was important because it:",
+                options: ["Increased caloric availability", "Reduced digestive energy needs", "Allowed smaller teeth", "All of the above"],
+                correct: 3,
+                explanation: "Cooking increased caloric availability, reduced digestive energy needs, and allowed smaller teeth."
+            },
+            {
+                question: "Human cultural evolution is characterized by:",
+                options: ["Slow change", "Rapid change", "No change", "Random change"],
+                correct: 1,
+                explanation: "Human cultural evolution occurs much more rapidly than biological evolution."
+            },
+            {
+                question: "The evolution of opposable thumbs was important for:",
+                options: ["Walking", "Tool use", "Swimming", "Digestion"],
+                correct: 1,
+                explanation: "Opposable thumbs were crucial for precise tool use and manipulation."
+            },
+            {
+                question: "Human evolution continues today through:",
+                options: ["No evolution", "Only physical evolution", "Cultural and technological evolution", "Reverse evolution"],
+                correct: 2,
+                explanation: "Human evolution continues primarily through cultural and technological evolution."
+            },
+            {
+                question: "The study of human evolution involves:",
+                options: ["Only fossils", "Only genetics", "Only behavior", "Multiple disciplines"],
+                correct: 3,
+                explanation: "Human evolution studies integrate fossils, genetics, behavior, archaeology, and other disciplines."
+            },
+            {
+                question: "Evidence for human evolution includes:",
+                options: ["Fossil evidence", "Genetic evidence", "Comparative anatomy", "All of the above"],
+                correct: 3,
+                explanation: "Human evolution is supported by fossil evidence, genetic studies, and comparative anatomy."
+            },
+            {
+                question: "The evolution of agriculture led to:",
+                options: ["Population decrease", "Population increase", "No change", "Extinction"],
+                correct: 1,
+                explanation: "The evolution of agriculture led to dramatic population increases and the rise of civilizations."
+            },
+            {
+                question: "Modern human variation is explained by:",
+                options: ["Different species", "Adaptation to different environments", "Random changes", "No variation exists"],
+                correct: 1,
+                explanation: "Modern human variation largely reflects adaptation to different climates and environments."
+            },
+            {
+                question: "The molecular clock suggests that modern humans evolved:",
+                options: ["50,000 years ago", "100,000 years ago", "200,000 years ago", "500,000 years ago"],
+                correct: 2,
+                explanation: "Molecular clock estimates suggest modern humans evolved approximately 200,000 years ago."
+            },
+            {
+                question: "Gene flow in modern human populations:",
+                options: ["Doesn't occur", "Increases differences", "Decreases differences", "Only occurs locally"],
+                correct: 2,
+                explanation: "Gene flow between modern human populations tends to decrease genetic differences."
+            },
+            {
+                question: "The future of human evolution will likely involve:",
+                options: ["Only natural selection", "Technology and medicine", "No evolution", "Reverse evolution"],
+                correct: 1,
+                explanation: "Future human evolution will likely be influenced by technology, medicine, and cultural factors."
+            }
+        ],
+        'Reproduction': [
+            // TYPES OF REPRODUCTION (Questions 1-25)
+            {
+                question: "Asexual reproduction produces offspring that are:",
+                options: ["Genetically different from parent", "Genetically identical to parent", "A mix of both parents", "Completely different"],
+                correct: 1,
+                explanation: "Asexual reproduction produces genetically identical offspring (clones) from a single parent."
+            },
+            {
+                question: "Sexual reproduction involves:",
+                options: ["One parent only", "Two parents", "No parents", "Multiple identical parents"],
+                correct: 1,
+                explanation: "Sexual reproduction typically involves two parents contributing genetic material to create offspring."
+            },
+            {
+                question: "The main advantage of sexual reproduction is:",
+                options: ["Faster reproduction", "Genetic variation", "Less energy required", "Simpler process"],
+                correct: 1,
+                explanation: "Sexual reproduction creates genetic variation, which provides evolutionary advantages."
+            },
+            {
+                question: "Binary fission is a type of:",
+                options: ["Sexual reproduction", "Asexual reproduction", "Budding", "Fragmentation"],
+                correct: 1,
+                explanation: "Binary fission is asexual reproduction where a single cell divides into two identical cells."
+            },
+            {
+                question: "Budding is commonly seen in:",
+                options: ["Humans", "Yeast", "Birds", "Fish"],
+                correct: 1,
+                explanation: "Budding is common in organisms like yeast and hydra, where a small outgrowth develops into a new individual."
+            },
+            {
+                question: "Fragmentation occurs in:",
+                options: ["Starfish", "Mammals", "Birds", "Insects"],
+                correct: 0,
+                explanation: "Fragmentation occurs in organisms like starfish, where body parts can regenerate into complete organisms."
+            },
+            {
+                question: "Parthenogenesis is:",
+                options: ["Development from unfertilized egg", "Development from fertilized egg", "Cell division", "Spore formation"],
+                correct: 0,
+                explanation: "Parthenogenesis is development of an organism from an unfertilized egg."
+            },
+            {
+                question: "Vegetative propagation is seen in:",
+                options: ["Animals", "Plants", "Bacteria", "Viruses"],
+                correct: 1,
+                explanation: "Vegetative propagation is asexual reproduction in plants using vegetative parts like roots, stems, or leaves."
+            },
+            {
+                question: "Runners or stolons are examples of:",
+                options: ["Sexual reproduction", "Vegetative propagation", "Seed formation", "Pollination"],
+                correct: 1,
+                explanation: "Runners or stolons are horizontal stems that produce new plants at nodes, a form of vegetative propagation."
+            },
+            {
+                question: "Spore formation is common in:",
+                options: ["Mammals", "Fungi", "Birds", "Fish"],
+                correct: 1,
+                explanation: "Spore formation is a common form of asexual reproduction in fungi and some plants."
+            },
+            {
+                question: "Gametes are:",
+                options: ["Somatic cells", "Reproductive cells", "Stem cells", "Nerve cells"],
+                correct: 1,
+                explanation: "Gametes are specialized reproductive cells (sperm and egg) that fuse during fertilization."
+            },
+            {
+                question: "Diploid cells have:",
+                options: ["One set of chromosomes", "Two sets of chromosomes", "Three sets of chromosomes", "No chromosomes"],
+                correct: 1,
+                explanation: "Diploid cells have two sets of chromosomes (2n), one from each parent."
+            },
+            {
+                question: "Haploid cells have:",
+                options: ["Two sets of chromosomes", "One set of chromosomes", "Three sets of chromosomes", "No chromosomes"],
+                correct: 1,
+                explanation: "Haploid cells have one set of chromosomes (n), typical of gametes."
+            },
+            {
+                question: "Meiosis produces:",
+                options: ["Diploid cells", "Haploid cells", "Identical cells", "Somatic cells"],
+                correct: 1,
+                explanation: "Meiosis produces haploid gametes from diploid cells, reducing chromosome number by half."
+            },
+            {
+                question: "Fertilization results in:",
+                options: ["Haploid zygote", "Diploid zygote", "Triploid zygote", "No zygote"],
+                correct: 1,
+                explanation: "Fertilization combines haploid gametes to form a diploid zygote."
+            },
+            {
+                question: "Alternation of generations is seen in:",
+                options: ["Mammals only", "Plants", "Bacteria", "Viruses"],
+                correct: 1,
+                explanation: "Alternation of generations is a life cycle pattern common in plants, alternating between haploid and diploid phases."
+            },
+            {
+                question: "In plants, the gametophyte generation is:",
+                options: ["Diploid", "Haploid", "Triploid", "Tetraploid"],
+                correct: 1,
+                explanation: "The gametophyte generation in plants is haploid and produces gametes."
+            },
+            {
+                question: "In plants, the sporophyte generation is:",
+                options: ["Haploid", "Diploid", "Triploid", "Tetraploid"],
+                correct: 1,
+                explanation: "The sporophyte generation in plants is diploid and produces spores through meiosis."
+            },
+            {
+                question: "Hermaphroditism is:",
+                options: ["Having only male organs", "Having only female organs", "Having both male and female organs", "Having no reproductive organs"],
+                correct: 2,
+                explanation: "Hermaphroditism is the condition of having both male and female reproductive organs."
+            },
+            {
+                question: "Sequential hermaphroditism involves:",
+                options: ["Simultaneous male and female function", "Changing sex during lifetime", "No sex change", "Multiple sexes"],
+                correct: 1,
+                explanation: "Sequential hermaphroditism involves changing sex during an organism's lifetime."
+            },
+            {
+                question: "Isogamy involves:",
+                options: ["Different sized gametes", "Same sized gametes", "No gametes", "Multiple gametes"],
+                correct: 1,
+                explanation: "Isogamy is the fusion of gametes that are similar in size and structure."
+            },
+            {
+                question: "Anisogamy involves:",
+                options: ["Same sized gametes", "Different sized gametes", "No gametes", "Single gamete"],
+                correct: 1,
+                explanation: "Anisogamy is the fusion of gametes that differ in size, typically large egg and small sperm."
+            },
+            {
+                question: "Oogamy is characterized by:",
+                options: ["Two small gametes", "Two large gametes", "Large egg and small sperm", "No size difference"],
+                correct: 2,
+                explanation: "Oogamy involves a large, non-motile egg and a small, motile sperm."
+            },
+            {
+                question: "External fertilization occurs in:",
+                options: ["Mammals", "Birds", "Fish", "Reptiles"],
+                correct: 2,
+                explanation: "External fertilization commonly occurs in aquatic animals like fish, where gametes are released into water."
+            },
+            {
+                question: "Internal fertilization occurs in:",
+                options: ["Most aquatic animals", "Terrestrial animals", "All plants", "Bacteria"],
+                correct: 1,
+                explanation: "Internal fertilization is common in terrestrial animals, providing protection for gametes and embryos."
+            },
+
+            // HUMAN REPRODUCTIVE SYSTEM (Questions 26-50)
+            {
+                question: "The male reproductive system produces:",
+                options: ["Eggs only", "Sperm only", "Both eggs and sperm", "Hormones only"],
+                correct: 1,
+                explanation: "The male reproductive system produces sperm and male hormones like testosterone."
+            },
+            {
+                question: "Sperm are produced in:",
+                options: ["Prostate gland", "Seminal vesicles", "Testes", "Urethra"],
+                correct: 2,
+                explanation: "Sperm are produced in the seminiferous tubules of the testes."
+            },
+            {
+                question: "The female reproductive system produces:",
+                options: ["Sperm only", "Eggs only", "Both eggs and sperm", "Neither eggs nor sperm"],
+                correct: 1,
+                explanation: "The female reproductive system produces eggs (ova) and female hormones like estrogen and progesterone."
+            },
+            {
+                question: "Eggs are produced in:",
+                options: ["Uterus", "Fallopian tubes", "Ovaries", "Vagina"],
+                correct: 2,
+                explanation: "Eggs are produced in the ovaries through the process of oogenesis."
+            },
+            {
+                question: "The menstrual cycle is controlled by:",
+                options: ["Hormones", "Temperature", "Diet", "Exercise"],
+                correct: 0,
+                explanation: "The menstrual cycle is controlled by hormones including FSH, LH, estrogen, and progesterone."
+            },
+            {
+                question: "The average length of a menstrual cycle is:",
+                options: ["21 days", "28 days", "35 days", "42 days"],
+                correct: 1,
+                explanation: "The average menstrual cycle is about 28 days, though normal cycles can range from 21-35 days."
+            },
+            {
+                question: "Ovulation typically occurs on day:",
+                options: ["7", "14", "21", "28"],
+                correct: 1,
+                explanation: "Ovulation typically occurs around day 14 of a 28-day menstrual cycle."
+            },
+            {
+                question: "The hormone that triggers ovulation is:",
+                options: ["FSH", "LH", "Estrogen", "Progesterone"],
+                correct: 1,
+                explanation: "The LH (luteinizing hormone) surge triggers ovulation."
+            },
+            {
+                question: "Menstruation is the shedding of:",
+                options: ["Ovarian tissue", "Endometrial tissue", "Cervical tissue", "Vaginal tissue"],
+                correct: 1,
+                explanation: "Menstruation involves the shedding of the endometrial lining of the uterus."
+            },
+            {
+                question: "The corpus luteum produces:",
+                options: ["Estrogen only", "Progesterone only", "Both estrogen and progesterone", "Neither hormone"],
+                correct: 2,
+                explanation: "The corpus luteum produces both estrogen and progesterone to maintain the uterine lining."
+            },
+            {
+                question: "If fertilization doesn't occur, the corpus luteum:",
+                options: ["Grows larger", "Degenerates", "Produces more hormones", "Divides"],
+                correct: 1,
+                explanation: "If fertilization doesn't occur, the corpus luteum degenerates, leading to menstruation."
+            },
+            {
+                question: "Fertilization typically occurs in:",
+                options: ["Ovary", "Fallopian tube", "Uterus", "Vagina"],
+                correct: 1,
+                explanation: "Fertilization typically occurs in the fallopian tubes (oviducts)."
+            },
+            {
+                question: "The fertilized egg is called a:",
+                options: ["Embryo", "Fetus", "Zygote", "Blastocyst"],
+                correct: 2,
+                explanation: "The fertilized egg is called a zygote, which contains genetic material from both parents."
+            },
+            {
+                question: "Implantation occurs in:",
+                options: ["Ovary", "Fallopian tube", "Uterus", "Cervix"],
+                correct: 2,
+                explanation: "Implantation occurs when the blastocyst attaches to the endometrial wall of the uterus."
+            },
+            {
+                question: "The placenta develops from:",
+                options: ["Maternal tissue only", "Fetal tissue only", "Both maternal and fetal tissue", "Neither tissue"],
+                correct: 2,
+                explanation: "The placenta develops from both maternal and fetal tissues to facilitate nutrient exchange."
+            },
+            {
+                question: "Gestation period in humans is approximately:",
+                options: ["6 months", "9 months", "12 months", "15 months"],
+                correct: 1,
+                explanation: "Human gestation period is approximately 9 months (40 weeks)."
+            },
+            {
+                question: "Human chorionic gonadotropin (hCG) is produced by:",
+                options: ["Ovaries", "Placenta", "Uterus", "Pituitary gland"],
+                correct: 1,
+                explanation: "hCG is produced by the placenta and maintains the corpus luteum during early pregnancy."
+            },
+            {
+                question: "The amniotic fluid provides:",
+                options: ["Nutrition", "Protection", "Oxygen", "Waste removal"],
+                correct: 1,
+                explanation: "Amniotic fluid cushions and protects the developing fetus."
+            },
+            {
+                question: "The umbilical cord contains:",
+                options: ["One artery, one vein", "Two arteries, one vein", "One artery, two veins", "Two arteries, two veins"],
+                correct: 1,
+                explanation: "The umbilical cord contains two arteries and one vein for blood circulation between fetus and placenta."
+            },
+            {
+                question: "Oxytocin is responsible for:",
+                options: ["Egg production", "Sperm production", "Uterine contractions", "Hormone regulation"],
+                correct: 2,
+                explanation: "Oxytocin stimulates uterine contractions during labor and milk ejection during breastfeeding."
+            },
+            {
+                question: "Lactation is controlled by:",
+                options: ["Prolactin", "Oxytocin", "Both prolactin and oxytocin", "Neither hormone"],
+                correct: 2,
+                explanation: "Lactation is controlled by prolactin (milk production) and oxytocin (milk ejection)."
+            },
+            {
+                question: "The first milk produced after birth is called:",
+                options: ["Mature milk", "Colostrum", "Transitional milk", "Supplemental milk"],
+                correct: 1,
+                explanation: "Colostrum is the first milk produced, rich in antibodies and nutrients."
+            },
+            {
+                question: "Puberty is triggered by:",
+                options: ["Growth hormones", "Sex hormones", "Thyroid hormones", "Insulin"],
+                correct: 1,
+                explanation: "Puberty is triggered by increased production of sex hormones (testosterone and estrogen)."
+            },
+            {
+                question: "Secondary sexual characteristics develop during:",
+                options: ["Childhood", "Puberty", "Adulthood", "Old age"],
+                correct: 1,
+                explanation: "Secondary sexual characteristics develop during puberty due to hormonal changes."
+            },
+            {
+                question: "Menopause is characterized by:",
+                options: ["Increased hormone production", "Cessation of menstruation", "Increased fertility", "Increased ovulation"],
+                correct: 1,
+                explanation: "Menopause is characterized by the cessation of menstruation and decreased hormone production."
+            },
+
+            // PLANT REPRODUCTION (Questions 51-75)
+            {
+                question: "Flowers are the reproductive organs of:",
+                options: ["All plants", "Angiosperms", "Gymnosperms", "Ferns"],
+                correct: 1,
+                explanation: "Flowers are the reproductive organs of angiosperms (flowering plants)."
+            },
+            {
+                question: "The male part of a flower is called:",
+                options: ["Pistil", "Stamen", "Sepal", "Petal"],
+                correct: 1,
+                explanation: "The stamen is the male reproductive organ of a flower, consisting of anther and filament."
+            },
+            {
+                question: "The female part of a flower is called:",
+                options: ["Stamen", "Pistil", "Sepal", "Petal"],
+                correct: 1,
+                explanation: "The pistil is the female reproductive organ of a flower, consisting of stigma, style, and ovary."
+            },
+            {
+                question: "Pollen grains are produced in:",
+                options: ["Ovary", "Stigma", "Anther", "Style"],
+                correct: 2,
+                explanation: "Pollen grains (male gametes) are produced in the anther of the stamen."
+            },
+            {
+                question: "Ovules are produced in:",
+                options: ["Anther", "Stigma", "Ovary", "Style"],
+                correct: 2,
+                explanation: "Ovules (containing female gametes) are produced in the ovary of the pistil."
+            },
+            {
+                question: "Pollination is the transfer of:",
+                options: ["Seeds", "Pollen", "Nectar", "Petals"],
+                correct: 1,
+                explanation: "Pollination is the transfer of pollen from anther to stigma."
+            },
+            {
+                question: "Self-pollination occurs when:",
+                options: ["Pollen transfers between different plants", "Pollen transfers within the same flower", "No pollination occurs", "Artificial pollination"],
+                correct: 1,
+                explanation: "Self-pollination occurs when pollen from a flower pollinates the same flower or another flower on the same plant."
+            },
+            {
+                question: "Cross-pollination occurs when:",
+                options: ["Pollen transfers within the same flower", "Pollen transfers between different plants", "No pollination occurs", "Artificial pollination"],
+                correct: 1,
+                explanation: "Cross-pollination occurs when pollen from one plant pollinates a flower of a different plant."
+            },
+            {
+                question: "Wind pollination is common in:",
+                options: ["Showy flowers", "Grasses", "Colorful flowers", "Fragrant flowers"],
+                correct: 1,
+                explanation: "Wind pollination is common in grasses and plants with inconspicuous flowers."
+            },
+            {
+                question: "Insect pollination is characterized by:",
+                options: ["Small, dull flowers", "Large, colorful flowers", "No nectar", "Smooth pollen"],
+                correct: 1,
+                explanation: "Insect-pollinated flowers are typically large, colorful, and produce nectar to attract pollinators."
+            },
+            {
+                question: "After fertilization, the ovule develops into:",
+                options: ["Fruit", "Seed", "Flower", "Leaf"],
+                correct: 1,
+                explanation: "After fertilization, the ovule develops into a seed containing the embryo."
+            },
+            {
+                question: "After fertilization, the ovary develops into:",
+                options: ["Seed", "Fruit", "Flower", "Root"],
+                correct: 1,
+                explanation: "After fertilization, the ovary develops into a fruit that protects and disperses seeds."
+            },
+            {
+                question: "Double fertilization occurs in:",
+                options: ["Gymnosperms", "Angiosperms", "Ferns", "Mosses"],
+                correct: 1,
+                explanation: "Double fertilization is unique to angiosperms, where two sperm cells fertilize different nuclei."
+            },
+            {
+                question: "In double fertilization, one sperm fertilizes the:",
+                options: ["Egg only", "Polar nuclei only", "Egg and polar nuclei", "Endosperm"],
+                correct: 0,
+                explanation: "In double fertilization, one sperm fertilizes the egg to form the zygote."
+            },
+            {
+                question: "In double fertilization, the second sperm fertilizes the:",
+                options: ["Egg", "Polar nuclei", "Ovary", "Stigma"],
+                correct: 1,
+                explanation: "The second sperm fertilizes the polar nuclei to form the endosperm."
+            },
+            {
+                question: "Endosperm provides:",
+                options: ["Protection", "Nutrition", "Water", "Oxygen"],
+                correct: 1,
+                explanation: "Endosperm provides nutrition for the developing embryo and germinating seedling."
+            },
+            {
+                question: "Seed dispersal helps:",
+                options: ["Reduce competition", "Colonize new areas", "Increase survival", "All of the above"],
+                correct: 3,
+                explanation: "Seed dispersal reduces competition, helps colonize new areas, and increases survival chances."
+            },
+            {
+                question: "Wind dispersal seeds are typically:",
+                options: ["Heavy and large", "Light with wings or hairs", "Fleshy and colorful", "Hard and dense"],
+                correct: 1,
+                explanation: "Wind-dispersed seeds are typically light with adaptations like wings or hairs for flight."
+            },
+            {
+                question: "Animal dispersal seeds are typically:",
+                options: ["Light and dry", "Heavy and smooth", "Fleshy and colorful", "Small and hard"],
+                correct: 2,
+                explanation: "Animal-dispersed seeds are often enclosed in fleshy, colorful fruits to attract animals."
+            },
+            {
+                question: "Seed germination requires:",
+                options: ["Water", "Oxygen", "Suitable temperature", "All of the above"],
+                correct: 3,
+                explanation: "Seed germination requires water, oxygen, and suitable temperature conditions."
+            },
+            {
+                question: "The first structure to emerge during germination is typically:",
+                options: ["Shoot", "Root", "Leaves", "Flowers"],
+                correct: 1,
+                explanation: "The root (radicle) is typically the first structure to emerge during germination."
+            },
+            {
+                question: "Vegetative reproduction in plants includes:",
+                options: ["Runners", "Bulbs", "Tubers", "All of the above"],
+                correct: 3,
+                explanation: "Vegetative reproduction includes various methods like runners, bulbs, tubers, and fragmentation."
+            },
+            {
+                question: "Artificial vegetative propagation includes:",
+                options: ["Grafting", "Cutting", "Layering", "All of the above"],
+                correct: 3,
+                explanation: "Artificial vegetative propagation includes techniques like grafting, cutting, and layering."
+            },
+            {
+                question: "Grafting is used to:",
+                options: ["Combine desirable traits", "Propagate plants", "Improve disease resistance", "All of the above"],
+                correct: 3,
+                explanation: "Grafting combines desirable traits, propagates plants, and can improve disease resistance."
+            },
+            {
+                question: "Tissue culture is a form of:",
+                options: ["Sexual reproduction", "Asexual reproduction", "Both types", "Neither type"],
+                correct: 1,
+                explanation: "Tissue culture is a form of asexual reproduction that produces genetically identical plants."
+            },
+
+            // REPRODUCTIVE STRATEGIES (Questions 76-100)
+            {
+                question: "R-selected species are characterized by:",
+                options: ["Few offspring, high parental care", "Many offspring, low parental care", "Moderate offspring, moderate care", "No offspring"],
+                correct: 1,
+                explanation: "R-selected species produce many offspring with little parental care, maximizing reproductive output."
+            },
+            {
+                question: "K-selected species are characterized by:",
+                options: ["Many offspring, low parental care", "Few offspring, high parental care", "Moderate offspring, moderate care", "No offspring"],
+                correct: 1,
+                explanation: "K-selected species produce fewer offspring but invest heavily in parental care."
+            },
+            {
+                question: "Humans are examples of:",
+                options: ["R-selected species", "K-selected species", "Both types", "Neither type"],
+                correct: 1,
+                explanation: "Humans are K-selected species with few offspring and extensive parental care."
+            },
+            {
+                question: "Fish that produce thousands of eggs are typically:",
+                options: ["K-selected", "R-selected", "Both types", "Neither type"],
+                correct: 1,
+                explanation: "Fish producing thousands of eggs are typically R-selected, with high reproductive output but low survival rates."
+            },
+            {
+                question: "Parental investment theory suggests that:",
+                options: ["All parents invest equally", "Investment depends on offspring survival", "No investment is needed", "Investment is random"],
+                correct: 1,
+                explanation: "Parental investment theory suggests that investment depends on factors affecting offspring survival and success."
+            },
+            {
+                question: "Sexual selection can lead to:",
+                options: ["Larger males", "Bright coloration", "Elaborate displays", "All of the above"],
+                correct: 3,
+                explanation: "Sexual selection can lead to traits like larger size, bright colors, and elaborate displays to attract mates."
+            },
+            {
+                question: "Monogamy is a mating system where:",
+                options: ["One male mates with multiple females", "One female mates with multiple males", "One male mates with one female", "Multiple males mate with multiple females"],
+                correct: 2,
+                explanation: "Monogamy is a mating system where one male pairs with one female."
+            },
+            {
+                question: "Polygamy includes:",
+                options: ["Polygyny only", "Polyandry only", "Both polygyny and polyandry", "Neither system"],
+                correct: 2,
+                explanation: "Polygamy includes both polygyny (one male, multiple females) and polyandry (one female, multiple males)."
+            },
+            {
+                question: "Courtship behaviors serve to:",
+                options: ["Attract mates", "Identify species", "Assess mate quality", "All of the above"],
+                correct: 3,
+                explanation: "Courtship behaviors attract mates, help identify species, and allow assessment of mate quality."
+            },
+            {
+                question: "Territorial behavior in reproduction helps:",
+                options: ["Attract mates", "Secure resources", "Reduce competition", "All of the above"],
+                correct: 3,
+                explanation: "Territorial behavior can attract mates, secure resources, and reduce competition."
+            },
+            {
+                question: "Reproductive isolation mechanisms include:",
+                options: ["Geographic barriers", "Behavioral differences", "Temporal differences", "All of the above"],
+                correct: 3,
+                explanation: "Reproductive isolation can result from geographic, behavioral, or temporal barriers."
+            },
+            {
+                question: "Seasonal breeding is advantageous because:",
+                options: ["Resources are abundant", "Weather is favorable", "Offspring survival is higher", "All of the above"],
+                correct: 3,
+                explanation: "Seasonal breeding times reproduction with favorable conditions for offspring survival."
+            },
+            {
+                question: "Reproductive senescence refers to:",
+                options: ["Early reproduction", "Decline in reproductive ability", "Increased fertility", "Constant reproduction"],
+                correct: 1,
+                explanation: "Reproductive senescence is the age-related decline in reproductive ability."
+            },
+            {
+                question: "Iteroparous species:",
+                options: ["Reproduce once then die", "Reproduce multiple times", "Never reproduce", "Reproduce continuously"],
+                correct: 1,
+                explanation: "Iteroparous species reproduce multiple times throughout their lives."
+            },
+            {
+                question: "Semelparous species:",
+                options: ["Reproduce multiple times", "Reproduce once then die", "Never reproduce", "Reproduce continuously"],
+                correct: 1,
+                explanation: "Semelparous species reproduce only once in their lifetime, then die."
+            },
+            {
+                question: "Salmon are examples of:",
+                options: ["Iteroparous species", "Semelparous species", "Asexual species", "Non-reproductive species"],
+                correct: 1,
+                explanation: "Most salmon species are semelparous, reproducing once then dying."
+            },
+            {
+                question: "Reproductive success is measured by:",
+                options: ["Number of offspring", "Offspring survival", "Offspring reproductive success", "All of the above"],
+                correct: 3,
+                explanation: "Reproductive success includes not just offspring number, but their survival and reproductive success."
+            },
+            {
+                question: "Cooperative breeding involves:",
+                options: ["Only parents care for young", "Helpers assist in raising young", "No care is provided", "Random care"],
+                correct: 1,
+                explanation: "Cooperative breeding involves helpers (often related individuals) assisting in raising young."
+            },
+            {
+                question: "Brood parasitism is when:",
+                options: ["Parents care for their own young", "Parents abandon their young", "Parents use other species to raise their young", "Young care for parents"],
+                correct: 2,
+                explanation: "Brood parasitism occurs when parents use other species to raise their offspring."
+            },
+            {
+                question: "Cuckoo birds are examples of:",
+                options: ["Cooperative breeders", "Brood parasites", "Monogamous species", "Asexual species"],
+                correct: 1,
+                explanation: "Cuckoo birds are brood parasites that lay eggs in other species' nests."
+            },
+            {
+                question: "Reproductive technology in humans includes:",
+                options: ["In vitro fertilization", "Artificial insemination", "Surrogacy", "All of the above"],
+                correct: 3,
+                explanation: "Reproductive technology includes various methods like IVF, artificial insemination, and surrogacy."
+            },
+            {
+                question: "Cloning is a form of:",
+                options: ["Sexual reproduction", "Asexual reproduction", "Both types", "Neither type"],
+                correct: 1,
+                explanation: "Cloning is a form of asexual reproduction that produces genetically identical individuals."
+            },
+            {
+                question: "Genetic engineering in reproduction can:",
+                options: ["Prevent genetic diseases", "Select desired traits", "Improve fertility", "All of the above"],
+                correct: 3,
+                explanation: "Genetic engineering can prevent diseases, select traits, and improve fertility."
+            },
+            {
+                question: "Contraception methods include:",
+                options: ["Barrier methods", "Hormonal methods", "Surgical methods", "All of the above"],
+                correct: 3,
+                explanation: "Contraception includes various methods like barriers, hormones, and surgical procedures."
+            },
+            {
+                question: "The future of reproduction may involve:",
+                options: ["Artificial wombs", "Genetic modification", "Synthetic gametes", "All of the above"],
+                correct: 3,
+                explanation: "Future reproductive technologies may include artificial wombs, genetic modification, and synthetic gametes."
+            }
+        ],
+        'Support & Movement': [
+            // SKELETAL SYSTEM (Questions 1-25)
+            {
+                question: "The human skeleton has approximately how many bones?",
+                options: ["186", "206", "246", "286"],
+                correct: 1,
+                explanation: "The adult human skeleton has 206 bones, though babies are born with about 270 bones that fuse during development."
+            },
+            {
+                question: "The axial skeleton includes:",
+                options: ["Arms and legs", "Skull, spine, and ribcage", "Pelvis only", "Hands and feet"],
+                correct: 1,
+                explanation: "The axial skeleton includes the skull, vertebral column, and ribcage, forming the central axis of the body."
+            },
+            {
+                question: "The appendicular skeleton includes:",
+                options: ["Skull and spine", "Arms and legs", "Ribcage only", "Backbone only"],
+                correct: 1,
+                explanation: "The appendicular skeleton includes the arms, legs, and their attachment points (shoulder and pelvic girdles)."
+            },
+            {
+                question: "Bones are composed primarily of:",
+                options: ["Calcium phosphate", "Sodium chloride", "Potassium iodide", "Magnesium sulfate"],
+                correct: 0,
+                explanation: "Bones are primarily composed of calcium phosphate (hydroxyapatite) which provides hardness and strength."
+            },
+            {
+                question: "The process of bone formation is called:",
+                options: ["Ossification", "Calcification", "Mineralization", "Crystallization"],
+                correct: 0,
+                explanation: "Ossification is the process of bone formation where cartilage or membrane is replaced by bone tissue."
+            },
+            {
+                question: "Osteoblasts are responsible for:",
+                options: ["Bone destruction", "Bone formation", "Bone repair", "Bone growth"],
+                correct: 1,
+                explanation: "Osteoblasts are bone-building cells that secrete the organic matrix and promote mineralization."
+            },
+            {
+                question: "Osteoclasts are responsible for:",
+                options: ["Bone formation", "Bone breakdown", "Bone repair", "Bone growth"],
+                correct: 1,
+                explanation: "Osteoclasts are large cells that break down bone tissue, important for bone remodeling."
+            },
+            {
+                question: "The shaft of a long bone is called:",
+                options: ["Epiphysis", "Diaphysis", "Metaphysis", "Periosteum"],
+                correct: 1,
+                explanation: "The diaphysis is the shaft or main portion of a long bone, containing the medullary cavity."
+            },
+            {
+                question: "The ends of long bones are called:",
+                options: ["Diaphysis", "Epiphysis", "Metaphysis", "Periosteum"],
+                correct: 1,
+                explanation: "The epiphyses are the ends of long bones, usually wider than the shaft and contain spongy bone."
+            },
+            {
+                question: "Red blood cells are produced in:",
+                options: ["Compact bone", "Spongy bone", "Bone marrow", "Periosteum"],
+                correct: 2,
+                explanation: "Red blood cells are produced in the red bone marrow through a process called hematopoiesis."
+            },
+            {
+                question: "The membrane surrounding bones is called:",
+                options: ["Endosteum", "Periosteum", "Perichondrium", "Synovium"],
+                correct: 1,
+                explanation: "The periosteum is the membrane covering the outer surface of bones, important for bone growth and repair."
+            },
+            {
+                question: "Compact bone is also known as:",
+                options: ["Spongy bone", "Cortical bone", "Cancellous bone", "Trabecular bone"],
+                correct: 1,
+                explanation: "Compact bone is also called cortical bone, forming the dense outer layer of bones."
+            },
+            {
+                question: "Spongy bone is also known as:",
+                options: ["Compact bone", "Cortical bone", "Cancellous bone", "Dense bone"],
+                correct: 2,
+                explanation: "Spongy bone is also called cancellous or trabecular bone, with a honeycomb-like structure."
+            },
+            {
+                question: "The growth plates in bones are made of:",
+                options: ["Bone tissue", "Cartilage", "Muscle tissue", "Nerve tissue"],
+                correct: 1,
+                explanation: "Growth plates (epiphyseal plates) are made of cartilage that allows bones to grow in length."
+            },
+            {
+                question: "Vitamin D is important for:",
+                options: ["Protein synthesis", "Calcium absorption", "Fat storage", "Muscle contraction"],
+                correct: 1,
+                explanation: "Vitamin D is essential for calcium absorption in the intestines, crucial for bone health."
+            },
+            {
+                question: "A fracture is:",
+                options: ["A joint dislocation", "A broken bone", "A muscle tear", "A tendon injury"],
+                correct: 1,
+                explanation: "A fracture is a break in a bone, which can be complete or incomplete."
+            },
+            {
+                question: "Osteoporosis is characterized by:",
+                options: ["Increased bone density", "Decreased bone density", "Bone infection", "Bone cancer"],
+                correct: 1,
+                explanation: "Osteoporosis is a condition characterized by decreased bone density and increased fracture risk."
+            },
+            {
+                question: "The longest bone in the human body is:",
+                options: ["Tibia", "Femur", "Humerus", "Radius"],
+                correct: 1,
+                explanation: "The femur (thighbone) is the longest and strongest bone in the human body."
+            },
+            {
+                question: "The smallest bone in the human body is:",
+                options: ["Stapes", "Malleus", "Incus", "Hyoid"],
+                correct: 0,
+                explanation: "The stapes (stirrup bone) in the middle ear is the smallest bone in the human body."
+            },
+            {
+                question: "Joints are classified by:",
+                options: ["Size only", "Location only", "Movement only", "Structure and movement"],
+                correct: 3,
+                explanation: "Joints are classified by both their structure (fibrous, cartilaginous, synovial) and degree of movement."
+            },
+            {
+                question: "Immovable joints are called:",
+                options: ["Synovial joints", "Fibrous joints", "Cartilaginous joints", "Ball-and-socket joints"],
+                correct: 1,
+                explanation: "Fibrous joints are immovable joints where bones are connected by fibrous connective tissue."
+            },
+            {
+                question: "Slightly movable joints are called:",
+                options: ["Synovial joints", "Fibrous joints", "Cartilaginous joints", "Hinge joints"],
+                correct: 2,
+                explanation: "Cartilaginous joints are slightly movable joints where bones are connected by cartilage."
+            },
+            {
+                question: "Freely movable joints are called:",
+                options: ["Fibrous joints", "Cartilaginous joints", "Synovial joints", "Fixed joints"],
+                correct: 2,
+                explanation: "Synovial joints are freely movable joints with a joint cavity filled with synovial fluid."
+            },
+            {
+                question: "The shoulder joint is an example of a:",
+                options: ["Hinge joint", "Ball-and-socket joint", "Pivot joint", "Saddle joint"],
+                correct: 1,
+                explanation: "The shoulder joint is a ball-and-socket joint allowing movement in multiple directions."
+            },
+            {
+                question: "The elbow joint is an example of a:",
+                options: ["Ball-and-socket joint", "Hinge joint", "Pivot joint", "Gliding joint"],
+                correct: 1,
+                explanation: "The elbow joint is a hinge joint allowing flexion and extension movements."
+            },
+
+            // MUSCULAR SYSTEM (Questions 26-50)
+            {
+                question: "The three types of muscle tissue are:",
+                options: ["Skeletal, cardiac, smooth", "Voluntary, involuntary, cardiac", "Striated, non-striated, mixed", "Fast, slow, intermediate"],
+                correct: 0,
+                explanation: "The three types of muscle tissue are skeletal, cardiac, and smooth muscle."
+            },
+            {
+                question: "Skeletal muscle is:",
+                options: ["Involuntary and striated", "Voluntary and striated", "Involuntary and non-striated", "Voluntary and non-striated"],
+                correct: 1,
+                explanation: "Skeletal muscle is voluntary (under conscious control) and striated (has cross-striations)."
+            },
+            {
+                question: "Cardiac muscle is:",
+                options: ["Voluntary and striated", "Involuntary and striated", "Voluntary and non-striated", "Involuntary and non-striated"],
+                correct: 1,
+                explanation: "Cardiac muscle is involuntary (automatic) and striated, found only in the heart."
+            },
+            {
+                question: "Smooth muscle is:",
+                options: ["Voluntary and striated", "Involuntary and striated", "Voluntary and non-striated", "Involuntary and non-striated"],
+                correct: 3,
+                explanation: "Smooth muscle is involuntary and non-striated, found in organs and blood vessels."
+            },
+            {
+                question: "The basic functional unit of skeletal muscle is:",
+                options: ["Sarcomere", "Myofibril", "Muscle fiber", "Fascicle"],
+                correct: 0,
+                explanation: "The sarcomere is the basic functional unit of skeletal muscle, containing actin and myosin filaments."
+            },
+            {
+                question: "Muscle contraction occurs due to:",
+                options: ["Sliding filament mechanism", "Muscle fiber shortening", "Protein synthesis", "Energy storage"],
+                correct: 0,
+                explanation: "Muscle contraction occurs through the sliding filament mechanism where actin and myosin interact."
+            },
+            {
+                question: "The thick filaments in muscle are composed of:",
+                options: ["Actin", "Myosin", "Troponin", "Tropomyosin"],
+                correct: 1,
+                explanation: "Thick filaments are composed of myosin, which has head regions that bind to actin."
+            },
+            {
+                question: "The thin filaments in muscle are composed of:",
+                options: ["Myosin", "Actin", "Collagen", "Elastin"],
+                correct: 1,
+                explanation: "Thin filaments are primarily composed of actin, along with regulatory proteins."
+            },
+            {
+                question: "Calcium ions are stored in:",
+                options: ["Mitochondria", "Sarcoplasmic reticulum", "Nucleus", "Golgi apparatus"],
+                correct: 1,
+                explanation: "Calcium ions are stored in the sarcoplasmic reticulum and released during muscle contraction."
+            },
+            {
+                question: "The neuromuscular junction is where:",
+                options: ["Muscles attach to bones", "Nerves connect to muscles", "Bones connect to joints", "Tendons attach to muscles"],
+                correct: 1,
+                explanation: "The neuromuscular junction is the synapse where motor neurons connect to muscle fibers."
+            },
+            {
+                question: "Acetylcholine is:",
+                options: ["A muscle protein", "A neurotransmitter", "A bone mineral", "A joint fluid"],
+                correct: 1,
+                explanation: "Acetylcholine is the neurotransmitter released at neuromuscular junctions to stimulate muscle contraction."
+            },
+            {
+                question: "ATP is needed for:",
+                options: ["Muscle contraction only", "Muscle relaxation only", "Both contraction and relaxation", "Neither process"],
+                correct: 2,
+                explanation: "ATP is needed for both muscle contraction (myosin-actin binding) and relaxation (calcium pump)."
+            },
+            {
+                question: "Fast-twitch muscle fibers are:",
+                options: ["Fatigue-resistant", "Powerful but fatigue quickly", "Slow to contract", "Found only in the heart"],
+                correct: 1,
+                explanation: "Fast-twitch fibers contract quickly and powerfully but fatigue rapidly."
+            },
+            {
+                question: "Slow-twitch muscle fibers are:",
+                options: ["Powerful but fatigue quickly", "Fatigue-resistant", "Fast to contract", "Found only in smooth muscle"],
+                correct: 1,
+                explanation: "Slow-twitch fibers contract slowly but are fatigue-resistant, good for endurance."
+            },
+            {
+                question: "Muscle fatigue is caused by:",
+                options: ["Accumulation of lactic acid", "Depletion of ATP", "Calcium imbalance", "All of the above"],
+                correct: 3,
+                explanation: "Muscle fatigue can result from lactic acid buildup, ATP depletion, and calcium handling problems."
+            },
+            {
+                question: "Tendons connect:",
+                options: ["Bone to bone", "Muscle to bone", "Muscle to muscle", "Nerve to muscle"],
+                correct: 1,
+                explanation: "Tendons are fibrous connective tissues that connect muscles to bones."
+            },
+            {
+                question: "Ligaments connect:",
+                options: ["Muscle to bone", "Bone to bone", "Muscle to muscle", "Nerve to muscle"],
+                correct: 1,
+                explanation: "Ligaments are connective tissues that connect bone to bone, providing joint stability."
+            },
+            {
+                question: "Muscle hypertrophy is:",
+                options: ["Muscle shrinkage", "Muscle enlargement", "Muscle paralysis", "Muscle inflammation"],
+                correct: 1,
+                explanation: "Muscle hypertrophy is the increase in muscle size due to increased protein synthesis."
+            },
+            {
+                question: "Muscle atrophy is:",
+                options: ["Muscle enlargement", "Muscle shrinkage", "Muscle inflammation", "Muscle paralysis"],
+                correct: 1,
+                explanation: "Muscle atrophy is the decrease in muscle size and strength due to disuse or disease."
+            },
+            {
+                question: "The origin of a muscle is:",
+                options: ["The movable attachment", "The fixed attachment", "The middle portion", "The nerve supply"],
+                correct: 1,
+                explanation: "The origin is the fixed attachment point of a muscle, usually closer to the body's midline."
+            },
+            {
+                question: "The insertion of a muscle is:",
+                options: ["The fixed attachment", "The movable attachment", "The middle portion", "The blood supply"],
+                correct: 1,
+                explanation: "The insertion is the movable attachment point of a muscle, usually farther from the body's midline."
+            },
+            {
+                question: "Flexion is:",
+                options: ["Straightening a joint", "Bending a joint", "Rotating a joint", "Stabilizing a joint"],
+                correct: 1,
+                explanation: "Flexion is the movement that decreases the angle between body parts, bending a joint."
+            },
+            {
+                question: "Extension is:",
+                options: ["Bending a joint", "Straightening a joint", "Rotating a joint", "Stabilizing a joint"],
+                correct: 1,
+                explanation: "Extension is the movement that increases the angle between body parts, straightening a joint."
+            },
+            {
+                question: "Abduction is:",
+                options: ["Moving toward the midline", "Moving away from the midline", "Rotating movement", "Circular movement"],
+                correct: 1,
+                explanation: "Abduction is movement away from the midline of the body."
+            },
+            {
+                question: "Adduction is:",
+                options: ["Moving away from the midline", "Moving toward the midline", "Rotating movement", "Circular movement"],
+                correct: 1,
+                explanation: "Adduction is movement toward the midline of the body."
+            },
+
+            // TYPES OF MOVEMENT (Questions 51-75)
+            {
+                question: "Locomotion is:",
+                options: ["Movement within the body", "Movement of the entire body", "Movement of individual organs", "Movement of blood"],
+                correct: 1,
+                explanation: "Locomotion is the movement of the entire organism from one place to another."
+            },
+            {
+                question: "Bipedal locomotion means:",
+                options: ["Walking on four legs", "Walking on two legs", "Swimming", "Flying"],
+                correct: 1,
+                explanation: "Bipedal locomotion is walking on two legs, characteristic of humans and some other primates."
+            },
+            {
+                question: "Quadrupedal locomotion means:",
+                options: ["Walking on two legs", "Walking on four legs", "Swimming", "Flying"],
+                correct: 1,
+                explanation: "Quadrupedal locomotion is walking on four legs, common in most mammals."
+            },
+            {
+                question: "The gait cycle includes:",
+                options: ["Stance phase only", "Swing phase only", "Both stance and swing phases", "Neither phase"],
+                correct: 2,
+                explanation: "The gait cycle includes both stance phase (foot on ground) and swing phase (foot off ground)."
+            },
+            {
+                question: "Running differs from walking in that:",
+                options: ["Both feet are always on ground", "There's a flight phase", "It's slower", "It uses different muscles"],
+                correct: 1,
+                explanation: "Running includes a flight phase where both feet are off the ground, unlike walking."
+            },
+            {
+                question: "Swimming locomotion involves:",
+                options: ["Only arm movements", "Only leg movements", "Coordinated limb movements", "No muscular effort"],
+                correct: 2,
+                explanation: "Swimming involves coordinated movements of arms and legs to propel through water."
+            },
+            {
+                question: "Flying in birds involves:",
+                options: ["Wing movements only", "Tail movements only", "Wing and tail coordination", "No muscular effort"],
+                correct: 2,
+                explanation: "Bird flight involves coordinated wing and tail movements for lift, thrust, and control."
+            },
+            {
+                question: "The center of gravity in humans is located:",
+                options: ["In the head", "In the chest", "In the pelvis", "In the legs"],
+                correct: 2,
+                explanation: "The human center of gravity is located in the pelvis, affecting balance and stability."
+            },
+            {
+                question: "Balance is maintained by:",
+                options: ["Visual system only", "Vestibular system only", "Proprioceptive system only", "All sensory systems"],
+                correct: 3,
+                explanation: "Balance is maintained by integration of visual, vestibular, and proprioceptive systems."
+            },
+            {
+                question: "Proprioception is:",
+                options: ["Sense of sight", "Sense of hearing", "Sense of body position", "Sense of smell"],
+                correct: 2,
+                explanation: "Proprioception is the sense of body position and movement in space."
+            },
+            {
+                question: "Reflexes are:",
+                options: ["Voluntary responses", "Involuntary responses", "Learned responses", "Delayed responses"],
+                correct: 1,
+                explanation: "Reflexes are involuntary, rapid responses to stimuli that help protect the body."
+            },
+            {
+                question: "The stretch reflex:",
+                options: ["Prevents muscle stretching", "Promotes muscle stretching", "Has no effect on muscle", "Only works in arms"],
+                correct: 0,
+                explanation: "The stretch reflex prevents excessive muscle stretching by causing muscle contraction."
+            },
+            {
+                question: "Muscle spindles detect:",
+                options: ["Muscle tension", "Muscle length", "Muscle temperature", "Muscle fatigue"],
+                correct: 1,
+                explanation: "Muscle spindles are sensory organs that detect changes in muscle length."
+            },
+            {
+                question: "Golgi tendon organs detect:",
+                options: ["Muscle length", "Muscle tension", "Muscle temperature", "Muscle fatigue"],
+                correct: 1,
+                explanation: "Golgi tendon organs detect muscle tension and prevent excessive force production."
+            },
+            {
+                question: "Motor units consist of:",
+                options: ["One motor neuron and one muscle fiber", "One motor neuron and multiple muscle fibers", "Multiple neurons and one fiber", "Multiple neurons and multiple fibers"],
+                correct: 1,
+                explanation: "A motor unit consists of one motor neuron and all the muscle fibers it innervates."
+            },
+            {
+                question: "Muscle tone is:",
+                options: ["Complete muscle relaxation", "Partial muscle contraction", "Maximum muscle contraction", "Muscle paralysis"],
+                correct: 1,
+                explanation: "Muscle tone is the partial contraction of muscles that maintains posture and readiness."
+            },
+            {
+                question: "Isometric contraction involves:",
+                options: ["Muscle shortening", "Muscle lengthening", "No change in muscle length", "Muscle relaxation"],
+                correct: 2,
+                explanation: "Isometric contraction occurs when muscle generates force without changing length."
+            },
+            {
+                question: "Isotonic contraction involves:",
+                options: ["No change in muscle length", "Muscle length changes", "No force generation", "Muscle relaxation"],
+                correct: 1,
+                explanation: "Isotonic contraction occurs when muscle changes length while maintaining relatively constant tension."
+            },
+            {
+                question: "Concentric contraction involves:",
+                options: ["Muscle lengthening", "Muscle shortening", "No muscle movement", "Muscle relaxation"],
+                correct: 1,
+                explanation: "Concentric contraction occurs when muscle shortens while contracting."
+            },
+            {
+                question: "Eccentric contraction involves:",
+                options: ["Muscle shortening", "Muscle lengthening", "No muscle movement", "Muscle relaxation"],
+                correct: 1,
+                explanation: "Eccentric contraction occurs when muscle lengthens while under tension."
+            },
+            {
+                question: "Antagonistic muscles:",
+                options: ["Work together", "Work in opposition", "Never contract", "Are always relaxed"],
+                correct: 1,
+                explanation: "Antagonistic muscles work in opposition, with one contracting while the other relaxes."
+            },
+            {
+                question: "Synergistic muscles:",
+                options: ["Work in opposition", "Work together", "Never contract", "Are always relaxed"],
+                correct: 1,
+                explanation: "Synergistic muscles work together to produce the same movement."
+            },
+            {
+                question: "The biceps and triceps are:",
+                options: ["Synergistic muscles", "Antagonistic muscles", "Unrelated muscles", "Smooth muscles"],
+                correct: 1,
+                explanation: "The biceps and triceps are antagonistic muscles that work opposite to each other."
+            },
+            {
+                question: "Lever systems in the body involve:",
+                options: ["Bones only", "Muscles only", "Bones, muscles, and joints", "Nerves only"],
+                correct: 2,
+                explanation: "Lever systems in the body involve bones (levers), muscles (force), and joints (fulcrums)."
+            },
+            {
+                question: "A first-class lever has:",
+                options: ["Fulcrum between effort and load", "Load between fulcrum and effort", "Effort between fulcrum and load", "No specific arrangement"],
+                correct: 0,
+                explanation: "In a first-class lever, the fulcrum is between the effort and the load."
+            },
+
+            // DISORDERS AND ADAPTATIONS (Questions 76-100)
+            {
+                question: "Arthritis is:",
+                options: ["Bone infection", "Joint inflammation", "Muscle weakness", "Nerve damage"],
+                correct: 1,
+                explanation: "Arthritis is inflammation of joints, causing pain, stiffness, and reduced mobility."
+            },
+            {
+                question: "Osteoarthritis is caused by:",
+                options: ["Infection", "Autoimmune reaction", "Wear and tear", "Genetic defect"],
+                correct: 2,
+                explanation: "Osteoarthritis is caused by wear and tear of joint cartilage over time."
+            },
+            {
+                question: "Rheumatoid arthritis is:",
+                options: ["Infectious disease", "Autoimmune disease", "Genetic disorder", "Nutritional deficiency"],
+                correct: 1,
+                explanation: "Rheumatoid arthritis is an autoimmune disease where the immune system attacks joint tissues."
+            },
+            {
+                question: "Muscular dystrophy is:",
+                options: ["Bone disease", "Progressive muscle weakness", "Joint inflammation", "Nerve disorder"],
+                correct: 1,
+                explanation: "Muscular dystrophy is a group of genetic disorders causing progressive muscle weakness and degeneration."
+            },
+            {
+                question: "Scoliosis is:",
+                options: ["Bone fracture", "Spinal curvature", "Muscle weakness", "Joint dislocation"],
+                correct: 1,
+                explanation: "Scoliosis is an abnormal lateral curvature of the spine."
+            },
+            {
+                question: "Kyphosis is:",
+                options: ["Forward curvature of spine", "Backward curvature of spine", "Lateral curvature of spine", "Straight spine"],
+                correct: 1,
+                explanation: "Kyphosis is an excessive backward curvature of the spine, causing a hunchback appearance."
+            },
+            {
+                question: "Lordosis is:",
+                options: ["Backward curvature of spine", "Forward curvature of spine", "Lateral curvature of spine", "Straight spine"],
+                correct: 1,
+                explanation: "Lordosis is an excessive forward curvature of the spine, typically in the lower back."
+            },
+            {
+                question: "A sprain involves:",
+                options: ["Bone fracture", "Muscle tear", "Ligament injury", "Tendon rupture"],
+                correct: 2,
+                explanation: "A sprain is an injury to ligaments, the connective tissues that connect bones at joints."
+            },
+            {
+                question: "A strain involves:",
+                options: ["Bone fracture", "Muscle or tendon injury", "Ligament injury", "Joint dislocation"],
+                correct: 1,
+                explanation: "A strain is an injury to muscles or tendons, often caused by overstretching."
+            },
+            {
+                question: "Exercise benefits include:",
+                options: ["Stronger bones", "Stronger muscles", "Better cardiovascular health", "All of the above"],
+                correct: 3,
+                explanation: "Exercise benefits include stronger bones and muscles, better cardiovascular health, and overall fitness."
+            },
+            {
+                question: "Weight-bearing exercise is important for:",
+                options: ["Muscle strength only", "Bone health only", "Both muscle and bone health", "Neither"],
+                correct: 2,
+                explanation: "Weight-bearing exercise is important for both muscle strength and bone health."
+            },
+            {
+                question: "Bone remodeling is:",
+                options: ["One-time process", "Continuous process", "Only during growth", "Never occurs"],
+                correct: 1,
+                explanation: "Bone remodeling is a continuous process throughout life, replacing old bone with new bone."
+            },
+            {
+                question: "Calcium deficiency can lead to:",
+                options: ["Stronger bones", "Weak bones", "Muscle hypertrophy", "Increased flexibility"],
+                correct: 1,
+                explanation: "Calcium deficiency can lead to weak bones and increased risk of fractures."
+            },
+            {
+                question: "Vitamin C is important for:",
+                options: ["Bone formation", "Collagen synthesis", "Muscle contraction", "Nerve function"],
+                correct: 1,
+                explanation: "Vitamin C is essential for collagen synthesis, important for bone, tendon, and ligament health."
+            },
+            {
+                question: "Aging affects the musculoskeletal system by:",
+                options: ["Increasing bone density", "Increasing muscle mass", "Decreasing bone density and muscle mass", "No effect"],
+                correct: 2,
+                explanation: "Aging typically decreases both bone density and muscle mass, increasing fracture and fall risk."
+            },
+            {
+                question: "Adaptation to exercise includes:",
+                options: ["Muscle hypertrophy", "Bone strengthening", "Improved coordination", "All of the above"],
+                correct: 3,
+                explanation: "Exercise adaptation includes muscle hypertrophy, bone strengthening, and improved coordination."
+            },
+            {
+                question: "Immobilization leads to:",
+                options: ["Muscle strengthening", "Bone strengthening", "Muscle atrophy and bone loss", "No changes"],
+                correct: 2,
+                explanation: "Immobilization leads to muscle atrophy and bone loss due to lack of mechanical stress."
+            },
+            {
+                question: "Prosthetics are:",
+                options: ["Natural body parts", "Artificial body parts", "Medications", "Surgical procedures"],
+                correct: 1,
+                explanation: "Prosthetics are artificial devices that replace missing body parts."
+            },
+            {
+                question: "Physical therapy helps with:",
+                options: ["Mobility restoration", "Strength improvement", "Pain reduction", "All of the above"],
+                correct: 3,
+                explanation: "Physical therapy helps with mobility restoration, strength improvement, and pain reduction."
+            },
+            {
+                question: "Ergonomics is the study of:",
+                options: ["Exercise physiology", "Workplace design", "Bone structure", "Muscle function"],
+                correct: 1,
+                explanation: "Ergonomics is the study of designing workplaces and tools to fit human capabilities and limitations."
+            },
+            {
+                question: "Good posture helps:",
+                options: ["Reduce back pain", "Improve breathing", "Reduce muscle fatigue", "All of the above"],
+                correct: 3,
+                explanation: "Good posture helps reduce back pain, improve breathing, and reduce muscle fatigue."
+            },
+            {
+                question: "Warm-up before exercise:",
+                options: ["Increases injury risk", "Decreases injury risk", "Has no effect", "Only affects performance"],
+                correct: 1,
+                explanation: "Warm-up before exercise decreases injury risk by preparing muscles and joints for activity."
+            },
+            {
+                question: "Stretching helps with:",
+                options: ["Flexibility", "Range of motion", "Injury prevention", "All of the above"],
+                correct: 3,
+                explanation: "Stretching helps improve flexibility, range of motion, and can help prevent injuries."
+            },
+            {
+                question: "The future of support and movement may include:",
+                options: ["Artificial joints", "Robotic prosthetics", "Gene therapy", "All of the above"],
+                correct: 3,
+                explanation: "Future developments may include advanced artificial joints, robotic prosthetics, and gene therapy."
+            },
+            {
+                question: "Biomechanics is the study of:",
+                options: ["Living organisms only", "Mechanical principles in living systems", "Machines only", "Chemistry of life"],
+                correct: 1,
+                explanation: "Biomechanics applies mechanical principles to understand how living systems move and function."
+            }
+        ],
         'Genetics & Heredity': [
+            // BASIC GENETICS CONCEPTS (Questions 1-25)
             {
                 question: "The basic unit of heredity is:",
                 options: ["Chromosome", "Gene", "DNA", "RNA"],
@@ -2541,11 +6183,2433 @@ const mcqDatabase = {
                 explanation: "A gene is the basic unit of heredity that contains instructions for specific traits."
             },
             {
-                question: "How many chromosomes do humans have in diploid cells?",
-                options: ["23", "44", "46", "48"],
-                correct: 2,
-                explanation: "Humans have 46 chromosomes (23 pairs) in their diploid cells."
+                question: "DNA stands for:",
+                options: ["Deoxyribonucleic acid", "Diribonucleic acid", "Dexyribonucleic acid", "Denoxyribonucleic acid"],
+                correct: 0,
+                explanation: "DNA stands for Deoxyribonucleic acid, the molecule that carries genetic information."
             },
+            {
+                question: "The structure of DNA was discovered by:",
+                options: ["Mendel", "Darwin", "Watson and Crick", "Morgan"],
+                correct: 2,
+                explanation: "James Watson and Francis Crick discovered the double helix structure of DNA in 1953."
+            },
+            {
+                question: "DNA is composed of:",
+                options: ["Amino acids", "Nucleotides", "Fatty acids", "Carbohydrates"],
+                correct: 1,
+                explanation: "DNA is composed of nucleotides, each containing a phosphate, sugar, and nitrogenous base."
+            },
+            {
+                question: "The four nitrogenous bases in DNA are:",
+                options: ["A, T, G, C", "A, U, G, C", "A, T, G, U", "T, U, G, C"],
+                correct: 0,
+                explanation: "The four bases in DNA are Adenine (A), Thymine (T), Guanine (G), and Cytosine (C)."
+            },
+            {
+                question: "In DNA, Adenine pairs with:",
+                options: ["Guanine", "Cytosine", "Thymine", "Uracil"],
+                correct: 2,
+                explanation: "In DNA, Adenine always pairs with Thymine through hydrogen bonds."
+            },
+            {
+                question: "In DNA, Guanine pairs with:",
+                options: ["Adenine", "Thymine", "Cytosine", "Uracil"],
+                correct: 2,
+                explanation: "In DNA, Guanine always pairs with Cytosine through hydrogen bonds."
+            },
+            {
+                question: "The shape of DNA is:",
+                options: ["Single helix", "Double helix", "Triple helix", "Linear"],
+                correct: 1,
+                explanation: "DNA has a double helix structure with two antiparallel strands."
+            },
+            {
+                question: "Chromosomes are composed of:",
+                options: ["DNA only", "Proteins only", "DNA and proteins", "RNA only"],
+                correct: 2,
+                explanation: "Chromosomes are composed of DNA wrapped around histone proteins."
+            },
+            {
+                question: "Humans have how many pairs of chromosomes?",
+                options: ["22", "23", "24", "25"],
+                correct: 1,
+                explanation: "Humans have 23 pairs of chromosomes (46 total) in their diploid cells."
+            },
+            {
+                question: "Sex chromosomes in humans are:",
+                options: ["XX and XY", "XX and YY", "XY and YY", "Only XX"],
+                correct: 0,
+                explanation: "Human sex chromosomes are XX (female) and XY (male)."
+            },
+            {
+                question: "Autosomes are:",
+                options: ["Sex chromosomes", "Non-sex chromosomes", "Only in males", "Only in females"],
+                correct: 1,
+                explanation: "Autosomes are the non-sex chromosomes; humans have 22 pairs of autosomes."
+            },
+            {
+                question: "Alleles are:",
+                options: ["Different chromosomes", "Different forms of the same gene", "Different genes", "Different proteins"],
+                correct: 1,
+                explanation: "Alleles are different versions or forms of the same gene at the same locus."
+            },
+            {
+                question: "A homozygous individual has:",
+                options: ["Two different alleles", "Two identical alleles", "No alleles", "Multiple alleles"],
+                correct: 1,
+                explanation: "A homozygous individual has two identical alleles for a particular gene."
+            },
+            {
+                question: "A heterozygous individual has:",
+                options: ["Two identical alleles", "Two different alleles", "No alleles", "Multiple alleles"],
+                correct: 1,
+                explanation: "A heterozygous individual has two different alleles for a particular gene."
+            },
+            {
+                question: "Genotype refers to:",
+                options: ["Physical appearance", "Genetic makeup", "Environmental factors", "Behavior"],
+                correct: 1,
+                explanation: "Genotype is the genetic constitution or makeup of an organism."
+            },
+            {
+                question: "Phenotype refers to:",
+                options: ["Genetic makeup", "Physical appearance", "Chromosome number", "Gene location"],
+                correct: 1,
+                explanation: "Phenotype is the observable physical or biochemical characteristics of an organism."
+            },
+            {
+                question: "A dominant allele is:",
+                options: ["Always expressed", "Only expressed in homozygotes", "Never expressed", "Only expressed in males"],
+                correct: 0,
+                explanation: "A dominant allele is expressed in both homozygous and heterozygous conditions."
+            },
+            {
+                question: "A recessive allele is:",
+                options: ["Always expressed", "Only expressed in homozygotes", "Never expressed", "Only expressed in females"],
+                correct: 1,
+                explanation: "A recessive allele is only expressed when present in homozygous condition."
+            },
+            {
+                question: "The law of segregation states that:",
+                options: ["Alleles separate during gamete formation", "Alleles always stay together", "Genes are linked", "Chromosomes don't separate"],
+                correct: 0,
+                explanation: "Mendel's law of segregation states that allele pairs separate during gamete formation."
+            },
+            {
+                question: "The law of independent assortment states that:",
+                options: ["All genes are linked", "Genes on different chromosomes assort independently", "Alleles never separate", "Only some genes are inherited"],
+                correct: 1,
+                explanation: "Mendel's law of independent assortment states that genes on different chromosomes assort independently."
+            },
+            {
+                question: "Mendel's experiments were conducted on:",
+                options: ["Fruit flies", "Pea plants", "Mice", "Humans"],
+                correct: 1,
+                explanation: "Gregor Mendel conducted his famous genetic experiments on pea plants."
+            },
+            {
+                question: "A monohybrid cross involves:",
+                options: ["One trait", "Two traits", "Three traits", "Multiple traits"],
+                correct: 0,
+                explanation: "A monohybrid cross examines the inheritance of one trait."
+            },
+            {
+                question: "A dihybrid cross involves:",
+                options: ["One trait", "Two traits", "Three traits", "Multiple traits"],
+                correct: 1,
+                explanation: "A dihybrid cross examines the inheritance of two traits simultaneously."
+            },
+            {
+                question: "The F1 generation is:",
+                options: ["Parent generation", "First filial generation", "Second filial generation", "Final generation"],
+                correct: 1,
+                explanation: "F1 is the first filial generation, offspring of the parental (P) generation."
+            },
+
+            // MOLECULAR GENETICS (Questions 26-50)
+            {
+                question: "DNA replication is:",
+                options: ["Conservative", "Semi-conservative", "Dispersive", "Non-conservative"],
+                correct: 1,
+                explanation: "DNA replication is semi-conservative, with each new DNA molecule containing one original and one new strand."
+            },
+            {
+                question: "DNA replication occurs during:",
+                options: ["G1 phase", "S phase", "G2 phase", "M phase"],
+                correct: 1,
+                explanation: "DNA replication occurs during the S (synthesis) phase of the cell cycle."
+            },
+            {
+                question: "The enzyme that unwinds DNA is:",
+                options: ["DNA polymerase", "Helicase", "Ligase", "Primase"],
+                correct: 1,
+                explanation: "Helicase unwinds the DNA double helix during replication."
+            },
+            {
+                question: "DNA polymerase:",
+                options: ["Adds nucleotides to DNA", "Unwinds DNA", "Joins DNA fragments", "Primes DNA synthesis"],
+                correct: 0,
+                explanation: "DNA polymerase adds nucleotides to the growing DNA strand during replication."
+            },
+            {
+                question: "The leading strand is synthesized:",
+                options: ["Continuously", "Discontinuously", "Not at all", "Only in prokaryotes"],
+                correct: 0,
+                explanation: "The leading strand is synthesized continuously in the 5' to 3' direction."
+            },
+            {
+                question: "The lagging strand is synthesized:",
+                options: ["Continuously", "Discontinuously", "Not at all", "Only in eukaryotes"],
+                correct: 1,
+                explanation: "The lagging strand is synthesized discontinuously in short fragments called Okazaki fragments."
+            },
+            {
+                question: "Transcription is the process of:",
+                options: ["DNA to DNA", "DNA to RNA", "RNA to protein", "Protein to DNA"],
+                correct: 1,
+                explanation: "Transcription is the process of making RNA from a DNA template."
+            },
+            {
+                question: "Translation is the process of:",
+                options: ["DNA to RNA", "RNA to protein", "DNA to protein", "Protein to RNA"],
+                correct: 1,
+                explanation: "Translation is the process of making proteins from mRNA template."
+            },
+            {
+                question: "RNA differs from DNA in that RNA:",
+                options: ["Has thymine instead of uracil", "Is double-stranded", "Has uracil instead of thymine", "Has deoxyribose sugar"],
+                correct: 2,
+                explanation: "RNA has uracil instead of thymine and ribose instead of deoxyribose sugar."
+            },
+            {
+                question: "mRNA stands for:",
+                options: ["Messenger RNA", "Mitochondrial RNA", "Micro RNA", "Modified RNA"],
+                correct: 0,
+                explanation: "mRNA is messenger RNA that carries genetic information from DNA to ribosomes."
+            },
+            {
+                question: "tRNA stands for:",
+                options: ["Transfer RNA", "Transcription RNA", "Transport RNA", "Terminal RNA"],
+                correct: 0,
+                explanation: "tRNA is transfer RNA that brings amino acids to ribosomes during protein synthesis."
+            },
+            {
+                question: "rRNA stands for:",
+                options: ["Ribosomal RNA", "Reverse RNA", "Regulatory RNA", "Recombinant RNA"],
+                correct: 0,
+                explanation: "rRNA is ribosomal RNA, a structural component of ribosomes."
+            },
+            {
+                question: "A codon is:",
+                options: ["Three nucleotides coding for an amino acid", "One nucleotide", "A protein", "A chromosome"],
+                correct: 0,
+                explanation: "A codon is a sequence of three nucleotides that codes for a specific amino acid."
+            },
+            {
+                question: "The genetic code is:",
+                options: ["Different in each organism", "Universal", "Only in plants", "Only in animals"],
+                correct: 1,
+                explanation: "The genetic code is nearly universal across all living organisms."
+            },
+            {
+                question: "The start codon is:",
+                options: ["UAG", "UAA", "AUG", "UGA"],
+                correct: 2,
+                explanation: "AUG is the start codon that initiates protein synthesis and codes for methionine."
+            },
+            {
+                question: "Stop codons are:",
+                options: ["AUG, UUU, CCC", "UAG, UAA, UGA", "GGG, AAA, TTT", "CUG, GUG, AUC"],
+                correct: 1,
+                explanation: "UAG, UAA, and UGA are stop codons that terminate protein synthesis."
+            },
+            {
+                question: "Mutations are:",
+                options: ["Always harmful", "Always beneficial", "Changes in DNA sequence", "Always lethal"],
+                correct: 2,
+                explanation: "Mutations are changes in DNA sequence that can be harmful, beneficial, or neutral."
+            },
+            {
+                question: "Point mutations involve:",
+                options: ["Large deletions", "Single nucleotide changes", "Chromosome rearrangements", "Gene duplications"],
+                correct: 1,
+                explanation: "Point mutations involve changes in a single nucleotide in the DNA sequence."
+            },
+            {
+                question: "Frameshift mutations are caused by:",
+                options: ["Substitutions", "Insertions or deletions", "Duplications", "Inversions"],
+                correct: 1,
+                explanation: "Frameshift mutations are caused by insertions or deletions that change the reading frame."
+            },
+            {
+                question: "Silent mutations:",
+                options: ["Always change amino acids", "Don't change amino acids", "Are always lethal", "Don't occur"],
+                correct: 1,
+                explanation: "Silent mutations don't change the amino acid sequence due to the degeneracy of the genetic code."
+            },
+            {
+                question: "Gene expression is controlled by:",
+                options: ["Promoters", "Enhancers", "Silencers", "All of the above"],
+                correct: 3,
+                explanation: "Gene expression is controlled by various regulatory elements including promoters, enhancers, and silencers."
+            },
+            {
+                question: "Epigenetics involves:",
+                options: ["DNA sequence changes", "Heritable changes without DNA sequence changes", "Only mutations", "Chromosome number changes"],
+                correct: 1,
+                explanation: "Epigenetics involves heritable changes in gene expression without changes in DNA sequence."
+            },
+            {
+                question: "DNA methylation:",
+                options: ["Always activates genes", "Usually silences genes", "Has no effect", "Only occurs in plants"],
+                correct: 1,
+                explanation: "DNA methylation typically silences gene expression, especially at promoter regions."
+            },
+            {
+                question: "Histone modifications can:",
+                options: ["Only activate genes", "Only silence genes", "Both activate and silence genes", "Have no effect"],
+                correct: 2,
+                explanation: "Histone modifications can either activate or silence genes depending on the type of modification."
+            },
+            {
+                question: "Gene therapy involves:",
+                options: ["Removing all genes", "Introducing functional genes", "Destroying DNA", "Preventing transcription"],
+                correct: 1,
+                explanation: "Gene therapy involves introducing functional genes to treat genetic disorders."
+            },
+
+            // INHERITANCE PATTERNS (Questions 51-75)
+            {
+                question: "Complete dominance occurs when:",
+                options: ["Both alleles are expressed", "Dominant allele masks recessive", "Neither allele is expressed", "Alleles blend"],
+                correct: 1,
+                explanation: "In complete dominance, the dominant allele completely masks the expression of the recessive allele."
+            },
+            {
+                question: "Incomplete dominance occurs when:",
+                options: ["Dominant allele masks recessive", "Both alleles blend", "Neither allele is expressed", "Only recessive is expressed"],
+                correct: 1,
+                explanation: "In incomplete dominance, neither allele is completely dominant, resulting in a blended phenotype."
+            },
+            {
+                question: "Codominance occurs when:",
+                options: ["One allele dominates", "Both alleles are expressed separately", "Alleles blend", "Neither is expressed"],
+                correct: 1,
+                explanation: "In codominance, both alleles are expressed simultaneously without blending."
+            },
+            {
+                question: "ABO blood types show:",
+                options: ["Complete dominance only", "Incomplete dominance", "Codominance", "No dominance"],
+                correct: 2,
+                explanation: "ABO blood types show codominance between A and B alleles, both dominant over O."
+            },
+            {
+                question: "Multiple alleles mean:",
+                options: ["Two alleles per gene", "More than two alleles for a gene", "No alleles", "Identical alleles"],
+                correct: 1,
+                explanation: "Multiple alleles means more than two alternative forms exist for a gene in a population."
+            },
+            {
+                question: "Sex-linked traits are:",
+                options: ["On autosomes", "On sex chromosomes", "Not inherited", "Always dominant"],
+                correct: 1,
+                explanation: "Sex-linked traits are controlled by genes located on sex chromosomes."
+            },
+            {
+                question: "X-linked recessive traits are more common in:",
+                options: ["Females", "Males", "Both equally", "Neither"],
+                correct: 1,
+                explanation: "X-linked recessive traits are more common in males because they have only one X chromosome."
+            },
+            {
+                question: "Color blindness is typically:",
+                options: ["Autosomal dominant", "Autosomal recessive", "X-linked recessive", "Y-linked"],
+                correct: 2,
+                explanation: "Color blindness is typically an X-linked recessive trait, more common in males."
+            },
+            {
+                question: "Hemophilia is:",
+                options: ["Autosomal dominant", "Autosomal recessive", "X-linked recessive", "Y-linked"],
+                correct: 2,
+                explanation: "Hemophilia is an X-linked recessive bleeding disorder."
+            },
+            {
+                question: "Polygenic inheritance involves:",
+                options: ["One gene", "Two genes", "Multiple genes", "No genes"],
+                correct: 2,
+                explanation: "Polygenic inheritance involves multiple genes affecting a single trait."
+            },
+            {
+                question: "Human height is an example of:",
+                options: ["Single gene inheritance", "Polygenic inheritance", "Sex-linked inheritance", "Codominance"],
+                correct: 1,
+                explanation: "Human height is controlled by multiple genes, showing polygenic inheritance."
+            },
+            {
+                question: "Skin color in humans shows:",
+                options: ["Single gene control", "Polygenic inheritance", "Sex-linkage", "Complete dominance"],
+                correct: 1,
+                explanation: "Human skin color is controlled by multiple genes showing polygenic inheritance."
+            },
+            {
+                question: "Environmental factors can affect:",
+                options: ["Genotype", "Phenotype", "Both genotype and phenotype", "Neither"],
+                correct: 1,
+                explanation: "Environmental factors can affect phenotype but not genotype."
+            },
+            {
+                question: "Penetrance refers to:",
+                options: ["Gene expression level", "Percentage of individuals showing the phenotype", "Mutation rate", "Chromosome number"],
+                correct: 1,
+                explanation: "Penetrance is the percentage of individuals with a genotype who show the expected phenotype."
+            },
+            {
+                question: "Expressivity refers to:",
+                options: ["Whether a gene is expressed", "Degree of expression of a phenotype", "Number of alleles", "Chromosome location"],
+                correct: 1,
+                explanation: "Expressivity refers to the degree or intensity of expression of a phenotype."
+            },
+            {
+                question: "Pleiotropy occurs when:",
+                options: ["Multiple genes affect one trait", "One gene affects multiple traits", "Genes don't interact", "Only in males"],
+                correct: 1,
+                explanation: "Pleiotropy occurs when one gene affects multiple traits."
+            },
+            {
+                question: "Epistasis involves:",
+                options: ["Gene interaction", "No gene interaction", "Only dominant genes", "Only recessive genes"],
+                correct: 0,
+                explanation: "Epistasis involves interaction between genes where one gene masks the expression of another."
+            },
+            {
+                question: "A carrier is:",
+                options: ["Homozygous dominant", "Homozygous recessive", "Heterozygous for recessive trait", "Has no alleles"],
+                correct: 2,
+                explanation: "A carrier is heterozygous for a recessive trait, not showing the phenotype but able to pass it on."
+            },
+            {
+                question: "Consanguinity refers to:",
+                options: ["Mating between relatives", "Random mating", "Mating between different species", "Asexual reproduction"],
+                correct: 0,
+                explanation: "Consanguinity refers to mating between genetically related individuals."
+            },
+            {
+                question: "Inbreeding increases the chance of:",
+                options: ["Heterozygosity", "Homozygosity", "Mutations", "Chromosome number changes"],
+                correct: 1,
+                explanation: "Inbreeding increases homozygosity and the expression of recessive traits."
+            },
+            {
+                question: "Hardy-Weinberg equilibrium describes:",
+                options: ["Evolving populations", "Non-evolving populations", "Only small populations", "Only large populations"],
+                correct: 1,
+                explanation: "Hardy-Weinberg equilibrium describes allele frequencies in non-evolving populations."
+            },
+            {
+                question: "Population genetics studies:",
+                options: ["Individual inheritance", "Allele frequencies in populations", "Single gene effects", "Chromosome structure"],
+                correct: 1,
+                explanation: "Population genetics studies allele and genotype frequencies in populations."
+            },
+            {
+                question: "Gene flow refers to:",
+                options: ["Movement of alleles between populations", "Gene expression", "Mutation rate", "Chromosome movement"],
+                correct: 0,
+                explanation: "Gene flow is the movement of alleles from one population to another through migration."
+            },
+            {
+                question: "Genetic drift is:",
+                options: ["Directed change", "Random change in allele frequencies", "Mutation", "Natural selection"],
+                correct: 1,
+                explanation: "Genetic drift is random change in allele frequencies, especially important in small populations."
+            },
+            {
+                question: "The founder effect is:",
+                options: ["Random mating", "New population from few individuals", "Large population growth", "Gene flow"],
+                correct: 1,
+                explanation: "The founder effect occurs when a new population is established by a small number of individuals."
+            },
+
+            // HUMAN GENETICS AND DISORDERS (Questions 76-100)
+            {
+                question: "Pedigree analysis is used to:",
+                options: ["Study plant genetics", "Track inheritance in families", "Analyze chromosome structure", "Study mutations"],
+                correct: 1,
+                explanation: "Pedigree analysis tracks the inheritance of traits through generations in families."
+            },
+            {
+                question: "Autosomal dominant disorders:",
+                options: ["Skip generations", "Appear in every generation", "Only affect males", "Only affect females"],
+                correct: 1,
+                explanation: "Autosomal dominant disorders typically appear in every generation when present."
+            },
+            {
+                question: "Autosomal recessive disorders:",
+                options: ["Appear in every generation", "Can skip generations", "Only affect males", "Are always lethal"],
+                correct: 1,
+                explanation: "Autosomal recessive disorders can skip generations and often appear in siblings."
+            },
+            {
+                question: "Huntington's disease is:",
+                options: ["Autosomal recessive", "Autosomal dominant", "X-linked recessive", "Chromosomal disorder"],
+                correct: 1,
+                explanation: "Huntington's disease is an autosomal dominant neurodegenerative disorder."
+            },
+            {
+                question: "Cystic fibrosis is:",
+                options: ["Autosomal dominant", "Autosomal recessive", "X-linked", "Y-linked"],
+                correct: 1,
+                explanation: "Cystic fibrosis is an autosomal recessive disorder affecting the respiratory and digestive systems."
+            },
+            {
+                question: "Sickle cell anemia is:",
+                options: ["Autosomal dominant", "Autosomal recessive", "X-linked", "Chromosomal disorder"],
+                correct: 1,
+                explanation: "Sickle cell anemia is an autosomal recessive blood disorder."
+            },
+            {
+                question: "Tay-Sachs disease is:",
+                options: ["Autosomal dominant", "Autosomal recessive", "X-linked", "Y-linked"],
+                correct: 1,
+                explanation: "Tay-Sachs disease is an autosomal recessive lysosomal storage disorder."
+            },
+            {
+                question: "Down syndrome is caused by:",
+                options: ["Gene mutation", "Trisomy 21", "Monosomy X", "Deletion"],
+                correct: 1,
+                explanation: "Down syndrome is caused by trisomy 21 (an extra copy of chromosome 21)."
+            },
+            {
+                question: "Turner syndrome involves:",
+                options: ["Trisomy 21", "Monosomy X", "Klinefelter syndrome", "Trisomy 18"],
+                correct: 1,
+                explanation: "Turner syndrome involves monosomy X (45,X) affecting females."
+            },
+            {
+                question: "Klinefelter syndrome involves:",
+                options: ["Monosomy X", "XXY", "Trisomy 21", "XYY"],
+                correct: 1,
+                explanation: "Klinefelter syndrome involves XXY chromosome constitution affecting males."
+            },
+            {
+                question: "Nondisjunction occurs during:",
+                options: ["DNA replication", "Transcription", "Meiosis", "Translation"],
+                correct: 2,
+                explanation: "Nondisjunction is the failure of chromosomes to separate properly during meiosis."
+            },
+            {
+                question: "Genetic counseling helps:",
+                options: ["Treat genetic disorders", "Assess genetic risks", "Cure mutations", "Change genotypes"],
+                correct: 1,
+                explanation: "Genetic counseling helps individuals and families assess genetic risks and make informed decisions."
+            },
+            {
+                question: "Prenatal diagnosis can detect:",
+                options: ["All genetic disorders", "Some genetic disorders", "No genetic disorders", "Only chromosomal disorders"],
+                correct: 1,
+                explanation: "Prenatal diagnosis can detect many but not all genetic disorders."
+            },
+            {
+                question: "Amniocentesis involves:",
+                options: ["Blood sampling", "Urine sampling", "Amniotic fluid sampling", "Tissue sampling"],
+                correct: 2,
+                explanation: "Amniocentesis involves sampling amniotic fluid to test for genetic disorders."
+            },
+            {
+                question: "Chorionic villus sampling (CVS):",
+                options: ["Samples amniotic fluid", "Samples placental tissue", "Samples blood", "Samples urine"],
+                correct: 1,
+                explanation: "CVS samples chorionic villi from the placenta for genetic testing."
+            },
+            {
+                question: "Karyotyping is used to:",
+                options: ["Sequence DNA", "Analyze chromosome number and structure", "Study gene expression", "Detect mutations"],
+                correct: 1,
+                explanation: "Karyotyping analyzes chromosome number and structure to detect chromosomal abnormalities."
+            },
+            {
+                question: "FISH stands for:",
+                options: ["Fluorescence in situ hybridization", "Fast insertion sequence hybridization", "Functional in situ hybridization", "Fixed in situ hybridization"],
+                correct: 0,
+                explanation: "FISH is fluorescence in situ hybridization, used to detect specific DNA sequences."
+            },
+            {
+                question: "PCR stands for:",
+                options: ["Protein chain reaction", "Polymerase chain reaction", "Plasma chain reaction", "Phosphate chain reaction"],
+                correct: 1,
+                explanation: "PCR is polymerase chain reaction, used to amplify specific DNA sequences."
+            },
+            {
+                question: "DNA fingerprinting is used for:",
+                options: ["Gene therapy", "Individual identification", "Protein analysis", "Chromosome counting"],
+                correct: 1,
+                explanation: "DNA fingerprinting analyzes genetic markers for individual identification."
+            },
+            {
+                question: "The Human Genome Project:",
+                options: ["Mapped all human genes", "Sequenced human DNA", "Identified disease genes", "All of the above"],
+                correct: 3,
+                explanation: "The Human Genome Project sequenced human DNA, mapped genes, and identified many disease genes."
+            },
+            {
+                question: "Pharmacogenetics studies:",
+                options: ["Drug development", "How genes affect drug response", "Drug side effects", "Drug metabolism only"],
+                correct: 1,
+                explanation: "Pharmacogenetics studies how genetic variation affects individual responses to drugs."
+            },
+            {
+                question: "Personalized medicine uses:",
+                options: ["Generic treatments", "Genetic information for treatment", "Only surgery", "Only drugs"],
+                correct: 1,
+                explanation: "Personalized medicine uses genetic information to tailor treatments to individuals."
+            },
+            {
+                question: "CRISPR-Cas9 is used for:",
+                options: ["DNA sequencing", "Gene editing", "Protein synthesis", "Chromosome counting"],
+                correct: 1,
+                explanation: "CRISPR-Cas9 is a powerful tool for precise gene editing."
+            },
+            {
+                question: "Stem cells can:",
+                options: ["Only divide", "Differentiate into various cell types", "Only die", "Never change"],
+                correct: 1,
+                explanation: "Stem cells can differentiate into various specialized cell types."
+            },
+            {
+                question: "The future of genetics includes:",
+                options: ["Gene therapy", "Personalized medicine", "Genetic engineering", "All of the above"],
+                correct: 3,
+                explanation: "The future of genetics includes gene therapy, personalized medicine, and genetic engineering applications."
+            }
+        ],
+        'Digestion': [
+            // DIGESTIVE SYSTEM ANATOMY (Questions 1-25)
+            {
+                question: "The primary function of the digestive system is:",
+                options: ["Gas exchange", "Nutrient breakdown and absorption", "Hormone production", "Blood circulation"],
+                correct: 1,
+                explanation: "The primary function of the digestive system is to break down food and absorb nutrients for body use."
+            },
+            {
+                question: "The alimentary canal starts with:",
+                options: ["Esophagus", "Mouth", "Stomach", "Small intestine"],
+                correct: 1,
+                explanation: "The alimentary canal (digestive tract) begins with the mouth where food intake occurs."
+            },
+            {
+                question: "The digestive system includes:",
+                options: ["Alimentary canal only", "Accessory organs only", "Both alimentary canal and accessory organs", "Neither"],
+                correct: 2,
+                explanation: "The digestive system includes the alimentary canal and accessory organs like liver, pancreas, and gallbladder."
+            },
+            {
+                question: "Teeth are primarily used for:",
+                options: ["Swallowing", "Mechanical digestion", "Chemical digestion", "Absorption"],
+                correct: 1,
+                explanation: "Teeth perform mechanical digestion by physically breaking down food into smaller pieces."
+            },
+            {
+                question: "Humans have how many permanent teeth?",
+                options: ["28", "30", "32", "34"],
+                correct: 2,
+                explanation: "Humans have 32 permanent teeth including incisors, canines, premolars, and molars."
+            },
+            {
+                question: "Saliva is produced by:",
+                options: ["Teeth", "Tongue", "Salivary glands", "Stomach"],
+                correct: 2,
+                explanation: "Saliva is produced by three pairs of salivary glands: parotid, submandibular, and sublingual."
+            },
+            {
+                question: "The main enzyme in saliva is:",
+                options: ["Pepsin", "Amylase", "Lipase", "Trypsin"],
+                correct: 1,
+                explanation: "Salivary amylase (ptyalin) begins carbohydrate digestion by breaking down starch."
+            },
+            {
+                question: "The tongue helps with:",
+                options: ["Taste only", "Swallowing only", "Taste and swallowing", "Digestion only"],
+                correct: 2,
+                explanation: "The tongue has taste buds for taste sensation and helps with food manipulation and swallowing."
+            },
+            {
+                question: "The pharynx is:",
+                options: ["Part of respiratory system only", "Part of digestive system only", "Shared by both systems", "Not part of either system"],
+                correct: 2,
+                explanation: "The pharynx (throat) is shared by both respiratory and digestive systems."
+            },
+            {
+                question: "The esophagus is:",
+                options: ["A storage organ", "A muscular tube", "A digestive gland", "An absorption site"],
+                correct: 1,
+                explanation: "The esophagus is a muscular tube that transports food from pharynx to stomach."
+            },
+            {
+                question: "Peristalsis is:",
+                options: ["Enzyme production", "Nutrient absorption", "Wave-like muscle contractions", "Acid secretion"],
+                correct: 2,
+                explanation: "Peristalsis consists of wave-like muscle contractions that move food through the digestive tract."
+            },
+            {
+                question: "The stomach is located in the:",
+                options: ["Right upper abdomen", "Left upper abdomen", "Lower abdomen", "Chest cavity"],
+                correct: 1,
+                explanation: "The stomach is located in the left upper abdomen, beneath the diaphragm."
+            },
+            {
+                question: "The stomach has how many main regions?",
+                options: ["2", "3", "4", "5"],
+                correct: 2,
+                explanation: "The stomach has four main regions: fundus, body, antrum, and pylorus."
+            },
+            {
+                question: "Gastric juice contains:",
+                options: ["Acid only", "Enzymes only", "Acid and enzymes", "Water only"],
+                correct: 2,
+                explanation: "Gastric juice contains hydrochloric acid, pepsinogen (becomes pepsin), and intrinsic factor."
+            },
+            {
+                question: "The small intestine has how many parts?",
+                options: ["2", "3", "4", "5"],
+                correct: 1,
+                explanation: "The small intestine has three parts: duodenum, jejunum, and ileum."
+            },
+            {
+                question: "Most digestion and absorption occurs in:",
+                options: ["Stomach", "Small intestine", "Large intestine", "Esophagus"],
+                correct: 1,
+                explanation: "The small intestine is the primary site for both digestion and nutrient absorption."
+            },
+            {
+                question: "Villi are found in:",
+                options: ["Stomach", "Small intestine", "Large intestine", "Esophagus"],
+                correct: 1,
+                explanation: "Villi are finger-like projections in the small intestine that increase surface area for absorption."
+            },
+            {
+                question: "The large intestine primarily:",
+                options: ["Digests proteins", "Absorbs nutrients", "Absorbs water", "Produces enzymes"],
+                correct: 2,
+                explanation: "The large intestine primarily absorbs water and electrolytes from remaining food matter."
+            },
+            {
+                question: "The liver is:",
+                options: ["Not part of digestive system", "The largest internal organ", "Only produces bile", "Located in lower abdomen"],
+                correct: 1,
+                explanation: "The liver is the largest internal organ with multiple digestive and metabolic functions."
+            },
+            {
+                question: "Bile is produced by:",
+                options: ["Gallbladder", "Pancreas", "Liver", "Small intestine"],
+                correct: 2,
+                explanation: "Bile is produced by liver cells (hepatocytes) and stored in the gallbladder."
+            },
+            {
+                question: "The pancreas produces:",
+                options: ["Bile only", "Enzymes only", "Hormones only", "Both enzymes and hormones"],
+                correct: 3,
+                explanation: "The pancreas produces digestive enzymes and hormones like insulin and glucagon."
+            },
+            {
+                question: "The gallbladder:",
+                options: ["Produces bile", "Stores bile", "Destroys bile", "Has no function"],
+                correct: 1,
+                explanation: "The gallbladder stores and concentrates bile produced by the liver."
+            },
+            {
+                question: "The appendix is attached to:",
+                options: ["Small intestine", "Cecum", "Rectum", "Stomach"],
+                correct: 1,
+                explanation: "The appendix is a small pouch attached to the cecum, the first part of the large intestine."
+            },
+            {
+                question: "The rectum is:",
+                options: ["Part of small intestine", "The final part of large intestine", "An accessory organ", "Part of stomach"],
+                correct: 1,
+                explanation: "The rectum is the final portion of the large intestine where feces are stored before elimination."
+            },
+            {
+                question: "The anus is controlled by:",
+                options: ["Voluntary muscles only", "Involuntary muscles only", "Both voluntary and involuntary muscles", "No muscles"],
+                correct: 2,
+                explanation: "The anus has both internal (involuntary) and external (voluntary) sphincters controlling defecation."
+            },
+
+            // DIGESTIVE PROCESSES (Questions 26-50)
+            {
+                question: "Mechanical digestion includes:",
+                options: ["Enzyme action", "Physical breakdown", "Chemical reactions", "Absorption"],
+                correct: 1,
+                explanation: "Mechanical digestion involves physical breakdown of food through chewing, churning, and mixing."
+            },
+            {
+                question: "Chemical digestion involves:",
+                options: ["Physical breakdown", "Enzyme action", "Muscle contractions", "Storage"],
+                correct: 1,
+                explanation: "Chemical digestion involves enzymes breaking down complex molecules into simpler, absorbable forms."
+            },
+            {
+                question: "Deglutition is:",
+                options: ["Chewing", "Swallowing", "Digesting", "Absorbing"],
+                correct: 1,
+                explanation: "Deglutition is the process of swallowing food from mouth to stomach."
+            },
+            {
+                question: "The epiglottis prevents:",
+                options: ["Food from entering stomach", "Food from entering trachea", "Acid production", "Enzyme release"],
+                correct: 1,
+                explanation: "The epiglottis covers the tracheal opening during swallowing to prevent food aspiration."
+            },
+            {
+                question: "Gastric emptying is controlled by:",
+                options: ["Food composition", "Stomach acidity", "Hormonal signals", "All of the above"],
+                correct: 3,
+                explanation: "Gastric emptying is controlled by food composition, acidity, hormones, and neural signals."
+            },
+            {
+                question: "Pepsin works best in:",
+                options: ["Alkaline environment", "Acidic environment", "Neutral environment", "Any environment"],
+                correct: 1,
+                explanation: "Pepsin, the main gastric enzyme, works optimally in the acidic environment of the stomach."
+            },
+            {
+                question: "Hydrochloric acid in stomach:",
+                options: ["Neutralizes food", "Creates acidic environment", "Produces enzymes", "Absorbs nutrients"],
+                correct: 1,
+                explanation: "HCl creates an acidic environment (pH 1-2) that activates pepsin and kills bacteria."
+            },
+            {
+                question: "Intrinsic factor is needed for:",
+                options: ["Protein absorption", "Fat absorption", "Vitamin B12 absorption", "Carbohydrate absorption"],
+                correct: 2,
+                explanation: "Intrinsic factor, produced by stomach, is essential for vitamin B12 absorption in the ileum."
+            },
+            {
+                question: "Chyme is:",
+                options: ["Undigested food", "Partially digested food", "Fully digested food", "Waste material"],
+                correct: 1,
+                explanation: "Chyme is the partially digested, acidic mixture of food and gastric juices leaving the stomach."
+            },
+            {
+                question: "Pancreatic juice is:",
+                options: ["Acidic", "Alkaline", "Neutral", "Variable"],
+                correct: 1,
+                explanation: "Pancreatic juice is alkaline (pH 8-9) to neutralize acidic chyme from the stomach."
+            },
+            {
+                question: "Pancreatic enzymes include:",
+                options: ["Amylase only", "Lipase only", "Proteases only", "All of the above"],
+                correct: 3,
+                explanation: "Pancreatic juice contains amylase (carbohydrates), lipase (fats), and proteases (proteins)."
+            },
+            {
+                question: "Bile helps digest:",
+                options: ["Proteins", "Carbohydrates", "Fats", "Vitamins"],
+                correct: 2,
+                explanation: "Bile emulsifies fats, breaking large fat droplets into smaller ones for easier enzyme action."
+            },
+            {
+                question: "Emulsification means:",
+                options: ["Chemical breakdown", "Fat absorption", "Breaking large fat droplets into smaller ones", "Protein digestion"],
+                correct: 2,
+                explanation: "Emulsification is the physical process of breaking large fat droplets into smaller droplets."
+            },
+            {
+                question: "Brush border enzymes are located:",
+                options: ["In stomach", "On intestinal villi", "In pancreas", "In liver"],
+                correct: 1,
+                explanation: "Brush border enzymes are located on the microvilli of small intestinal epithelial cells."
+            },
+            {
+                question: "Lactase deficiency causes:",
+                options: ["Protein intolerance", "Fat intolerance", "Lactose intolerance", "Starch intolerance"],
+                correct: 2,
+                explanation: "Lactase deficiency prevents lactose digestion, causing lactose intolerance symptoms."
+            },
+            {
+                question: "Absorption is the process of:",
+                options: ["Breaking down food", "Moving nutrients into blood", "Storing nutrients", "Eliminating waste"],
+                correct: 1,
+                explanation: "Absorption is the process of moving digested nutrients from intestinal lumen into blood or lymph."
+            },
+            {
+                question: "Most water absorption occurs in:",
+                options: ["Stomach", "Small intestine", "Large intestine", "Pancreas"],
+                correct: 2,
+                explanation: "While small intestine absorbs more total water, the large intestine's primary function is water absorption."
+            },
+            {
+                question: "Fat-soluble vitamins are absorbed with:",
+                options: ["Water", "Proteins", "Fats", "Carbohydrates"],
+                correct: 2,
+                explanation: "Fat-soluble vitamins (A, D, E, K) are absorbed along with dietary fats in the small intestine."
+            },
+            {
+                question: "The hepatic portal system carries blood from:",
+                options: ["Liver to heart", "Intestines to liver", "Heart to liver", "Liver to kidneys"],
+                correct: 1,
+                explanation: "The hepatic portal system carries nutrient-rich blood from intestines to liver for processing."
+            },
+            {
+                question: "Peristalsis occurs in:",
+                options: ["Stomach only", "Small intestine only", "Throughout digestive tract", "Large intestine only"],
+                correct: 2,
+                explanation: "Peristalsis occurs throughout the digestive tract to move food and waste materials."
+            },
+            {
+                question: "Segmentation refers to:",
+                options: ["Dividing food", "Mixing contractions", "Forward movement", "Enzyme production"],
+                correct: 1,
+                explanation: "Segmentation consists of mixing contractions that help mix food with digestive juices."
+            },
+            {
+                question: "Mass movements occur in:",
+                options: ["Stomach", "Small intestine", "Large intestine", "Esophagus"],
+                correct: 2,
+                explanation: "Mass movements are strong contractions in the large intestine that move contents toward rectum."
+            },
+            {
+                question: "The gastrocolic reflex:",
+                options: ["Stimulates gastric secretion", "Stimulates colonic movement", "Inhibits digestion", "Causes vomiting"],
+                correct: 1,
+                explanation: "The gastrocolic reflex stimulates mass movements in colon when food enters stomach."
+            },
+            {
+                question: "Defecation is controlled by:",
+                options: ["Automatic reflexes only", "Voluntary control only", "Both reflexes and voluntary control", "Hormones only"],
+                correct: 2,
+                explanation: "Defecation involves both automatic reflexes and voluntary control of external anal sphincter."
+            },
+            {
+                question: "Normal stool is approximately:",
+                options: ["50% water", "75% water", "90% water", "95% water"],
+                correct: 1,
+                explanation: "Normal stool is approximately 75% water and 25% solid material including fiber and bacteria."
+            },
+
+            // DIGESTIVE ENZYMES AND SECRETIONS (Questions 51-75)
+            {
+                question: "Amylase breaks down:",
+                options: ["Proteins", "Fats", "Carbohydrates", "Nucleic acids"],
+                correct: 2,
+                explanation: "Amylase breaks down starch and glycogen into smaller carbohydrate molecules."
+            },
+            {
+                question: "Pepsin breaks down:",
+                options: ["Carbohydrates", "Proteins", "Fats", "Nucleic acids"],
+                correct: 1,
+                explanation: "Pepsin is a protease that breaks down proteins into smaller peptides in the stomach."
+            },
+            {
+                question: "Lipase breaks down:",
+                options: ["Proteins", "Carbohydrates", "Fats", "Vitamins"],
+                correct: 2,
+                explanation: "Lipase breaks down triglycerides (fats) into fatty acids and glycerol."
+            },
+            {
+                question: "Trypsin is produced by:",
+                options: ["Stomach", "Pancreas", "Liver", "Small intestine"],
+                correct: 1,
+                explanation: "Trypsin is a pancreatic protease that continues protein digestion in the small intestine."
+            },
+            {
+                question: "Chymotrypsin is:",
+                options: ["A carbohydrase", "A protease", "A lipase", "A nuclease"],
+                correct: 1,
+                explanation: "Chymotrypsin is another pancreatic protease that works alongside trypsin."
+            },
+            {
+                question: "Elastase digests:",
+                options: ["Elastic fibers only", "All proteins", "Carbohydrates", "Fats"],
+                correct: 1,
+                explanation: "Elastase is a pancreatic protease that can digest elastic fibers and other proteins."
+            },
+            {
+                question: "Carboxypeptidase:",
+                options: ["Adds amino acids", "Removes amino acids from protein ends", "Digests carbohydrates", "Digests fats"],
+                correct: 1,
+                explanation: "Carboxypeptidase removes amino acids from the carboxyl end of peptides."
+            },
+            {
+                question: "Dipeptidases are:",
+                options: ["Gastric enzymes", "Pancreatic enzymes", "Brush border enzymes", "Salivary enzymes"],
+                correct: 2,
+                explanation: "Dipeptidases are brush border enzymes that break dipeptides into individual amino acids."
+            },
+            {
+                question: "Maltase converts:",
+                options: ["Starch to glucose", "Maltose to glucose", "Sucrose to glucose", "Lactose to glucose"],
+                correct: 1,
+                explanation: "Maltase is a brush border enzyme that converts maltose into two glucose molecules."
+            },
+            {
+                question: "Sucrase converts:",
+                options: ["Starch to sugars", "Sucrose to glucose and fructose", "Lactose to sugars", "Maltose to glucose"],
+                correct: 1,
+                explanation: "Sucrase breaks sucrose (table sugar) into glucose and fructose."
+            },
+            {
+                question: "Lactase converts:",
+                options: ["Lactose to glucose and galactose", "Lactose to fructose", "Milk proteins", "Milk fats"],
+                correct: 0,
+                explanation: "Lactase breaks lactose (milk sugar) into glucose and galactose."
+            },
+            {
+                question: "Enterokinase:",
+                options: ["Digests fats", "Activates trypsinogen", "Digests proteins", "Absorbs nutrients"],
+                correct: 1,
+                explanation: "Enterokinase activates trypsinogen to trypsin, initiating pancreatic enzyme activation."
+            },
+            {
+                question: "Gastrin is produced by:",
+                options: ["Pancreas", "Liver", "Stomach", "Small intestine"],
+                correct: 2,
+                explanation: "Gastrin is produced by G cells in the stomach and stimulates gastric acid secretion."
+            },
+            {
+                question: "Secretin is released in response to:",
+                options: ["Proteins", "Fats", "Acidic chyme", "Carbohydrates"],
+                correct: 2,
+                explanation: "Secretin is released by duodenum in response to acidic chyme from the stomach."
+            },
+            {
+                question: "Cholecystokinin (CCK) stimulates:",
+                options: ["Gastric acid secretion", "Pancreatic enzyme release and gallbladder contraction", "Salivary secretion", "Intestinal motility"],
+                correct: 1,
+                explanation: "CCK stimulates pancreatic enzyme secretion and gallbladder contraction in response to fats and proteins."
+            },
+            {
+                question: "Gastric inhibitory peptide (GIP):",
+                options: ["Stimulates gastric secretion", "Inhibits gastric secretion", "Stimulates intestinal motility", "Inhibits pancreatic secretion"],
+                correct: 1,
+                explanation: "GIP inhibits gastric acid secretion and motility when nutrients are detected in small intestine."
+            },
+            {
+                question: "Pepsinogen is:",
+                options: ["Active enzyme", "Inactive enzyme precursor", "Hormone", "Vitamin"],
+                correct: 1,
+                explanation: "Pepsinogen is the inactive precursor of pepsin, activated by stomach acid."
+            },
+            {
+                question: "Zymogen granules contain:",
+                options: ["Active enzymes", "Inactive enzyme precursors", "Hormones", "Nutrients"],
+                correct: 1,
+                explanation: "Zymogen granules in pancreatic cells contain inactive enzyme precursors for safety."
+            },
+            {
+                question: "Hydrochloric acid is secreted by:",
+                options: ["Chief cells", "Parietal cells", "Mucous cells", "G cells"],
+                correct: 1,
+                explanation: "Parietal cells in gastric glands secrete hydrochloric acid."
+            },
+            {
+                question: "Pepsinogen is secreted by:",
+                options: ["Parietal cells", "Chief cells", "Mucous cells", "G cells"],
+                correct: 1,
+                explanation: "Chief cells in gastric glands secrete pepsinogen, the inactive form of pepsin."
+            },
+            {
+                question: "Mucus in stomach:",
+                options: ["Digests food", "Protects stomach lining", "Activates enzymes", "Absorbs nutrients"],
+                correct: 1,
+                explanation: "Gastric mucus protects the stomach lining from acid and enzyme damage."
+            },
+            {
+                question: "The pH of gastric juice is approximately:",
+                options: ["7.0", "5.0", "2.0", "9.0"],
+                correct: 2,
+                explanation: "Gastric juice has a very acidic pH of about 1.5-2.0 due to hydrochloric acid."
+            },
+            {
+                question: "Gastric acid kills:",
+                options: ["Nutrients", "Vitamins", "Bacteria", "Enzymes"],
+                correct: 2,
+                explanation: "The acidic environment of the stomach kills most bacteria and other pathogens in food."
+            },
+            {
+                question: "Pancreatic bicarbonate:",
+                options: ["Acidifies intestinal contents", "Neutralizes stomach acid", "Activates enzymes", "Digests proteins"],
+                correct: 1,
+                explanation: "Pancreatic bicarbonate neutralizes acidic chyme, creating optimal pH for pancreatic enzymes."
+            },
+            {
+                question: "Bile salts help with:",
+                options: ["Protein digestion", "Carbohydrate digestion", "Fat digestion and absorption", "Vitamin C absorption"],
+                correct: 2,
+                explanation: "Bile salts emulsify fats and form micelles to facilitate fat digestion and absorption."
+            },
+
+            // ABSORPTION AND METABOLISM (Questions 76-100)
+            {
+                question: "Glucose is absorbed by:",
+                options: ["Simple diffusion", "Facilitated diffusion", "Active transport", "Osmosis"],
+                correct: 2,
+                explanation: "Glucose is absorbed by active transport coupled with sodium in the small intestine."
+            },
+            {
+                question: "Amino acids are absorbed by:",
+                options: ["Simple diffusion", "Active transport", "Osmosis", "Filtration"],
+                correct: 1,
+                explanation: "Amino acids are absorbed by active transport systems in the small intestine."
+            },
+            {
+                question: "Fatty acids are absorbed:",
+                options: ["Directly into blood", "Into lymphatic system", "Not absorbed", "Stored in intestine"],
+                correct: 1,
+                explanation: "Long-chain fatty acids are absorbed into lymphatic system as chylomicrons, then enter blood."
+            },
+            {
+                question: "Water absorption is primarily:",
+                options: ["Active transport", "Passive following osmotic gradients", "Requires energy", "Occurs in stomach"],
+                correct: 1,
+                explanation: "Water absorption is largely passive, following osmotic gradients created by solute absorption."
+            },
+            {
+                question: "Iron absorption is enhanced by:",
+                options: ["Calcium", "Vitamin C", "Fiber", "Protein"],
+                correct: 1,
+                explanation: "Vitamin C enhances iron absorption by reducing iron to its more absorbable form."
+            },
+            {
+                question: "Calcium absorption requires:",
+                options: ["Vitamin A", "Vitamin D", "Vitamin E", "Vitamin K"],
+                correct: 1,
+                explanation: "Vitamin D is essential for calcium absorption in the small intestine."
+            },
+            {
+                question: "Vitamin B12 absorption occurs in:",
+                options: ["Stomach", "Duodenum", "Jejunum", "Ileum"],
+                correct: 3,
+                explanation: "Vitamin B12 is absorbed in the terminal ileum with the help of intrinsic factor."
+            },
+            {
+                question: "Bile acids are reabsorbed in:",
+                options: ["Duodenum", "Jejunum", "Ileum", "Colon"],
+                correct: 2,
+                explanation: "Bile acids are reabsorbed in the terminal ileum and recycled back to the liver."
+            },
+            {
+                question: "The liver's role in digestion includes:",
+                options: ["Bile production only", "Nutrient metabolism only", "Both bile production and metabolism", "Enzyme production only"],
+                correct: 2,
+                explanation: "The liver produces bile for fat digestion and metabolizes absorbed nutrients."
+            },
+            {
+                question: "Hepatocytes are:",
+                options: ["Liver cells", "Pancreatic cells", "Intestinal cells", "Stomach cells"],
+                correct: 0,
+                explanation: "Hepatocytes are the main functional cells of the liver."
+            },
+            {
+                question: "Glycogen is stored primarily in:",
+                options: ["Muscles only", "Liver only", "Muscles and liver", "Intestines"],
+                correct: 2,
+                explanation: "Glycogen is stored primarily in muscles and liver as an energy reserve."
+            },
+            {
+                question: "The liver converts ammonia to:",
+                options: ["Glucose", "Protein", "Urea", "Fat"],
+                correct: 2,
+                explanation: "The liver converts toxic ammonia from protein metabolism to less toxic urea."
+            },
+            {
+                question: "Fasting blood glucose is maintained by:",
+                options: ["Insulin only", "Glucagon only", "Both insulin and glucagon", "Growth hormone only"],
+                correct: 2,
+                explanation: "Blood glucose is maintained by the balance between insulin (lowers) and glucagon (raises) glucose."
+            },
+            {
+                question: "Insulin is produced by:",
+                options: ["Alpha cells", "Beta cells", "Delta cells", "Acinar cells"],
+                correct: 1,
+                explanation: "Insulin is produced by beta cells in the pancreatic islets of Langerhans."
+            },
+            {
+                question: "Glucagon is produced by:",
+                options: ["Beta cells", "Alpha cells", "Delta cells", "Acinar cells"],
+                correct: 1,
+                explanation: "Glucagon is produced by alpha cells in the pancreatic islets of Langerhans."
+            },
+            {
+                question: "Fiber is important for:",
+                options: ["Energy only", "Protein synthesis", "Intestinal health", "Vitamin absorption only"],
+                correct: 2,
+                explanation: "Dietary fiber promotes intestinal health, regular bowel movements, and beneficial bacteria growth."
+            },
+            {
+                question: "The normal gut microbiome:",
+                options: ["Is harmful", "Helps with digestion", "Should be eliminated", "Has no function"],
+                correct: 1,
+                explanation: "Normal gut bacteria help with digestion, vitamin synthesis, and immune function."
+            },
+            {
+                question: "Probiotics are:",
+                options: ["Harmful bacteria", "Beneficial bacteria", "Antibiotics", "Enzymes"],
+                correct: 1,
+                explanation: "Probiotics are beneficial bacteria that can improve gut health when consumed."
+            },
+            {
+                question: "Prebiotics are:",
+                options: ["Beneficial bacteria", "Food for beneficial bacteria", "Harmful substances", "Antibiotics"],
+                correct: 1,
+                explanation: "Prebiotics are non-digestible food components that promote growth of beneficial bacteria."
+            },
+            {
+                question: "The enteric nervous system:",
+                options: ["Controls only motility", "Controls only secretion", "Controls motility and secretion", "Has no function"],
+                correct: 2,
+                explanation: "The enteric nervous system controls both digestive motility and secretions."
+            },
+            {
+                question: "Gastroesophageal reflux occurs when:",
+                options: ["Food moves too fast", "Stomach acid enters esophagus", "Digestion is too slow", "Absorption is impaired"],
+                correct: 1,
+                explanation: "GERD occurs when stomach acid refluxes into the esophagus, causing heartburn."
+            },
+            {
+                question: "Peptic ulcers are often caused by:",
+                options: ["Too much food", "Helicobacter pylori bacteria", "Lack of enzymes", "Vitamin deficiency"],
+                correct: 1,
+                explanation: "Most peptic ulcers are caused by H. pylori bacteria or NSAIDs, not just stress or spicy food."
+            },
+            {
+                question: "Celiac disease involves:",
+                options: ["Lactose intolerance", "Gluten intolerance", "Fat malabsorption", "Protein deficiency"],
+                correct: 1,
+                explanation: "Celiac disease is an autoimmune condition triggered by gluten consumption."
+            },
+            {
+                question: "Inflammatory bowel disease includes:",
+                options: ["Crohn's disease only", "Ulcerative colitis only", "Both Crohn's and ulcerative colitis", "Peptic ulcers"],
+                correct: 2,
+                explanation: "IBD includes both Crohn's disease and ulcerative colitis, chronic inflammatory conditions."
+            },
+            {
+                question: "The future of digestive health may include:",
+                options: ["Personalized nutrition", "Microbiome therapy", "Precision medicine", "All of the above"],
+                correct: 3,
+                explanation: "Future digestive health includes personalized nutrition, microbiome therapy, and precision medicine approaches."
+            }
+        ],
+        'Homeostasis': [
+            // CONCEPTS OF HOMEOSTASIS (Questions 1-25)
+            {
+                question: "Homeostasis is:",
+                options: ["Maintaining internal balance", "Growth and development", "Energy production", "Waste elimination"],
+                correct: 0,
+                explanation: "Homeostasis is the maintenance of stable internal conditions despite external changes."
+            },
+            {
+                question: "The components of a feedback system include:",
+                options: ["Stimulus only", "Receptor only", "Control center, receptor, and effector", "Effector only"],
+                correct: 2,
+                explanation: "A complete feedback system includes a receptor, control center, and effector."
+            },
+            {
+                question: "Negative feedback:",
+                options: ["Amplifies the original stimulus", "Counteracts the original stimulus", "Has no effect", "Only works in the nervous system"],
+                correct: 1,
+                explanation: "Negative feedback counteracts or reverses the original stimulus to maintain homeostasis."
+            },
+            {
+                question: "Positive feedback:",
+                options: ["Maintains stability", "Amplifies the original stimulus", "Counteracts changes", "Is always harmful"],
+                correct: 1,
+                explanation: "Positive feedback amplifies the original stimulus, often leading to rapid change."
+            },
+            {
+                question: "Most homeostatic mechanisms involve:",
+                options: ["Positive feedback", "Negative feedback", "No feedback", "Random responses"],
+                correct: 1,
+                explanation: "Most homeostatic mechanisms use negative feedback to maintain stability."
+            },
+            {
+                question: "A stimulus in homeostasis is:",
+                options: ["The response to change", "A change in the environment", "The control center", "The effector organ"],
+                correct: 1,
+                explanation: "A stimulus is any change in the internal or external environment that disrupts homeostasis."
+            },
+            {
+                question: "Receptors in homeostasis:",
+                options: ["Detect stimuli", "Produce responses", "Store information", "Generate energy"],
+                correct: 0,
+                explanation: "Receptors detect stimuli and send information to the control center."
+            },
+            {
+                question: "The control center in homeostasis:",
+                options: ["Detects stimuli", "Processes information and determines response", "Carries out the response", "Stores energy"],
+                correct: 1,
+                explanation: "The control center processes information from receptors and determines the appropriate response."
+            },
+            {
+                question: "Effectors in homeostasis:",
+                options: ["Detect stimuli", "Process information", "Carry out responses", "Store nutrients"],
+                correct: 2,
+                explanation: "Effectors (muscles, glands) carry out the responses determined by the control center."
+            },
+            {
+                question: "The set point in homeostasis is:",
+                options: ["The maximum value", "The minimum value", "The optimal or normal value", "The average value"],
+                correct: 2,
+                explanation: "The set point is the optimal or normal value that the body tries to maintain."
+            },
+            {
+                question: "Dynamic equilibrium means:",
+                options: ["Complete stillness", "Constant small adjustments", "Maximum activity", "No activity"],
+                correct: 1,
+                explanation: "Dynamic equilibrium involves constant small adjustments to maintain the set point."
+            },
+            {
+                question: "Homeostatic imbalance can lead to:",
+                options: ["Disease", "Death", "Organ dysfunction", "All of the above"],
+                correct: 3,
+                explanation: "Homeostatic imbalance can result in disease, organ dysfunction, and potentially death."
+            },
+            {
+                question: "The human body maintains homeostasis of:",
+                options: ["Temperature only", "Blood sugar only", "Multiple variables", "Water only"],
+                correct: 2,
+                explanation: "The body maintains homeostasis of temperature, blood chemistry, pressure, and many other variables."
+            },
+            {
+                question: "Internal environment refers to:",
+                options: ["Outside the body", "Extracellular fluid", "The atmosphere", "Food intake"],
+                correct: 1,
+                explanation: "Internal environment refers to the extracellular fluid surrounding body cells."
+            },
+            {
+                question: "Cell survival depends on:",
+                options: ["Stable internal environment", "External temperature", "Amount of food", "Exercise level"],
+                correct: 0,
+                explanation: "Cells require a stable internal environment with proper temperature, pH, and nutrient levels."
+            },
+            {
+                question: "Homeostatic regulation involves:",
+                options: ["Nervous system only", "Endocrine system only", "Both nervous and endocrine systems", "Digestive system only"],
+                correct: 2,
+                explanation: "Homeostatic regulation involves coordination between nervous and endocrine systems."
+            },
+            {
+                question: "Examples of homeostatic variables include:",
+                options: ["Body temperature", "Blood pH", "Blood glucose", "All of the above"],
+                correct: 3,
+                explanation: "Temperature, pH, glucose, and many other variables are regulated homeostatically."
+            },
+            {
+                question: "Thermoregulation is:",
+                options: ["Temperature control", "Pressure control", "Sugar control", "Water control"],
+                correct: 0,
+                explanation: "Thermoregulation is the process of controlling body temperature."
+            },
+            {
+                question: "Normal human body temperature is approximately:",
+                options: ["35°C", "37°C", "39°C", "40°C"],
+                correct: 1,
+                explanation: "Normal human body temperature is approximately 37°C (98.6°F)."
+            },
+            {
+                question: "The hypothalamus acts as:",
+                options: ["A receptor only", "An effector only", "The body's thermostat", "A storage organ"],
+                correct: 2,
+                explanation: "The hypothalamus acts as the body's thermostat, controlling temperature regulation."
+            },
+            {
+                question: "When body temperature rises, the body:",
+                options: ["Shivers", "Sweats", "Constricts blood vessels", "Increases metabolism"],
+                correct: 1,
+                explanation: "When overheated, the body sweats to increase heat loss through evaporation."
+            },
+            {
+                question: "When body temperature falls, the body:",
+                options: ["Sweats", "Shivers", "Dilates blood vessels", "Decreases metabolism"],
+                correct: 1,
+                explanation: "When cold, the body shivers to generate heat through muscle contractions."
+            },
+            {
+                question: "Vasodilation helps:",
+                options: ["Conserve heat", "Lose heat", "Generate heat", "Store heat"],
+                correct: 1,
+                explanation: "Vasodilation increases blood flow to the skin to lose heat to the environment."
+            },
+            {
+                question: "Vasoconstriction helps:",
+                options: ["Lose heat", "Conserve heat", "Generate heat", "Eliminate heat"],
+                correct: 1,
+                explanation: "Vasoconstriction reduces blood flow to the skin to conserve body heat."
+            },
+            {
+                question: "Behavioral thermoregulation includes:",
+                options: ["Shivering", "Sweating", "Adding or removing clothing", "Changing heart rate"],
+                correct: 2,
+                explanation: "Behavioral thermoregulation includes conscious actions like changing clothing or seeking shelter."
+            },
+
+            // WATER AND ELECTROLYTE BALANCE (Questions 26-50)
+            {
+                question: "The kidneys help maintain:",
+                options: ["Water balance only", "Electrolyte balance only", "Both water and electrolyte balance", "Neither"],
+                correct: 2,
+                explanation: "The kidneys are crucial for maintaining both water and electrolyte balance."
+            },
+            {
+                question: "ADH (Antidiuretic hormone) is produced by:",
+                options: ["Kidneys", "Liver", "Hypothalamus", "Adrenal glands"],
+                correct: 2,
+                explanation: "ADH is produced by the hypothalamus and released by the posterior pituitary."
+            },
+            {
+                question: "ADH primarily controls:",
+                options: ["Blood sugar", "Water retention", "Heart rate", "Blood pressure"],
+                correct: 1,
+                explanation: "ADH regulates water retention by affecting kidney function."
+            },
+            {
+                question: "When blood osmolality increases:",
+                options: ["ADH secretion decreases", "ADH secretion increases", "ADH has no effect", "Water intake decreases"],
+                correct: 1,
+                explanation: "Higher blood osmolality triggers increased ADH secretion to conserve water."
+            },
+            {
+                question: "Aldosterone is produced by:",
+                options: ["Hypothalamus", "Kidneys", "Adrenal cortex", "Liver"],
+                correct: 2,
+                explanation: "Aldosterone is produced by the adrenal cortex and regulates sodium balance."
+            },
+            {
+                question: "Aldosterone primarily regulates:",
+                options: ["Water only", "Sodium and potassium", "Glucose", "Proteins"],
+                correct: 1,
+                explanation: "Aldosterone regulates sodium retention and potassium excretion by the kidneys."
+            },
+            {
+                question: "The renin-angiotensin system responds to:",
+                options: ["High blood pressure", "Low blood pressure", "High blood sugar", "Low blood sugar"],
+                correct: 1,
+                explanation: "The renin-angiotensin system is activated by low blood pressure or blood volume."
+            },
+            {
+                question: "Renin is produced by:",
+                options: ["Liver", "Kidneys", "Heart", "Lungs"],
+                correct: 1,
+                explanation: "Renin is produced by specialized cells in the kidneys (juxtaglomerular cells)."
+            },
+            {
+                question: "Angiotensin II causes:",
+                options: ["Vasodilation", "Vasoconstriction", "Decreased blood pressure", "Water loss"],
+                correct: 1,
+                explanation: "Angiotensin II causes vasoconstriction, increasing blood pressure."
+            },
+            {
+                question: "Dehydration triggers:",
+                options: ["Decreased ADH", "Increased ADH", "No hormonal response", "Decreased thirst"],
+                correct: 1,
+                explanation: "Dehydration triggers increased ADH secretion and thirst sensation."
+            },
+            {
+                question: "Osmoreceptors detect:",
+                options: ["Blood pressure", "Blood osmolality", "Heart rate", "Breathing rate"],
+                correct: 1,
+                explanation: "Osmoreceptors in the hypothalamus detect changes in blood osmolality."
+            },
+            {
+                question: "Normal blood osmolality is approximately:",
+                options: ["280-295 mOsm/kg", "300-320 mOsm/kg", "250-270 mOsm/kg", "350-400 mOsm/kg"],
+                correct: 0,
+                explanation: "Normal blood osmolality is approximately 280-295 mOsm/kg of water."
+            },
+            {
+                question: "Diabetes insipidus is caused by:",
+                options: ["Excess insulin", "ADH deficiency", "Aldosterone excess", "Renin deficiency"],
+                correct: 1,
+                explanation: "Diabetes insipidus results from ADH deficiency, causing excessive urination."
+            },
+            {
+                question: "SIADH (Syndrome of inappropriate ADH) causes:",
+                options: ["Water loss", "Water retention", "Sodium loss only", "Potassium retention"],
+                correct: 1,
+                explanation: "SIADH causes excessive water retention due to inappropriate ADH secretion."
+            },
+            {
+                question: "Thirst is regulated by:",
+                options: ["Hypothalamus", "Cerebellum", "Medulla", "Spinal cord"],
+                correct: 0,
+                explanation: "The hypothalamus contains the thirst center that regulates water intake."
+            },
+            {
+                question: "Diuretics affect:",
+                options: ["Heart rate only", "Water and sodium excretion", "Blood sugar only", "Oxygen levels"],
+                correct: 1,
+                explanation: "Diuretics increase water and sodium excretion by the kidneys."
+            },
+            {
+                question: "Hyponatremia is:",
+                options: ["High sodium levels", "Low sodium levels", "High potassium levels", "Low potassium levels"],
+                correct: 1,
+                explanation: "Hyponatremia is abnormally low sodium concentration in the blood."
+            },
+            {
+                question: "Hyperkalemia is:",
+                options: ["Low potassium levels", "High potassium levels", "Low sodium levels", "High sodium levels"],
+                correct: 1,
+                explanation: "Hyperkalemia is abnormally high potassium concentration in the blood."
+            },
+            {
+                question: "The kidneys regulate blood volume by:",
+                options: ["Changing heart rate", "Controlling water excretion", "Producing red blood cells", "Storing glucose"],
+                correct: 1,
+                explanation: "Kidneys regulate blood volume by controlling how much water is retained or excreted."
+            },
+            {
+                question: "Atrial natriuretic peptide (ANP) is released when:",
+                options: ["Blood volume is low", "Blood volume is high", "Blood sugar is high", "Blood pressure is low"],
+                correct: 1,
+                explanation: "ANP is released when blood volume is high to promote sodium and water excretion."
+            },
+            {
+                question: "ANP causes:",
+                options: ["Sodium retention", "Sodium excretion", "Water retention only", "Potassium retention"],
+                correct: 1,
+                explanation: "ANP promotes sodium and water excretion to reduce blood volume."
+            },
+            {
+                question: "Edema can result from:",
+                options: ["Excess fluid retention", "Dehydration", "Low blood pressure", "High blood sugar"],
+                correct: 0,
+                explanation: "Edema is swelling caused by excess fluid retention in tissues."
+            },
+            {
+                question: "The loop of Henle in kidneys:",
+                options: ["Filters blood only", "Concentrates urine", "Produces hormones", "Stores waste"],
+                correct: 1,
+                explanation: "The loop of Henle creates a concentration gradient that allows urine concentration."
+            },
+            {
+                question: "Aquaporins are:",
+                options: ["Enzymes", "Water channels", "Hormones", "Waste products"],
+                correct: 1,
+                explanation: "Aquaporins are water channel proteins that regulate water transport across cell membranes."
+            },
+            {
+                question: "Electrolyte imbalances can affect:",
+                options: ["Nerve function", "Muscle function", "Heart rhythm", "All of the above"],
+                correct: 3,
+                explanation: "Electrolyte imbalances can significantly affect nerve, muscle, and cardiac function."
+            },
+
+            // BLOOD GLUCOSE REGULATION (Questions 51-75)
+            {
+                question: "Normal fasting blood glucose is:",
+                options: ["70-100 mg/dL", "120-140 mg/dL", "150-200 mg/dL", "200-250 mg/dL"],
+                correct: 0,
+                explanation: "Normal fasting blood glucose levels are 70-100 mg/dL (3.9-5.6 mmol/L)."
+            },
+            {
+                question: "Insulin is produced by:",
+                options: ["Alpha cells", "Beta cells", "Delta cells", "Liver cells"],
+                correct: 1,
+                explanation: "Insulin is produced by beta cells in the pancreatic islets of Langerhans."
+            },
+            {
+                question: "Glucagon is produced by:",
+                options: ["Beta cells", "Alpha cells", "Delta cells", "Liver cells"],
+                correct: 1,
+                explanation: "Glucagon is produced by alpha cells in the pancreatic islets."
+            },
+            {
+                question: "Insulin's primary function is to:",
+                options: ["Raise blood glucose", "Lower blood glucose", "Increase heart rate", "Regulate breathing"],
+                correct: 1,
+                explanation: "Insulin lowers blood glucose by promoting glucose uptake and storage."
+            },
+            {
+                question: "Glucagon's primary function is to:",
+                options: ["Lower blood glucose", "Raise blood glucose", "Decrease heart rate", "Promote sleep"],
+                correct: 1,
+                explanation: "Glucagon raises blood glucose by promoting glucose release from storage."
+            },
+            {
+                question: "When blood glucose rises, the pancreas releases:",
+                options: ["Glucagon", "Insulin", "Cortisol", "Adrenaline"],
+                correct: 1,
+                explanation: "Rising blood glucose triggers insulin release to lower glucose levels."
+            },
+            {
+                question: "When blood glucose falls, the pancreas releases:",
+                options: ["Insulin", "Glucagon", "Cortisol", "Thyroxine"],
+                correct: 1,
+                explanation: "Falling blood glucose triggers glucagon release to raise glucose levels."
+            },
+            {
+                question: "Glycogenesis is:",
+                options: ["Glucose breakdown", "Glucose production", "Glucose storage", "Glucose transport"],
+                correct: 2,
+                explanation: "Glycogenesis is the process of converting glucose to glycogen for storage."
+            },
+            {
+                question: "Glycogenolysis is:",
+                options: ["Glucose storage", "Glycogen breakdown", "Protein synthesis", "Fat storage"],
+                correct: 1,
+                explanation: "Glycogenolysis is the breakdown of glycogen to release glucose."
+            },
+            {
+                question: "Gluconeogenesis is:",
+                options: ["Glucose storage", "Glucose breakdown", "Glucose production from non-carbohydrates", "Glucose transport"],
+                correct: 2,
+                explanation: "Gluconeogenesis is the production of glucose from non-carbohydrate sources."
+            },
+            {
+                question: "The liver stores glucose as:",
+                options: ["Starch", "Glycogen", "Cellulose", "Sucrose"],
+                correct: 1,
+                explanation: "The liver stores glucose as glycogen, which can be quickly mobilized when needed."
+            },
+            {
+                question: "Muscle cells store glucose as:",
+                options: ["Starch", "Glycogen", "Fat", "Protein"],
+                correct: 1,
+                explanation: "Muscle cells store glucose as glycogen for local energy needs."
+            },
+            {
+                question: "Type 1 diabetes results from:",
+                options: ["Insulin resistance", "Beta cell destruction", "Liver dysfunction", "Kidney disease"],
+                correct: 1,
+                explanation: "Type 1 diabetes results from autoimmune destruction of insulin-producing beta cells."
+            },
+            {
+                question: "Type 2 diabetes primarily involves:",
+                options: ["Beta cell destruction", "Insulin resistance", "Glucagon deficiency", "Liver failure"],
+                correct: 1,
+                explanation: "Type 2 diabetes primarily involves insulin resistance and relative insulin deficiency."
+            },
+            {
+                question: "Hyperglycemia is:",
+                options: ["Low blood glucose", "High blood glucose", "Normal blood glucose", "Variable blood glucose"],
+                correct: 1,
+                explanation: "Hyperglycemia is abnormally high blood glucose levels."
+            },
+            {
+                question: "Hypoglycemia is:",
+                options: ["High blood glucose", "Low blood glucose", "Normal blood glucose", "Variable blood glucose"],
+                correct: 1,
+                explanation: "Hypoglycemia is abnormally low blood glucose levels."
+            },
+            {
+                question: "Symptoms of hypoglycemia include:",
+                options: ["Sweating and shakiness", "Excessive urination", "Blurred vision", "Weight loss"],
+                correct: 0,
+                explanation: "Hypoglycemia symptoms include sweating, shakiness, confusion, and hunger."
+            },
+            {
+                question: "HbA1c measures:",
+                options: ["Current glucose levels", "Average glucose over 2-3 months", "Insulin levels", "Glucagon levels"],
+                correct: 1,
+                explanation: "HbA1c measures average blood glucose levels over the previous 2-3 months."
+            },
+            {
+                question: "The glucose tolerance test:",
+                options: ["Measures fasting glucose only", "Tests glucose response to a sugar load", "Measures insulin levels", "Tests kidney function"],
+                correct: 1,
+                explanation: "The glucose tolerance test measures how the body processes a standardized glucose load."
+            },
+            {
+                question: "Cortisol affects blood glucose by:",
+                options: ["Lowering it", "Raising it", "Having no effect", "Making it variable"],
+                correct: 1,
+                explanation: "Cortisol raises blood glucose through gluconeogenesis and insulin resistance."
+            },
+            {
+                question: "Growth hormone affects blood glucose by:",
+                options: ["Lowering it", "Raising it", "Having no effect", "Making it unstable"],
+                correct: 1,
+                explanation: "Growth hormone tends to raise blood glucose and can cause insulin resistance."
+            },
+            {
+                question: "Epinephrine (adrenaline) affects blood glucose by:",
+                options: ["Lowering it", "Raising it", "Having no effect", "Making it fluctuate"],
+                correct: 1,
+                explanation: "Epinephrine raises blood glucose rapidly through glycogenolysis and gluconeogenesis."
+            },
+            {
+                question: "The dawn phenomenon refers to:",
+                options: ["Evening glucose rise", "Morning glucose rise", "Midday glucose drop", "Nighttime glucose fall"],
+                correct: 1,
+                explanation: "The dawn phenomenon is the early morning rise in blood glucose due to hormonal changes."
+            },
+            {
+                question: "Diabetic ketoacidosis occurs when:",
+                options: ["Blood glucose is too low", "Insulin is severely deficient", "Too much insulin is present", "Kidneys fail"],
+                correct: 1,
+                explanation: "Diabetic ketoacidosis occurs when severe insulin deficiency leads to ketone production."
+            },
+            {
+                question: "Continuous glucose monitoring:",
+                options: ["Requires frequent finger sticks", "Provides real-time glucose data", "Only works at night", "Measures insulin levels"],
+                correct: 1,
+                explanation: "Continuous glucose monitoring provides real-time glucose readings throughout the day."
+            },
+
+            // pH AND ACID-BASE BALANCE (Questions 76-100)
+            {
+                question: "Normal blood pH is approximately:",
+                options: ["7.0", "7.35-7.45", "7.5-7.6", "8.0"],
+                correct: 1,
+                explanation: "Normal arterial blood pH is tightly regulated between 7.35-7.45."
+            },
+            {
+                question: "Blood pH below 7.35 is called:",
+                options: ["Alkalosis", "Acidosis", "Neutrality", "Buffering"],
+                correct: 1,
+                explanation: "Blood pH below 7.35 is called acidosis, indicating excess acid or loss of base."
+            },
+            {
+                question: "Blood pH above 7.45 is called:",
+                options: ["Acidosis", "Alkalosis", "Neutrality", "Buffering"],
+                correct: 1,
+                explanation: "Blood pH above 7.45 is called alkalosis, indicating excess base or loss of acid."
+            },
+            {
+                question: "The body's primary buffer system is:",
+                options: ["Phosphate buffer", "Bicarbonate buffer", "Protein buffer", "Hemoglobin buffer"],
+                correct: 1,
+                explanation: "The bicarbonate buffer system is the most important buffer in blood and extracellular fluid."
+            },
+            {
+                question: "The bicarbonate buffer system involves:",
+                options: ["H2CO3 and HCO3-", "H2PO4- and HPO42-", "Proteins only", "Hemoglobin only"],
+                correct: 0,
+                explanation: "The bicarbonate buffer system involves carbonic acid (H2CO3) and bicarbonate (HCO3-)."
+            },
+            {
+                question: "Respiratory compensation for acidosis involves:",
+                options: ["Slower breathing", "Faster breathing", "Holding breath", "No change in breathing"],
+                correct: 1,
+                explanation: "Respiratory compensation for acidosis involves hyperventilation to eliminate CO2."
+            },
+            {
+                question: "Respiratory compensation for alkalosis involves:",
+                options: ["Faster breathing", "Slower breathing", "Deeper breathing", "No change"],
+                correct: 1,
+                explanation: "Respiratory compensation for alkalosis involves hypoventilation to retain CO2."
+            },
+            {
+                question: "The kidneys compensate for pH changes by:",
+                options: ["Changing breathing rate", "Adjusting bicarbonate excretion", "Producing enzymes", "Storing acids"],
+                correct: 1,
+                explanation: "The kidneys compensate by adjusting bicarbonate reabsorption and acid excretion."
+            },
+            {
+                question: "Metabolic acidosis can be caused by:",
+                options: ["Excessive vomiting", "Diabetic ketoacidosis", "Hyperventilation", "Kidney retention of acid"],
+                correct: 1,
+                explanation: "Metabolic acidosis can result from diabetic ketoacidosis, kidney disease, or severe diarrhea."
+            },
+            {
+                question: "Metabolic alkalosis can be caused by:",
+                options: ["Excessive vomiting", "Diarrhea", "Ketoacidosis", "Respiratory depression"],
+                correct: 0,
+                explanation: "Metabolic alkalosis can result from excessive vomiting or diuretic use."
+            },
+            {
+                question: "Respiratory acidosis results from:",
+                options: ["Hyperventilation", "Hypoventilation", "Kidney disease", "Vomiting"],
+                correct: 1,
+                explanation: "Respiratory acidosis results from hypoventilation and CO2 retention."
+            },
+            {
+                question: "Respiratory alkalosis results from:",
+                options: ["Hypoventilation", "Hyperventilation", "Kidney disease", "Diarrhea"],
+                correct: 1,
+                explanation: "Respiratory alkalosis results from hyperventilation and excessive CO2 loss."
+            },
+            {
+                question: "Carbonic anhydrase:",
+                options: ["Produces CO2", "Converts CO2 and H2O to H2CO3", "Destroys bicarbonate", "Has no role in pH"],
+                correct: 1,
+                explanation: "Carbonic anhydrase catalyzes the conversion of CO2 and water to carbonic acid."
+            },
+            {
+                question: "Blood gas analysis measures:",
+                options: ["pH only", "CO2 only", "pH, CO2, and O2", "Glucose only"],
+                correct: 2,
+                explanation: "Blood gas analysis measures pH, partial pressures of CO2 and O2, and other parameters."
+            },
+            {
+                question: "The anion gap helps diagnose:",
+                options: ["Respiratory disorders", "Metabolic acidosis", "Kidney stones", "Heart disease"],
+                correct: 1,
+                explanation: "The anion gap helps determine the cause of metabolic acidosis."
+            },
+            {
+                question: "Compensation versus correction means:",
+                options: ["They are the same", "Compensation is temporary, correction is permanent", "Compensation is permanent", "There is no difference"],
+                correct: 1,
+                explanation: "Compensation is the body's temporary response; correction addresses the underlying cause."
+            },
+            {
+                question: "The phosphate buffer system is most important in:",
+                options: ["Blood", "Urine", "Cells", "Lungs"],
+                correct: 2,
+                explanation: "The phosphate buffer system is most important in intracellular fluid and urine."
+            },
+            {
+                question: "Protein buffers work by:",
+                options: ["Releasing oxygen", "Accepting or donating protons", "Storing glucose", "Producing energy"],
+                correct: 1,
+                explanation: "Protein buffers work by accepting or donating protons (H+) to maintain pH."
+            },
+            {
+                question: "Hemoglobin acts as a buffer by:",
+                options: ["Carrying oxygen only", "Binding hydrogen ions", "Producing CO2", "Storing glucose"],
+                correct: 1,
+                explanation: "Hemoglobin can bind hydrogen ions, helping to buffer blood pH."
+            },
+            {
+                question: "Acidosis affects cellular function by:",
+                options: ["Improving enzyme activity", "Disrupting enzyme activity", "Having no effect", "Only affecting pH"],
+                correct: 1,
+                explanation: "Acidosis disrupts enzyme activity and cellular processes, potentially causing organ dysfunction."
+            },
+            {
+                question: "Alkalosis affects the nervous system by:",
+                options: ["Calming nerves", "Causing hyperexcitability", "Having no effect", "Improving function"],
+                correct: 1,
+                explanation: "Alkalosis causes nervous system hyperexcitability, leading to muscle spasms and seizures."
+            },
+            {
+                question: "The kidneys regulate acid-base balance by:",
+                options: ["Breathing rate only", "Reabsorbing bicarbonate and excreting acid", "Storing buffers", "Producing oxygen"],
+                correct: 1,
+                explanation: "The kidneys regulate pH by controlling bicarbonate reabsorption and acid excretion."
+            },
+            {
+                question: "Urinalysis can reveal:",
+                options: ["Blood pH only", "Kidney pH regulation", "Lung function only", "Heart rate"],
+                correct: 1,
+                explanation: "Urinalysis can show how well the kidneys are regulating acid-base balance."
+            },
+            {
+                question: "Chronic kidney disease affects pH by:",
+                options: ["Improving acid excretion", "Impairing acid excretion", "Having no effect", "Only affecting water"],
+                correct: 1,
+                explanation: "Chronic kidney disease impairs the kidneys' ability to excrete acid and regulate pH."
+            },
+            {
+                question: "The future of homeostasis research includes:",
+                options: ["Precision medicine", "Personalized treatments", "Advanced monitoring", "All of the above"],
+                correct: 3,
+                explanation: "Future homeostasis research includes precision medicine, personalized treatments, and advanced monitoring technologies."
+            }
+        ],
+        'Biotechnology': [
+            // INTRODUCTION TO BIOTECHNOLOGY (Questions 1-25)
+            {
+                question: "Biotechnology is:",
+                options: ["The study of life only", "Technology using biological systems", "Computer science", "Physics applications"],
+                correct: 1,
+                explanation: "Biotechnology is the use of living systems and organisms to develop or make products."
+            },
+            {
+                question: "Traditional biotechnology includes:",
+                options: ["Genetic engineering", "Fermentation", "DNA sequencing", "PCR"],
+                correct: 1,
+                explanation: "Traditional biotechnology includes ancient practices like fermentation for making bread, wine, and cheese."
+            },
+            {
+                question: "Modern biotechnology is characterized by:",
+                options: ["Use of microorganisms only", "DNA manipulation techniques", "Traditional breeding", "Physical processes"],
+                correct: 1,
+                explanation: "Modern biotechnology involves genetic engineering and molecular techniques."
+            },
+            {
+                question: "The first genetically engineered product approved for human use was:",
+                options: ["Growth hormone", "Insulin", "Interferon", "Vaccine"],
+                correct: 1,
+                explanation: "Human insulin produced by genetically modified bacteria was the first approved biotechnology product."
+            },
+            {
+                question: "Recombinant DNA technology involves:",
+                options: ["Combining DNA from different sources", "Destroying DNA", "Only using human DNA", "Studying DNA structure"],
+                correct: 0,
+                explanation: "Recombinant DNA technology combines genetic material from different organisms."
+            },
+            {
+                question: "A vector in biotechnology is:",
+                options: ["A disease carrier", "A DNA carrier", "A measurement tool", "A microscope"],
+                correct: 1,
+                explanation: "A vector is a DNA molecule used to carry foreign genetic material into another cell."
+            },
+            {
+                question: "Plasmids are:",
+                options: ["Viral particles", "Small circular DNA molecules", "Proteins", "Enzymes"],
+                correct: 1,
+                explanation: "Plasmids are small, circular DNA molecules found in bacteria, often used as vectors."
+            },
+            {
+                question: "Restriction enzymes are used to:",
+                options: ["Join DNA", "Cut DNA at specific sites", "Amplify DNA", "Sequence DNA"],
+                correct: 1,
+                explanation: "Restriction enzymes cut DNA at specific recognition sequences."
+            },
+            {
+                question: "DNA ligase is used to:",
+                options: ["Cut DNA", "Join DNA fragments", "Amplify DNA", "Sequence DNA"],
+                correct: 1,
+                explanation: "DNA ligase joins DNA fragments by forming phosphodiester bonds."
+            },
+            {
+                question: "PCR stands for:",
+                options: ["Protein Chain Reaction", "Polymerase Chain Reaction", "Positive Chain Reaction", "Primary Chain Reaction"],
+                correct: 1,
+                explanation: "PCR is Polymerase Chain Reaction, used to amplify specific DNA sequences."
+            },
+            {
+                question: "The purpose of PCR is to:",
+                options: ["Destroy DNA", "Amplify DNA", "Sequence DNA", "Store DNA"],
+                correct: 1,
+                explanation: "PCR amplifies (makes many copies of) specific DNA sequences."
+            },
+            {
+                question: "Taq polymerase is used in PCR because it:",
+                options: ["Works at room temperature", "Is heat-stable", "Is very cheap", "Works very slowly"],
+                correct: 1,
+                explanation: "Taq polymerase from thermophilic bacteria remains active at high temperatures used in PCR."
+            },
+            {
+                question: "DNA fingerprinting is used for:",
+                options: ["Making new DNA", "Individual identification", "DNA storage", "DNA destruction"],
+                correct: 1,
+                explanation: "DNA fingerprinting analyzes genetic markers to identify individuals."
+            },
+            {
+                question: "Gel electrophoresis separates DNA based on:",
+                options: ["Color", "Size", "Smell", "Taste"],
+                correct: 1,
+                explanation: "Gel electrophoresis separates DNA fragments by size using an electric field."
+            },
+            {
+                question: "Transformation in biotechnology refers to:",
+                options: ["Physical change", "Taking up foreign DNA", "Shape change", "Color change"],
+                correct: 1,
+                explanation: "Transformation is the process by which cells take up foreign DNA from their environment."
+            },
+            {
+                question: "Competent cells are:",
+                options: ["Dead cells", "Cells able to take up DNA", "Very large cells", "Dividing cells"],
+                correct: 1,
+                explanation: "Competent cells have been treated to make them capable of taking up DNA."
+            },
+            {
+                question: "Cloning in biotechnology means:",
+                options: ["Making identical copies", "Making different copies", "Destroying genes", "Studying genetics"],
+                correct: 0,
+                explanation: "Cloning produces genetically identical copies of genes, cells, or organisms."
+            },
+            {
+                question: "Gene expression involves:",
+                options: ["DNA to protein", "Protein to DNA", "RNA destruction", "DNA destruction"],
+                correct: 0,
+                explanation: "Gene expression is the process by which genetic information flows from DNA to protein."
+            },
+            {
+                question: "A promoter in gene expression is:",
+                options: ["The final product", "A DNA sequence that initiates transcription", "An enzyme", "A waste product"],
+                correct: 1,
+                explanation: "A promoter is a DNA sequence where transcription begins."
+            },
+            {
+                question: "Transgenic organisms contain:",
+                options: ["Only their original genes", "Genes from other species", "No genes", "Broken genes"],
+                correct: 1,
+                explanation: "Transgenic organisms contain genes transferred from other species."
+            },
+            {
+                question: "The first transgenic animal was a:",
+                options: ["Mouse", "Rat", "Rabbit", "Pig"],
+                correct: 0,
+                explanation: "The first transgenic animal was a mouse created in 1980."
+            },
+            {
+                question: "Gene knockout refers to:",
+                options: ["Adding new genes", "Removing or inactivating genes", "Copying genes", "Moving genes"],
+                correct: 1,
+                explanation: "Gene knockout involves removing or inactivating specific genes to study their function."
+            },
+            {
+                question: "CRISPR-Cas9 is used for:",
+                options: ["DNA storage", "Gene editing", "Protein production", "Cell division"],
+                correct: 1,
+                explanation: "CRISPR-Cas9 is a powerful tool for precise gene editing."
+            },
+            {
+                question: "The Human Genome Project aimed to:",
+                options: ["Destroy human DNA", "Sequence human DNA", "Create new humans", "Study animal DNA only"],
+                correct: 1,
+                explanation: "The Human Genome Project sequenced the entire human genome."
+            },
+            {
+                question: "Bioinformatics combines:",
+                options: ["Biology and computer science", "Biology and physics", "Chemistry and math", "Geography and biology"],
+                correct: 0,
+                explanation: "Bioinformatics uses computer science to analyze biological data."
+            },
+
+            // APPLICATIONS IN MEDICINE (Questions 26-50)
+            {
+                question: "Gene therapy aims to:",
+                options: ["Destroy genes", "Treat genetic disorders", "Remove all genes", "Study genes only"],
+                correct: 1,
+                explanation: "Gene therapy involves introducing functional genes to treat genetic disorders."
+            },
+            {
+                question: "The first successful gene therapy was for:",
+                options: ["Cancer", "ADA-SCID", "Diabetes", "Heart disease"],
+                correct: 1,
+                explanation: "The first successful gene therapy treated ADA-SCID (severe combined immunodeficiency)."
+            },
+            {
+                question: "Monoclonal antibodies are:",
+                options: ["Identical antibodies from one clone", "Different antibodies", "Not antibodies", "Natural antibodies only"],
+                correct: 0,
+                explanation: "Monoclonal antibodies are identical antibodies produced by a single clone of cells."
+            },
+            {
+                question: "Monoclonal antibodies are used for:",
+                options: ["Diagnosis only", "Treatment only", "Both diagnosis and treatment", "Neither"],
+                correct: 2,
+                explanation: "Monoclonal antibodies are used for both diagnostic tests and therapeutic treatments."
+            },
+            {
+                question: "Recombinant vaccines contain:",
+                options: ["Live pathogens", "Dead pathogens", "Specific pathogen proteins", "No pathogen material"],
+                correct: 2,
+                explanation: "Recombinant vaccines contain specific proteins produced by genetic engineering."
+            },
+            {
+                question: "The hepatitis B vaccine is:",
+                options: ["Traditional vaccine", "Recombinant vaccine", "Live vaccine", "Not available"],
+                correct: 1,
+                explanation: "The hepatitis B vaccine uses recombinant DNA technology to produce viral proteins."
+            },
+            {
+                question: "Pharmacogenomics studies:",
+                options: ["Drug manufacturing", "How genes affect drug responses", "Drug storage", "Drug colors"],
+                correct: 1,
+                explanation: "Pharmacogenomics studies how genetic variation affects individual responses to drugs."
+            },
+            {
+                question: "Personalized medicine uses:",
+                options: ["One treatment for everyone", "Genetic information for individual treatment", "Random treatments", "No treatments"],
+                correct: 1,
+                explanation: "Personalized medicine tailors treatments based on individual genetic profiles."
+            },
+            {
+                question: "Stem cell therapy uses:",
+                options: ["Differentiated cells only", "Undifferentiated cells", "Dead cells", "Artificial cells"],
+                correct: 1,
+                explanation: "Stem cell therapy uses undifferentiated cells that can develop into various cell types."
+            },
+            {
+                question: "Embryonic stem cells are:",
+                options: ["Fully differentiated", "Pluripotent", "Dead", "Artificial"],
+                correct: 1,
+                explanation: "Embryonic stem cells are pluripotent, able to differentiate into any cell type."
+            },
+            {
+                question: "Adult stem cells are:",
+                options: ["Totipotent", "Multipotent", "Not useful", "Artificial"],
+                correct: 1,
+                explanation: "Adult stem cells are multipotent, able to differentiate into limited cell types."
+            },
+            {
+                question: "Tissue engineering combines:",
+                options: ["Cells and materials", "Only cells", "Only materials", "Nothing"],
+                correct: 0,
+                explanation: "Tissue engineering combines cells, biomaterials, and growth factors to create tissues."
+            },
+            {
+                question: "Xenotransplantation involves:",
+                options: ["Human to human transplants", "Animal to human transplants", "Machine to human transplants", "No transplants"],
+                correct: 1,
+                explanation: "Xenotransplantation is the transplantation of organs from animals to humans."
+            },
+            {
+                question: "The main concern with xenotransplantation is:",
+                options: ["Cost", "Cross-species infection", "Availability", "Color"],
+                correct: 1,
+                explanation: "Cross-species viral infections are a major concern in xenotransplantation."
+            },
+            {
+                question: "Biosensors are used to:",
+                options: ["Destroy biological molecules", "Detect biological molecules", "Store biological molecules", "Create biological molecules"],
+                correct: 1,
+                explanation: "Biosensors detect and measure biological molecules or processes."
+            },
+            {
+                question: "Blood glucose meters use:",
+                options: ["Chemical reactions only", "Biosensor technology", "Visual inspection", "Taste testing"],
+                correct: 1,
+                explanation: "Blood glucose meters use enzyme-based biosensors to measure glucose levels."
+            },
+            {
+                question: "DNA vaccines contain:",
+                options: ["Live viruses", "Dead viruses", "Viral DNA", "No viral material"],
+                correct: 2,
+                explanation: "DNA vaccines contain viral DNA that instructs cells to produce viral proteins."
+            },
+            {
+                question: "Cancer immunotherapy works by:",
+                options: ["Destroying the immune system", "Enhancing immune responses against cancer", "Hiding cancer cells", "Feeding cancer cells"],
+                correct: 1,
+                explanation: "Cancer immunotherapy enhances the immune system's ability to fight cancer."
+            },
+            {
+                question: "CAR-T cell therapy involves:",
+                options: ["Destroying T cells", "Modifying T cells to fight cancer", "Using only natural T cells", "Avoiding T cells"],
+                correct: 1,
+                explanation: "CAR-T therapy genetically modifies T cells to better recognize and attack cancer cells."
+            },
+            {
+                question: "Biomarkers are used for:",
+                options: ["Disease diagnosis", "Disease monitoring", "Treatment selection", "All of the above"],
+                correct: 3,
+                explanation: "Biomarkers are used for diagnosis, monitoring, and selecting appropriate treatments."
+            },
+            {
+                question: "Liquid biopsies detect:",
+                options: ["Circulating tumor DNA", "Only solid tumors", "Normal DNA only", "No DNA"],
+                correct: 0,
+                explanation: "Liquid biopsies detect circulating tumor DNA in blood samples."
+            },
+            {
+                question: "Regenerative medicine aims to:",
+                options: ["Destroy organs", "Replace or regenerate tissues", "Study organs only", "Remove organs"],
+                correct: 1,
+                explanation: "Regenerative medicine seeks to replace or regenerate damaged tissues and organs."
+            },
+            {
+                question: "3D bioprinting creates:",
+                options: ["2D structures", "Living tissue structures", "Metal objects", "Paper documents"],
+                correct: 1,
+                explanation: "3D bioprinting creates three-dimensional living tissue structures."
+            },
+            {
+                question: "Organ-on-a-chip technology:",
+                options: ["Replaces entire organs", "Models organ function", "Destroys organs", "Has no medical use"],
+                correct: 1,
+                explanation: "Organ-on-a-chip technology creates microfluidic devices that model organ functions."
+            },
+            {
+                question: "The advantage of mRNA vaccines is:",
+                options: ["They contain live virus", "Rapid development and production", "They are very expensive", "They work slowly"],
+                correct: 1,
+                explanation: "mRNA vaccines can be rapidly developed and produced during pandemics."
+            },
+
+            // AGRICULTURAL BIOTECHNOLOGY (Questions 51-75)
+            {
+                question: "Genetically modified crops are designed to:",
+                options: ["Reduce yields", "Improve crop characteristics", "Harm the environment", "Taste worse"],
+                correct: 1,
+                explanation: "GM crops are engineered to improve characteristics like yield, nutrition, or pest resistance."
+            },
+            {
+                question: "Bt cotton contains:",
+                options: ["No special genes", "Bacterial toxin genes", "Viral genes", "Human genes"],
+                correct: 1,
+                explanation: "Bt cotton contains genes from Bacillus thuringiensis that produce insecticidal proteins."
+            },
+            {
+                question: "Golden rice is enriched with:",
+                options: ["Iron", "Vitamin A precursors", "Protein", "Vitamin C"],
+                correct: 1,
+                explanation: "Golden rice is genetically modified to produce beta-carotene, a vitamin A precursor."
+            },
+            {
+                question: "Herbicide-resistant crops allow:",
+                options: ["No herbicide use", "Specific herbicide use", "Any herbicide use", "More pest damage"],
+                correct: 1,
+                explanation: "Herbicide-resistant crops can survive specific herbicides that kill weeds."
+            },
+            {
+                question: "Marker-assisted selection uses:",
+                options: ["Physical appearance only", "Genetic markers", "Random selection", "No selection"],
+                correct: 1,
+                explanation: "Marker-assisted selection uses genetic markers to select plants with desired traits."
+            },
+            {
+                question: "Plant tissue culture involves:",
+                options: ["Growing whole plants only", "Growing plant cells/tissues in lab", "Destroying plants", "Studying plant books"],
+                correct: 1,
+                explanation: "Plant tissue culture grows plant cells, tissues, or organs under sterile conditions."
+            },
+            {
+                question: "Micropropagation is used for:",
+                options: ["Destroying plants", "Rapid plant multiplication", "Slowing plant growth", "Studying plant colors"],
+                correct: 1,
+                explanation: "Micropropagation rapidly multiplies plants through tissue culture techniques."
+            },
+            {
+                question: "Somatic hybridization involves:",
+                options: ["Sexual reproduction", "Fusing somatic cells", "Seed production", "Root growth"],
+                correct: 1,
+                explanation: "Somatic hybridization fuses protoplasts from different plant species."
+            },
+            {
+                question: "Protoplasts are:",
+                options: ["Cells with cell walls", "Cells without cell walls", "Dead cells", "Bacterial cells"],
+                correct: 1,
+                explanation: "Protoplasts are plant cells with their cell walls removed."
+            },
+            {
+                question: "Agrobacterium tumefaciens is used for:",
+                options: ["Plant disease only", "Gene transfer to plants", "Killing plants", "Plant nutrition"],
+                correct: 1,
+                explanation: "Agrobacterium is used as a natural vector to transfer genes into plant cells."
+            },
+            {
+                question: "The Ti plasmid from Agrobacterium:",
+                options: ["Kills plants", "Transfers genes to plants", "Has no function", "Makes plants smaller"],
+                correct: 1,
+                explanation: "The Ti plasmid naturally transfers DNA into plant cells and is used in genetic engineering."
+            },
+            {
+                question: "Gene gun technology uses:",
+                options: ["Chemicals only", "Physical force to introduce DNA", "Bacteria only", "Viruses only"],
+                correct: 1,
+                explanation: "Gene guns use physical force to shoot DNA-coated particles into cells."
+            },
+            {
+                question: "Drought-resistant crops are important for:",
+                options: ["Water-rich areas", "Arid and semi-arid regions", "Ocean farming", "Indoor farming only"],
+                correct: 1,
+                explanation: "Drought-resistant crops help agriculture in water-scarce regions."
+            },
+            {
+                question: "Salt-tolerant crops can grow in:",
+                options: ["Fresh water only", "Saline soils", "No soil", "Pure salt"],
+                correct: 1,
+                explanation: "Salt-tolerant crops can grow in saline soils where normal crops would fail."
+            },
+            {
+                question: "Biofortification aims to:",
+                options: ["Reduce nutrition", "Increase nutritional content", "Remove nutrients", "Change color only"],
+                correct: 1,
+                explanation: "Biofortification increases the nutritional value of crops through breeding or genetic engineering."
+            },
+            {
+                question: "Iron-enriched crops help combat:",
+                options: ["Obesity", "Anemia", "Diabetes", "High blood pressure"],
+                correct: 1,
+                explanation: "Iron-enriched crops help combat iron-deficiency anemia."
+            },
+            {
+                question: "Virus-resistant plants are created by:",
+                options: ["Avoiding viruses", "Introducing viral genes", "Using antibiotics", "Physical barriers only"],
+                correct: 1,
+                explanation: "Virus resistance can be achieved by introducing specific viral genes that interfere with infection."
+            },
+            {
+                question: "RNA interference (RNAi) in plants:",
+                options: ["Increases gene expression", "Silences specific genes", "Destroys all RNA", "Has no effect"],
+                correct: 1,
+                explanation: "RNAi silences specific genes by degrading their mRNA."
+            },
+            {
+                question: "Terminator seeds are controversial because they:",
+                options: ["Grow too well", "Cannot reproduce", "Are too nutritious", "Grow too fast"],
+                correct: 1,
+                explanation: "Terminator seeds are genetically modified to be sterile, preventing farmer seed saving."
+            },
+            {
+                question: "Organic farming and biotechnology:",
+                options: ["Are completely compatible", "Have some conflicts", "Are identical", "Cannot coexist"],
+                correct: 1,
+                explanation: "Organic farming standards often exclude genetically modified organisms."
+            },
+            {
+                question: "Gene flow from GM crops refers to:",
+                options: ["Water movement", "Transfer of genes to wild plants", "Soil movement", "Air movement"],
+                correct: 1,
+                explanation: "Gene flow is the transfer of genes from GM crops to wild or conventional plants."
+            },
+            {
+                question: "Biological control uses:",
+                options: ["Chemical pesticides", "Living organisms to control pests", "Physical barriers only", "Genetic modification only"],
+                correct: 1,
+                explanation: "Biological control uses natural predators, parasites, or pathogens to control pests."
+            },
+            {
+                question: "Biopesticides are:",
+                options: ["Synthetic chemicals", "Pesticides derived from natural sources", "Heavy metals", "Radioactive materials"],
+                correct: 1,
+                explanation: "Biopesticides are pest control agents derived from natural sources like bacteria, fungi, or plants."
+            },
+            {
+                question: "Precision agriculture uses:",
+                options: ["Guesswork", "Technology for precise farm management", "Only manual labor", "No technology"],
+                correct: 1,
+                explanation: "Precision agriculture uses GPS, sensors, and data analysis for precise farm management."
+            },
+            {
+                question: "Vertical farming involves:",
+                options: ["Traditional field farming", "Growing crops in stacked layers", "Underground farming only", "Ocean farming"],
+                correct: 1,
+                explanation: "Vertical farming grows crops in vertically stacked layers, often indoors."
+            },
+
+            // ENVIRONMENTAL AND INDUSTRIAL BIOTECHNOLOGY (Questions 76-100)
+            {
+                question: "Bioremediation uses:",
+                options: ["Chemicals to clean environment", "Living organisms to clean environment", "Physical removal only", "Nothing"],
+                correct: 1,
+                explanation: "Bioremediation uses living organisms to remove or neutralize environmental pollutants."
+            },
+            {
+                question: "Microorganisms used in bioremediation can:",
+                options: ["Create pollution", "Break down pollutants", "Ignore pollutants", "Concentrate pollutants"],
+                correct: 1,
+                explanation: "Microorganisms break down pollutants into less harmful substances."
+            },
+            {
+                question: "Phytoremediation uses:",
+                options: ["Animals", "Plants", "Chemicals", "Machines"],
+                correct: 1,
+                explanation: "Phytoremediation uses plants to remove pollutants from soil or water."
+            },
+            {
+                question: "Biofuels are produced from:",
+                options: ["Fossil fuels only", "Biological materials", "Minerals", "Metals"],
+                correct: 1,
+                explanation: "Biofuels are produced from renewable biological materials like crops or algae."
+            },
+            {
+                question: "Ethanol as biofuel is commonly made from:",
+                options: ["Oil", "Corn or sugarcane", "Coal", "Natural gas"],
+                correct: 1,
+                explanation: "Ethanol biofuel is commonly produced from corn or sugarcane through fermentation."
+            },
+            {
+                question: "Biodiesel is made from:",
+                options: ["Petroleum", "Vegetable oils or animal fats", "Coal", "Natural gas"],
+                correct: 1,
+                explanation: "Biodiesel is produced from vegetable oils, animal fats, or algae."
+            },
+            {
+                question: "Algae are promising for biofuel because they:",
+                options: ["Grow slowly", "Have high oil content", "Need lots of land", "Are expensive"],
+                correct: 1,
+                explanation: "Algae can have high oil content and grow rapidly without requiring agricultural land."
+            },
+            {
+                question: "Biogas is produced through:",
+                options: ["Photosynthesis", "Anaerobic digestion", "Aerobic respiration", "Chemical synthesis"],
+                correct: 1,
+                explanation: "Biogas is produced by anaerobic digestion of organic matter by bacteria."
+            },
+            {
+                question: "Industrial biotechnology produces:",
+                options: ["Only pharmaceuticals", "Chemicals, materials, and fuels", "Only food", "Only cosmetics"],
+                correct: 1,
+                explanation: "Industrial biotechnology produces a wide range of chemicals, materials, fuels, and products."
+            },
+            {
+                question: "Enzymes in industrial processes:",
+                options: ["Are not useful", "Catalyze specific reactions", "Are always expensive", "Work only once"],
+                correct: 1,
+                explanation: "Industrial enzymes catalyze specific reactions efficiently under controlled conditions."
+            },
+            {
+                question: "White biotechnology refers to:",
+                options: ["Medical biotechnology", "Industrial biotechnology", "Agricultural biotechnology", "Color biotechnology"],
+                correct: 1,
+                explanation: "White biotechnology is industrial biotechnology focused on manufacturing processes."
+            },
+            {
+                question: "Biomaterials are:",
+                options: ["Only natural materials", "Materials that interface with biological systems", "Only synthetic materials", "Only metals"],
+                correct: 1,
+                explanation: "Biomaterials are designed to interact with biological systems for medical applications."
+            },
+            {
+                question: "Biodegradable plastics:",
+                options: ["Never break down", "Break down naturally", "Are made of metal", "Are radioactive"],
+                correct: 1,
+                explanation: "Biodegradable plastics break down naturally through biological processes."
+            },
+            {
+                question: "Microbial fuel cells generate:",
+                options: ["Heat only", "Electricity from organic matter", "Light only", "Sound only"],
+                correct: 1,
+                explanation: "Microbial fuel cells use bacteria to generate electricity from organic compounds."
+            },
+            {
+                question: "Biosurfactants are:",
+                options: ["Synthetic detergents", "Biological surface-active agents", "Heavy metals", "Radioactive compounds"],
+                correct: 1,
+                explanation: "Biosurfactants are surface-active agents produced by microorganisms."
+            },
+            {
+                question: "Biomining uses:",
+                options: ["Explosives", "Microorganisms to extract metals", "Only physical methods", "Only chemical methods"],
+                correct: 1,
+                explanation: "Biomining uses microorganisms to extract metals from ores or waste materials."
+            },
+            {
+                question: "Carbon capture and storage can involve:",
+                options: ["Only physical methods", "Biological methods", "Only chemical methods", "No methods"],
+                correct: 1,
+                explanation: "Biological carbon capture uses organisms like algae or genetically modified plants."
+            },
+            {
+                question: "Synthetic biology aims to:",
+                options: ["Study natural biology only", "Engineer biological systems", "Destroy biology", "Avoid biology"],
+                correct: 1,
+                explanation: "Synthetic biology engineers biological systems for useful purposes."
+            },
+            {
+                question: "Biological circuits can be designed to:",
+                options: ["Process electrical signals only", "Process biological information", "Generate heat only", "Store water"],
+                correct: 1,
+                explanation: "Biological circuits process information using biological components like genes and proteins."
+            },
+            {
+                question: "The ethics of biotechnology involves:",
+                options: ["No concerns", "Safety and moral considerations", "Only financial issues", "Only technical issues"],
+                correct: 1,
+                explanation: "Biotechnology ethics addresses safety, environmental, social, and moral considerations."
+            },
+            {
+                question: "Biosafety measures ensure:",
+                options: ["Maximum risk", "Safe use of biotechnology", "No regulation", "No safety"],
+                correct: 1,
+                explanation: "Biosafety measures prevent harmful effects of biotechnology on humans and environment."
+            },
+            {
+                question: "Intellectual property in biotechnology protects:",
+                options: ["Nothing", "Innovations and inventions", "Only natural discoveries", "Only traditional knowledge"],
+                correct: 1,
+                explanation: "Intellectual property laws protect biotechnology innovations while considering ethical issues."
+            },
+            {
+                question: "Public participation in biotechnology decisions is important for:",
+                options: ["Slowing progress", "Democratic governance", "Avoiding science", "Creating confusion"],
+                correct: 1,
+                explanation: "Public engagement ensures democratic decision-making about biotechnology applications."
+            },
+            {
+                question: "The future of biotechnology includes:",
+                options: ["Declining importance", "Advanced applications in all fields", "Only medical uses", "No environmental applications"],
+                correct: 1,
+                explanation: "Biotechnology will expand into medicine, agriculture, environment, and industry."
+            },
+            {
+                question: "Convergence of biotechnology with other fields creates:",
+                options: ["No new opportunities", "New interdisciplinary possibilities", "Only problems", "Confusion only"],
+                correct: 1,
+                explanation: "Biotechnology convergence with nanotechnology, AI, and other fields creates new possibilities."
+            }
+        ],
             {
                 question: "The process of creating gametes is called:",
                 options: ["Mitosis", "Meiosis", "Binary fission", "Budding"],
