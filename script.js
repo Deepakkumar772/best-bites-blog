@@ -14,6 +14,7 @@ const mdcatExamDate = new Date('2024-11-15T09:00:00');
 const mcqDatabase = {
     biology: {
         'Cell Structure & Function': [
+            // BASIC CELL STRUCTURE (Questions 1-20)
             {
                 question: "The powerhouse of the cell is:",
                 options: ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic reticulum"],
@@ -73,6 +74,556 @@ const mcqDatabase = {
                 options: ["Exocytosis", "Diffusion", "Phagocytosis", "Osmosis"],
                 correct: 2,
                 explanation: "Phagocytosis is a form of endocytosis where cells engulf large particles or other cells."
+            },
+            {
+                question: "The control center of the cell is:",
+                options: ["Mitochondria", "Nucleus", "Ribosome", "Cytoplasm"],
+                correct: 1,
+                explanation: "The nucleus controls cellular activities and contains the cell's genetic material (DNA)."
+            },
+            {
+                question: "Which structure provides shape and support to plant cells?",
+                options: ["Cell membrane", "Cell wall", "Cytoplasm", "Nucleus"],
+                correct: 1,
+                explanation: "The cell wall, made of cellulose, provides structural support and protection to plant cells."
+            },
+            {
+                question: "The jelly-like substance filling the cell is called:",
+                options: ["Nucleoplasm", "Cytoplasm", "Protoplasm", "Endoplasm"],
+                correct: 1,
+                explanation: "Cytoplasm is the gel-like substance that fills the cell and surrounds the organelles."
+            },
+            {
+                question: "Which organelle is known as the 'suicide bag' of the cell?",
+                options: ["Ribosome", "Lysosome", "Peroxisome", "Centrosome"],
+                correct: 1,
+                explanation: "Lysosomes are called 'suicide bags' because they can digest worn-out organelles and can cause cell death."
+            },
+            {
+                question: "The smooth endoplasmic reticulum is involved in:",
+                options: ["Protein synthesis", "Lipid synthesis", "DNA replication", "Photosynthesis"],
+                correct: 1,
+                explanation: "Smooth ER lacks ribosomes and is primarily involved in lipid synthesis and detoxification."
+            },
+            {
+                question: "Centrioles are found in:",
+                options: ["Plant cells only", "Animal cells only", "Both plant and animal cells", "Prokaryotic cells only"],
+                correct: 1,
+                explanation: "Centrioles are typically found in animal cells and play a role in cell division."
+            },
+            {
+                question: "The double membrane surrounding the nucleus is called:",
+                options: ["Nuclear envelope", "Nuclear membrane", "Nuclear wall", "Nucleolus"],
+                correct: 0,
+                explanation: "The nuclear envelope is a double membrane that surrounds the nucleus and controls molecular traffic."
+            },
+            {
+                question: "Ribosomes are composed of:",
+                options: ["Protein only", "RNA only", "Protein and RNA", "DNA and protein"],
+                correct: 2,
+                explanation: "Ribosomes are made of ribosomal RNA (rRNA) and proteins, forming two subunits."
+            },
+            {
+                question: "The site of ribosome synthesis is:",
+                options: ["Nucleus", "Nucleolus", "Cytoplasm", "Endoplasmic reticulum"],
+                correct: 1,
+                explanation: "The nucleolus is the site where ribosomal RNA is synthesized and ribosome assembly begins."
+            },
+            {
+                question: "Which organelle is responsible for cellular respiration?",
+                options: ["Chloroplast", "Mitochondria", "Ribosome", "Golgi apparatus"],
+                correct: 1,
+                explanation: "Mitochondria carry out cellular respiration, converting glucose and oxygen into ATP."
+            },
+
+            // CELL MEMBRANE STRUCTURE (Questions 21-35)
+            {
+                question: "The fluid mosaic model was proposed by:",
+                options: ["Watson and Crick", "Singer and Nicolson", "Schleiden and Schwann", "Hooke and Leeuwenhoek"],
+                correct: 1,
+                explanation: "Singer and Nicolson proposed the fluid mosaic model in 1972 to describe cell membrane structure."
+            },
+            {
+                question: "Phospholipids in the cell membrane have:",
+                options: ["Hydrophilic head and hydrophobic tail", "Hydrophobic head and hydrophilic tail", "Both ends hydrophilic", "Both ends hydrophobic"],
+                correct: 0,
+                explanation: "Phospholipids are amphipathic with hydrophilic (water-loving) heads and hydrophobic (water-fearing) tails."
+            },
+            {
+                question: "Cholesterol in the cell membrane:",
+                options: ["Increases membrane fluidity", "Decreases membrane fluidity", "Has no effect on fluidity", "Only affects permeability"],
+                correct: 1,
+                explanation: "Cholesterol decreases membrane fluidity and permeability, helping maintain membrane structure."
+            },
+            {
+                question: "Integral membrane proteins:",
+                options: ["Are loosely attached to membrane surface", "Span the entire membrane", "Are found only on outer surface", "Are water-soluble"],
+                correct: 1,
+                explanation: "Integral proteins span the entire membrane thickness and are embedded within the lipid bilayer."
+            },
+            {
+                question: "Peripheral membrane proteins:",
+                options: ["Span the membrane", "Are attached to membrane surface", "Are embedded in lipid bilayer", "Form membrane channels"],
+                correct: 1,
+                explanation: "Peripheral proteins are loosely attached to the membrane surface and can be easily removed."
+            },
+            {
+                question: "Glycoproteins are important for:",
+                options: ["Cell recognition", "Energy production", "DNA replication", "Protein synthesis"],
+                correct: 0,
+                explanation: "Glycoproteins have carbohydrate groups and play crucial roles in cell recognition and signaling."
+            },
+            {
+                question: "The glycocalyx is:",
+                options: ["Inner membrane layer", "Carbohydrate coat on cell surface", "Protein layer", "Lipid layer"],
+                correct: 1,
+                explanation: "The glycocalyx is a carbohydrate coat on the cell surface involved in protection and recognition."
+            },
+            {
+                question: "Membrane fluidity is affected by:",
+                options: ["Temperature only", "Cholesterol only", "Fatty acid composition only", "All of the above"],
+                correct: 3,
+                explanation: "Membrane fluidity depends on temperature, cholesterol content, and fatty acid saturation."
+            },
+            {
+                question: "Aquaporins are:",
+                options: ["Lipid molecules", "Water channels", "Carbohydrate molecules", "Steroid hormones"],
+                correct: 1,
+                explanation: "Aquaporins are specialized water channel proteins that facilitate water transport across membranes."
+            },
+            {
+                question: "The asymmetry of the cell membrane refers to:",
+                options: ["Different lipid composition on each side", "Unequal membrane thickness", "Variable protein distribution", "Irregular membrane shape"],
+                correct: 0,
+                explanation: "Membrane asymmetry means the inner and outer leaflets have different lipid and protein compositions."
+            },
+            {
+                question: "Lipid rafts are:",
+                options: ["Membrane regions rich in cholesterol", "Protein complexes", "Carbohydrate structures", "DNA-binding sites"],
+                correct: 0,
+                explanation: "Lipid rafts are membrane microdomains enriched in cholesterol and sphingolipids."
+            },
+            {
+                question: "The permeability of cell membrane is:",
+                options: ["Completely permeable", "Completely impermeable", "Selectively permeable", "Only permeable to water"],
+                correct: 2,
+                explanation: "Cell membranes are selectively permeable, allowing some substances to pass while blocking others."
+            },
+            {
+                question: "Membrane proteins can function as:",
+                options: ["Enzymes", "Receptors", "Transport channels", "All of the above"],
+                correct: 3,
+                explanation: "Membrane proteins serve various functions including enzymatic activity, signal reception, and transport."
+            },
+            {
+                question: "The head group of phosphatidylcholine is:",
+                options: ["Choline", "Serine", "Ethanolamine", "Inositol"],
+                correct: 0,
+                explanation: "Phosphatidylcholine has a choline head group and is a major component of cell membranes."
+            },
+            {
+                question: "Membrane fusion is important for:",
+                options: ["Exocytosis", "Endocytosis", "Vesicle transport", "All of the above"],
+                correct: 3,
+                explanation: "Membrane fusion is essential for various cellular processes including vesicle trafficking and secretion."
+            },
+
+            // ORGANELLE FUNCTIONS (Questions 36-55)
+            {
+                question: "Mitochondria have their own:",
+                options: ["DNA", "Ribosomes", "Both DNA and ribosomes", "Neither DNA nor ribosomes"],
+                correct: 2,
+                explanation: "Mitochondria contain their own circular DNA and 70S ribosomes, supporting the endosymbiotic theory."
+            },
+            {
+                question: "The inner mitochondrial membrane is folded into:",
+                options: ["Cristae", "Matrix", "Intermembrane space", "Outer membrane"],
+                correct: 0,
+                explanation: "Cristae are folds of the inner mitochondrial membrane that increase surface area for ATP synthesis."
+            },
+            {
+                question: "The mitochondrial matrix contains:",
+                options: ["Enzymes for Krebs cycle", "Mitochondrial DNA", "Ribosomes", "All of the above"],
+                correct: 3,
+                explanation: "The mitochondrial matrix houses Krebs cycle enzymes, mtDNA, ribosomes, and other metabolic machinery."
+            },
+            {
+                question: "Chloroplasts are found in:",
+                options: ["All plant cells", "Only leaf cells", "All photosynthetic cells", "Root cells only"],
+                correct: 2,
+                explanation: "Chloroplasts are present in all photosynthetic plant cells, not just leaves."
+            },
+            {
+                question: "The stroma of chloroplasts contains:",
+                options: ["Chlorophyll", "Calvin cycle enzymes", "Thylakoids", "Grana"],
+                correct: 1,
+                explanation: "The stroma is the fluid-filled space containing enzymes for the Calvin cycle (light-independent reactions)."
+            },
+            {
+                question: "Thylakoids are:",
+                options: ["Flattened membrane sacs", "Enzyme complexes", "DNA molecules", "Protein structures"],
+                correct: 0,
+                explanation: "Thylakoids are flattened membrane sacs where light-dependent reactions of photosynthesis occur."
+            },
+            {
+                question: "The Golgi apparatus consists of:",
+                options: ["Cisternae", "Vesicles", "Both cisternae and vesicles", "Tubules only"],
+                correct: 2,
+                explanation: "The Golgi apparatus contains stacked cisternae (flattened sacs) and associated transport vesicles."
+            },
+            {
+                question: "The cis face of Golgi apparatus:",
+                options: ["Receives materials from ER", "Ships materials to destinations", "Produces lysosomes", "Synthesizes proteins"],
+                correct: 0,
+                explanation: "The cis face (receiving side) of Golgi receives vesicles from the endoplasmic reticulum."
+            },
+            {
+                question: "The trans face of Golgi apparatus:",
+                options: ["Receives materials from ER", "Ships finished products", "Synthesizes DNA", "Produces ribosomes"],
+                correct: 1,
+                explanation: "The trans face (shipping side) of Golgi packages and ships processed materials to their destinations."
+            },
+            {
+                question: "Lysosomes contain:",
+                options: ["Hydrolytic enzymes", "Synthetic enzymes", "Respiratory enzymes", "Photosynthetic enzymes"],
+                correct: 0,
+                explanation: "Lysosomes contain hydrolytic (digestive) enzymes that break down cellular waste and worn-out organelles."
+            },
+            {
+                question: "The optimal pH for lysosomal enzymes is:",
+                options: ["7.0 (neutral)", "5.0 (acidic)", "9.0 (basic)", "Variable"],
+                correct: 1,
+                explanation: "Lysosomal enzymes work optimally at acidic pH (around 5.0), maintained by proton pumps."
+            },
+            {
+                question: "Peroxisomes are involved in:",
+                options: ["Fatty acid oxidation", "Hydrogen peroxide breakdown", "Detoxification", "All of the above"],
+                correct: 3,
+                explanation: "Peroxisomes perform fatty acid β-oxidation, break down H₂O₂, and detoxify harmful substances."
+            },
+            {
+                question: "Catalase enzyme in peroxisomes:",
+                options: ["Produces hydrogen peroxide", "Breaks down hydrogen peroxide", "Synthesizes proteins", "Replicates DNA"],
+                correct: 1,
+                explanation: "Catalase breaks down toxic hydrogen peroxide (H₂O₂) into water and oxygen."
+            },
+            {
+                question: "Vacuoles in plant cells:",
+                options: ["Store water", "Maintain turgor pressure", "Store metabolites", "All of the above"],
+                correct: 3,
+                explanation: "Plant vacuoles store water and metabolites, and maintain turgor pressure for structural support."
+            },
+            {
+                question: "The endoplasmic reticulum is continuous with:",
+                options: ["Cell membrane", "Nuclear envelope", "Golgi apparatus", "Mitochondria"],
+                correct: 1,
+                explanation: "The ER membrane is continuous with the outer nuclear membrane, forming one interconnected system."
+            },
+            {
+                question: "Free ribosomes in the cytoplasm synthesize:",
+                options: ["Membrane proteins", "Secretory proteins", "Cytoplasmic proteins", "Nuclear proteins"],
+                correct: 2,
+                explanation: "Free ribosomes synthesize proteins that function in the cytoplasm or are imported into organelles."
+            },
+            {
+                question: "Bound ribosomes synthesize:",
+                options: ["Cytoplasmic proteins", "Secretory proteins", "Mitochondrial proteins", "Peroxisomal proteins"],
+                correct: 1,
+                explanation: "Ribosomes bound to ER synthesize proteins destined for secretion, membranes, or organelles."
+            },
+            {
+                question: "The cytoskeleton is composed of:",
+                options: ["Microfilaments only", "Microtubules only", "Intermediate filaments only", "All three types of filaments"],
+                correct: 3,
+                explanation: "The cytoskeleton consists of microfilaments, microtubules, and intermediate filaments."
+            },
+            {
+                question: "Microfilaments are made of:",
+                options: ["Tubulin", "Actin", "Keratin", "Myosin"],
+                correct: 1,
+                explanation: "Microfilaments are composed of actin protein and are involved in cell movement and shape."
+            },
+            {
+                question: "Microtubules are composed of:",
+                options: ["Actin", "Tubulin", "Keratin", "Collagen"],
+                correct: 1,
+                explanation: "Microtubules are made of α and β tubulin dimers and provide structural support and organization."
+            },
+
+            // CELL TRANSPORT (Questions 56-75)
+            {
+                question: "Simple diffusion requires:",
+                options: ["Energy", "Carrier proteins", "Neither energy nor proteins", "Both energy and proteins"],
+                correct: 2,
+                explanation: "Simple diffusion is passive transport requiring no energy or carrier proteins, driven by concentration gradients."
+            },
+            {
+                question: "Facilitated diffusion involves:",
+                options: ["Channel proteins", "Carrier proteins", "Both channel and carrier proteins", "ATP consumption"],
+                correct: 2,
+                explanation: "Facilitated diffusion uses both channel and carrier proteins to transport molecules across membranes."
+            },
+            {
+                question: "Active transport requires:",
+                options: ["ATP", "Concentration gradient", "Channel proteins only", "No cellular energy"],
+                correct: 0,
+                explanation: "Active transport moves substances against concentration gradients and requires ATP energy."
+            },
+            {
+                question: "The sodium-potassium pump:",
+                options: ["Moves 3 Na+ out and 2 K+ in", "Moves 2 Na+ out and 3 K+ in", "Moves equal amounts of both", "Moves only sodium"],
+                correct: 0,
+                explanation: "The Na+/K+ pump moves 3 sodium ions out and 2 potassium ions in, using ATP energy."
+            },
+            {
+                question: "Endocytosis includes:",
+                options: ["Phagocytosis", "Pinocytosis", "Receptor-mediated endocytosis", "All of the above"],
+                correct: 3,
+                explanation: "Endocytosis encompasses phagocytosis (cell eating), pinocytosis (cell drinking), and receptor-mediated uptake."
+            },
+            {
+                question: "Exocytosis is the process of:",
+                options: ["Taking materials into the cell", "Expelling materials from the cell", "Protein synthesis", "DNA replication"],
+                correct: 1,
+                explanation: "Exocytosis is the process of expelling materials from the cell through vesicle fusion with membrane."
+            },
+            {
+                question: "Pinocytosis involves uptake of:",
+                options: ["Large particles", "Liquids and dissolved substances", "Other cells", "DNA molecules"],
+                correct: 1,
+                explanation: "Pinocytosis ('cell drinking') involves the uptake of liquids and small dissolved molecules."
+            },
+            {
+                question: "Receptor-mediated endocytosis is:",
+                options: ["Non-specific", "Specific for certain molecules", "Energy-independent", "Irreversible"],
+                correct: 1,
+                explanation: "Receptor-mediated endocytosis is highly specific, using receptors to bind and internalize specific molecules."
+            },
+            {
+                question: "Cotransport involves:",
+                options: ["Movement of one substance only", "Movement of two substances in same direction", "Movement of two substances in opposite directions", "Both B and C"],
+                correct: 3,
+                explanation: "Cotransport includes symport (same direction) and antiport (opposite directions) of two substances."
+            },
+            {
+                question: "The glucose transporter (GLUT) uses:",
+                options: ["Simple diffusion", "Facilitated diffusion", "Active transport", "Endocytosis"],
+                correct: 1,
+                explanation: "GLUT proteins facilitate glucose transport across membranes without requiring energy."
+            },
+            {
+                question: "In a hypotonic solution, an animal cell will:",
+                options: ["Shrink", "Swell and possibly burst", "Remain unchanged", "Become rigid"],
+                correct: 1,
+                explanation: "In hypotonic solutions, water enters animal cells causing them to swell and potentially burst."
+            },
+            {
+                question: "In a hypertonic solution, a plant cell will undergo:",
+                options: ["Plasmolysis", "Turgor", "Lysis", "No change"],
+                correct: 0,
+                explanation: "In hypertonic solutions, plant cells lose water and the membrane pulls away from the cell wall (plasmolysis)."
+            },
+            {
+                question: "Turgor pressure in plant cells is caused by:",
+                options: ["Cell wall expansion", "Water entering the vacuole", "Protein synthesis", "DNA replication"],
+                correct: 1,
+                explanation: "Turgor pressure results from water entering the central vacuole, pressing the membrane against the cell wall."
+            },
+            {
+                question: "The water potential of pure water is:",
+                options: ["Positive", "Zero", "Negative", "Variable"],
+                correct: 1,
+                explanation: "Pure water has a water potential of zero, and all solutions have negative water potential."
+            },
+            {
+                question: "Gated channels open in response to:",
+                options: ["Voltage changes", "Ligand binding", "Mechanical stress", "All of the above"],
+                correct: 3,
+                explanation: "Gated channels can be voltage-gated, ligand-gated, or mechanically-gated depending on the stimulus."
+            },
+            {
+                question: "The resting membrane potential is typically:",
+                options: ["+70 mV", "-70 mV", "0 mV", "+140 mV"],
+                correct: 1,
+                explanation: "Most cells maintain a resting membrane potential of approximately -70 mV (inside negative)."
+            },
+            {
+                question: "Bulk transport includes:",
+                options: ["Endocytosis only", "Exocytosis only", "Both endocytosis and exocytosis", "Diffusion"],
+                correct: 2,
+                explanation: "Bulk transport encompasses both endocytosis (materials entering) and exocytosis (materials leaving)."
+            },
+            {
+                question: "Clathrin-coated vesicles are involved in:",
+                options: ["Receptor-mediated endocytosis", "Exocytosis", "Phagocytosis", "Pinocytosis"],
+                correct: 0,
+                explanation: "Clathrin-coated vesicles form during receptor-mediated endocytosis to internalize specific cargo."
+            },
+            {
+                question: "The electrochemical gradient combines:",
+                options: ["Concentration and pressure gradients", "Concentration and electrical gradients", "Electrical and pressure gradients", "Temperature and concentration gradients"],
+                correct: 1,
+                explanation: "Electrochemical gradients result from both concentration differences and electrical charge differences."
+            },
+            {
+                question: "Symport transport moves:",
+                options: ["One substance only", "Two substances in the same direction", "Two substances in opposite directions", "Three substances simultaneously"],
+                correct: 1,
+                explanation: "Symport (cotransport) moves two different substances in the same direction across a membrane."
+            },
+
+            // SPECIALIZED CELL STRUCTURES (Questions 76-90)
+            {
+                question: "Tight junctions function to:",
+                options: ["Allow communication between cells", "Prevent leakage between cells", "Provide mechanical strength", "Enable cell movement"],
+                correct: 1,
+                explanation: "Tight junctions seal adjacent cells together, preventing leakage of materials between them."
+            },
+            {
+                question: "Gap junctions allow passage of:",
+                options: ["Large proteins", "Small molecules and ions", "Organelles", "DNA"],
+                correct: 1,
+                explanation: "Gap junctions permit the passage of small molecules and ions between adjacent cells."
+            },
+            {
+                question: "Desmosomes provide:",
+                options: ["Communication", "Mechanical strength", "Selective permeability", "Metabolic coupling"],
+                correct: 1,
+                explanation: "Desmosomes are anchoring junctions that provide mechanical strength and hold cells together."
+            },
+            {
+                question: "Plasmodesmata are found in:",
+                options: ["Animal cells", "Plant cells", "Bacterial cells", "Fungal cells"],
+                correct: 1,
+                explanation: "Plasmodesmata are channels connecting plant cells, allowing transport of materials between them."
+            },
+            {
+                question: "The primary cell wall is:",
+                options: ["Rigid and thick", "Flexible and thin", "Made of lignin", "Found in all cells"],
+                correct: 1,
+                explanation: "The primary cell wall is thin and flexible, composed mainly of cellulose microfibrils."
+            },
+            {
+                question: "The secondary cell wall contains:",
+                options: ["Cellulose only", "Lignin only", "Cellulose and lignin", "Proteins only"],
+                correct: 2,
+                explanation: "Secondary cell walls contain both cellulose and lignin, providing additional strength and rigidity."
+            },
+            {
+                question: "Microvilli function to:",
+                options: ["Increase surface area", "Provide motility", "Store nutrients", "Synthesize proteins"],
+                correct: 0,
+                explanation: "Microvilli are finger-like projections that increase cell surface area for absorption."
+            },
+            {
+                question: "Cilia are involved in:",
+                options: ["Cell movement", "Moving fluids over cell surface", "Sensory functions", "All of the above"],
+                correct: 3,
+                explanation: "Cilia function in cell locomotion, moving fluids, and serving as sensory organelles."
+            },
+            {
+                question: "Flagella differ from cilia in:",
+                options: ["Structure", "Length", "Number per cell", "Both length and number"],
+                correct: 3,
+                explanation: "Flagella are typically longer than cilia and fewer in number per cell."
+            },
+            {
+                question: "The basal body of cilia and flagella is similar to:",
+                options: ["Ribosome", "Centriole", "Mitochondria", "Nucleus"],
+                correct: 1,
+                explanation: "The basal body has the same 9+0 microtubule structure as centrioles."
+            },
+            {
+                question: "Dynein arms in cilia:",
+                options: ["Provide structural support", "Generate movement", "Store energy", "Synthesize proteins"],
+                correct: 1,
+                explanation: "Dynein arms are motor proteins that use ATP to generate sliding movement between microtubules."
+            },
+            {
+                question: "The extracellular matrix is composed of:",
+                options: ["Collagen", "Proteoglycans", "Fibronectin", "All of the above"],
+                correct: 3,
+                explanation: "The ECM contains collagen fibers, proteoglycans, fibronectin, and other structural proteins."
+            },
+            {
+                question: "Integrins are:",
+                options: ["Cytoplasmic proteins", "Transmembrane proteins", "Extracellular proteins", "Nuclear proteins"],
+                correct: 1,
+                explanation: "Integrins are transmembrane proteins that connect the cytoskeleton to the extracellular matrix."
+            },
+            {
+                question: "The cell coat (glycocalyx) is important for:",
+                options: ["Cell recognition", "Protection", "Adhesion", "All of the above"],
+                correct: 3,
+                explanation: "The glycocalyx plays roles in cell recognition, protection from damage, and cell adhesion."
+            },
+            {
+                question: "Focal adhesions connect:",
+                options: ["Cells to other cells", "Cells to extracellular matrix", "Organelles to cytoplasm", "Chromosomes to spindle"],
+                correct: 1,
+                explanation: "Focal adhesions are protein complexes that connect cells to the extracellular matrix."
+            },
+
+            // ADVANCED CELL BIOLOGY (Questions 91-100)
+            {
+                question: "The endosymbiotic theory explains the origin of:",
+                options: ["Nucleus", "Mitochondria and chloroplasts", "Ribosomes", "Golgi apparatus"],
+                correct: 1,
+                explanation: "The endosymbiotic theory proposes that mitochondria and chloroplasts evolved from ancient bacterial endosymbionts."
+            },
+            {
+                question: "Evidence for the endosymbiotic theory includes:",
+                options: ["Double membranes", "Own DNA", "70S ribosomes", "All of the above"],
+                correct: 3,
+                explanation: "Mitochondria and chloroplasts have double membranes, circular DNA, and 70S ribosomes like bacteria."
+            },
+            {
+                question: "Apoptosis is:",
+                options: ["Uncontrolled cell death", "Programmed cell death", "Cell division", "Cell growth"],
+                correct: 1,
+                explanation: "Apoptosis is programmed cell death, a controlled process essential for development and health."
+            },
+            {
+                question: "Autophagy involves:",
+                options: ["Digestion of external materials", "Self-digestion of cellular components", "Protein synthesis", "DNA replication"],
+                correct: 1,
+                explanation: "Autophagy is the process where cells digest their own damaged or unnecessary components."
+            },
+            {
+                question: "The signal recognition particle (SRP) is involved in:",
+                options: ["DNA replication", "Protein targeting", "Cell division", "Lipid synthesis"],
+                correct: 1,
+                explanation: "SRP recognizes signal sequences and directs ribosomes to the endoplasmic reticulum."
+            },
+            {
+                question: "Molecular chaperones help with:",
+                options: ["Protein folding", "DNA repair", "Lipid synthesis", "Carbohydrate metabolism"],
+                correct: 0,
+                explanation: "Molecular chaperones assist in proper protein folding and prevent protein aggregation."
+            },
+            {
+                question: "The unfolded protein response occurs when:",
+                options: ["ER is overloaded with misfolded proteins", "DNA is damaged", "ATP levels are low", "Cell division begins"],
+                correct: 0,
+                explanation: "The UPR is activated when the ER accumulates misfolded proteins, triggering stress responses."
+            },
+            {
+                question: "COPII vesicles transport materials:",
+                options: ["From ER to Golgi", "From Golgi to ER", "From Golgi to plasma membrane", "From nucleus to cytoplasm"],
+                correct: 0,
+                explanation: "COPII-coated vesicles transport proteins from the endoplasmic reticulum to the Golgi apparatus."
+            },
+            {
+                question: "COPI vesicles are involved in:",
+                options: ["ER to Golgi transport", "Retrograde transport within Golgi", "Golgi to plasma membrane", "Endocytosis"],
+                correct: 1,
+                explanation: "COPI vesicles mediate retrograde transport from Golgi back to ER and within Golgi stack."
+            },
+            {
+                question: "The cell cycle checkpoints ensure:",
+                options: ["Proper DNA replication", "Correct chromosome attachment", "Cell size adequacy", "All of the above"],
+                correct: 3,
+                explanation: "Cell cycle checkpoints monitor DNA replication, chromosome attachment, and cell readiness for division."
             }
         ],
         'Biological Molecules': [
